@@ -17,7 +17,7 @@ python filter.py [lang] [pos] [wot]
 ~~~
 - [lang] identifies the input repository. The script will look for ELTeC level 2 files here, more specifically at the location `repoRoot-[lang]/level-2` (where `repoRoot` is defined in the `filter.py` script) 
 - [pos] identifies how to filter the input text and is either a single pos value e.g. 'NOUN', or 'CONTENT' which means 'NOUN|ADV|ADJ|VERB"  
-- [wot] indicates the output required and is either 'lemma' (output the value of the @lemma attribute: this is the default) or 'form' (output the content of the selected `<w>` element) 
+- [wot] indicates the output required and is either 'lemma' (output the value of the @lemma attribute) or 'form' (output the content of the selected `<w>` element) 
 
 The `filter.xsl` script selects from the input file only `<w>` elements which are contained by a `<div type='chapter'>`
 
