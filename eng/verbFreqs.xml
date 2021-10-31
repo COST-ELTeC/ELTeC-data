@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><frequencies xmlns:t="http://www.tei-c.org/ns/1.0"><lemma form="be" freq="474605"/>
+<frequencies><lemma form="be" freq="474605"/>
      <lemma form="have" freq="209747"/>
      <lemma form="do" freq="80952"/>
-     <lemma form="say|said" freq="59798"/>
+     <lemma form="say" freq="59798"/>
      <lemma form="go" freq="32417"/>
      <lemma form="know" freq="31923"/>
      <lemma form="come" freq="31872"/>
@@ -23,9 +23,9 @@
      <lemma form="speak" freq="8520"/>
      <lemma form="stand" freq="7830"/>
      <lemma form="put" freq="7697"/>
-     <lemma form="go|going" freq="7375"/>
+     <lemma form="go" freq="7375"/>
      <lemma form="keep" freq="7194"/>
-     <lemma form="leave|left" freq="7120"/>
+     <lemma form="leave" freq="7120"/>
      <lemma form="bring" freq="6977"/>
      <lemma form="begin" freq="6880"/>
      <lemma form="sit" freq="6802"/>
@@ -36,23 +36,23 @@
      <lemma form="want" freq="6222"/>
      <lemma form="become" freq="6196"/>
      <lemma form="like" freq="5744"/>
-     <lemma form="look|looking" freq="5582"/>
+     <lemma form="look" freq="5582"/>
      <lemma form="return" freq="5391"/>
      <lemma form="meet" freq="5238"/>
      <lemma form="wish" freq="4931"/>
      <lemma form="reply" freq="4826"/>
-     <lemma form="turn|turned" freq="4824"/>
+     <lemma form="turn" freq="4824"/>
      <lemma form="live" freq="4690"/>
-     <lemma form="tell|told" freq="4526"/>
+     <lemma form="tell" freq="4526"/>
      <lemma form="show" freq="4524"/>
      <lemma form="suppose" freq="4504"/>
      <lemma form="send" freq="4428"/>
-     <lemma form="call|called" freq="4236"/>
+     <lemma form="call" freq="4236"/>
      <lemma form="talk" freq="4225"/>
-     <lemma form="pass|passed" freq="4158"/>
+     <lemma form="pass" freq="4158"/>
      <lemma form="hope" freq="4098"/>
      <lemma form="walk" freq="4092"/>
-     <lemma form="take|taken" freq="3942"/>
+     <lemma form="take" freq="3942"/>
      <lemma form="set" freq="3913"/>
      <lemma form="draw" freq="3902"/>
      <lemma form="leave" freq="3888"/>
@@ -62,98 +62,98 @@
      <lemma form="run" freq="3585"/>
      <lemma form="understand" freq="3461"/>
      <lemma form="grow" freq="3458"/>
-     <lemma form="give|given" freq="3405"/>
+     <lemma form="give" freq="3405"/>
      <lemma form="call" freq="3341"/>
      <lemma form="write" freq="3322"/>
      <lemma form="turn" freq="3321"/>
      <lemma form="exclaim" freq="3302"/>
-     <lemma form="come|coming" freq="3296"/>
+     <lemma form="come" freq="3296"/>
      <lemma form="remember" freq="3269"/>
      <lemma form="cannot" freq="3263"/>
      <lemma form="love" freq="3210"/>
      <lemma form="die" freq="3149"/>
      <lemma form="help" freq="3124"/>
      <lemma form="watch" freq="3119"/>
-     <lemma form="make|making" freq="3001"/>
-     <lemma form="know|known" freq="2955"/>
+     <lemma form="make" freq="3001"/>
+     <lemma form="know" freq="2955"/>
      <lemma form="wonder" freq="2937"/>
-     <lemma form="add|added" freq="2916"/>
+     <lemma form="add" freq="2916"/>
      <lemma form="happen" freq="2908"/>
-     <lemma form="fall|fell" freq="2900"/>
+     <lemma form="fall" freq="2900"/>
      <lemma form="lead" freq="2795"/>
      <lemma form="bear" freq="2795"/>
      <lemma form="remain" freq="2784"/>
      <lemma form="carry" freq="2783"/>
-     <lemma form="use|used" freq="2768"/>
-     <lemma form="lie|lay" freq="2749"/>
-     <lemma form="want|wanted" freq="2699"/>
+     <lemma form="use" freq="2768"/>
+     <lemma form="lie" freq="2749"/>
+     <lemma form="want" freq="2699"/>
      <lemma form="care" freq="2686"/>
      <lemma form="laugh" freq="2650"/>
      <lemma form="wait" freq="2609"/>
-     <lemma form="say|saying" freq="2603"/>
-     <lemma form="lose|lost" freq="2597"/>
-     <lemma form="take|taking" freq="2495"/>
-     <lemma form="rise|rose" freq="2487"/>
-     <lemma form="continue|continued" freq="2458"/>
+     <lemma form="say" freq="2603"/>
+     <lemma form="lose" freq="2597"/>
+     <lemma form="take" freq="2495"/>
+     <lemma form="rise" freq="2487"/>
+     <lemma form="continue" freq="2458"/>
      <lemma form="forget" freq="2445"/>
      <lemma form="strike" freq="2395"/>
      <lemma form="thank" freq="2390"/>
      <lemma form="reach" freq="2378"/>
-     <lemma form="hold|held" freq="2375"/>
-     <lemma form="love|loved" freq="2353"/>
+     <lemma form="hold" freq="2375"/>
+     <lemma form="love" freq="2353"/>
      <lemma form="listen" freq="2293"/>
-     <lemma form="try|tried" freq="2269"/>
+     <lemma form="try" freq="2269"/>
      <lemma form="observe" freq="2253"/>
      <lemma form="stay" freq="2234"/>
      <lemma form="hold" freq="2197"/>
-     <lemma form="thinking|think" freq="2152"/>
+     <lemma form="thinking" freq="2152"/>
      <lemma form="try" freq="2149"/>
      <lemma form="allow" freq="2138"/>
-     <lemma form="receive|received" freq="2115"/>
+     <lemma form="receive" freq="2115"/>
      <lemma form="play" freq="2077"/>
      <lemma form="enter" freq="2074"/>
      <lemma form="marry" freq="2050"/>
      <lemma form="don’t" freq="2009"/>
      <lemma form="shake" freq="1982"/>
-     <lemma form="stand|standing" freq="1924"/>
-     <lemma form="sit|sitting" freq="1900"/>
-     <lemma form="open|opened" freq="1891"/>
-     <lemma form="enter|entered" freq="1866"/>
+     <lemma form="stand" freq="1924"/>
+     <lemma form="sit" freq="1900"/>
+     <lemma form="open" freq="1891"/>
+     <lemma form="enter" freq="1866"/>
      <lemma form="throw" freq="1865"/>
-     <lemma form="talk|talking" freq="1841"/>
-     <lemma form="lay|laid" freq="1828"/>
+     <lemma form="talk" freq="1841"/>
+     <lemma form="lay" freq="1828"/>
      <lemma form="open" freq="1795"/>
      <lemma form="smile" freq="1786"/>
-     <lemma form="speak|speaking" freq="1781"/>
-     <lemma form="stop|stopped" freq="1775"/>
+     <lemma form="speak" freq="1781"/>
+     <lemma form="stop" freq="1775"/>
      <lemma form="start" freq="1772"/>
      <lemma form="mind" freq="1762"/>
-     <lemma form="turn|turning" freq="1753"/>
-     <lemma form="see|seeing" freq="1741"/>
+     <lemma form="turn" freq="1753"/>
+     <lemma form="see" freq="1741"/>
      <lemma form="save" freq="1732"/>
      <lemma form="work" freq="1697"/>
      <lemma form="explain" freq="1689"/>
-     <lemma form="move|moved" freq="1674"/>
+     <lemma form="move" freq="1674"/>
      <lemma form="arrive" freq="1630"/>
      <lemma form="lie" freq="1630"/>
      <lemma form="pay" freq="1618"/>
      <lemma form="learn" freq="1614"/>
      <lemma form="sleep" freq="1605"/>
      <lemma form="enjoy" freq="1592"/>
-     <lemma form="wish|wished" freq="1592"/>
+     <lemma form="wish" freq="1592"/>
      <lemma form="expect" freq="1588"/>
      <lemma form="pass" freq="1560"/>
      <lemma form="place" freq="1559"/>
-     <lemma form="wait|waiting" freq="1539"/>
+     <lemma form="wait" freq="1539"/>
      <lemma form="`" freq="1518"/>
      <lemma form="kiss" freq="1516"/>
      <lemma form="mention" freq="1513"/>
-     <lemma form="give|giving" freq="1490"/>
+     <lemma form="give" freq="1490"/>
      <lemma form="wear" freq="1481"/>
      <lemma form="drive" freq="1478"/>
      <lemma form="pray" freq="1469"/>
      <lemma form="shut" freq="1464"/>
-     <lemma form="try|trying" freq="1457"/>
+     <lemma form="try" freq="1457"/>
      <lemma form="cut" freq="1432"/>
      <lemma form="forgive" freq="1432"/>
      <lemma form="drop" freq="1418"/>
@@ -162,102 +162,102 @@
      <lemma form="eat" freq="1399"/>
      <lemma form="inquire" freq="1399"/>
      <lemma form="beg" freq="1378"/>
-     <lemma form="leave|leaving" freq="1376"/>
+     <lemma form="leave" freq="1376"/>
      <lemma form="prove" freq="1375"/>
      <lemma form="pause" freq="1368"/>
-     <lemma form="fill|filled" freq="1357"/>
+     <lemma form="fill" freq="1357"/>
      <lemma form="consider" freq="1355"/>
      <lemma form="stare" freq="1344"/>
-     <lemma form="write|written" freq="1338"/>
+     <lemma form="write" freq="1338"/>
      <lemma form="catch" freq="1335"/>
      <lemma form="fall" freq="1330"/>
-     <lemma form="break|broke" freq="1329"/>
+     <lemma form="break" freq="1329"/>
      <lemma form="notice" freq="1318"/>
-     <lemma form="change|changed" freq="1311"/>
-     <lemma form="throw|threw" freq="1307"/>
-     <lemma form="raise|raised" freq="1288"/>
+     <lemma form="change" freq="1311"/>
+     <lemma form="throw" freq="1307"/>
+     <lemma form="raise" freq="1288"/>
      <lemma form="serve" freq="1269"/>
      <lemma form="glance" freq="1261"/>
-     <lemma form="speak|spoken" freq="1260"/>
+     <lemma form="speak" freq="1260"/>
      <lemma form="fear" freq="1259"/>
-     <lemma form="feel|feeling" freq="1252"/>
-     <lemma form="know|knowing" freq="1250"/>
-     <lemma form="forget|forgotten" freq="1250"/>
+     <lemma form="feel" freq="1252"/>
+     <lemma form="know" freq="1250"/>
+     <lemma form="forget" freq="1250"/>
      <lemma form="cease" freq="1250"/>
      <lemma form="utter" freq="1235"/>
      <lemma form="end" freq="1231"/>
      <lemma form="stop" freq="1227"/>
-     <lemma form="catch|caught" freq="1221"/>
+     <lemma form="catch" freq="1221"/>
      <lemma form="cause" freq="1216"/>
      <lemma form="proceed" freq="1205"/>
-     <lemma form="lie|lying" freq="1204"/>
+     <lemma form="lie" freq="1204"/>
      <lemma form="form" freq="1202"/>
-     <lemma form="understand|understood" freq="1202"/>
-     <lemma form="close|closed" freq="1202"/>
+     <lemma form="understand" freq="1202"/>
+     <lemma form="close" freq="1202"/>
      <lemma form="prevent" freq="1201"/>
      <lemma form="break" freq="1195"/>
-     <lemma form="touch|touched" freq="1194"/>
-     <lemma form="pay|paid" freq="1186"/>
-     <lemma form="laugh|laughing" freq="1164"/>
+     <lemma form="touch" freq="1194"/>
+     <lemma form="pay" freq="1186"/>
+     <lemma form="laugh" freq="1164"/>
      <lemma form="buy" freq="1149"/>
      <lemma form="trust" freq="1146"/>
-     <lemma form="like|liked" freq="1146"/>
-     <lemma form="repeat|repeated" freq="1141"/>
+     <lemma form="like" freq="1146"/>
+     <lemma form="repeat" freq="1141"/>
      <lemma form="use" freq="1139"/>
      <lemma form="desire" freq="1139"/>
-     <lemma form="smiling|smile" freq="1136"/>
+     <lemma form="smiling" freq="1136"/>
      <lemma form="pursue" freq="1135"/>
      <lemma form="act" freq="1132"/>
-     <lemma form="tell|telling" freq="1132"/>
+     <lemma form="tell" freq="1132"/>
      <lemma form="perceive" freq="1126"/>
-     <lemma form="put|putting" freq="1126"/>
+     <lemma form="put" freq="1126"/>
      <lemma form="refuse" freq="1122"/>
      <lemma form="lift" freq="1122"/>
      <lemma form="light" freq="1116"/>
      <lemma form="dare" freq="1115"/>
      <lemma form="occur" freq="1109"/>
      <lemma form="remark" freq="1099"/>
-     <lemma form="married|marry" freq="1093"/>
+     <lemma form="married" freq="1093"/>
      <lemma form="doubt" freq="1090"/>
-     <lemma form="walk|walking" freq="1090"/>
+     <lemma form="walk" freq="1090"/>
      <lemma form="cast" freq="1090"/>
-     <lemma form="engage|engaged" freq="1086"/>
+     <lemma form="engage" freq="1086"/>
      <lemma form="imagine" freq="1083"/>
      <lemma form="rise" freq="1082"/>
      <lemma form="succeed" freq="1082"/>
      <lemma form="hide" freq="1082"/>
-     <lemma form="whisper|whispered" freq="1078"/>
+     <lemma form="whisper" freq="1078"/>
      <lemma form="sink" freq="1071"/>
-     <lemma form="spend|spent" freq="1070"/>
-     <lemma form="remember|remembered" freq="1069"/>
+     <lemma form="spend" freq="1070"/>
+     <lemma form="remember" freq="1069"/>
      <lemma form="obtain" freq="1065"/>
      <lemma form="discover" freq="1063"/>
-     <lemma form="break|broken" freq="1060"/>
-     <lemma form="hang|hung" freq="1060"/>
+     <lemma form="break" freq="1060"/>
+     <lemma form="hang" freq="1060"/>
      <lemma form="lose" freq="1059"/>
      <lemma form="receive" freq="1052"/>
      <lemma form="gain" freq="1042"/>
-     <lemma form="bind|bound" freq="1035"/>
-     <lemma form="offer|offered" freq="1034"/>
-     <lemma form="hold|holding" freq="1029"/>
+     <lemma form="bind" freq="1035"/>
+     <lemma form="offer" freq="1034"/>
+     <lemma form="hold" freq="1029"/>
      <lemma form="spring" freq="1013"/>
      <lemma form="rest" freq="1011"/>
-     <lemma form="expect|expected" freq="1008"/>
-     <lemma form="seat|seated" freq="1008"/>
-     <lemma form="fall|fallen" freq="1008"/>
+     <lemma form="expect" freq="1008"/>
+     <lemma form="seat" freq="1008"/>
+     <lemma form="fall" freq="1008"/>
      <lemma form="rush" freq="1008"/>
      <lemma form="promise" freq="1003"/>
      <lemma form="belong" freq="999"/>
-     <lemma form="determine|determined" freq="995"/>
+     <lemma form="determine" freq="995"/>
      <lemma form="hate" freq="994"/>
      <lemma form="win" freq="993"/>
-     <lemma form="fix|fixed" freq="992"/>
-     <lemma form="bend|bent" freq="982"/>
-     <lemma form="dress|dressed" freq="979"/>
+     <lemma form="fix" freq="992"/>
+     <lemma form="bend" freq="982"/>
+     <lemma form="dress" freq="979"/>
      <lemma form="ride" freq="978"/>
      <lemma form="attend" freq="976"/>
      <lemma form="accompany" freq="974"/>
-     <lemma form="consider|considered" freq="947"/>
+     <lemma form="consider" freq="947"/>
      <lemma form="sing" freq="945"/>
      <lemma form="move" freq="939"/>
      <lemma form="bid" freq="933"/>
@@ -267,55 +267,55 @@
      <lemma form="spare" freq="916"/>
      <lemma form="hesitate" freq="916"/>
      <lemma form="remove" freq="911"/>
-     <lemma form="find|finding" freq="908"/>
-     <lemma form="murmur|murmured" freq="905"/>
+     <lemma form="find" freq="908"/>
+     <lemma form="murmur" freq="905"/>
      <lemma form="lean" freq="904"/>
-     <lemma form="settle|settled" freq="902"/>
-     <lemma form="bear|born" freq="896"/>
-     <lemma form="cover|covered" freq="895"/>
+     <lemma form="settle" freq="902"/>
+     <lemma form="bear" freq="896"/>
+     <lemma form="cover" freq="895"/>
      <lemma form="admire" freq="887"/>
      <lemma form="resume" freq="887"/>
      <lemma form="hurt" freq="885"/>
      <lemma form="guess" freq="878"/>
      <lemma form="part" freq="877"/>
-     <lemma form="live|living" freq="873"/>
-     <lemma form="occupy|occupied" freq="872"/>
+     <lemma form="live" freq="873"/>
+     <lemma form="occupy" freq="872"/>
      <lemma form="seek" freq="872"/>
-     <lemma form="address|addressed" freq="871"/>
+     <lemma form="address" freq="871"/>
      <lemma form="fly" freq="871"/>
      <lemma form="regard" freq="866"/>
-     <lemma form="pass|passing" freq="863"/>
-     <lemma form="fail|failed" freq="862"/>
+     <lemma form="pass" freq="863"/>
+     <lemma form="fail" freq="862"/>
      <lemma form="fancy" freq="861"/>
      <lemma form="visit" freq="860"/>
      <lemma form="render" freq="858"/>
-     <lemma form="ask|asking" freq="857"/>
-     <lemma form="express|expressed" freq="856"/>
-     <lemma form="begin|beginning" freq="854"/>
+     <lemma form="ask" freq="857"/>
+     <lemma form="express" freq="856"/>
+     <lemma form="begin" freq="854"/>
      <lemma form="burst" freq="851"/>
      <lemma form="avoid" freq="850"/>
      <lemma form="ring" freq="850"/>
-     <lemma form="rise|rising" freq="847"/>
-     <lemma form="declare|declared" freq="845"/>
+     <lemma form="rise" freq="847"/>
+     <lemma form="declare" freq="845"/>
      <lemma form="press" freq="843"/>
      <lemma form="bless" freq="843"/>
      <lemma form="accord" freq="836"/>
      <lemma form="sound" freq="836"/>
      <lemma form="insist" freq="825"/>
-     <lemma form="keep|keeping" freq="825"/>
+     <lemma form="keep" freq="825"/>
      <lemma form="fling" freq="821"/>
      <lemma form="rouse" freq="814"/>
-     <lemma form="seek|sought" freq="813"/>
-     <lemma form="run|running" freq="805"/>
-     <lemma form="suggest|suggested" freq="802"/>
+     <lemma form="seek" freq="813"/>
+     <lemma form="run" freq="805"/>
+     <lemma form="suggest" freq="802"/>
      <lemma form="seize" freq="801"/>
      <lemma form="sigh" freq="800"/>
      <lemma form="manage" freq="799"/>
      <lemma form="offer" freq="796"/>
-     <lemma form="force|forced" freq="790"/>
+     <lemma form="force" freq="790"/>
      <lemma form="matter" freq="789"/>
-     <lemma form="save|saved" freq="788"/>
-     <lemma form="teach|taught" freq="787"/>
+     <lemma form="save" freq="788"/>
+     <lemma form="teach" freq="787"/>
      <lemma form="repeat" freq="781"/>
      <lemma form="remind" freq="781"/>
      <lemma form="tremble" freq="780"/>
@@ -323,9 +323,9 @@
      <lemma form="afford" freq="770"/>
      <lemma form="sell" freq="770"/>
      <lemma form="depend" freq="769"/>
-     <lemma form="finish|finished" freq="769"/>
+     <lemma form="finish" freq="769"/>
      <lemma form="add" freq="769"/>
-     <lemma form="play|playing" freq="768"/>
+     <lemma form="play" freq="768"/>
      <lemma form="dine" freq="764"/>
      <lemma form="venture" freq="757"/>
      <lemma form="produce" freq="757"/>
@@ -334,11 +334,11 @@
      <lemma form="arise" freq="748"/>
      <lemma form="express" freq="747"/>
      <lemma form="shine" freq="746"/>
-     <lemma form="read|reading" freq="745"/>
+     <lemma form="read" freq="745"/>
      <lemma form="obey" freq="745"/>
      <lemma form="change" freq="740"/>
-     <lemma form="intend|intended" freq="739"/>
-     <lemma form="gather|gathered" freq="726"/>
+     <lemma form="intend" freq="739"/>
+     <lemma form="gather" freq="726"/>
      <lemma form="need" freq="725"/>
      <lemma form="bow" freq="723"/>
      <lemma form="exist" freq="721"/>
@@ -352,111 +352,111 @@
      <lemma form="gaze" freq="703"/>
      <lemma form="compel" freq="703"/>
      <lemma form="withdraw" freq="702"/>
-     <lemma form="drive|driven" freq="700"/>
-     <lemma form="lean|leaning" freq="698"/>
+     <lemma form="drive" freq="700"/>
+     <lemma form="lean" freq="698"/>
      <lemma form="knock" freq="690"/>
      <lemma form="discuss" freq="689"/>
      <lemma form="push" freq="688"/>
-     <lemma form="learn|learned" freq="686"/>
-     <lemma form="become|becoming" freq="686"/>
+     <lemma form="learn" freq="686"/>
+     <lemma form="become" freq="686"/>
      <lemma form="drag" freq="685"/>
-     <lemma form="hurry|hurried" freq="682"/>
-     <lemma form="decide|decided" freq="681"/>
+     <lemma form="hurry" freq="682"/>
+     <lemma form="decide" freq="681"/>
      <lemma form="address" freq="681"/>
      <lemma form="beat" freq="679"/>
-     <lemma form="require|required" freq="678"/>
+     <lemma form="require" freq="678"/>
      <lemma form="stir" freq="677"/>
      <lemma form="owe" freq="675"/>
      <lemma form="dream" freq="673"/>
      <lemma form="build" freq="671"/>
      <lemma form="teach" freq="670"/>
-     <lemma form="interrupt|interrupted" freq="669"/>
+     <lemma form="interrupt" freq="669"/>
      <lemma form="shoot" freq="668"/>
-     <lemma form="write|writing" freq="667"/>
+     <lemma form="write" freq="667"/>
      <lemma form="convey" freq="666"/>
      <lemma form="hand" freq="664"/>
      <lemma form="acquaint" freq="663"/>
      <lemma form="quit" freq="663"/>
-     <lemma form="accept|accepted" freq="662"/>
+     <lemma form="accept" freq="662"/>
      <lemma form="spend" freq="662"/>
      <lemma form="enable" freq="658"/>
      <lemma form="touch" freq="657"/>
      <lemma form="wake" freq="656"/>
-     <lemma form="demand|demanded" freq="655"/>
+     <lemma form="demand" freq="655"/>
      <lemma form="shrink" freq="652"/>
      <lemma form="please" freq="650"/>
      <lemma form="wander" freq="647"/>
-     <lemma form="move|moving" freq="645"/>
-     <lemma form="agree|agreed" freq="644"/>
-     <lemma form="stretch|stretched" freq="644"/>
-     <lemma form="fall|falling" freq="641"/>
-     <lemma form="help|helped" freq="639"/>
+     <lemma form="move" freq="645"/>
+     <lemma form="agree" freq="644"/>
+     <lemma form="stretch" freq="644"/>
+     <lemma form="fall" freq="641"/>
+     <lemma form="help" freq="639"/>
      <lemma form="dwell" freq="639"/>
      <lemma form="escape" freq="638"/>
-     <lemma form="listen|listening" freq="638"/>
-     <lemma form="treat|treated" freq="637"/>
+     <lemma form="listen" freq="638"/>
+     <lemma form="treat" freq="637"/>
      <lemma form="deliver" freq="636"/>
-     <lemma form="fear|feared" freq="635"/>
+     <lemma form="fear" freq="635"/>
      <lemma form="face" freq="635"/>
-     <lemma form="prepare|prepared" freq="633"/>
+     <lemma form="prepare" freq="633"/>
      <lemma form="blame" freq="632"/>
-     <lemma form="arrange|arranged" freq="627"/>
+     <lemma form="arrange" freq="627"/>
      <lemma form="provide" freq="624"/>
-     <lemma form="drawing|draw" freq="623"/>
-     <lemma form="mutter|muttered" freq="620"/>
+     <lemma form="drawing" freq="623"/>
+     <lemma form="mutter" freq="620"/>
      <lemma form="breathe" freq="617"/>
      <lemma form="steal" freq="617"/>
      <lemma form="weep" freq="616"/>
      <lemma form="behave" freq="616"/>
      <lemma form="fail" freq="616"/>
-     <lemma form="point|pointed" freq="615"/>
+     <lemma form="point" freq="615"/>
      <lemma form="lay" freq="615"/>
      <lemma form="yield" freq="613"/>
      <lemma form="clear" freq="613"/>
      <lemma form="miss" freq="613"/>
-     <lemma form="shake|shaking" freq="611"/>
-     <lemma form="call|calling" freq="608"/>
+     <lemma form="shake" freq="611"/>
+     <lemma form="call" freq="608"/>
      <lemma form="join" freq="608"/>
      <lemma form="swear" freq="606"/>
      <lemma form="deny" freq="605"/>
      <lemma form="agree" freq="604"/>
-     <lemma form="work|working" freq="603"/>
+     <lemma form="work" freq="603"/>
      <lemma form="last" freq="602"/>
      <lemma form="conclude" freq="600"/>
      <lemma form="kneel" freq="600"/>
-     <lemma form="hear|hearing" freq="599"/>
+     <lemma form="hear" freq="599"/>
      <lemma form="count" freq="598"/>
      <lemma form="announce" freq="598"/>
      <lemma form="fetch" freq="597"/>
      <lemma form="spread" freq="596"/>
      <lemma form="declare" freq="591"/>
-     <lemma form="bring|bringing" freq="586"/>
-     <lemma form="order|ordered" freq="585"/>
-     <lemma form="disappear|disappeared" freq="582"/>
+     <lemma form="bring" freq="586"/>
+     <lemma form="order" freq="585"/>
+     <lemma form="disappear" freq="582"/>
      <lemma form="conceive" freq="581"/>
      <lemma form="recover" freq="578"/>
      <lemma form="deem" freq="574"/>
      <lemma form="interrupt" freq="574"/>
      <lemma form="thrust" freq="573"/>
-     <lemma form="carry|carrying" freq="572"/>
+     <lemma form="carry" freq="572"/>
      <lemma form="clasp" freq="571"/>
      <lemma form="descend" freq="569"/>
      <lemma form="continue" freq="568"/>
-     <lemma form="expected|expect" freq="568"/>
-     <lemma form="grow|growing" freq="564"/>
-     <lemma form="recover|recovered" freq="564"/>
+     <lemma form="expected" freq="568"/>
+     <lemma form="grow" freq="564"/>
+     <lemma form="recover" freq="564"/>
      <lemma form="dance" freq="563"/>
      <lemma form="permit" freq="562"/>
-     <lemma form="lead|leading" freq="559"/>
-     <lemma form="join|joined" freq="556"/>
+     <lemma form="lead" freq="559"/>
+     <lemma form="join" freq="556"/>
      <lemma form="hang" freq="555"/>
      <lemma form="endeavour" freq="554"/>
-     <lemma form="return|returning" freq="554"/>
-     <lemma form="cross|crossed" freq="552"/>
-     <lemma form="break|breaking" freq="550"/>
-     <lemma form="promise|promised" freq="548"/>
+     <lemma form="return" freq="554"/>
+     <lemma form="cross" freq="552"/>
+     <lemma form="break" freq="550"/>
+     <lemma form="promise" freq="548"/>
      <lemma form="depart" freq="548"/>
-     <lemma form="need|needed" freq="547"/>
+     <lemma form="need" freq="547"/>
      <lemma form="resist" freq="545"/>
      <lemma form="pretend" freq="545"/>
      <lemma form="kill" freq="542"/>
@@ -466,183 +466,183 @@
      <lemma form="regret" freq="536"/>
      <lemma form="conceal" freq="533"/>
      <lemma form="entertain" freq="531"/>
-     <lemma form="kill|killed" freq="530"/>
-     <lemma form="escape|escaped" freq="529"/>
-     <lemma form="hate|hated" freq="527"/>
+     <lemma form="kill" freq="530"/>
+     <lemma form="escape" freq="529"/>
+     <lemma form="hate" freq="527"/>
      <lemma form="comfort" freq="527"/>
      <lemma form="examine" freq="525"/>
      <lemma form="treat" freq="524"/>
      <lemma form="surround" freq="523"/>
      <lemma form="cling" freq="522"/>
      <lemma form="deceive" freq="520"/>
-     <lemma form="follow|following" freq="519"/>
+     <lemma form="follow" freq="519"/>
      <lemma form="stick" freq="517"/>
      <lemma form="nod" freq="517"/>
      <lemma form="grant" freq="516"/>
-     <lemma form="show|showing" freq="516"/>
+     <lemma form="show" freq="516"/>
      <lemma form="consent" freq="515"/>
-     <lemma form="cry|crying" freq="514"/>
+     <lemma form="cry" freq="514"/>
      <lemma form="travel" freq="512"/>
      <lemma form="encourage" freq="510"/>
      <lemma form="compare" freq="508"/>
      <lemma form="settle" freq="508"/>
      <lemma form="lend" freq="507"/>
      <lemma form="blush" freq="505"/>
-     <lemma form="affect|affected" freq="503"/>
+     <lemma form="affect" freq="503"/>
      <lemma form="forbid" freq="503"/>
-     <lemma form="connect|connected" freq="502"/>
+     <lemma form="connect" freq="502"/>
      <lemma form="decline" freq="502"/>
      <lemma form="creep" freq="501"/>
-     <lemma form="possess|possessed" freq="501"/>
+     <lemma form="possess" freq="501"/>
      <lemma form="recollect" freq="500"/>
-     <lemma form="imagine|imagined" freq="497"/>
+     <lemma form="imagine" freq="497"/>
      <lemma form="blow" freq="495"/>
-     <lemma form="throw|throwing" freq="494"/>
+     <lemma form="throw" freq="494"/>
      <lemma form="trouble" freq="494"/>
-     <lemma form="recognise|recognised" freq="493"/>
-     <lemma form="wear|worn" freq="492"/>
+     <lemma form="recognise" freq="493"/>
+     <lemma form="wear" freq="492"/>
      <lemma form="describe" freq="492"/>
      <lemma form="long" freq="489"/>
-     <lemma form="tremble|trembling" freq="488"/>
+     <lemma form="tremble" freq="488"/>
      <lemma form="pity" freq="488"/>
      <lemma form="raise" freq="487"/>
      <lemma form="introduce" freq="487"/>
-     <lemma form="describe|described" freq="487"/>
+     <lemma form="describe" freq="487"/>
      <lemma form="communicate" freq="485"/>
-     <lemma form="refuse|refused" freq="484"/>
+     <lemma form="refuse" freq="484"/>
      <lemma form="deserve" freq="481"/>
-     <lemma form="bear|borne" freq="480"/>
+     <lemma form="bear" freq="480"/>
      <lemma form="leap" freq="479"/>
      <lemma form="awake" freq="477"/>
-     <lemma form="work|worked" freq="475"/>
+     <lemma form="work" freq="475"/>
      <lemma form="deal" freq="474"/>
      <lemma form="fill" freq="473"/>
      <lemma form="comprehend" freq="472"/>
      <lemma form="pick" freq="470"/>
      <lemma form="flash" freq="470"/>
-     <lemma form="slip|slipped" freq="470"/>
+     <lemma form="slip" freq="470"/>
      <lemma form="excuse" freq="469"/>
-     <lemma form="step|stepped" freq="469"/>
+     <lemma form="step" freq="469"/>
      <lemma form="conduct" freq="468"/>
-     <lemma form="pull|pulled" freq="468"/>
+     <lemma form="pull" freq="468"/>
      <lemma form="sob" freq="468"/>
      <lemma form="commence" freq="466"/>
-     <lemma form="open|opening" freq="465"/>
-     <lemma form="resolve|resolved" freq="463"/>
+     <lemma form="open" freq="465"/>
+     <lemma form="resolve" freq="463"/>
      <lemma form="command" freq="463"/>
      <lemma form="beheld" freq="461"/>
      <lemma form="supply" freq="460"/>
      <lemma form="overcome" freq="460"/>
      <lemma form="encounter" freq="458"/>
      <lemma form="flee" freq="457"/>
-     <lemma form="hang|hanging" freq="457"/>
-     <lemma form="mark|marked" freq="456"/>
-     <lemma form="choose|chosen" freq="456"/>
+     <lemma form="hang" freq="457"/>
+     <lemma form="mark" freq="456"/>
+     <lemma form="choose" freq="456"/>
      <lemma form="rejoin" freq="455"/>
      <lemma form="ejaculate" freq="455"/>
      <lemma form="cross" freq="454"/>
      <lemma form="interfere" freq="453"/>
-     <lemma form="roll|rolled" freq="452"/>
+     <lemma form="roll" freq="452"/>
      <lemma form="linger" freq="449"/>
      <lemma form="suit" freq="449"/>
-     <lemma form="reflect|reflected" freq="449"/>
-     <lemma form="propose|proposed" freq="447"/>
+     <lemma form="reflect" freq="449"/>
+     <lemma form="propose" freq="447"/>
      <lemma form="plunge" freq="446"/>
-     <lemma form="dispose|disposed" freq="446"/>
+     <lemma form="dispose" freq="446"/>
      <lemma form="step" freq="446"/>
      <lemma form="rid" freq="445"/>
      <lemma form="assist" freq="444"/>
      <lemma form="jump" freq="443"/>
      <lemma form="struggle" freq="443"/>
      <lemma form="perform" freq="440"/>
-     <lemma form="approach|approached" freq="439"/>
+     <lemma form="approach" freq="439"/>
      <lemma form="contemplate" freq="437"/>
      <lemma form="pull" freq="436"/>
      <lemma form="welcome" freq="434"/>
-     <lemma form="retire|retired" freq="432"/>
-     <lemma form="invite|invited" freq="432"/>
-     <lemma form="lock|locked" freq="432"/>
-     <lemma form="marry|married" freq="431"/>
+     <lemma form="retire" freq="432"/>
+     <lemma form="invite" freq="432"/>
+     <lemma form="lock" freq="432"/>
+     <lemma form="marry" freq="431"/>
      <lemma form="warn" freq="431"/>
      <lemma form="prefer" freq="430"/>
      <lemma form="echo" freq="429"/>
-     <lemma form="vanish|vanished" freq="429"/>
+     <lemma form="vanish" freq="429"/>
      <lemma form="suspect" freq="428"/>
-     <lemma form="fancy|fancied" freq="428"/>
+     <lemma form="fancy" freq="428"/>
      <lemma form="arrange" freq="427"/>
      <lemma form="summon" freq="426"/>
      <lemma form="indulge" freq="425"/>
-     <lemma form="employ|employed" freq="425"/>
+     <lemma form="employ" freq="425"/>
      <lemma form="advance" freq="424"/>
      <lemma form="consult" freq="423"/>
      <lemma form="feed" freq="423"/>
      <lemma form="rub" freq="420"/>
      <lemma form="prepare" freq="420"/>
-     <lemma form="absorb|absorbed" freq="419"/>
+     <lemma form="absorb" freq="419"/>
      <lemma form="tear" freq="419"/>
      <lemma form="attempt" freq="418"/>
-     <lemma form="discover|discovered" freq="418"/>
-     <lemma form="hide|hidden" freq="418"/>
+     <lemma form="discover" freq="418"/>
+     <lemma form="hide" freq="418"/>
      <lemma form="bestow" freq="417"/>
-     <lemma form="inform|informed" freq="417"/>
-     <lemma form="sing|singing" freq="417"/>
+     <lemma form="inform" freq="417"/>
+     <lemma form="sing" freq="417"/>
      <lemma form="allude" freq="415"/>
      <lemma form="hurry" freq="414"/>
      <lemma form="appreciate" freq="414"/>
      <lemma form="complain" freq="414"/>
      <lemma form="pardon" freq="412"/>
-     <lemma form="gaze|gazing" freq="407"/>
+     <lemma form="gaze" freq="407"/>
      <lemma form="contain" freq="407"/>
-     <lemma form="reveal|revealed" freq="404"/>
-     <lemma form="attach|attached" freq="404"/>
-     <lemma form="observe|observed" freq="403"/>
+     <lemma form="reveal" freq="404"/>
+     <lemma form="attach" freq="404"/>
+     <lemma form="observe" freq="403"/>
      <lemma form="intend" freq="402"/>
-     <lemma form="allow|allowed" freq="402"/>
+     <lemma form="allow" freq="402"/>
      <lemma form="undertake" freq="401"/>
-     <lemma form="mistake|mistaken" freq="400"/>
-     <lemma form="please|pleased" freq="399"/>
+     <lemma form="mistake" freq="400"/>
+     <lemma form="please" freq="399"/>
      <lemma form="propose" freq="399"/>
-     <lemma form="produce|produced" freq="397"/>
+     <lemma form="produce" freq="397"/>
      <lemma form="suggest" freq="395"/>
      <lemma form="share" freq="395"/>
-     <lemma form="want|wanting" freq="394"/>
+     <lemma form="want" freq="394"/>
      <lemma form="cost" freq="394"/>
      <lemma form="realise" freq="393"/>
-     <lemma form="suspect|suspected" freq="390"/>
-     <lemma form="seek|seeking" freq="386"/>
-     <lemma form="commit|committed" freq="385"/>
+     <lemma form="suspect" freq="390"/>
+     <lemma form="seek" freq="386"/>
+     <lemma form="commit" freq="385"/>
      <lemma form="fasten" freq="385"/>
-     <lemma form="miss|missed" freq="385"/>
-     <lemma form="bury|buried" freq="384"/>
+     <lemma form="miss" freq="385"/>
+     <lemma form="bury" freq="384"/>
      <lemma form="secure" freq="381"/>
      <lemma form="dread" freq="381"/>
      <lemma form="impress" freq="381"/>
-     <lemma form="let|letting" freq="380"/>
-     <lemma form="trust|trusted" freq="379"/>
-     <lemma form="point|pointing" freq="379"/>
+     <lemma form="let" freq="380"/>
+     <lemma form="trust" freq="379"/>
+     <lemma form="point" freq="379"/>
      <lemma form="apply" freq="379"/>
      <lemma form="sacrifice" freq="378"/>
      <lemma form="tempt" freq="375"/>
      <lemma form="persist" freq="375"/>
-     <lemma form="lay|laying" freq="375"/>
+     <lemma form="lay" freq="375"/>
      <lemma form="appeal" freq="374"/>
      <lemma form="dress" freq="374"/>
-     <lemma form="suffer|suffering" freq="373"/>
-     <lemma form="raise|raising" freq="372"/>
+     <lemma form="suffer" freq="373"/>
+     <lemma form="raise" freq="372"/>
      <lemma form="quarrel" freq="372"/>
      <lemma form="cheer" freq="370"/>
      <lemma form="greet" freq="368"/>
      <lemma form="burn" freq="368"/>
-     <lemma form="experience|experienced" freq="367"/>
-     <lemma form="flush|flushed" freq="367"/>
+     <lemma form="experience" freq="367"/>
+     <lemma form="flush" freq="367"/>
      <lemma form="sweep" freq="364"/>
      <lemma form="consist" freq="363"/>
-     <lemma form="bear|bearing" freq="363"/>
+     <lemma form="bear" freq="363"/>
      <lemma form="shudder" freq="363"/>
      <lemma form="object" freq="362"/>
      <lemma form="claim" freq="361"/>
-     <lemma form="set|setting" freq="359"/>
-     <lemma form="contain|contained" freq="357"/>
+     <lemma form="set" freq="359"/>
+     <lemma form="contain" freq="357"/>
      <lemma form="advise" freq="357"/>
      <lemma form="betray" freq="356"/>
      <lemma form="awaken" freq="356"/>
@@ -650,107 +650,107 @@
      <lemma form="behold" freq="355"/>
      <lemma form="rejoice" freq="355"/>
      <lemma form="soothe" freq="354"/>
-     <lemma form="pour|poured" freq="353"/>
+     <lemma form="pour" freq="353"/>
      <lemma form="imply" freq="351"/>
-     <lemma form="rest|resting" freq="351"/>
-     <lemma form="recall|recalled" freq="350"/>
+     <lemma form="rest" freq="351"/>
+     <lemma form="recall" freq="350"/>
      <lemma form="reflect" freq="350"/>
-     <lemma form="assume|assumed" freq="350"/>
-     <lemma form="direct|directed" freq="350"/>
+     <lemma form="assume" freq="350"/>
+     <lemma form="direct" freq="350"/>
      <lemma form="conquer" freq="349"/>
-     <lemma form="devoted|devote" freq="349"/>
-     <lemma form="disturb|disturbed" freq="349"/>
-     <lemma form="sweep|swept" freq="349"/>
+     <lemma form="devoted" freq="349"/>
+     <lemma form="disturb" freq="349"/>
+     <lemma form="sweep" freq="349"/>
      <lemma form="question" freq="347"/>
-     <lemma form="live|life" freq="347"/>
-     <lemma form="introduce|introduced" freq="346"/>
+     <lemma form="live" freq="347"/>
+     <lemma form="introduce" freq="346"/>
      <lemma form="bury" freq="345"/>
      <lemma form="won’t" freq="344"/>
-     <lemma form="increase|increased" freq="344"/>
+     <lemma form="increase" freq="344"/>
      <lemma form="implore" freq="344"/>
-     <lemma form="send|sending" freq="343"/>
+     <lemma form="send" freq="343"/>
      <lemma form="strive" freq="343"/>
      <lemma form="grasp" freq="343"/>
      <lemma form="wipe" freq="342"/>
      <lemma form="pour" freq="341"/>
      <lemma form="climb" freq="341"/>
      <lemma form="finish" freq="339"/>
-     <lemma form="prefer|preferred" freq="338"/>
+     <lemma form="prefer" freq="338"/>
      <lemma form="study" freq="337"/>
-     <lemma form="induce|induced" freq="337"/>
-     <lemma form="lose|losing" freq="337"/>
-     <lemma form="name|named" freq="337"/>
-     <lemma form="wrap|wrapped" freq="337"/>
+     <lemma form="induce" freq="337"/>
+     <lemma form="lose" freq="337"/>
+     <lemma form="name" freq="337"/>
+     <lemma form="wrap" freq="337"/>
      <lemma form="destroy" freq="336"/>
      <lemma form="plead" freq="336"/>
      <lemma form="account" freq="336"/>
-     <lemma form="pay|paying" freq="335"/>
+     <lemma form="pay" freq="335"/>
      <lemma form="smoke" freq="334"/>
-     <lemma form="stay|staying" freq="333"/>
-     <lemma form="start|starting" freq="333"/>
+     <lemma form="stay" freq="333"/>
+     <lemma form="start" freq="333"/>
      <lemma form="maintain" freq="332"/>
      <lemma form="detain" freq="331"/>
      <lemma form="relieve" freq="331"/>
-     <lemma form="meet|meeting" freq="331"/>
-     <lemma form="assure|assured" freq="330"/>
-     <lemma form="conceal|concealed" freq="330"/>
-     <lemma form="paint|painted" freq="329"/>
-     <lemma form="shout|shouted" freq="328"/>
+     <lemma form="meet" freq="331"/>
+     <lemma form="assure" freq="330"/>
+     <lemma form="conceal" freq="330"/>
+     <lemma form="paint" freq="329"/>
+     <lemma form="shout" freq="328"/>
      <lemma form="decide" freq="328"/>
-     <lemma form="drive|driving" freq="328"/>
+     <lemma form="drive" freq="328"/>
      <lemma form="recall" freq="328"/>
-     <lemma form="regard|regarded" freq="328"/>
+     <lemma form="regard" freq="328"/>
      <lemma form="muse" freq="327"/>
-     <lemma form="sink|sunk" freq="327"/>
+     <lemma form="sink" freq="327"/>
      <lemma form="witness" freq="326"/>
-     <lemma form="separate|separated" freq="326"/>
+     <lemma form="separate" freq="326"/>
      <lemma form="await" freq="325"/>
      <lemma form="support" freq="324"/>
      <lemma form="earn" freq="322"/>
-     <lemma form="bend|bending" freq="322"/>
+     <lemma form="bend" freq="322"/>
      <lemma form="close" freq="320"/>
      <lemma form="pace" freq="319"/>
-     <lemma form="act|acting" freq="317"/>
+     <lemma form="act" freq="317"/>
      <lemma form="flow" freq="317"/>
      <lemma form="interpose" freq="317"/>
      <lemma form="can’t" freq="316"/>
-     <lemma form="catch|catching" freq="316"/>
+     <lemma form="catch" freq="316"/>
      <lemma form="dismiss" freq="315"/>
      <lemma form="entreat" freq="314"/>
-     <lemma form="shake|shaken" freq="313"/>
+     <lemma form="shake" freq="313"/>
      <lemma form="spake" freq="313"/>
      <lemma form="brighten" freq="312"/>
      <lemma form="toss" freq="312"/>
-     <lemma form="restore|restored" freq="311"/>
+     <lemma form="restore" freq="311"/>
      <lemma form="praise" freq="311"/>
-     <lemma form="admit|admitted" freq="310"/>
-     <lemma form="receive|receiving" freq="309"/>
-     <lemma form="alter|altered" freq="309"/>
+     <lemma form="admit" freq="310"/>
+     <lemma form="receive" freq="309"/>
+     <lemma form="alter" freq="309"/>
      <lemma form="recognise" freq="308"/>
      <lemma form="repent" freq="307"/>
      <lemma form="refer" freq="306"/>
      <lemma form="alter" freq="306"/>
-     <lemma form="apply|applied" freq="306"/>
+     <lemma form="apply" freq="306"/>
      <lemma form="stoop" freq="306"/>
      <lemma form="hit" freq="306"/>
      <lemma form="presume" freq="305"/>
-     <lemma form="divide|divided" freq="305"/>
+     <lemma form="divide" freq="305"/>
      <lemma form="own" freq="305"/>
-     <lemma form="betray|betrayed" freq="304"/>
+     <lemma form="betray" freq="304"/>
      <lemma form="retain" freq="303"/>
      <lemma form="assent" freq="303"/>
-     <lemma form="tie|tied" freq="302"/>
-     <lemma form="attempt|attempted" freq="300"/>
-     <lemma form="die|dying" freq="300"/>
-     <lemma form="approach|approaching" freq="299"/>
+     <lemma form="tie" freq="302"/>
+     <lemma form="attempt" freq="300"/>
+     <lemma form="die" freq="300"/>
+     <lemma form="approach" freq="299"/>
      <lemma form="inform" freq="299"/>
-     <lemma form="stop|stopping" freq="299"/>
+     <lemma form="stop" freq="299"/>
      <lemma form="assert" freq="299"/>
-     <lemma form="secure|secured" freq="297"/>
+     <lemma form="secure" freq="297"/>
      <lemma form="argue" freq="297"/>
      <lemma form="achieve" freq="295"/>
      <lemma form="didn’t" freq="295"/>
-     <lemma form="dash|dashed" freq="294"/>
+     <lemma form="dash" freq="294"/>
      <lemma form="float" freq="294"/>
      <lemma form="hint" freq="294"/>
      <lemma form="exercise" freq="293"/>
@@ -758,72 +758,72 @@
      <lemma form="acknowledge" freq="293"/>
      <lemma form="frighten" freq="293"/>
      <lemma form="reckon" freq="293"/>
-     <lemma form="belong|belonging" freq="292"/>
+     <lemma form="belong" freq="292"/>
      <lemma form="gather" freq="292"/>
      <lemma form="trace" freq="291"/>
      <lemma form="detect" freq="291"/>
      <lemma form="attract" freq="291"/>
      <lemma form="request" freq="291"/>
-     <lemma form="struggle|struggling" freq="290"/>
+     <lemma form="struggle" freq="290"/>
      <lemma form="elapse" freq="290"/>
-     <lemma form="support|supported" freq="289"/>
-     <lemma form="pick|picked" freq="289"/>
-     <lemma form="wear|wearing" freq="289"/>
+     <lemma form="support" freq="289"/>
+     <lemma form="pick" freq="289"/>
+     <lemma form="wear" freq="289"/>
      <lemma form="hast" freq="289"/>
      <lemma form="submit" freq="288"/>
-     <lemma form="present|presented" freq="288"/>
-     <lemma form="offend|offended" freq="288"/>
-     <lemma form="remain|remains" freq="287"/>
+     <lemma form="present" freq="288"/>
+     <lemma form="offend" freq="288"/>
+     <lemma form="remain" freq="287"/>
      <lemma form="shed" freq="286"/>
-     <lemma form="permit|permitted" freq="286"/>
-     <lemma form="ride|riding" freq="284"/>
+     <lemma form="permit" freq="286"/>
+     <lemma form="ride" freq="284"/>
      <lemma form="tread" freq="284"/>
      <lemma form="tend" freq="283"/>
      <lemma form="preserve" freq="282"/>
-     <lemma form="wander|wandering" freq="282"/>
-     <lemma form="leave|leaf" freq="282"/>
-     <lemma form="eat|eating" freq="281"/>
+     <lemma form="wander" freq="282"/>
+     <lemma form="leave" freq="282"/>
+     <lemma form="eat" freq="281"/>
      <lemma form="demand" freq="281"/>
      <lemma form="procure" freq="281"/>
      <lemma form="force" freq="279"/>
-     <lemma form="mount|mounted" freq="279"/>
-     <lemma form="fold|folded" freq="279"/>
-     <lemma form="shine|shining" freq="279"/>
+     <lemma form="mount" freq="279"/>
+     <lemma form="fold" freq="279"/>
+     <lemma form="shine" freq="279"/>
      <lemma form="spoil" freq="279"/>
      <lemma form="startle" freq="278"/>
      <lemma form="wave" freq="278"/>
-     <lemma form="dance|dancing" freq="277"/>
+     <lemma form="dance" freq="277"/>
      <lemma form="ascertain" freq="276"/>
      <lemma form="check" freq="276"/>
      <lemma form="hath" freq="276"/>
      <lemma form="art" freq="274"/>
      <lemma form="ponder" freq="273"/>
-     <lemma form="press|pressing" freq="273"/>
-     <lemma form="ruine|ruined" freq="273"/>
+     <lemma form="press" freq="273"/>
+     <lemma form="ruine" freq="273"/>
      <lemma form="despise" freq="273"/>
      <lemma form="amuse" freq="272"/>
      <lemma form="search" freq="272"/>
-     <lemma form="drinking|drink" freq="271"/>
+     <lemma form="drinking" freq="271"/>
      <lemma form="prevail" freq="271"/>
      <lemma form="cherish" freq="271"/>
      <lemma form="occupy" freq="270"/>
      <lemma form="protest" freq="270"/>
      <lemma form="disturb" freq="268"/>
-     <lemma form="furnish|furnished" freq="267"/>
-     <lemma form="beat|beating" freq="267"/>
+     <lemma form="furnish" freq="267"/>
+     <lemma form="beat" freq="267"/>
      <lemma form="scream" freq="267"/>
      <lemma form="embrace" freq="265"/>
      <lemma form="induce" freq="264"/>
-     <lemma form="burn|burned" freq="264"/>
-     <lemma form="contrive|contrived" freq="263"/>
+     <lemma form="burn" freq="264"/>
+     <lemma form="contrive" freq="263"/>
      <lemma form="attain" freq="263"/>
-     <lemma form="suit|suited" freq="263"/>
+     <lemma form="suit" freq="263"/>
      <lemma form="confide" freq="263"/>
-     <lemma form="sign|signed" freq="263"/>
-     <lemma form="owe|owing" freq="261"/>
+     <lemma form="sign" freq="263"/>
+     <lemma form="owe" freq="261"/>
      <lemma form="approach" freq="261"/>
-     <lemma form="mingle|mingled" freq="260"/>
-     <lemma form="soften|softened" freq="260"/>
+     <lemma form="mingle" freq="260"/>
+     <lemma form="soften" freq="260"/>
      <lemma form="fit" freq="259"/>
      <lemma form="wring" freq="259"/>
      <lemma form="shrug" freq="259"/>
@@ -832,174 +832,174 @@
      <lemma form="wind" freq="258"/>
      <lemma form="dislike" freq="258"/>
      <lemma form="effect" freq="257"/>
-     <lemma form="justify|justified" freq="257"/>
-     <lemma form="destroy|destroyed" freq="257"/>
-     <lemma form="answer|answering" freq="257"/>
-     <lemma form="fit|fitted" freq="257"/>
-     <lemma form="touch|touching" freq="256"/>
+     <lemma form="justify" freq="257"/>
+     <lemma form="destroy" freq="257"/>
+     <lemma form="answer" freq="257"/>
+     <lemma form="fit" freq="257"/>
+     <lemma form="touch" freq="256"/>
      <lemma form="preach" freq="256"/>
      <lemma form="retort" freq="256"/>
      <lemma form="weigh" freq="255"/>
-     <lemma form="grieve|grieved" freq="255"/>
-     <lemma form="tear|torn" freq="255"/>
-     <lemma form="prepare|preparing" freq="254"/>
+     <lemma form="grieve" freq="255"/>
+     <lemma form="tear" freq="255"/>
+     <lemma form="prepare" freq="254"/>
      <lemma form="converse" freq="254"/>
      <lemma form="invent" freq="254"/>
-     <lemma form="remember|remembering" freq="254"/>
+     <lemma form="remember" freq="254"/>
      <lemma form="suffice" freq="253"/>
      <lemma form="defend" freq="252"/>
-     <lemma form="inspire|inspired" freq="252"/>
-     <lemma form="help|helping" freq="252"/>
+     <lemma form="inspire" freq="252"/>
+     <lemma form="help" freq="252"/>
      <lemma form="commit" freq="252"/>
      <lemma form="emerge" freq="251"/>
-     <lemma form="haunt|haunted" freq="251"/>
-     <lemma form="own|owned" freq="250"/>
+     <lemma form="haunt" freq="251"/>
+     <lemma form="own" freq="250"/>
      <lemma form="aid" freq="250"/>
      <lemma form="retire" freq="250"/>
-     <lemma form="kissing|kiss" freq="250"/>
+     <lemma form="kissing" freq="250"/>
      <lemma form="penetrate" freq="249"/>
-     <lemma form="establish|established" freq="249"/>
+     <lemma form="establish" freq="249"/>
      <lemma form="defy" freq="248"/>
      <lemma form="respond" freq="248"/>
-     <lemma form="exchange|exchanged" freq="248"/>
+     <lemma form="exchange" freq="248"/>
      <lemma form="congratulate" freq="247"/>
      <lemma form="hinder" freq="247"/>
-     <lemma form="lift|lifting" freq="247"/>
-     <lemma form="alarm|alarmed" freq="246"/>
+     <lemma form="lift" freq="247"/>
+     <lemma form="alarm" freq="246"/>
      <lemma form="undergo" freq="246"/>
      <lemma form="influence" freq="245"/>
      <lemma form="dart" freq="245"/>
      <lemma form="mistake" freq="245"/>
      <lemma form="mark" freq="244"/>
-     <lemma form="calculate|calculated" freq="244"/>
+     <lemma form="calculate" freq="244"/>
      <lemma form="avail" freq="244"/>
      <lemma form="overtake" freq="244"/>
-     <lemma form="distinguish|distinguished" freq="242"/>
-     <lemma form="smoke|smoking" freq="242"/>
+     <lemma form="distinguish" freq="242"/>
+     <lemma form="smoke" freq="242"/>
      <lemma form="cover" freq="242"/>
-     <lemma form="stoop|stooped" freq="242"/>
-     <lemma form="exhaust|exhausted" freq="241"/>
-     <lemma form="burn|burning" freq="241"/>
-     <lemma form="state|stated" freq="240"/>
+     <lemma form="stoop" freq="242"/>
+     <lemma form="exhaust" freq="241"/>
+     <lemma form="burn" freq="241"/>
+     <lemma form="state" freq="240"/>
      <lemma form="kick" freq="240"/>
-     <lemma form="reduce|reduced" freq="239"/>
+     <lemma form="reduce" freq="239"/>
      <lemma form="overhear" freq="239"/>
      <lemma form="paint" freq="239"/>
-     <lemma form="fly|flying" freq="239"/>
+     <lemma form="fly" freq="239"/>
      <lemma form="swing" freq="239"/>
-     <lemma form="share|shared" freq="238"/>
+     <lemma form="share" freq="238"/>
      <lemma form="taste" freq="238"/>
      <lemma form="roar" freq="238"/>
      <lemma form="smite" freq="238"/>
      <lemma form="risk" freq="238"/>
      <lemma form="adore" freq="237"/>
      <lemma form="sate" freq="237"/>
-     <lemma form="advance|advancing" freq="237"/>
-     <lemma form="collect|collected" freq="236"/>
+     <lemma form="advance" freq="237"/>
+     <lemma form="collect" freq="236"/>
      <lemma form="resemble" freq="236"/>
-     <lemma form="drop|dropping" freq="234"/>
-     <lemma form="relate|related" freq="234"/>
+     <lemma form="drop" freq="234"/>
+     <lemma form="relate" freq="234"/>
      <lemma form="sail" freq="234"/>
-     <lemma form="announce|announced" freq="233"/>
-     <lemma form="excite|excited" freq="233"/>
+     <lemma form="announce" freq="233"/>
+     <lemma form="excite" freq="233"/>
      <lemma form="exert" freq="233"/>
      <lemma form="peep" freq="233"/>
      <lemma form="resent" freq="233"/>
-     <lemma form="dislike|disliked" freq="233"/>
-     <lemma form="create|created" freq="232"/>
-     <lemma form="display|displayed" freq="232"/>
-     <lemma form="abandon|abandoned" freq="232"/>
+     <lemma form="dislike" freq="233"/>
+     <lemma form="create" freq="232"/>
+     <lemma form="display" freq="232"/>
+     <lemma form="abandon" freq="232"/>
      <lemma form="replace" freq="232"/>
      <lemma form="point" freq="232"/>
      <lemma form="exhibit" freq="231"/>
      <lemma form="warm" freq="231"/>
      <lemma form="realize" freq="231"/>
-     <lemma form="fade|faded" freq="231"/>
+     <lemma form="fade" freq="231"/>
      <lemma form="curse" freq="230"/>
-     <lemma form="depart|departed" freq="230"/>
+     <lemma form="depart" freq="230"/>
      <lemma form="waste" freq="230"/>
-     <lemma form="crowd|crowded" freq="229"/>
-     <lemma form="threaten|threatened" freq="229"/>
+     <lemma form="crowd" freq="229"/>
+     <lemma form="threaten" freq="229"/>
      <lemma form="convince" freq="229"/>
      <lemma form="recommend" freq="228"/>
      <lemma form="indicate" freq="227"/>
-     <lemma form="extend|extended" freq="227"/>
+     <lemma form="extend" freq="227"/>
      <lemma form="assume" freq="226"/>
      <lemma form="choke" freq="226"/>
      <lemma form="glide" freq="225"/>
      <lemma form="affect" freq="225"/>
      <lemma form="master" freq="225"/>
      <lemma form="reproach" freq="224"/>
-     <lemma form="fight|fighting" freq="224"/>
+     <lemma form="fight" freq="224"/>
      <lemma form="signify" freq="224"/>
-     <lemma form="adopt|adopted" freq="223"/>
+     <lemma form="adopt" freq="223"/>
      <lemma form="borrow" freq="222"/>
-     <lemma form="wash|washed" freq="222"/>
+     <lemma form="wash" freq="222"/>
      <lemma form="divine" freq="222"/>
      <lemma form="retreat" freq="222"/>
      <lemma form="abandon" freq="222"/>
      <lemma form="create" freq="221"/>
-     <lemma form="accomplish|accomplished" freq="221"/>
+     <lemma form="accomplish" freq="221"/>
      <lemma form="complete" freq="220"/>
      <lemma form="silence" freq="220"/>
-     <lemma form="realize|realized" freq="220"/>
-     <lemma form="pull|pulling" freq="220"/>
+     <lemma form="realize" freq="220"/>
+     <lemma form="pull" freq="220"/>
      <lemma form="foresee" freq="219"/>
-     <lemma form="develop|developed" freq="219"/>
+     <lemma form="develop" freq="219"/>
      <lemma form="inflict" freq="219"/>
-     <lemma form="pronounce|pronounced" freq="219"/>
-     <lemma form="convince|convinced" freq="217"/>
+     <lemma form="pronounce" freq="219"/>
+     <lemma form="convince" freq="217"/>
      <lemma form="interest" freq="217"/>
      <lemma form="ascend" freq="217"/>
-     <lemma form="fill|filling" freq="217"/>
+     <lemma form="fill" freq="217"/>
      <lemma form="order" freq="217"/>
      <lemma form="shiver" freq="217"/>
      <lemma form="drift" freq="217"/>
      <lemma form="rely" freq="217"/>
      <lemma form="nurse" freq="217"/>
      <lemma form="whisper" freq="216"/>
-     <lemma form="acquire|acquired" freq="216"/>
+     <lemma form="acquire" freq="216"/>
      <lemma form="bite" freq="216"/>
      <lemma form="befall" freq="216"/>
-     <lemma form="confirm|confirmed" freq="215"/>
-     <lemma form="study|studied" freq="215"/>
-     <lemma form="blow|blowing" freq="215"/>
+     <lemma form="confirm" freq="215"/>
+     <lemma form="study" freq="215"/>
+     <lemma form="blow" freq="215"/>
      <lemma form="guard" freq="214"/>
-     <lemma form="offer|offering" freq="214"/>
-     <lemma form="push|pushing" freq="214"/>
+     <lemma form="offer" freq="214"/>
+     <lemma form="push" freq="214"/>
      <lemma form="name" freq="214"/>
-     <lemma form="rob|robbed" freq="213"/>
-     <lemma form="seem|seeming" freq="213"/>
-     <lemma form="waste|wasted" freq="213"/>
-     <lemma form="recognize|recognized" freq="213"/>
-     <lemma form="beat|beaten" freq="213"/>
+     <lemma form="rob" freq="213"/>
+     <lemma form="seem" freq="213"/>
+     <lemma form="waste" freq="213"/>
+     <lemma form="recognize" freq="213"/>
+     <lemma form="beat" freq="213"/>
      <lemma form="frown" freq="213"/>
      <lemma form="justify" freq="211"/>
      <lemma form="impart" freq="211"/>
      <lemma form="exceed" freq="211"/>
-     <lemma form="amuse|amused" freq="211"/>
-     <lemma form="desert|deserted" freq="210"/>
+     <lemma form="amuse" freq="211"/>
+     <lemma form="desert" freq="210"/>
      <lemma form="swim" freq="210"/>
-     <lemma form="cut|cutting" freq="209"/>
+     <lemma form="cut" freq="209"/>
      <lemma form="clad" freq="208"/>
-     <lemma form="wound|wounded" freq="208"/>
-     <lemma form="maintain|maintained" freq="207"/>
+     <lemma form="wound" freq="208"/>
+     <lemma form="maintain" freq="207"/>
      <lemma form="restore" freq="207"/>
-     <lemma form="issue|issued" freq="207"/>
-     <lemma form="arrest|arrested" freq="207"/>
+     <lemma form="issue" freq="207"/>
+     <lemma form="arrest" freq="207"/>
      <lemma form="neglect" freq="207"/>
-     <lemma form="release|released" freq="206"/>
+     <lemma form="release" freq="206"/>
      <lemma form="avert" freq="206"/>
      <lemma form="heed" freq="206"/>
-     <lemma form="note|noted" freq="206"/>
+     <lemma form="note" freq="206"/>
      <lemma form="rob" freq="205"/>
      <lemma form="refrain" freq="205"/>
      <lemma form="peer" freq="205"/>
-     <lemma form="acknowledge|acknowledged" freq="204"/>
-     <lemma form="anticipate|anticipated" freq="204"/>
+     <lemma form="acknowledge" freq="204"/>
+     <lemma form="anticipate" freq="204"/>
      <lemma form="brush" freq="204"/>
-     <lemma form="cast|casting" freq="204"/>
-     <lemma form="expose|exposed" freq="204"/>
+     <lemma form="cast" freq="204"/>
+     <lemma form="expose" freq="204"/>
      <lemma form="gasp" freq="204"/>
      <lemma form="destine" freq="203"/>
      <lemma form="ruin" freq="203"/>
@@ -1007,113 +1007,113 @@
      <lemma form="protect" freq="202"/>
      <lemma form="respect" freq="202"/>
      <lemma form="contradict" freq="202"/>
-     <lemma form="repair|repaired" freq="202"/>
+     <lemma form="repair" freq="202"/>
      <lemma form="content" freq="202"/>
      <lemma form="involve" freq="201"/>
-     <lemma form="change|changing" freq="201"/>
-     <lemma form="press|pressed" freq="201"/>
+     <lemma form="change" freq="201"/>
+     <lemma form="press" freq="201"/>
      <lemma form="quiver" freq="201"/>
      <lemma form="groan" freq="201"/>
-     <lemma form="check|checked" freq="201"/>
-     <lemma form="satisfy|satisfied" freq="200"/>
+     <lemma form="check" freq="201"/>
+     <lemma form="satisfy" freq="200"/>
      <lemma form="devote" freq="200"/>
      <lemma form="falter" freq="199"/>
      <lemma form="march" freq="199"/>
      <lemma form="smooth" freq="199"/>
-     <lemma form="burst|bursting" freq="199"/>
+     <lemma form="burst" freq="199"/>
      <lemma form="oblige" freq="199"/>
-     <lemma form="advance|advanced" freq="198"/>
-     <lemma form="gratify|gratified" freq="198"/>
-     <lemma form="cross|crossing" freq="198"/>
-     <lemma form="fulfil|fulfilled" freq="198"/>
-     <lemma form="stretch|stretching" freq="198"/>
-     <lemma form="manage|managed" freq="197"/>
+     <lemma form="advance" freq="198"/>
+     <lemma form="gratify" freq="198"/>
+     <lemma form="cross" freq="198"/>
+     <lemma form="fulfil" freq="198"/>
+     <lemma form="stretch" freq="198"/>
+     <lemma form="manage" freq="197"/>
      <lemma form="distinguish" freq="196"/>
-     <lemma form="attract|attracted" freq="196"/>
-     <lemma form="weep|weeping" freq="196"/>
+     <lemma form="attract" freq="196"/>
+     <lemma form="weep" freq="196"/>
      <lemma form="ensue" freq="196"/>
-     <lemma form="swallow|swallowed" freq="196"/>
+     <lemma form="swallow" freq="196"/>
      <lemma form="faint" freq="196"/>
      <lemma form="daresay" freq="196"/>
-     <lemma form="reach|reaching" freq="195"/>
+     <lemma form="reach" freq="195"/>
      <lemma form="pluck" freq="195"/>
-     <lemma form="repeat|repeating" freq="195"/>
-     <lemma form="dream|dreaming" freq="195"/>
-     <lemma form="appoint|appointed" freq="194"/>
-     <lemma form="mix|mixed" freq="194"/>
+     <lemma form="repeat" freq="195"/>
+     <lemma form="dream" freq="195"/>
+     <lemma form="appoint" freq="194"/>
+     <lemma form="mix" freq="194"/>
      <lemma form="adorn" freq="193"/>
      <lemma form="gleam" freq="193"/>
      <lemma form="fix" freq="193"/>
      <lemma form="smell" freq="193"/>
-     <lemma form="roll|rolling" freq="193"/>
+     <lemma form="roll" freq="193"/>
      <lemma form="report" freq="192"/>
-     <lemma form="ring|ringing" freq="192"/>
+     <lemma form="ring" freq="192"/>
      <lemma form="abide" freq="192"/>
      <lemma form="perish" freq="192"/>
-     <lemma form="trouble|troubled" freq="191"/>
+     <lemma form="trouble" freq="191"/>
      <lemma form="alight" freq="191"/>
-     <lemma form="attend|attending" freq="190"/>
+     <lemma form="attend" freq="190"/>
      <lemma form="excite" freq="190"/>
-     <lemma form="work|wrought" freq="190"/>
-     <lemma form="assemble|assembled" freq="189"/>
+     <lemma form="work" freq="190"/>
+     <lemma form="assemble" freq="189"/>
      <lemma form="worship" freq="189"/>
      <lemma form="lodge" freq="189"/>
      <lemma form="breed" freq="189"/>
-     <lemma form="love|loving" freq="189"/>
+     <lemma form="love" freq="189"/>
      <lemma form="view" freq="188"/>
-     <lemma form="unite|united" freq="188"/>
+     <lemma form="unite" freq="188"/>
      <lemma form="employ" freq="188"/>
-     <lemma form="pour|pouring" freq="188"/>
+     <lemma form="pour" freq="188"/>
      <lemma form="glow" freq="188"/>
      <lemma form="bother" freq="188"/>
      <lemma form="compose" freq="188"/>
      <lemma form="pledge" freq="187"/>
-     <lemma form="sleep|sleeping" freq="187"/>
+     <lemma form="sleep" freq="187"/>
      <lemma form="repay" freq="187"/>
      <lemma form="shriek" freq="187"/>
      <lemma form="intimate" freq="186"/>
      <lemma form="clutch" freq="186"/>
      <lemma form="blaze" freq="186"/>
      <lemma form="invite" freq="186"/>
-     <lemma form="compose|composed" freq="186"/>
-     <lemma form="gather|gathering" freq="186"/>
+     <lemma form="compose" freq="186"/>
+     <lemma form="gather" freq="186"/>
      <lemma form="provoke" freq="186"/>
      <lemma form="approve" freq="185"/>
-     <lemma form="cling|clinging" freq="185"/>
+     <lemma form="cling" freq="185"/>
      <lemma form="stumble" freq="185"/>
      <lemma form="rescue" freq="184"/>
      <lemma form="convert" freq="184"/>
      <lemma form="envy" freq="184"/>
      <lemma form="discharge" freq="184"/>
-     <lemma form="learn|learning" freq="184"/>
+     <lemma form="learn" freq="184"/>
      <lemma form="ignore" freq="184"/>
      <lemma form="insult" freq="183"/>
      <lemma form="inherit" freq="183"/>
      <lemma form="occasion" freq="183"/>
-     <lemma form="lower|lowered" freq="183"/>
-     <lemma form="purchase|purchased" freq="183"/>
+     <lemma form="lower" freq="183"/>
+     <lemma form="purchase" freq="183"/>
      <lemma form="reside" freq="183"/>
      <lemma form="separate" freq="183"/>
-     <lemma form="guide|guided" freq="182"/>
+     <lemma form="guide" freq="182"/>
      <lemma form="lounge" freq="182"/>
      <lemma form="guide" freq="182"/>
      <lemma form="isn’t" freq="182"/>
-     <lemma form="strike|striking" freq="182"/>
+     <lemma form="strike" freq="182"/>
      <lemma form="stroke" freq="182"/>
-     <lemma form="pack|packed" freq="182"/>
+     <lemma form="pack" freq="182"/>
      <lemma form="suppress" freq="181"/>
      <lemma form="growl" freq="181"/>
-     <lemma form="despise|despised" freq="181"/>
+     <lemma form="despise" freq="181"/>
      <lemma form="scold" freq="181"/>
-     <lemma form="flatter|flattered" freq="180"/>
-     <lemma form="deserve|deserved" freq="180"/>
+     <lemma form="flatter" freq="180"/>
+     <lemma form="deserve" freq="180"/>
      <lemma form="attack" freq="180"/>
      <lemma form="chuckle" freq="180"/>
      <lemma form="relate" freq="180"/>
      <lemma form="expose" freq="180"/>
      <lemma form="swell" freq="179"/>
-     <lemma form="reserve|reserved" freq="178"/>
-     <lemma form="travel|travelling" freq="178"/>
+     <lemma form="reserve" freq="178"/>
+     <lemma form="travel" freq="178"/>
      <lemma form="boast" freq="178"/>
      <lemma form="free" freq="178"/>
      <lemma form="concern" freq="177"/>
@@ -1121,36 +1121,36 @@
      <lemma form="reveal" freq="176"/>
      <lemma form="bore" freq="175"/>
      <lemma form="regain" freq="174"/>
-     <lemma form="combine|combined" freq="174"/>
+     <lemma form="combine" freq="174"/>
      <lemma form="toil" freq="174"/>
      <lemma form="bound" freq="174"/>
      <lemma form="overlook" freq="174"/>
      <lemma form="derive" freq="174"/>
      <lemma form="wink" freq="174"/>
-     <lemma form="irritate|irritated" freq="174"/>
-     <lemma form="whisper|whispering" freq="173"/>
-     <lemma form="recommend|recommended" freq="173"/>
+     <lemma form="irritate" freq="174"/>
+     <lemma form="whisper" freq="173"/>
+     <lemma form="recommend" freq="173"/>
      <lemma form="proclaim" freq="173"/>
-     <lemma form="face|facing" freq="173"/>
+     <lemma form="face" freq="173"/>
      <lemma form="punish" freq="173"/>
-     <lemma form="confine|confined" freq="172"/>
+     <lemma form="confine" freq="172"/>
      <lemma form="contribute" freq="172"/>
      <lemma form="instruct" freq="172"/>
-     <lemma form="nod|nodding" freq="172"/>
-     <lemma form="long|longing" freq="172"/>
+     <lemma form="nod" freq="172"/>
+     <lemma form="long" freq="172"/>
      <lemma form="aim" freq="171"/>
      <lemma form="comply" freq="171"/>
      <lemma form="slip" freq="171"/>
-     <lemma form="strol|strolled" freq="171"/>
+     <lemma form="strol" freq="171"/>
      <lemma form="vow" freq="171"/>
      <lemma form="swallow" freq="171"/>
      <lemma form="amount" freq="170"/>
-     <lemma form="blow|blown" freq="170"/>
-     <lemma form="overwhelm|overwhelmed" freq="170"/>
+     <lemma form="blow" freq="170"/>
+     <lemma form="overwhelm" freq="170"/>
      <lemma form="consume" freq="168"/>
-     <lemma form="plant|planted" freq="168"/>
+     <lemma form="plant" freq="168"/>
      <lemma form="bathe" freq="168"/>
-     <lemma form="fire|fired" freq="168"/>
+     <lemma form="fire" freq="168"/>
      <lemma form="quicken" freq="168"/>
      <lemma form="adopt" freq="168"/>
      <lemma form="attribute" freq="167"/>
@@ -1158,133 +1158,133 @@
      <lemma form="release" freq="167"/>
      <lemma form="heave" freq="167"/>
      <lemma form="glitter" freq="166"/>
-     <lemma form="place|placing" freq="166"/>
+     <lemma form="place" freq="166"/>
      <lemma form="reign" freq="166"/>
      <lemma form="usher" freq="166"/>
-     <lemma form="surprised|surprise" freq="166"/>
+     <lemma form="surprised" freq="166"/>
      <lemma form="stammer" freq="166"/>
      <lemma form="by-and-by" freq="166"/>
      <lemma form="condescend" freq="165"/>
-     <lemma form="complete|completed" freq="165"/>
-     <lemma form="burn|burnt" freq="165"/>
+     <lemma form="complete" freq="165"/>
+     <lemma form="burn" freq="165"/>
      <lemma form="exchange" freq="165"/>
      <lemma form="increase" freq="165"/>
      <lemma form="extend" freq="165"/>
      <lemma form="deepen" freq="165"/>
      <lemma form="establish" freq="164"/>
-     <lemma form="sustain|sustained" freq="164"/>
-     <lemma form="associate|associated" freq="164"/>
+     <lemma form="sustain" freq="164"/>
+     <lemma form="associate" freq="164"/>
      <lemma form="desert" freq="164"/>
      <lemma form="fulfil" freq="164"/>
      <lemma form="deposit" freq="164"/>
      <lemma form="whirl" freq="164"/>
      <lemma form="wash" freq="164"/>
-     <lemma form="revive|revived" freq="163"/>
+     <lemma form="revive" freq="163"/>
      <lemma form="vanish" freq="163"/>
-     <lemma form="sell|sold" freq="163"/>
+     <lemma form="sell" freq="163"/>
      <lemma form="i’m" freq="163"/>
      <lemma form="scorn" freq="163"/>
      <lemma form="snap" freq="163"/>
      <lemma form="speculate" freq="162"/>
-     <lemma form="condemn|condemned" freq="162"/>
-     <lemma form="crush|crushed" freq="162"/>
-     <lemma form="stamp|stamped" freq="162"/>
+     <lemma form="condemn" freq="162"/>
+     <lemma form="crush" freq="162"/>
+     <lemma form="stamp" freq="162"/>
      <lemma form="sting" freq="162"/>
      <lemma form="discern" freq="162"/>
      <lemma form="value" freq="162"/>
      <lemma form="stifle" freq="161"/>
-     <lemma form="knock|knocking" freq="161"/>
-     <lemma form="improve|improved" freq="161"/>
+     <lemma form="knock" freq="161"/>
+     <lemma form="improve" freq="161"/>
      <lemma form="adapt" freq="160"/>
      <lemma form="redden" freq="160"/>
-     <lemma form="injure|injured" freq="160"/>
+     <lemma form="injure" freq="160"/>
      <lemma form="restrain" freq="160"/>
      <lemma form="upset" freq="160"/>
      <lemma form="subside" freq="159"/>
      <lemma form="improve" freq="159"/>
-     <lemma form="respect|respected" freq="159"/>
+     <lemma form="respect" freq="159"/>
      <lemma form="differ" freq="159"/>
-     <lemma form="neglect|neglected" freq="159"/>
+     <lemma form="neglect" freq="159"/>
      <lemma form="remonstrate" freq="159"/>
      <lemma form="melt" freq="159"/>
      <lemma form="tumble" freq="159"/>
      <lemma form="manifest" freq="159"/>
      <lemma form="rain" freq="158"/>
-     <lemma form="visit|visiting" freq="158"/>
+     <lemma form="visit" freq="158"/>
      <lemma form="found" freq="158"/>
-     <lemma form="spend|spending" freq="158"/>
-     <lemma form="reject|rejected" freq="158"/>
+     <lemma form="spend" freq="158"/>
+     <lemma form="reject" freq="158"/>
      <lemma form="torture" freq="158"/>
-     <lemma form="twist|twisted" freq="158"/>
+     <lemma form="twist" freq="158"/>
      <lemma form="collect" freq="158"/>
      <lemma form="beseech" freq="158"/>
      <lemma form="dawn" freq="157"/>
      <lemma form="govern" freq="157"/>
      <lemma form="cure" freq="157"/>
-     <lemma form="resign|resigned" freq="157"/>
+     <lemma form="resign" freq="157"/>
      <lemma form="droop" freq="157"/>
-     <lemma form="drown|drowned" freq="157"/>
-     <lemma form="fixing|fix" freq="157"/>
+     <lemma form="drown" freq="157"/>
+     <lemma form="fixing" freq="157"/>
      <lemma form="crawl" freq="157"/>
-     <lemma form="shout|shouting" freq="156"/>
-     <lemma form="oppose|opposed" freq="156"/>
-     <lemma form="scatter|scattered" freq="156"/>
+     <lemma form="shout" freq="156"/>
+     <lemma form="oppose" freq="156"/>
+     <lemma form="scatter" freq="156"/>
      <lemma form="grieve" freq="156"/>
-     <lemma form="wave|waving" freq="156"/>
+     <lemma form="wave" freq="156"/>
      <lemma form="dispose" freq="156"/>
      <lemma form="incur" freq="155"/>
      <lemma form="chance" freq="155"/>
      <lemma form="snatch" freq="155"/>
      <lemma form="sway" freq="154"/>
-     <lemma form="steal|stolen" freq="154"/>
-     <lemma form="accept|accepting" freq="154"/>
+     <lemma form="steal" freq="154"/>
+     <lemma form="accept" freq="154"/>
      <lemma form="attach" freq="153"/>
      <lemma form="mend" freq="153"/>
      <lemma form="note" freq="153"/>
-     <lemma form="close|closing" freq="153"/>
+     <lemma form="close" freq="153"/>
      <lemma form="renounce" freq="152"/>
      <lemma form="confer" freq="152"/>
-     <lemma form="creep|creeping" freq="152"/>
-     <lemma form="suspend|suspended" freq="152"/>
-     <lemma form="survey|surveyed" freq="151"/>
+     <lemma form="creep" freq="152"/>
+     <lemma form="suspend" freq="152"/>
+     <lemma form="survey" freq="151"/>
      <lemma form="devise" freq="151"/>
-     <lemma form="steal|stealing" freq="151"/>
+     <lemma form="steal" freq="151"/>
      <lemma form="worry" freq="151"/>
-     <lemma form="pretend|pretended" freq="150"/>
+     <lemma form="pretend" freq="150"/>
      <lemma form="confront" freq="150"/>
      <lemma form="triumph" freq="150"/>
      <lemma form="survive" freq="150"/>
-     <lemma form="rush|rushed" freq="150"/>
+     <lemma form="rush" freq="150"/>
      <lemma form="bend" freq="150"/>
      <lemma form="trot" freq="150"/>
-     <lemma form="curse|cursed" freq="149"/>
-     <lemma form="submit|submitted" freq="149"/>
+     <lemma form="curse" freq="149"/>
+     <lemma form="submit" freq="149"/>
      <lemma form="saunter" freq="149"/>
      <lemma form="rule" freq="149"/>
      <lemma form="repair" freq="149"/>
      <lemma form="hunt" freq="149"/>
      <lemma form="injure" freq="149"/>
      <lemma form="resign" freq="149"/>
-     <lemma form="beg|begging" freq="149"/>
-     <lemma form="fail|failing" freq="149"/>
-     <lemma form="educate|educated" freq="148"/>
-     <lemma form="breathe|breathing" freq="148"/>
+     <lemma form="beg" freq="149"/>
+     <lemma form="fail" freq="149"/>
+     <lemma form="educate" freq="148"/>
+     <lemma form="breathe" freq="148"/>
      <lemma form="handle" freq="148"/>
      <lemma form="display" freq="148"/>
-     <lemma form="charge|charged" freq="148"/>
-     <lemma form="lighting|light" freq="148"/>
+     <lemma form="charge" freq="148"/>
+     <lemma form="lighting" freq="148"/>
      <lemma form="control" freq="147"/>
-     <lemma form="perceive|perceived" freq="147"/>
+     <lemma form="perceive" freq="147"/>
      <lemma form="confound" freq="147"/>
-     <lemma form="involve|involved" freq="147"/>
+     <lemma form="involve" freq="147"/>
      <lemma form="dig" freq="147"/>
      <lemma form="pronounce" freq="146"/>
      <lemma form="offend" freq="146"/>
-     <lemma form="assured|assure" freq="146"/>
-     <lemma form="await|awaiting" freq="146"/>
+     <lemma form="assured" freq="146"/>
+     <lemma form="await" freq="146"/>
      <lemma form="fret" freq="146"/>
-     <lemma form="wake|waking" freq="146"/>
-     <lemma form="murder|murdered" freq="146"/>
+     <lemma form="wake" freq="146"/>
+     <lemma form="murder" freq="146"/>
      <lemma form="profess" freq="145"/>
      <lemma form="flutter" freq="145"/>
      <lemma form="recognize" freq="145"/>
@@ -1292,36 +1292,36 @@
      <lemma form="hail" freq="145"/>
      <lemma form="overpower" freq="145"/>
      <lemma form="abuse" freq="145"/>
-     <lemma form="curl|curled" freq="145"/>
-     <lemma form="face|faced" freq="145"/>
+     <lemma form="curl" freq="145"/>
+     <lemma form="face" freq="145"/>
      <lemma form="wouldn’t" freq="145"/>
      <lemma form="sparkle" freq="144"/>
-     <lemma form="drink|drunk" freq="144"/>
+     <lemma form="drink" freq="144"/>
      <lemma form="distract" freq="143"/>
      <lemma form="oppose" freq="143"/>
      <lemma form="denounce" freq="143"/>
      <lemma form="stretch" freq="143"/>
-     <lemma form="explain|explaining" freq="143"/>
-     <lemma form="honour|honoured" freq="143"/>
-     <lemma form="stagger|staggered" freq="142"/>
+     <lemma form="explain" freq="143"/>
+     <lemma form="honour" freq="143"/>
+     <lemma form="stagger" freq="142"/>
      <lemma form="situate" freq="142"/>
-     <lemma form="deny|denied" freq="142"/>
-     <lemma form="stir|stirring" freq="142"/>
-     <lemma form="examine|examining" freq="142"/>
+     <lemma form="deny" freq="142"/>
+     <lemma form="stir" freq="142"/>
+     <lemma form="examine" freq="142"/>
      <lemma form="associate" freq="142"/>
-     <lemma form="refer|referred" freq="142"/>
-     <lemma form="include|included" freq="142"/>
+     <lemma form="refer" freq="142"/>
+     <lemma form="include" freq="142"/>
      <lemma form="vote" freq="141"/>
      <lemma form="hover" freq="141"/>
-     <lemma form="affect|affecting" freq="141"/>
+     <lemma form="affect" freq="141"/>
      <lemma form="drown" freq="141"/>
-     <lemma form="save|saving" freq="141"/>
-     <lemma form="earn|earned" freq="140"/>
+     <lemma form="save" freq="141"/>
+     <lemma form="earn" freq="140"/>
      <lemma form="haunt" freq="140"/>
-     <lemma form="pick|picking" freq="140"/>
+     <lemma form="pick" freq="140"/>
      <lemma form="honour" freq="140"/>
-     <lemma form="doom|doomed" freq="140"/>
-     <lemma form="attempt|attempting" freq="140"/>
+     <lemma form="doom" freq="140"/>
+     <lemma form="attempt" freq="140"/>
      <lemma form="rattle" freq="140"/>
      <lemma form="stray" freq="140"/>
      <lemma form="contrive" freq="139"/>
@@ -1330,29 +1330,29 @@
      <lemma form="shew" freq="139"/>
      <lemma form="vex" freq="139"/>
      <lemma form="condemn" freq="139"/>
-     <lemma form="select|selected" freq="138"/>
+     <lemma form="select" freq="138"/>
      <lemma form="accomplish" freq="138"/>
      <lemma form="crown" freq="138"/>
-     <lemma form="pant|panting" freq="138"/>
-     <lemma form="accuse|accused" freq="138"/>
+     <lemma form="pant" freq="138"/>
+     <lemma form="accuse" freq="138"/>
      <lemma form="hurl" freq="138"/>
      <lemma form="delight" freq="138"/>
-     <lemma form="join|joining" freq="137"/>
+     <lemma form="join" freq="137"/>
      <lemma form="bind" freq="137"/>
      <lemma form="reappear" freq="137"/>
      <lemma form="lack" freq="137"/>
      <lemma form="engage" freq="136"/>
-     <lemma form="regard|regards" freq="136"/>
-     <lemma form="flash|flashing" freq="136"/>
-     <lemma form="advise|advised" freq="136"/>
+     <lemma form="regard" freq="136"/>
+     <lemma form="flash" freq="136"/>
+     <lemma form="advise" freq="136"/>
      <lemma form="sustain" freq="135"/>
      <lemma form="breakfast" freq="135"/>
      <lemma form="re-enter" freq="135"/>
      <lemma form="it’s" freq="135"/>
-     <lemma form="charm|charmed" freq="135"/>
-     <lemma form="descend|descending" freq="135"/>
+     <lemma form="charm" freq="135"/>
+     <lemma form="descend" freq="135"/>
      <lemma form="gratify" freq="135"/>
-     <lemma form="exclaim|exclaiming" freq="135"/>
+     <lemma form="exclaim" freq="135"/>
      <lemma form="divide" freq="135"/>
      <lemma form="rear" freq="135"/>
      <lemma form="pile" freq="134"/>
@@ -1362,30 +1362,30 @@
      <lemma form="thril" freq="134"/>
      <lemma form="yearn" freq="134"/>
      <lemma form="sign" freq="134"/>
-     <lemma form="interest|interested" freq="134"/>
+     <lemma form="interest" freq="134"/>
      <lemma form="fare" freq="133"/>
      <lemma form="strengthen" freq="133"/>
-     <lemma form="remain|remaining" freq="133"/>
-     <lemma form="sweep|sweeping" freq="133"/>
-     <lemma form="colour|coloured" freq="133"/>
+     <lemma form="remain" freq="133"/>
+     <lemma form="sweep" freq="133"/>
+     <lemma form="colour" freq="133"/>
      <lemma form="launch" freq="132"/>
      <lemma form="calculate" freq="132"/>
-     <lemma form="settle|settling" freq="132"/>
+     <lemma form="settle" freq="132"/>
      <lemma form="post" freq="132"/>
      <lemma form="mock" freq="132"/>
      <lemma form="revive" freq="131"/>
      <lemma form="anticipate" freq="131"/>
      <lemma form="flatter" freq="131"/>
      <lemma form="disappear" freq="131"/>
-     <lemma form="teach|teaching" freq="131"/>
-     <lemma form="banish|banished" freq="131"/>
-     <lemma form="swear|sworn" freq="130"/>
-     <lemma form="search|searching" freq="130"/>
+     <lemma form="teach" freq="131"/>
+     <lemma form="banish" freq="131"/>
+     <lemma form="swear" freq="130"/>
+     <lemma form="search" freq="130"/>
      <lemma form="charge" freq="130"/>
-     <lemma form="trust|trusting" freq="130"/>
+     <lemma form="trust" freq="130"/>
      <lemma form="profit" freq="129"/>
      <lemma form="entrust" freq="129"/>
-     <lemma form="indicate|indicated" freq="129"/>
+     <lemma form="indicate" freq="129"/>
      <lemma form="denote" freq="129"/>
      <lemma form="despatch" freq="129"/>
      <lemma form="grumble" freq="129"/>
@@ -1395,7 +1395,7 @@
      <lemma form="pat" freq="128"/>
      <lemma form="disapprove" freq="128"/>
      <lemma form="embark" freq="128"/>
-     <lemma form="float|floating" freq="128"/>
+     <lemma form="float" freq="128"/>
      <lemma form="beckon" freq="128"/>
      <lemma form="sympathise" freq="127"/>
      <lemma form="preside" freq="127"/>
@@ -1404,46 +1404,46 @@
      <lemma form="assail" freq="127"/>
      <lemma form="calm" freq="127"/>
      <lemma form="surprise" freq="127"/>
-     <lemma form="judge|judging" freq="127"/>
-     <lemma form="mean|meaning" freq="127"/>
-     <lemma form="deal|dealing" freq="127"/>
+     <lemma form="judge" freq="127"/>
+     <lemma form="mean" freq="127"/>
+     <lemma form="deal" freq="127"/>
      <lemma form="entitle" freq="126"/>
-     <lemma form="yield|yielding" freq="126"/>
-     <lemma form="startle|startled" freq="126"/>
+     <lemma form="yield" freq="126"/>
+     <lemma form="startle" freq="126"/>
      <lemma form="thunder" freq="126"/>
      <lemma form="term" freq="126"/>
-     <lemma form="proceed|proceeding" freq="126"/>
-     <lemma form="seal|sealed" freq="126"/>
+     <lemma form="proceed" freq="126"/>
+     <lemma form="seal" freq="126"/>
      <lemma form="credit" freq="126"/>
      <lemma form="loosen" freq="126"/>
      <lemma form="darken" freq="126"/>
-     <lemma form="relieve|relieved" freq="125"/>
-     <lemma form="delight|delighted" freq="125"/>
+     <lemma form="relieve" freq="125"/>
+     <lemma form="delight" freq="125"/>
      <lemma form="relinquish" freq="125"/>
      <lemma form="wince" freq="125"/>
-     <lemma form="murmur|murmuring" freq="125"/>
+     <lemma form="murmur" freq="125"/>
      <lemma form="reason" freq="125"/>
      <lemma form="acquiesce" freq="125"/>
      <lemma form="ache" freq="125"/>
      <lemma form="shun" freq="125"/>
      <lemma form="reconcile" freq="124"/>
      <lemma form="enquire" freq="124"/>
-     <lemma form="stream|streaming" freq="124"/>
+     <lemma form="stream" freq="124"/>
      <lemma form="precede" freq="124"/>
      <lemma form="imitate" freq="124"/>
      <lemma form="conjure" freq="124"/>
      <lemma form="couldn’t" freq="124"/>
      <lemma form="whistle" freq="124"/>
-     <lemma form="mind|minded" freq="124"/>
+     <lemma form="mind" freq="124"/>
      <lemma form="reassure" freq="124"/>
      <lemma form="flirt" freq="124"/>
      <lemma form="harm" freq="123"/>
      <lemma form="avenge" freq="123"/>
      <lemma form="fool" freq="123"/>
      <lemma form="adjust" freq="123"/>
-     <lemma form="mutter|muttering" freq="123"/>
-     <lemma form="snatch|snatched" freq="123"/>
-     <lemma form="vex|vexed" freq="123"/>
+     <lemma form="mutter" freq="123"/>
+     <lemma form="snatch" freq="123"/>
+     <lemma form="vex" freq="123"/>
      <lemma form="cool" freq="122"/>
      <lemma form="surrender" freq="122"/>
      <lemma form="inspire" freq="122"/>
@@ -1451,55 +1451,55 @@
      <lemma form="mount" freq="122"/>
      <lemma form="clean" freq="122"/>
      <lemma form="moan" freq="122"/>
-     <lemma form="tear|tearing" freq="122"/>
-     <lemma form="avoid|avoiding" freq="122"/>
+     <lemma form="tear" freq="122"/>
+     <lemma form="avoid" freq="122"/>
      <lemma form="confirm" freq="122"/>
      <lemma form="unlock" freq="122"/>
      <lemma form="experience" freq="121"/>
-     <lemma form="annoy|annoyed" freq="121"/>
+     <lemma form="annoy" freq="121"/>
      <lemma form="retrace" freq="121"/>
-     <lemma form="crouch|crouched" freq="121"/>
+     <lemma form="crouch" freq="121"/>
      <lemma form="meddle" freq="121"/>
      <lemma form="prick" freq="120"/>
      <lemma form="soften" freq="120"/>
-     <lemma form="delay|delayed" freq="120"/>
-     <lemma form="punish|punished" freq="120"/>
+     <lemma form="delay" freq="120"/>
+     <lemma form="punish" freq="120"/>
      <lemma form="crush" freq="120"/>
      <lemma form="divert" freq="120"/>
-     <lemma form="strive|striving" freq="120"/>
+     <lemma form="strive" freq="120"/>
      <lemma form="frequent" freq="119"/>
-     <lemma form="retain|retained" freq="119"/>
-     <lemma form="approve|approved" freq="119"/>
+     <lemma form="retain" freq="119"/>
+     <lemma form="approve" freq="119"/>
      <lemma form="disclose" freq="119"/>
-     <lemma form="mention|mentioning" freq="119"/>
+     <lemma form="mention" freq="119"/>
      <lemma form="strain" freq="119"/>
-     <lemma form="thrust|thrusting" freq="119"/>
+     <lemma form="thrust" freq="119"/>
      <lemma form="mourn" freq="118"/>
-     <lemma form="grasp|grasping" freq="118"/>
+     <lemma form="grasp" freq="118"/>
      <lemma form="shame" freq="118"/>
      <lemma form="blot" freq="118"/>
-     <lemma form="shiver|shivering" freq="118"/>
+     <lemma form="shiver" freq="118"/>
      <lemma form="rock" freq="118"/>
-     <lemma form="pierce|pierced" freq="118"/>
+     <lemma form="pierce" freq="118"/>
      <lemma form="figure" freq="117"/>
-     <lemma form="toss|tossing" freq="117"/>
-     <lemma form="contract|contracted" freq="117"/>
-     <lemma form="argue|argued" freq="117"/>
-     <lemma form="record|recorded" freq="116"/>
+     <lemma form="toss" freq="117"/>
+     <lemma form="contract" freq="117"/>
+     <lemma form="argue" freq="117"/>
+     <lemma form="record" freq="116"/>
      <lemma form="despair" freq="116"/>
-     <lemma form="assume|assuming" freq="116"/>
+     <lemma form="assume" freq="116"/>
      <lemma form="bolt" freq="116"/>
      <lemma form="result" freq="116"/>
      <lemma form="envelop" freq="116"/>
-     <lemma form="train|trained" freq="116"/>
-     <lemma form="oppress|oppressed" freq="116"/>
+     <lemma form="train" freq="116"/>
+     <lemma form="oppress" freq="116"/>
      <lemma form="twinkle" freq="116"/>
      <lemma form="loathe" freq="116"/>
      <lemma form="lighten" freq="116"/>
-     <lemma form="buy|buying" freq="116"/>
+     <lemma form="buy" freq="116"/>
      <lemma form="develop" freq="115"/>
      <lemma form="accuse" freq="115"/>
-     <lemma form="plan|planned" freq="115"/>
+     <lemma form="plan" freq="115"/>
      <lemma form="annoy" freq="115"/>
      <lemma form="mingle" freq="115"/>
      <lemma form="unfold" freq="115"/>
@@ -1510,14 +1510,14 @@
      <lemma form="crave" freq="115"/>
      <lemma form="scratch" freq="115"/>
      <lemma form="sneer" freq="115"/>
-     <lemma form="bless|blessed" freq="114"/>
-     <lemma form="cover|covering" freq="114"/>
+     <lemma form="bless" freq="114"/>
+     <lemma form="cover" freq="114"/>
      <lemma form="intrude" freq="114"/>
      <lemma form="dictate" freq="114"/>
-     <lemma form="clench|clenched" freq="114"/>
+     <lemma form="clench" freq="114"/>
      <lemma form="apologise" freq="114"/>
      <lemma form="dispense" freq="114"/>
-     <lemma form="choose|choosing" freq="114"/>
+     <lemma form="choose" freq="114"/>
      <lemma form="subject" freq="114"/>
      <lemma form="sin" freq="114"/>
      <lemma form="alarm" freq="113"/>
@@ -1525,32 +1525,32 @@
      <lemma form="entail" freq="113"/>
      <lemma form="flit" freq="113"/>
      <lemma form="trample" freq="113"/>
-     <lemma form="understand|understanding" freq="113"/>
+     <lemma form="understand" freq="113"/>
      <lemma form="measure" freq="113"/>
-     <lemma form="publish|published" freq="113"/>
+     <lemma form="publish" freq="113"/>
      <lemma form="damn" freq="113"/>
      <lemma form="chill" freq="112"/>
      <lemma form="glimmer" freq="112"/>
-     <lemma form="force|forcing" freq="112"/>
-     <lemma form="flow|flowing" freq="112"/>
+     <lemma form="force" freq="112"/>
+     <lemma form="flow" freq="112"/>
      <lemma form="evade" freq="111"/>
      <lemma form="cultivate" freq="111"/>
-     <lemma form="practise|practised" freq="111"/>
-     <lemma form="bow|bowing" freq="111"/>
-     <lemma form="frightened|frighten" freq="111"/>
-     <lemma form="sell|selling" freq="111"/>
+     <lemma form="practise" freq="111"/>
+     <lemma form="bow" freq="111"/>
+     <lemma form="frightened" freq="111"/>
+     <lemma form="sell" freq="111"/>
      <lemma form="clap" freq="111"/>
-     <lemma form="devote|devoted" freq="111"/>
+     <lemma form="devote" freq="111"/>
      <lemma form="labour" freq="110"/>
-     <lemma form="engross|engrossed" freq="110"/>
+     <lemma form="engross" freq="110"/>
      <lemma form="screw" freq="110"/>
      <lemma form="practise" freq="110"/>
      <lemma form="esteem" freq="110"/>
-     <lemma form="claim|claimed" freq="110"/>
+     <lemma form="claim" freq="110"/>
      <lemma form="strew" freq="110"/>
      <lemma form="erect" freq="110"/>
-     <lemma form="arrive|arriving" freq="110"/>
-     <lemma form="lower|lowering" freq="110"/>
+     <lemma form="arrive" freq="110"/>
+     <lemma form="lower" freq="110"/>
      <lemma form="wrench" freq="110"/>
      <lemma form="writhe" freq="110"/>
      <lemma form="scatter" freq="110"/>
@@ -1560,42 +1560,42 @@
      <lemma form="correspond" freq="109"/>
      <lemma form="pervade" freq="109"/>
      <lemma form="subdue" freq="109"/>
-     <lemma form="contrast|contrasted" freq="109"/>
+     <lemma form="contrast" freq="109"/>
      <lemma form="execute" freq="109"/>
      <lemma form="bar" freq="109"/>
      <lemma form="repose" freq="109"/>
-     <lemma form="execute|executed" freq="109"/>
+     <lemma form="execute" freq="109"/>
      <lemma form="nestle" freq="109"/>
-     <lemma form="relax|relaxed" freq="109"/>
+     <lemma form="relax" freq="109"/>
      <lemma form="lessen" freq="109"/>
-     <lemma form="fling|flinging" freq="109"/>
+     <lemma form="fling" freq="109"/>
      <lemma form="devour" freq="109"/>
      <lemma form="aspire" freq="108"/>
      <lemma form="acquire" freq="108"/>
      <lemma form="apprehend" freq="108"/>
-     <lemma form="clothe|clothed" freq="108"/>
-     <lemma form="land|landed" freq="108"/>
-     <lemma form="dry|dried" freq="108"/>
-     <lemma form="like|liking" freq="108"/>
+     <lemma form="clothe" freq="108"/>
+     <lemma form="land" freq="108"/>
+     <lemma form="dry" freq="108"/>
+     <lemma form="like" freq="108"/>
      <lemma form="stream" freq="108"/>
      <lemma form="bustle" freq="108"/>
      <lemma form="furnish" freq="107"/>
-     <lemma form="urge|urging" freq="107"/>
-     <lemma form="seize|seizing" freq="107"/>
+     <lemma form="urge" freq="107"/>
+     <lemma form="seize" freq="107"/>
      <lemma form="speed" freq="107"/>
      <lemma form="hug" freq="107"/>
-     <lemma form="back|backed" freq="106"/>
-     <lemma form="possess|possessing" freq="106"/>
+     <lemma form="back" freq="106"/>
+     <lemma form="possess" freq="106"/>
      <lemma form="correct" freq="106"/>
      <lemma form="brood" freq="106"/>
      <lemma form="prosper" freq="106"/>
-     <lemma form="rest|rested" freq="106"/>
+     <lemma form="rest" freq="106"/>
      <lemma form="disregard" freq="106"/>
      <lemma form="prop" freq="106"/>
      <lemma form="bully" freq="106"/>
-     <lemma form="dare|daring" freq="106"/>
+     <lemma form="dare" freq="106"/>
      <lemma form="withhold" freq="105"/>
-     <lemma form="shock|shocked" freq="105"/>
+     <lemma form="shock" freq="105"/>
      <lemma form="puzzle" freq="105"/>
      <lemma form="pine" freq="105"/>
      <lemma form="frame" freq="105"/>
@@ -1605,21 +1605,21 @@
      <lemma form="hearken" freq="105"/>
      <lemma form="sip" freq="104"/>
      <lemma form="impel" freq="104"/>
-     <lemma form="swing|swinging" freq="104"/>
-     <lemma form="end|ending" freq="104"/>
-     <lemma form="impose|imposed" freq="104"/>
-     <lemma form="arouse|aroused" freq="104"/>
+     <lemma form="swing" freq="104"/>
+     <lemma form="end" freq="104"/>
+     <lemma form="impose" freq="104"/>
+     <lemma form="arouse" freq="104"/>
      <lemma form="no" freq="103"/>
-     <lemma form="pray|praying" freq="103"/>
-     <lemma form="win|winning" freq="103"/>
-     <lemma form="produce|producing" freq="103"/>
+     <lemma form="pray" freq="103"/>
+     <lemma form="win" freq="103"/>
+     <lemma form="produce" freq="103"/>
      <lemma form="chatter" freq="103"/>
      <lemma form="repel" freq="103"/>
-     <lemma form="quote|quoted" freq="103"/>
+     <lemma form="quote" freq="103"/>
      <lemma form="base" freq="103"/>
      <lemma form="conjecture" freq="103"/>
      <lemma form="dost" freq="102"/>
-     <lemma form="survey|surveying" freq="102"/>
+     <lemma form="survey" freq="102"/>
      <lemma form="agitate" freq="102"/>
      <lemma form="charm" freq="102"/>
      <lemma form="mix" freq="102"/>
@@ -1629,11 +1629,11 @@
      <lemma form="grip" freq="102"/>
      <lemma form="bet" freq="101"/>
      <lemma form="range" freq="101"/>
-     <lemma form="load|laden" freq="101"/>
-     <lemma form="accustom|accustomed" freq="101"/>
+     <lemma form="load" freq="101"/>
+     <lemma form="accustom" freq="101"/>
      <lemma form="assign" freq="101"/>
      <lemma form="hiss" freq="101"/>
-     <lemma form="strain|strained" freq="101"/>
+     <lemma form="strain" freq="101"/>
      <lemma form="arouse" freq="101"/>
      <lemma form="revert" freq="101"/>
      </frequencies>
