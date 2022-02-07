@@ -5,11 +5,11 @@
      <lemma form="fazer" freq="22506"/>
      <lemma form="ir" freq="21901"/>
      <lemma form="ver" freq="20206"/>
-     <lemma form="saber" freq="17307"/>
+ <lemma form="saber" freq="17307" inner="m"/>
      <lemma form="poder" freq="16536"/>
      <lemma form="dar" freq="14653"/>
      <lemma form="haver" freq="14026"/>
-     <lemma form="querer" freq="13595"/>
+ <lemma form="querer" freq="13595" inner="y"/>
      <lemma form="vir" freq="12744"/>
      <lemma form="passar" freq="8002"/>
      <lemma form="ficar" freq="7425"/>
@@ -21,18 +21,18 @@
      <lemma form="entrar" freq="5802"/>
      <lemma form="responder" freq="5602"/>
      <lemma form="olhar" freq="5237"/>
-     <lemma form="sentir" freq="5221"/>
-     <lemma form="conhecer" freq="5099"/>
+ <lemma form="sentir" freq="5221" inner="y"/>
+ <lemma form="conhecer" freq="5099" inner="y"/>
      <lemma form="pôr" freq="4557"/>
      <lemma form="tomar" freq="4518"/>
      <lemma form="levar" freq="4485"/>
      <lemma form="viver" freq="4423"/>
      <lemma form="voltar" freq="4323"/>
-     <lemma form="esperar" freq="4237"/>
+ <lemma form="esperar" freq="4237" inner="m"/>
      <lemma form="continuar" freq="4229"/>
      <lemma form="morrer" freq="4101"/>
      <lemma form="perguntar" freq="4037"/>
-     <lemma form="pensar" freq="3982"/>
+ <lemma form="pensar" freq="3982" inner="y"/>
      <lemma form="seguir" freq="3977"/>
      <lemma form="correr" freq="3891"/>
      <lemma form="abrir" freq="3856"/>
@@ -48,10 +48,10 @@
      <lemma form="exclamar" freq="3522"/>
      <lemma form="mandar" freq="3489"/>
      <lemma form="tornar" freq="3296"/>
-     <lemma form="amar" freq="3202"/>
+ <lemma form="amar" freq="3202" inner="y"/>
      <lemma form="receber" freq="3190"/>
      <lemma form="aparecer" freq="3081"/>
-     <lemma form="achar" freq="3003"/>
+ <lemma form="achar" freq="3003" inner="m"/>
      <lemma form="procurar" freq="2713"/>
      <lemma form="partir" freq="2634"/>
      <lemma form="contar" freq="2558"/>
@@ -65,7 +65,7 @@
      <lemma form="fallar" freq="2144"/>
      <lemma form="descer" freq="2127"/>
      <lemma form="rir" freq="2122"/>
-     <lemma form="julgar" freq="2107"/>
+ <lemma form="julgar" freq="2107" inner="y"/>
      <lemma form="subir" freq="2031"/>
      <lemma form="ultimar" freq="2021"/>
      <lemma form="esquecer" freq="1989"/>
@@ -73,9 +73,9 @@
      <lemma form="lembrar" freq="1954"/>
      <lemma form="bater" freq="1924"/>
      <lemma form="parar" freq="1913"/>
-     <lemma form="crer" freq="1896"/>
+ <lemma form="crer" freq="1896" inner="y"/>
      <lemma form="tirar" freq="1881"/>
-     <lemma form="desejar" freq="1881"/>
+ <lemma form="desejar" freq="1881" inner="y"/>
      <lemma form="tratar" freq="1875"/>
      <lemma form="acompanhar" freq="1864"/>
      <lemma form="casar" freq="1834"/>
@@ -91,8 +91,8 @@
      <lemma form="sahir" freq="1563"/>
      <lemma form="principiar" freq="1542"/>
      <lemma form="matar" freq="1524"/>
-     <lemma form="duvidar" freq="1519"/>
-     <lemma form="entender" freq="1517"/>
+ <lemma form="duvidar" freq="1519" inner="y"/>
+ <lemma form="entender" freq="1517" inner="y"/>
      <lemma form="erguer" freq="1509"/>
      <lemma form="entregar" freq="1505"/>
      <lemma form="gritar" freq="1496"/>
@@ -104,7 +104,7 @@
      <lemma form="animar" freq="1385"/>
      <lemma form="lançar" freq="1385"/>
      <lemma form="valer" freq="1345"/>
-     <lemma form="perceber" freq="1344"/>
+ <lemma form="perceber" freq="1344" inner="y"/>
      <lemma form="vestir" freq="1283"/>
      <lemma form="pagar" freq="1269"/>
      <lemma form="observar" freq="1265"/>

@@ -4,9 +4,9 @@
      <lemma form="priti" freq="14520"/>
      <lemma form="hoteti" freq="13584"/>
      <lemma form="iti" freq="13446"/>
-     <lemma form="moči" freq="12600"/>
+     <lemma form="moči" freq="12600" inner="y"/>
      <lemma form="videti" freq="12574"/>
-     <lemma form="morati" freq="11180"/>
+     <lemma form="morati" freq="11180" inner="y"/>
      <lemma form="reči" freq="9863"/>
      <lemma form="govoriti" freq="9027"/>
      <lemma form="misliti" freq="8063"/>
@@ -51,8 +51,8 @@
      <lemma form="ležati" freq="2403"/>
      <lemma form="pokazati" freq="2305"/>
      <lemma form="iskati" freq="2284"/>
-     <lemma form="pozabiti" freq="2211"/>
-     <lemma form="spoznati" freq="2198"/>
+     <lemma form="pozabiti" freq="2211"  inner="y"/>
+     <lemma form="spoznati" freq="2198"  inner="y"/>
      <lemma form="odpreti" freq="2177"/>
      <lemma form="upati" freq="2130"/>
      <lemma form="prihajati" freq="2032"/>
@@ -61,7 +61,7 @@
      <lemma form="želeti" freq="1928"/>
      <lemma form="prinesti" freq="1915"/>
      <lemma form="vstati" freq="1902"/>
-     <lemma form="molčati" freq="1868"/>
+     <lemma form="molčati" freq="1868"  inner="y"/>
      <lemma form="pasti" freq="1860"/>
      <lemma form="držati" freq="1843"/>
      <lemma form="ozreti" freq="1840"/>
@@ -75,7 +75,7 @@
      <lemma form="pripovedovati" freq="1726"/>
      <lemma form="braniti" freq="1685"/>
      <lemma form="zapustiti" freq="1670"/>
-     <lemma form="razumeti" freq="1659"/>
+     <lemma form="razumeti" freq="1659"  inner="y"/>
      <lemma form="rešiti" freq="1634"/>
      <lemma form="nositi" freq="1611"/>
      <lemma form="klicati" freq="1608"/>
@@ -92,7 +92,7 @@
      <lemma form="spati" freq="1397"/>
      <lemma form="spregovoriti" freq="1324"/>
      <lemma form="udariti" freq="1293"/>
-     <lemma form="pričakovati" freq="1287"/>
+     <lemma form="pričakovati" freq="1287" inner="m"/>
      <lemma form="napraviti" freq="1281"/>
      <lemma form="postaviti" freq="1274"/>
      <lemma form="zapaziti" freq="1230"/>
@@ -106,7 +106,7 @@
      <lemma form="goditi" freq="1153"/>
      <lemma form="veseliti" freq="1152"/>
      <lemma form="zaklicati" freq="1151"/>
-     <lemma form="skrbeti" freq="1147"/>
+     <lemma form="skrbeti" freq="1147"  inner="y"/>
      <lemma form="zvedeti" freq="1140"/>
      <lemma form="pričeti" freq="1135"/>
      <lemma form="skočiti" freq="1130"/>
@@ -121,7 +121,7 @@
      <lemma form="položiti" freq="1075"/>
      <lemma form="odvrniti" freq="1065"/>
      <lemma form="čuditi" freq="1063"/>
-     <lemma form="trpeti" freq="1058"/>
+     <lemma form="trpeti" freq="1058" inner="m"/>
      <lemma form="oglasiti" freq="1053"/>
      <lemma form="voditi" freq="1051"/>
      <lemma form="siliti" freq="1046"/>
@@ -136,7 +136,7 @@
      <lemma form="narediti" freq="1000"/>
      <lemma form="peljati" freq="982"/>
      <lemma form="vleči" freq="980"/>
-     <lemma form="opaziti" freq="980"/>
+     <lemma form="opaziti" freq="980"  inner="y"/>
      <lemma form="soditi" freq="976"/>
      <lemma form="seči" freq="964"/>
      <lemma form="goreti" freq="957"/>
@@ -194,8 +194,8 @@
      <lemma form="ločiti" freq="707"/>
      <lemma form="prašati" freq="707"/>
      <lemma form="približati" freq="705"/>
-     <lemma form="sanjati" freq="703"/>
-     <lemma form="zaupati" freq="701"/>
+     <lemma form="sanjati" freq="703"  inner="m"/>
+     <lemma form="zaupati" freq="701" inner="m"/>
      <lemma form="tolažiti" freq="699"/>
      <lemma form="premišljevati" freq="695"/>
      <lemma form="čitati" freq="694"/>
@@ -221,7 +221,7 @@
      <lemma form="vzdigniti" freq="637"/>
      <lemma form="premagati" freq="635"/>
      <lemma form="vpiti" freq="628"/>
-     <lemma form="odločiti" freq="628"/>
+     <lemma form="odločiti" freq="628"  inner="y"/>
      <lemma form="prepričati" freq="625"/>
      <lemma form="ujeti" freq="623"/>
      <lemma form="boleti" freq="618"/>
@@ -271,7 +271,7 @@
      <lemma form="izbrati" freq="532"/>
      <lemma form="ponavljati" freq="531"/>
      <lemma form="nasloniti" freq="529"/>
-     <lemma form="trepetati" freq="528"/>
+     <lemma form="trepetati" freq="528" inner="m"/>
      <lemma form="skloniti" freq="527"/>
      <lemma form="povabiti" freq="524"/>
      <lemma form="mrmrati" freq="521"/>
@@ -307,7 +307,7 @@
      <lemma form="sijati" freq="464"/>
      <lemma form="svetovati" freq="462"/>
      <lemma form="tičati" freq="462"/>
-     <lemma form="sovražiti" freq="460"/>
+     <lemma form="sovražiti" freq="460" inner="m"/>
      <lemma form="zahajati" freq="460"/>
      <lemma form="leči" freq="460"/>
      <lemma form="vzbuditi" freq="456"/>
@@ -382,7 +382,7 @@
      <lemma form="razlagati" freq="371"/>
      <lemma form="pripetiti" freq="370"/>
      <lemma form="poročiti" freq="367"/>
-     <lemma form="hrepeneti" freq="367"/>
+     <lemma form="hrepeneti" freq="367" inner="m"/>
      <lemma form="meriti" freq="366"/>
      <lemma form="porabiti" freq="366"/>
      <lemma form="obiti" freq="364"/>
@@ -410,7 +410,7 @@
      <lemma form="odložiti" freq="346"/>
      <lemma form="metati" freq="345"/>
      <lemma form="žaliti" freq="342"/>
-     <lemma form="nameravati" freq="342"/>
+     <lemma form="nameravati" freq="342" inner="y"/>
      <lemma form="prebuditi" freq="341"/>
      <lemma form="peči" freq="340"/>
      <lemma form="sukati" freq="340"/>
@@ -527,7 +527,7 @@
      <lemma form="občutiti" freq="264"/>
      <lemma form="zamahniti" freq="263"/>
      <lemma form="iztrgati" freq="262"/>
-     <lemma form="smiliti" freq="261"/>
+     <lemma form="smiliti" freq="261" inner="m"/>
      <lemma form="zapomniti" freq="261"/>
      <lemma form="pomikati" freq="257"/>
      <lemma form="prikimati" freq="257"/>
@@ -687,7 +687,7 @@
      <lemma form="ustreči" freq="196"/>
      <lemma form="premakniti" freq="196"/>
      <lemma form="pretrgati" freq="196"/>
-     <lemma form="žalovati" freq="196"/>
+     <lemma form="žalovati" freq="196" inner="m"/>
      <lemma form="raztrgati" freq="195"/>
      <lemma form="uteči" freq="195"/>
      <lemma form="zapovedovati" freq="195"/>
@@ -851,7 +851,7 @@
      <lemma form="osupniti" freq="154"/>
      <lemma form="dolgočasiti" freq="154"/>
      <lemma form="zamoči" freq="154"/>
-     <lemma form="obupati" freq="153"/>
+     <lemma form="obupati" freq="153" inner="m"/>
      <lemma form="razmišljati" freq="153"/>
      <lemma form="obležati" freq="153"/>
      <lemma form="stresati" freq="153"/>

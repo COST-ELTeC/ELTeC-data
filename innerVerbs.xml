@@ -1,0 +1,62 @@
+<unambiguousLemmata>
+<list xml:lang="eng">
+<lemma form="know" freq="31923" inner="y"/>
+<lemma form="see" freq="31793" inner="y"/>
+<lemma form="think" freq="28704"  inner="y"/>
+<lemma form="seem" freq="14863"  inner="y"/>
+<lemma form="feel" freq="12737"  inner="y"/>
+<lemma form="hear" freq="11297"  inner="y"/>
+<lemma form="mean" freq="6617"  inner="y"/>
+<lemma form="believe" freq="6595"  inner="y"/>
+<lemma form="want" freq="6222"  inner="y"/>
+<lemma form="like" freq="5744"  inner="y"/>
+</list>
+<list xml:lang="fra">
+<lemma form="voir" freq="23369" inner="y"/>
+<lemma form="vouloir" freq="18628" inner="y"/>
+<lemma form="savoir" freq="17463" inner="y"/>
+<lemma form="trouver" freq="11656" inner="y"/>
+<lemma form="croire" freq="9800" inner="y"/>
+<lemma form="aimer" freq="9307" inner="y"/>
+<lemma form="entendre" freq="8621" inner="y"/>
+<lemma form="regarder" freq="7705" inner="y"/>
+<lemma form="connaître" freq="6383" inner="y"/>
+<lemma form="sembler" freq="5990" inner="y"/>
+</list>
+<list xml:lang="nor">
+<lemma form="tænke" freq="3352" inner="y"/>
+<lemma form="tro" freq="2452" inner="y"/>
+<lemma form="føle" freq="1970" inner="y"/>
+<lemma form="forstaa" freq="1826" inner="y"/>
+<lemma form="elske" freq="1263" inner="y"/>
+<lemma form="turde" freq="577" inner="y"/>
+<lemma form="lide" freq="532" inner="y"/>
+<lemma form="ønske" freq="504" inner="y"/>
+<lemma form="drømme" freq="315" inner="y"/>
+<lemma form="vove" freq="241" inner="y"/>
+</list>
+<list xml:lang="por">
+<lemma form="querer" freq="13595" inner="y"/>
+<lemma form="sentir" freq="5221" inner="y"/>
+<lemma form="conhecer" freq="5099" inner="y"/>
+<lemma form="pensar" freq="3982" inner="y"/>
+<lemma form="amar" freq="3202" inner="y"/>
+<lemma form="julgar" freq="2107" inner="y"/>
+<lemma form="crer" freq="1896" inner="y"/>
+<lemma form="desejar" freq="1881" inner="y"/>
+<lemma form="duvidar" freq="1519" inner="y"/>
+<lemma form="entender" freq="1517" inner="y"/>
+</list>
+<list xml:lang="slv">
+<lemma form="moči" freq="12600" inner="y"/>
+<lemma form="morati" freq="11180" inner="y"/>
+<lemma form="pozabiti" freq="2211"  inner="y"/>
+<lemma form="spoznati" freq="2198"  inner="y"/>
+<lemma form="molčati" freq="1868"  inner="y"/>
+<lemma form="razumeti" freq="1659"  inner="y"/>
+<lemma form="skrbeti" freq="1147"  inner="y"/>
+<lemma form="opaziti" freq="980"  inner="y"/>
+<lemma form="odločiti" freq="628"  inner="y"/>
+<lemma form="nameravati" freq="342" inner="y"/>
+</list>
+</unambiguousLemmata>

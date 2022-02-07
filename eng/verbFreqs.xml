@@ -1,24 +1,25 @@
-<frequencies><lemma form="be" freq="474605"/>
+<frequencies>
+     <lemma form="be" freq="474605"/>
      <lemma form="have" freq="209747"/>
      <lemma form="do" freq="80952"/>
      <lemma form="say" freq="59798"/>
      <lemma form="go" freq="32417"/>
-     <lemma form="know" freq="31923"/>
+     <lemma form="know" freq="31923" inner="y"/>
      <lemma form="come" freq="31872"/>
-     <lemma form="see" freq="31793"/>
-     <lemma form="think" freq="28704"/>
+ <lemma form="see" freq="31793" inner="y"/>
+ <lemma form="think" freq="28704"  inner="y"/>
      <lemma form="make" freq="27688"/>
      <lemma form="say" freq="23252"/>
-     <lemma form="look" freq="18629"/>
+ <lemma form="look" freq="18629"  inner="m"/>
      <lemma form="take" freq="18154"/>
      <lemma form="get" freq="16428"/>
-     <lemma form="seem" freq="14863"/>
-     <lemma form="find" freq="13450"/>
+ <lemma form="seem" freq="14863"  inner="y"/>
+ <lemma form="find" freq="13450"  inner="m"/>
      <lemma form="tell" freq="13230"/>
      <lemma form="give" freq="13181"/>
-     <lemma form="feel" freq="12737"/>
+ <lemma form="feel" freq="12737"  inner="y"/>
      <lemma form="ask" freq="11690"/>
-     <lemma form="hear" freq="11297"/>
+ <lemma form="hear" freq="11297"  inner="y"/>
      <lemma form="let" freq="8904"/>
      <lemma form="speak" freq="8520"/>
      <lemma form="stand" freq="7830"/>
@@ -29,23 +30,23 @@
      <lemma form="bring" freq="6977"/>
      <lemma form="begin" freq="6880"/>
      <lemma form="sit" freq="6802"/>
-     <lemma form="mean" freq="6617"/>
-     <lemma form="believe" freq="6595"/>
+ <lemma form="mean" freq="6617"  inner="y"/>
+ <lemma form="believe" freq="6595"  inner="y"/>
      <lemma form="answer" freq="6314"/>
      <lemma form="cry" freq="6274"/>
-     <lemma form="want" freq="6222"/>
+ <lemma form="want" freq="6222"  inner="y"/>
      <lemma form="become" freq="6196"/>
-     <lemma form="like" freq="5744"/>
+ <lemma form="like" freq="5744"  inner="y"/>
      <lemma form="look" freq="5582"/>
      <lemma form="return" freq="5391"/>
      <lemma form="meet" freq="5238"/>
-     <lemma form="wish" freq="4931"/>
+ <lemma form="wish" freq="4931"  inner="y"/>
      <lemma form="reply" freq="4826"/>
      <lemma form="turn" freq="4824"/>
      <lemma form="live" freq="4690"/>
      <lemma form="tell" freq="4526"/>
      <lemma form="show" freq="4524"/>
-     <lemma form="suppose" freq="4504"/>
+ <lemma form="suppose" freq="4504"  inner="y"/>
      <lemma form="send" freq="4428"/>
      <lemma form="call" freq="4236"/>
      <lemma form="talk" freq="4225"/>

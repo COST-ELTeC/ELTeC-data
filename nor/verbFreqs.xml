@@ -16,25 +16,25 @@
      <lemma form="ligge" freq="3787"/>
      <lemma form="høre" freq="3731"/>
      <lemma form="sidde" freq="3511"/>
-     <lemma form="tænke" freq="3352"/>
+ <lemma form="tænke" freq="3352" inner="y"/>
      <lemma form="vide" freq="3290"/>
      <lemma form="holde" freq="2985"/>
      <lemma form="sætte" freq="2907"/>
      <lemma form="svare" freq="2777"/>
      <lemma form="give" freq="2766"/>
      <lemma form="synes" freq="2494"/>
-     <lemma form="tro" freq="2452"/>
+ <lemma form="tro" freq="2452" inner="y"/>
      <lemma form="vite" freq="2137"/>
      <lemma form="lægge" freq="2089"/>
      <lemma form="spørge" freq="2064"/>
      <lemma form="le" freq="2042"/>
-     <lemma form="føle" freq="1970"/>
+     <lemma form="føle" freq="1970" inner="y"/>
      <lemma form="gjøre" freq="1936"/>
      <lemma form="begynde" freq="1933"/>
      <lemma form="finde" freq="1880"/>
      <lemma form="tale" freq="1878"/>
-     <lemma form="slaa" freq="1833"/>
-     <lemma form="forstaa" freq="1826"/>
+ <lemma form="slaa" freq="1833"/>
+ <lemma form="forstaa" freq="1826" inner="y"/>
      <lemma form="lade-1" freq="1675"/>
      <lemma form="snakke" freq="1605"/>
      <lemma form="kende" freq="1565"/>
@@ -47,7 +47,7 @@
      <lemma form="sitte" freq="1363"/>
      <lemma form="rejse-2" freq="1348"/>
      <lemma form="falde" freq="1336"/>
-     <lemma form="elske" freq="1263"/>
+ <lemma form="elske" freq="1263" inner="y"/>
      <lemma form="smile" freq="1173"/>
      <lemma form="læse" freq="1151"/>
      <lemma form="vise" freq="1140"/>
@@ -98,7 +98,7 @@
      <lemma form="stikke" freq="604"/>
      <lemma form="træffe" freq="598"/>
      <lemma form="stige" freq="595"/>
-     <lemma form="turde" freq="577"/>
+ <lemma form="turde" freq="577" inner="y"/>
      <lemma form="kysse" freq="576"/>
      <lemma form="stille" freq="565"/>
      <lemma form="røre" freq="562"/>
@@ -108,11 +108,11 @@
      <lemma form="løfte" freq="538"/>
      <lemma form="mærke" freq="535"/>
      <lemma form="tilslutte" freq="533"/>
-     <lemma form="lide" freq="532"/>
+ <lemma form="lide" freq="532" inner="y"/>
      <lemma form="bo" freq="530"/>
      <lemma form="burde" freq="514"/>
      <lemma form="køre" freq="512"/>
-     <lemma form="ønske" freq="504"/>
+ <lemma form="ønske" freq="504" inner="y"/>
      <lemma form="vare" freq="501"/>
      <lemma form="spørre" freq="497"/>
      <lemma form="gjere" freq="492"/>
@@ -173,7 +173,7 @@
      <lemma form="gle" freq="317"/>
      <lemma form="vandre" freq="316"/>
      <lemma form="ende" freq="315"/>
-     <lemma form="drømme" freq="315"/>
+ <lemma form="drømme" freq="315" inner="y"/>
      <lemma form="slippe-1" freq="314"/>
      <lemma form="findes" freq="312"/>
      <lemma form="ligne" freq="309"/>
@@ -223,7 +223,7 @@
      <lemma form="vedblive" freq="251"/>
      <lemma form="betragte" freq="245"/>
      <lemma form="bry" freq="242"/>
-     <lemma form="vove" freq="241"/>
+ <lemma form="vove" freq="241" inner="y"/>
      <lemma form="skjule" freq="241"/>
      <lemma form="byde" freq="239"/>
      <lemma form="skære" freq="233"/>

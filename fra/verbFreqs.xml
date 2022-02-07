@@ -3,13 +3,13 @@
      <lemma form="faire" freq="50462"/>
      <lemma form="dire" freq="41524"/>
      <lemma form="aller" freq="23670"/>
-     <lemma form="voir" freq="23369"/>
+     <lemma form="voir" freq="23369" inner="y"/>
      <lemma form="pouvoir" freq="23026"/>
-     <lemma form="vouloir" freq="18628"/>
+ <lemma form="vouloir" freq="18628" inner="y"/>
      <lemma form="venir" freq="17529"/>
-     <lemma form="savoir" freq="17463"/>
+ <lemma form="savoir" freq="17463" inner="y"/>
      <lemma form="prendre" freq="14611"/>
-     <lemma form="trouver" freq="11656"/>
+ <lemma form="trouver" freq="11656" inner="y"/>
      <lemma form="donner" freq="11308"/>
      <lemma form="—" freq="10938"/>
      <lemma form="devoir" freq="10580"/>
@@ -17,25 +17,25 @@
      <lemma form="mettre" freq="10163"/>
      <lemma form="falloir" freq="10040"/>
      <lemma form="parler" freq="9896"/>
-     <lemma form="croire" freq="9800"/>
+ <lemma form="croire" freq="9800" inner="y"/>
      <lemma form="répondre" freq="9565"/>
      <lemma form="demander" freq="9420"/>
-     <lemma form="aimer" freq="9307"/>
+ <lemma form="aimer" freq="9307" inner="y"/>
      <lemma form="être|suivre" freq="8809"/>
      <lemma form="laisser" freq="8663"/>
-     <lemma form="entendre" freq="8621"/>
-     <lemma form="regarder" freq="7705"/>
+ <lemma form="entendre" freq="8621" inner="y"/>
+ <lemma form="regarder" freq="7705" inner="y"/>
      <lemma form="rester" freq="7222"/>
      <lemma form="tenir" freq="7098"/>
      <lemma form="arriver" freq="7077"/>
-     <lemma form="connaître" freq="6383"/>
+ <lemma form="connaître" freq="6383" inner="y"/>
      <lemma form="attendre" freq="6377"/>
      <lemma form="rendre" freq="6177"/>
      <lemma form="penser" freq="6133"/>
-     <lemma form="sembler" freq="5990"/>
-     <lemma form="sentir" freq="5588"/>
+ <lemma form="sembler" freq="5990" inner="y"/>
+ <lemma form="sentir" freq="5588" inner="m"/>
      <lemma form="vivre" freq="5546"/>
-     <lemma form="comprendre" freq="5470"/>
+ <lemma form="comprendre" freq="5470" inner="m"/>
      <lemma form="sortir" freq="5354"/>
      <lemma form="reprendre" freq="5219"/>
      <lemma form="revenir" freq="5127"/>
