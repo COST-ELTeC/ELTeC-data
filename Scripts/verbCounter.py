@@ -12,20 +12,29 @@ if (len(sys.argv) <= 1) :
     exit()
 
 REPO=sys.argv[1]
-print("Looking for repo "+REPO)
+print("Inner verbs for "+REPO)
 REPOROOT=HOME+'ELTeC-'+REPO+"/"
 DRIVERFILE=REPOROOT+"driver-2.tei"
+VERBFILE=HOME+'ELTeC-data/innerVerbs.xml'
 SCRIPT0=HOME+'Scripts/posPipe/getFileNames.xsl'
-SCRIPT1=HOME+'ELTeC-data/verbCounter.xsl'
+SCRIPT1=HOME+'ELTeC-data/Scripts/verbCounter.xsl'
+SCRIPT2=HOME+'ELTeC-data/Scripts/getVerbList.xsl'
 OUTFILE=HOME+'ELTeC-data/'+REPO+'/verbCounter.results'
-output=open(OUTFILE,'w')
-output.write('<listPoints>')
+
 with saxonc.PySaxonProcessor(license=False) as proc:
-    # re open the output file in append mode  
-    output=open(OUTFILE,'a')
+  
     print(proc.version)
     xsltproc = proc.new_xslt30_processor()
     xsltproc.set_result_as_raw_value(True) 
+# get the list of verbs for REPO using script SCRIPT2 and output header
+    xsltproc.set_initial_match_selection(file_name=VERBFILE)
+    verbList= xsltproc.apply_templates_returning_string(stylesheet_file=SCRIPT2)
+# open the output file in write mode  
+    output=open(OUTFILE,'w')
+    output.write(verbList)
+    output.close()
+# reopen the output file in append mode  
+    output=open(OUTFILE,'a')
 # get the list of files to process from the DRIVERFILE  using SCRIPT0
     xsltproc.set_initial_match_selection(file_name=DRIVERFILE)
     fileList= xsltproc.apply_templates_returning_string(stylesheet_file=SCRIPT0)
@@ -40,6 +49,3 @@ with saxonc.PySaxonProcessor(license=False) as proc:
       result = xsltproc.apply_templates_returning_string(stylesheet_file=SCRIPT1)
       output.write(result)
     output.close()
-output=open(OUTFILE,'a')
-output.write('</listPoints>')
-output.close()    

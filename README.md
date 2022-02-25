@@ -15,7 +15,7 @@ The following datasets are currently stored:
 ## How to generate these datasets
 ###
 #### filter.py
-The Python3 script `filter.py` can be used to generate many datasets. Once you have installed it, the Saxon/C library on which it depends, and the XSLT script `filter.xsl` which it invokes, you can run it at
+The Python3 script `filter.py` generates datasets from level 2 encoded files. Once you have installed it, the Saxon/C library on which it depends, and the XSLT script `filter.xsl` which it invokes, you can run it at
 the command line as follows:
 ~~~
 python filter.py [lang] [pos] [wot]
@@ -28,7 +28,7 @@ The script writes a new folder called `[pos]` in the appropriate language folder
 
 #### verbFreq.xsl
 
-This is a simple XSLT script which produces a list of all distinct lemmas marked with pos code `VERB` and their frequencies in the nominated corpus. Only lemmas with frequencies above 100 are listed,  in descending frequency order. 
+The XSLT script `verbFreq.xsl` produces a list of all distinct lemmas marked with pos code `VERB` and their frequencies in the nominated corpus. Only lemmas with frequencies above 100 are listed,  in descending frequency order. 
 
 To run it for corpus [xxx] use the following command line:
 ~~~~
