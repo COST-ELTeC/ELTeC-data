@@ -28,6 +28,7 @@ with saxonc.PySaxonProcessor(license=False) as proc:
     xsltproc.set_result_as_raw_value(True) 
 # get the list of verbs for REPO using script SCRIPT2 and output header
     xsltproc.set_initial_match_selection(file_name=VERBFILE)
+    xsltproc.set_parameter("lang",proc.make_string_value(REPO))
     verbList= xsltproc.apply_templates_returning_string(stylesheet_file=SCRIPT2)
 # open the output file in write mode  
     output=open(OUTFILE,'w')
@@ -45,6 +46,7 @@ with saxonc.PySaxonProcessor(license=False) as proc:
       print("Processing "+FILE)
       xsltproc.set_initial_match_selection(file_name=REPOROOT+FILE)
       xsltproc.set_parameter("lang",proc.make_string_value(REPO))
+#     xsltproc.set_parameter("verbList",proc.make_string_value(verbList))
 # apply stylesheet to do the counting
       result = xsltproc.apply_templates_returning_string(stylesheet_file=SCRIPT1)
       output.write(result)

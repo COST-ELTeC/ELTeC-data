@@ -4,7 +4,9 @@
  exclude-result-prefixes="xs t" version="2.0">
 <xsl:output omit-xml-declaration="yes" method="text"/>
  
- <xsl:param name="lang">por</xsl:param>
+ <xsl:param name="lang">eng</xsl:param>
+ 
+ <xsl:param name="verbList" select='("believe","feel","hear","know","like","mean","see","seem","think","want")'/>
  
  <xsl:template match="/">
 
@@ -51,13 +53,19 @@
   <xsl:variable name="verbs">
    <xsl:value-of select="count($root/t:TEI/t:text/t:body//t:w[@pos = 'VERB'])"/>
   </xsl:variable>
+
+  <xsl:variable name="innerVerbs">
+   <xsl:value-of select="count($root/t:TEI/t:text/t:body//t:w[@pos = 'VERB'][index-of($verbList, @lemma) ge 1])"/>
+  </xsl:variable>
+
   
 <xsl:text>
-</xsl:text> <xsl:value-of select="concat($textId,' ', $date,' ', $verbs)" />
+</xsl:text> <xsl:value-of select="concat($textId,' ', $date,' ', $verbs, ' ', $innerVerbs)" />
   
-  <xsl:for-each select="document('/home/lou/Public/ELTeC-data/innerVerbs.xml')//list[@xml:lang=$lang]/lemma/@form">
+<xsl:for-each select="document('/home/lou/Public/ELTeC-data/innerVerbs.xml')//list[@xml:lang=$lang]/lemma/@form">
   <xsl:sort/>
-  <xsl:variable name="lem">
+ 
+ <xsl:variable name="lem">
     <xsl:value-of select="."/>
    </xsl:variable>
 
@@ -67,9 +75,7 @@
 
    <xsl:text> </xsl:text><xsl:value-of select="$occurs"/>
    
-   
-
-  </xsl:for-each>
+ </xsl:for-each>
  </xsl:template>
 
 </xsl:stylesheet>
