@@ -5,12 +5,22 @@
 <xsl:output omit-xml-declaration="yes" method="text"/>
  
  <xsl:param name="lang">eng</xsl:param>
+ <xsl:param name="verbString"/>
  
- <xsl:param name="verbList" select='("believe","feel","hear","know","like","mean","see","seem","think","want")'/>
+ <xsl:variable name="verbListSeq" select='("believe","feel","hear","know","like","mean","see","seem","think","want")'/>
  
  <xsl:template match="/">
-
+  
+  <xsl:message>verbstring: <xsl:value-of select="$verbString"/></xsl:message>
+  
   <xsl:variable name="root" select="."/>
+  
+  <xsl:variable name="verbList">
+   <xsl:sequence select="tokenize($verbString,' ')"/>
+  </xsl:variable>
+
+  <xsl:message>verbList: <xsl:value-of select="$verbList[1]"/></xsl:message>
+  <xsl:message>verbListSeq: <xsl:value-of select="$verbListSeq[1]"/></xsl:message>
   
   <xsl:variable name="dateStr">
    <xsl:choose>

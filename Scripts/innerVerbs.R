@@ -14,11 +14,11 @@ dataset<-read.table(fileName,header=TRUE)
 
 # creates some extra columns for timespans
 compute_decade<-function(x) {
-trunc((x-1840)/10)+1}
+trunc((x-1839)/10)+1}
 fiveyears<-function(x) {
-trunc((x-1840)/5)+1}
+trunc((x-1839)/5)+1}
 twentyyears<-function(x) {
-trunc((x-1840)/20)+1}
+trunc((x-1839)/20)+1}
 dataset$decade<-compute_decade(dataset$year)
 dataset$five<-fiveyears(dataset$year)
 dataset$twenty<-twentyyears(dataset$year)
