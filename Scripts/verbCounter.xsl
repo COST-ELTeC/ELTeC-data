@@ -4,23 +4,14 @@
  exclude-result-prefixes="xs t" version="2.0">
 <xsl:output omit-xml-declaration="yes" method="text"/>
  
- <xsl:param name="lang">eng</xsl:param>
- <xsl:param name="verbString"/>
- 
- <xsl:variable name="verbListSeq" select='("believe","feel","hear","know","like","mean","see","seem","think","want")'/>
+ <!--believe feel hear know like mean see seem think want-->
+ <xsl:param name="verbString">amar conhecer crer desejar duvidar entender julgar pensar querer sentir</xsl:param>
  
  <xsl:template match="/">
   
-  <xsl:message>verbstring: <xsl:value-of select="$verbString"/></xsl:message>
-  
+ <!-- <xsl:message>verbstring: <xsl:value-of select="$verbString"/></xsl:message>
+ --> 
   <xsl:variable name="root" select="."/>
-  
-  <xsl:variable name="verbList">
-   <xsl:sequence select="tokenize($verbString,' ')"/>
-  </xsl:variable>
-
-  <xsl:message>verbList: <xsl:value-of select="$verbList[1]"/></xsl:message>
-  <xsl:message>verbListSeq: <xsl:value-of select="$verbListSeq[1]"/></xsl:message>
   
   <xsl:variable name="dateStr">
    <xsl:choose>
@@ -55,37 +46,52 @@
  </xsl:choose>
 </xsl:variable>
   
- 
   <xsl:variable name="textId">
    <xsl:value-of select="/t:TEI/@xml:id"/>
   </xsl:variable>
 
   <xsl:variable name="verbs">
-   <xsl:value-of select="count($root/t:TEI/t:text/t:body//t:w[@pos = 'VERB'])"/>
+   <xsl:value-of select="count($root/t:TEI/t:text/t:body//t:w[starts-with(@pos,'VERB')])"/>
   </xsl:variable>
 
   <xsl:variable name="innerVerbs">
-   <xsl:value-of select="count($root/t:TEI/t:text/t:body//t:w[@pos = 'VERB'][index-of($verbList, @lemma) ge 1])"/>
+   <xsl:value-of select="count($root/t:TEI/t:text/t:body//t:w[starts-with(@pos,'VERB')][contains($verbString, concat(@lemma,' '))])"/>
   </xsl:variable>
 
+<!-- output starts here -->
   
 <xsl:text>
 </xsl:text> <xsl:value-of select="concat($textId,' ', $date,' ', $verbs, ' ', $innerVerbs)" />
   
-<xsl:for-each select="document('/home/lou/Public/ELTeC-data/innerVerbs.xml')//list[@xml:lang=$lang]/lemma/@form">
-  <xsl:sort/>
- 
- <xsl:variable name="lem">
+<!-- loop around innerverb list -->
+  
+  <xsl:for-each select="tokenize($verbString,' ')">
+  <xsl:variable name="lem">
     <xsl:value-of select="."/>
    </xsl:variable>
-
-   <xsl:variable name="occurs">
-    <xsl:value-of select="count($root/t:TEI/t:text/t:body//t:w[@lemma = $lem])"/>
+ <!--  <xsl:message>Counting <xsl:value-of select="$lem"/></xsl:message>
+ -->  <xsl:variable name="occurs">
+      <xsl:value-of select="count($root/t:TEI/t:text/t:body//t:w[starts-with(@pos,'VERB')][t:matching(@lemma, $lem) eq 0])"/>
    </xsl:variable>
-
+ 
+<!-- <xsl:message>
+<xsl:value-of select="$root/t:TEI/t:text/t:body//t:w[starts-with(@pos,'VERB')][t:matching(@lemma, $lem) eq 0]/@lemma"/>
+ </xsl:message>
+   -->
    <xsl:text> </xsl:text><xsl:value-of select="$occurs"/>
-   
- </xsl:for-each>
- </xsl:template>
-
+</xsl:for-each>
+</xsl:template>
+ 
+ <xsl:function name="t:matching" as="xs:integer">
+  <xsl:param name="string1"/>
+  <xsl:param name="string2"/>
+<xsl:variable name="comparand">
+  <xsl:choose> <xsl:when test="contains($string1,'+')">
+    <xsl:value-of select="substring-before($string1,'+')"/>
+   </xsl:when>
+   <xsl:otherwise><xsl:value-of select="$string1"/></xsl:otherwise></xsl:choose>
+  </xsl:variable>
+  <xsl:value-of select="compare($comparand, $string2)"/>
+ </xsl:function>
+ 
 </xsl:stylesheet>

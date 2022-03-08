@@ -8,13 +8,9 @@
  <xsl:param name="lang">por</xsl:param>
  
  <xsl:template match="/">
-  <xsl:value-of select='string("textId year verbs innerVerbs ")'/>
-  <xsl:for-each select="document('/home/lou/Public/ELTeC-data/innerVerbs.xml')//list[@xml:lang=$lang]/lemma/@form">
+   <xsl:for-each select="document('/home/lou/Public/ELTeC-data/innerVerbs.xml')//list[@xml:lang=$lang]/lemma/@form">
    <xsl:sort/>
     <xsl:value-of select="."/> <xsl:text> </xsl:text>
   </xsl:for-each></xsl:template>
-  
-
- 
   
 </xsl:stylesheet>
