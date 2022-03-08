@@ -2,7 +2,7 @@
 Contains data files extracted from level2 repositories for use in WG3 experiments using the `filter.py` script
 
 ## Organization
-The repository contains one folder for each language, containing all the datasets specific to that language. 
+The repository contains one folder for each language, containing datasets specific to that language. 
 
 The folder `Scripts` contains XSLT and Python code used to generate data.
 
@@ -14,6 +14,19 @@ The following datasets are currently stored:
 
 ## How to generate these datasets
 ###
+#### verbCounter.py
+This python script produces data to plot frequencies of "inner life verbs", as listed in the file `innerVerbs.xml`
+
+The script is run at the command line as follows:
+
+~~~
+python verbCounter.py [lang] 
+~~~
+
+- [lang] identifies the input repository. The script will look for ELTeC level 2 files here, more specifically at the location `repoRoot-[lang]/level-2` (where `repoRoot` is defined in the `verbCounter.py` script) 
+
+It produces a file called `ELTeC-data/[lang]/verbCounter.results, which can then be plotted with the R script `innerVerbs.R`
+
 #### filter.py
 The Python3 script `filter.py` generates datasets from level 2 encoded files. Once you have installed it, the Saxon/C library on which it depends, and the XSLT script `filter.xsl` which it invokes, you can run it at
 the command line as follows:
