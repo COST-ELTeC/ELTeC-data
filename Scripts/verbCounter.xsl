@@ -54,33 +54,30 @@
    <xsl:value-of select="count($root/t:TEI/t:text/t:body//t:w[starts-with(@pos,'VERB')])"/>
   </xsl:variable>
 
-  <xsl:variable name="innerVerbs">
-   <xsl:value-of select="count($root/t:TEI/t:text/t:body//t:w[starts-with(@pos,'VERB')][contains($verbString, concat(@lemma,' '))])"/>
-  </xsl:variable>
-
-<!-- output starts here -->
+  <!-- output starts here -->
   
 <xsl:text>
-</xsl:text> <xsl:value-of select="concat($textId,' ', $date,' ', $verbs, ' ', $innerVerbs)" />
+</xsl:text> <xsl:value-of select="concat($textId,' ', $date,' ', $verbs, ' ')" />
   
-<!-- loop around innerverb list -->
-  
+<!-- loop around innerverb list  accumulating counts in a string-->
+ <xsl:variable name="freqString"> 
   <xsl:for-each select="tokenize($verbString,' ')">
   <xsl:variable name="lem">
     <xsl:value-of select="."/>
    </xsl:variable>
- <!--  <xsl:message>Counting <xsl:value-of select="$lem"/></xsl:message>
- -->  <xsl:variable name="occurs">
+<!--<xsl:message>Counting <xsl:value-of select="$lem"/></xsl:message>
+-->   <xsl:variable name="occurs">
       <xsl:value-of select="count($root/t:TEI/t:text/t:body//t:w[starts-with(@pos,'VERB')][t:matching(@lemma, $lem) eq 0])"/>
    </xsl:variable>
- 
-<!-- <xsl:message>
-<xsl:value-of select="$root/t:TEI/t:text/t:body//t:w[starts-with(@pos,'VERB')][t:matching(@lemma, $lem) eq 0]/@lemma"/>
- </xsl:message>
-   -->
+   
    <xsl:text> </xsl:text><xsl:value-of select="$occurs"/>
-</xsl:for-each>
-</xsl:template>
+ <!--  <xsl:message>Counted <xsl:value-of select="$occurs"/></xsl:message>
+-->  </xsl:for-each></xsl:variable>
+<xsl:value-of select="sum(for $s in tokenize($freqString, ' ')[string-length(.) gt 0] return number($s))"/><xsl:text> </xsl:text>
+<xsl:value-of select="$freqString"/><xsl:text>
+</xsl:text>
+  </xsl:template>
+ 
  
  <xsl:function name="t:matching" as="xs:integer">
   <xsl:param name="string1"/>
@@ -93,5 +90,5 @@
   </xsl:variable>
   <xsl:value-of select="compare($comparand, $string2)"/>
  </xsl:function>
- 
+  
 </xsl:stylesheet>
