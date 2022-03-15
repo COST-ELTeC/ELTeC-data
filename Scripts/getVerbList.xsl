@@ -6,9 +6,10 @@
 
  
  <xsl:param name="lang">por</xsl:param>
- 
+ <xsl:param name="list">manual</xsl:param>
+  
  <xsl:template match="/">
-   <xsl:for-each select="document('/home/lou/Public/ELTeC-data/innerVerbs.xml')//list[@xml:lang=$lang]/lemma/@form">
+   <xsl:for-each select="lists/list[@xml:lang=$lang][@n=$list]/lemma/@form">
    <xsl:sort/>
     <xsl:value-of select="."/> <xsl:text> </xsl:text>
   </xsl:for-each></xsl:template>

@@ -16,13 +16,13 @@
   <xsl:variable name="dateStr">
    <xsl:choose>
     <xsl:when
-     test="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'firstEdition']">
+     test="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'firstEdition']/t:date">
      <xsl:value-of
       select="normalize-space(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'firstEdition']/t:date)"
      />
     </xsl:when>
     <xsl:when
-     test="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'printSource']">
+     test="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'printSource']/t:date">
      <xsl:value-of
       select="normalize-space(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'printSource']/t:date[1])"
      />
@@ -70,7 +70,7 @@
       <xsl:value-of select="count($root/t:TEI/t:text/t:body//t:w[starts-with(@pos,'VERB')][t:matching(@lemma, $lem) eq 0])"/>
    </xsl:variable>
    
-   <xsl:text> </xsl:text><xsl:value-of select="$occurs"/>
+   <xsl:text> </xsl:text><xsl:value-of select="$occurs+0"/>
  <!--  <xsl:message>Counted <xsl:value-of select="$occurs"/></xsl:message>
 -->  </xsl:for-each></xsl:variable>
 <xsl:value-of select="sum(for $s in tokenize($freqString, ' ')[string-length(.) gt 0] return number($s))"/><xsl:text> </xsl:text>

@@ -1,5 +1,5 @@
-<unambiguousLemmata>
-<list xml:lang="eng">
+<lists>
+<list n='manual' xml:lang="eng">
 <lemma form="know" freq="31923" inner="y"/>
 <lemma form="see" freq="31793" inner="y"/>
 <lemma form="think" freq="28704"  inner="y"/>
@@ -11,7 +11,7 @@
 <lemma form="want" freq="6222"  inner="y"/>
 <lemma form="like" freq="5744"  inner="y"/>
 </list>
-<list xml:lang="fra">
+<list n='manual' xml:lang="fra">
 <lemma form="voir" freq="23369" inner="y"/>
 <lemma form="vouloir" freq="18628" inner="y"/>
 <lemma form="savoir" freq="17463" inner="y"/>
@@ -23,7 +23,7 @@
 <lemma form="connaître" freq="6383" inner="y"/>
 <lemma form="sembler" freq="5990" inner="y"/>
 </list>
-<list xml:lang="nor">
+<list n='manual' xml:lang="nor">
 <lemma form="tænke" freq="3352" inner="y"/>
 <lemma form="tro" freq="2452" inner="y"/>
 <lemma form="føle" freq="1970" inner="y"/>
@@ -35,7 +35,7 @@
 <lemma form="drømme" freq="315" inner="y"/>
 <lemma form="vove" freq="241" inner="y"/>
 </list>
-<list xml:lang="por">
+<list n='manual' xml:lang="por">
 <lemma form="querer" freq="13595" inner="y"/>
 <lemma form="sentir" freq="5221" inner="y"/>
 <lemma form="conhecer" freq="5099" inner="y"/>
@@ -47,7 +47,7 @@
 <lemma form="duvidar" freq="1519" inner="y"/>
 <lemma form="entender" freq="1517" inner="y"/>
 </list>
-<list xml:lang="slv">
+<list n='manual' xml:lang="slv">
 <lemma form="moči" freq="12600" inner="y"/>
 <lemma form="morati" freq="11180" inner="y"/>
 <lemma form="pozabiti" freq="2211"  inner="y"/>
@@ -59,4 +59,77 @@
 <lemma form="odločiti" freq="628"  inner="y"/>
 <lemma form="nameravati" freq="342" inner="y"/>
 </list>
-</unambiguousLemmata>
+<!--Here is my result for your lists, with Word2vec word embeddings over 40
+million words of literary texts:
+seeds: sentir, pensar, acreditar, saber, esperar, desejar
+processed by LB to dedup and remove endings for two lemmas ending in -se
+-->
+
+<list xml:lang="por" n="w2v">
+<lemma form="achar"/>
+<lemma form="acreditar"/>
+<lemma form="admitir"/>
+<lemma form="amar"/>
+<lemma form="ambicionar"/>
+<lemma form="antever"/>
+<lemma form="aprender"/>
+<lemma form="aspirar"/>
+<lemma form="cismar"/>
+<lemma form="cogitar"/>
+<lemma form="compreender"/>
+<lemma form="conceber"/>
+<lemma form="confessar"/>
+<lemma form="conhecer"/>
+<lemma form="convencer"/>
+<lemma form="crer"/>
+<lemma form="crêr"/>
+<lemma form="cuidar"/>
+<lemma form="delirar"/>
+<lemma form="desconfiar"/>
+<lemma form="desejar"/>
+<lemma form="desprezar"/>
+<lemma form="doer"/>
+<lemma form="duvidar"/>
+<lemma form="entender"/>
+<lemma form="envergonhar"/>
+<lemma form="esperar"/>
+<lemma form="estimar"/>
+<lemma form="experimentar"/>
+<lemma form="exprimir"/>
+<lemma form="gozar"/>
+<lemma form="imaginar"/>
+<lemma form="interessar"/>
+<lemma form="julgar"/>
+<lemma form="matutar"/>
+<lemma form="meditar"/>
+<lemma form="mostrar"/>
+<lemma form="ouvir"/>
+<lemma form="padecer"/>
+<lemma form="palpitar"/>
+<lemma form="pensar"/>
+<lemma form="prever"/>
+<lemma form="prometer"/>
+<lemma form="provar"/>
+<lemma form="recear"/>
+<lemma form="reconhecer"/>
+<lemma form="recordar"/>
+<lemma form="reflectir"/>
+<lemma form="refletir"/>
+<lemma form="revelar"/>
+<lemma form="reviver"/>
+<lemma form="saber"/>
+<lemma form="scismar"/>
+<lemma form="sentir"/>
+<lemma form="soffrer"/>
+<lemma form="sofrer"/>
+<lemma form="sonhar"/>
+<lemma form="supor"/>
+<lemma form="suspeitar"/>
+<lemma form="temer"/>
+<lemma form="tolerar"/>
+<lemma form="ver"/>
+<lemma form="vibrar"/>
+</list>
+
+
+</lists>

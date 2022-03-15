@@ -9,7 +9,9 @@ repoRoot='/home/lou/Public/ELTeC-'
 script='/home/lou/Public/Scripts/filter.xsl'
 
 # Script to produce data for word embedding experiment (LB 2021-06-30)
- 
+# data produced is a blank delimited sequence of tokens 
+# tokens may be w contents or @lemma values 
+# only the content of divs of @type chapter is considered (see xslt for xpath)
 
 if (len(sys.argv) <= 3) :
     print("Usage: python filter.py [lang] [pos] [wot]")

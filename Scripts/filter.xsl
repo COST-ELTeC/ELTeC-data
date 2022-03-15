@@ -35,7 +35,7 @@
     <xsl:apply-templates select="//t:div[@type='chapter']//t:w[matches(@pos,'NOUN|ADJ|ADV|VERB')]"/>
    </xsl:when>
  <xsl:otherwise>
-  <xsl:apply-templates select="//t:div[@type='chapter']//t:w[@pos eq $pos]"/>
+  <xsl:apply-templates select="//t:div[@type='chapter']//t:w[starts-with(@pos,$pos)]"/>
  </xsl:otherwise></xsl:choose> </xsl:result-document>
  </xsl:template> 
  <xsl:template match="t:w">

@@ -6,13 +6,15 @@ import saxonc
 
 HOME='/home/lou/Public/'
 
-if (len(sys.argv) <= 1) :
-    print("Usage: python verbCounter.py [repo]")
+if (len(sys.argv) <= 2) :
+    print("Usage: python verbCounter.py [repo] [list]")
     print("  [repo] identifies input repository, which should be located at [HOME]ELTEC-[repo]")
+    print("  [list] identifies which list of verbs should be counted")
     exit()
 
 REPO=sys.argv[1]
-print("Inner verbs for "+REPO)
+LIST=sys.argv[2]
+print("Inner verbs from "+ LIST + " list for "+REPO)
 REPOROOT=HOME+'ELTeC-'+REPO+"/"
 DRIVERFILE=REPOROOT+"driver-2.tei"
 VERBFILE=HOME+'ELTeC-data/innerVerbs.xml'
@@ -26,9 +28,10 @@ with saxonc.PySaxonProcessor(license=False) as proc:
     print(proc.version)
     xsltproc = proc.new_xslt30_processor()
     xsltproc.set_result_as_raw_value(True) 
-# get the list of verbs for REPO using script SCRIPT2 and output header
+# get the LIST list of verbs for REPO using script SCRIPT2 and output header
     xsltproc.set_initial_match_selection(file_name=VERBFILE)
     xsltproc.set_parameter("lang",proc.make_string_value(REPO))
+    xsltproc.set_parameter("list",proc.make_string_value(LIST))
     verbList= xsltproc.apply_templates_returning_string(stylesheet_file=SCRIPT2)
 # open the output file in write mode  
     output=open(OUTFILE,'w')
