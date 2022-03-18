@@ -14,18 +14,36 @@ The following datasets are currently stored:
 
 ## How to generate these datasets
 ###
+
 #### verbCounter.py
-This python script produces data to plot frequencies of "inner life verbs", as listed in the file `innerVerbs.xml`
+
+The Python3 script `verbCounter.py` computes the relative frequencies of "inner-life" verbs in a specified language corpus over time. 
+The  "inner life verbs", are those listed in the file `innerVerbs.xml`, available in the ELTeC-data folder. This file contains several lists of target verbs to be counted, each associated with a language and a type.
 
 The script is run at the command line as follows:
-
 ~~~
-python verbCounter.py [lang] 
+python verbCounter.py [lang] [which]
 ~~~
 
-- [lang] identifies the input repository. The script will look for ELTeC level 2 files here, more specifically at the location `repoRoot-[lang]/level-2` (where `repoRoot` is defined in the `verbCounter.py` script) 
+- [lang] identifies the input repository. The script will look for ELTeC level 2 files here, more specifically at the location `repoRoot-[lang]/level-2` (where `repoRoot` is defined in the `verbCounter.py` script)
+- [which] specifies which type of verb list is to be used. Currently two types are recognised :
+    - `manual` for verbs selected manually
+    - `w2v` for verbs selected on the basis of a word2vec procedure 
 
-It produces a file called `ELTeC-data/[lang]/verbCounter.results, which can then be plotted with the R script `innerVerbs.R`
+It produces a file called `ELTeC-data/[lang]/verbCounter.[which].results`, in which each row contains 
+- the text identifier
+- the year of publication
+- the total number of verbs in the text
+- the total number of "inner verbs" in the text
+- counts for each specified verb
+
+Here for example is the start of the file produced by `python verbcounter.py eng manual`
+~~~~
+textId year verbs innerVerbs believe feel hear know like mean see seem think want 
+ENG18450 1845 28087 1408 98 75 130 256 79 56 284 138 292 98
+~~~~
+An R script `innerVerbs.R` (written originally by Diana Santos) may be used to visualise this data as a series of boxplots.
+
 
 #### filter.py
 The Python3 script `filter.py` generates datasets from level 2 encoded files. Once you have installed it, the Saxon/C library on which it depends, and the XSLT script `filter.xsl` which it invokes, you can run it at
@@ -53,9 +71,5 @@ This will generate an XML file containing lines like this
 ~~~
 Output from this script is stored in a file called `verbFreqs.xml` in each language folder. 
 
-
-#### verbCounter.py
-
-The Python3 script `verbCounter.py` computes the relative frequencies of "inner-life" verbs in a specified language corpus over time. 
 
 
