@@ -7,8 +7,8 @@ The repository contains one folder for each language, containing datasets specif
 The folder `Scripts` contains XSLT and Python code used to generate data.
 
 The following datasets are currently stored: 
-- `CONTENT` : text files (one per text) containing all lemmas for each word with a POS code NOUN ADJ ADV or VERB
-- `VERB` : text files (one per text) containing all lemmas for each word with a POS code starting 'VERB'
+- `CONTENT` : text files (one per text) containing just the lemmas for each word with a POS code NOUN ADJ ADV or VERB
+- `VERB` : text files (one per text) containing just the lemmas for each word with a POS code starting 'VERB'
 - `verbFreqs.xml` : a list of lemmas with frequency counts in descending frequency order
 
 By "lemmas" we mean strictly the content of the @lemma attribute, as it appears in the level2 file.
