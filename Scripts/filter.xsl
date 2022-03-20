@@ -19,8 +19,45 @@
  
  
  <xsl:template match="/">
-  <xsl:variable name="fName"> 
-   <xsl:value-of select="concat(/t:TEI/@xml:id,'_',//t:textDesc/e:timeSlot/@key,
+
+  
+  <xsl:variable name="dateStr">
+   <xsl:choose>
+    <xsl:when
+     test="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'firstEdition']/t:date">
+     <xsl:value-of
+      select="normalize-space(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'firstEdition']/t:date)"
+     />
+    </xsl:when>
+    <xsl:when
+     test="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'printSource']/t:date">
+     <xsl:value-of
+      select="normalize-space(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'printSource']/t:date[1])"
+     />
+    </xsl:when>
+    <xsl:when
+     test="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl/t:date">
+     <xsl:value-of
+      select="normalize-space(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl/t:date)"
+     />
+    </xsl:when>
+    <xsl:otherwise>
+     <xsl:text>?</xsl:text>
+    </xsl:otherwise>
+   </xsl:choose>
+  </xsl:variable>
+
+<xsl:variable name="date">
+ <xsl:choose>
+  <xsl:when test="contains($dateStr,'-')"><xsl:value-of select="substring-before($dateStr,'-')"/></xsl:when>
+  <xsl:otherwise><xsl:value-of select="$dateStr"/></xsl:otherwise>
+ </xsl:choose>
+</xsl:variable>
+  
+<xsl:message>Datestr is <xsl:value-of select="$dateStr"/></xsl:message>
+
+   <xsl:variable name="fName"> 
+   <xsl:value-of select="concat(/t:TEI/@xml:id,'_',$date,//t:textDesc/e:timeSlot/@key,
    //t:textDesc/e:authorGender/@key,
  upper-case(substring(//t:textDesc/e:size/@key,1,1)),
   upper-case(substring(//t:textDesc/e:canonicity/@key,1,1)),
