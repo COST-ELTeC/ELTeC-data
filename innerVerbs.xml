@@ -47,6 +47,18 @@
 <lemma form="duvidar" freq="1519" inner="y"/>
 <lemma form="entender" freq="1517" inner="y"/>
 </list>
+<list n='manual2' xml:lang="por">
+<lemma form="ver" trans="see" />
+<lemma form="saber" trans="know"/>
+<lemma form="querer" trans="want"/>
+<lemma form="sentir" trans="feel"/>
+<lemma form="conhecer" trans="know"/>
+<lemma form="esperar" trans="hope"/>
+<lemma form="pensar" trans="think"/>
+<lemma form="amar" trans="love"/>
+<lemma form="achar" trans="mean"/>
+<lemma form="julgar" trans="judge"/>
+</list>
 <list n='manual' xml:lang="slv">
 <lemma form="moči" freq="12600" inner="y"/>
 <lemma form="morati" freq="11180" inner="y"/>
