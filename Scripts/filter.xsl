@@ -18,31 +18,62 @@
  <xsl:param name="pos">CONTENT</xsl:param>
  
  
+ <xsl:template match="t:date">
+  <xsl:choose>
+   <xsl:when test="contains(., '(')">
+    <xsl:value-of select="substring-before(substring-after(.,'('),')')"/>
+   </xsl:when>
+   <xsl:when test="contains(., '-')">
+    <xsl:value-of select="substring-before(.,'-')"/>
+   </xsl:when>
+   <xsl:otherwise><xsl:value-of select="normalize-space(.)"/></xsl:otherwise>
+  </xsl:choose> 
+  
+ </xsl:template>
+ 
+
  <xsl:template match="/">
 
   
   <xsl:variable name="dateStr">
    <xsl:choose>
+    
+    <!-- use first firstEdition date if there is one -->
+    
     <xsl:when
-     test="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'firstEdition']/t:date">
-     <xsl:value-of
-      select="normalize-space(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'firstEdition']/t:date)"
+     test="string-length(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'firstEdition'][1]/t:date[1]) gt 1">
+     <xsl:apply-templates select="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'firstEdition'][1]/t:date[1]"/>
+     
+     <!--<xsl:value-of
+      select="normalize-space(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'firstEdition']/t:date[1])"
      />
-    </xsl:when>
+  -->  </xsl:when>
     <xsl:when
-     test="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'printSource']/t:date">
-     <xsl:value-of
+     test="string-length(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'printSource'][1]/t:date) gt 1">
+     
+     <!-- failing which, use printSource date -->
+     <xsl:apply-templates select="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'printSource'][1]/t:date[1]"/>
+    <!-- 
+     <xsl:variable name="year"><xsl:value-of
       select="normalize-space(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'printSource']/t:date[1])"
-     />
+     /></xsl:variable>
+     <xsl:choose>
+      <xsl:when test="contains($year, '(')">
+       <xsl:value-of select="substring-before(substring-after($year,'('),')')"/>
+      </xsl:when>
+      <xsl:otherwise><xsl:value-of select="$year"/></xsl:otherwise>
+     </xsl:choose> -->
     </xsl:when>
+    <!-- failing which, use whatever date you can find-->
     <xsl:when
-     test="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl/t:date">
-     <xsl:value-of
-      select="normalize-space(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl/t:date)"
-     />
-    </xsl:when>
+     test="string-length(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl/t:date) gt 1">
+     
+    <xsl:apply-templates select="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl/t:date[1]"/>
+  <!--    <xsl:value-of
+      select="normalize-space(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl/t:date[1])"
+     />--></xsl:when>
     <xsl:otherwise>
-     <xsl:text>?</xsl:text>
+     <xsl:text>1800</xsl:text>
     </xsl:otherwise>
    </xsl:choose>
   </xsl:variable>
@@ -54,7 +85,6 @@
  </xsl:choose>
 </xsl:variable>
   
-<xsl:message>Datestr is <xsl:value-of select="$dateStr"/></xsl:message>
 
    <xsl:variable name="fName"> 
    <xsl:value-of select="concat(/t:TEI/@xml:id,'_',$date,//t:textDesc/e:timeSlot/@key,
@@ -69,10 +99,10 @@
 --> <xsl:result-document href="{$fName}">
   <xsl:choose>
    <xsl:when test="$pos='CONTENT'">
-    <xsl:apply-templates select="//t:div[@type='chapter']//t:w[matches(@pos,'NOUN|ADJ|ADV|VERB')]"/>
+    <xsl:apply-templates select="//t:body//t:w[matches(@pos,'NOUN|ADJ|ADV|VERB')]"/>
    </xsl:when>
  <xsl:otherwise>
-  <xsl:apply-templates select="//t:div[@type='chapter']//t:w[starts-with(@pos,$pos)]"/>
+  <xsl:apply-templates select="//t:body//t:w[starts-with(@pos,$pos)]"/>
  </xsl:otherwise></xsl:choose> </xsl:result-document>
  </xsl:template> 
  <xsl:template match="t:w">
@@ -87,6 +117,5 @@
   </xsl:choose>
   <xsl:text> </xsl:text>
  </xsl:template>
- 
  
 </xsl:stylesheet>

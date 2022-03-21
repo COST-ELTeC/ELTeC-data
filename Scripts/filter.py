@@ -6,8 +6,9 @@ sys.path.append("/usr/lib/Saxon.C.API/python-saxon")
 import saxonc
 
 repoRoot='/home/lou/Public/ELTeC-'
-script='/home/lou/Public/Scripts/filter.xsl'
+script='/home/lou/Public/ELTeC-data/Scripts/filter.xsl'
 
+# now looks for w elements anywhere in body, not just in chapters (LB 2021-03-21)
 # Script to produce data for word embedding experiment (LB 2021-06-30)
 # data produced is a blank delimited sequence of tokens 
 # tokens may be w contents or @lemma values 
