@@ -21,7 +21,7 @@ VERBFILE=HOME+'ELTeC-data/innerVerbs.xml'
 SCRIPT0=HOME+'Scripts/posPipe/getFileNames.xsl'
 SCRIPT1=HOME+'ELTeC-data/Scripts/verbCounter.xsl'
 SCRIPT2=HOME+'ELTeC-data/Scripts/getVerbList.xsl'
-OUTFILE=HOME+'ELTeC-data/'+REPO+'/verbCounter.results'
+OUTFILE=HOME+'ELTeC-data/'+REPO+'/verbCounter'+LIST+'.csv'
 
 with saxonc.PySaxonProcessor(license=False) as proc:
   
@@ -38,6 +38,7 @@ with saxonc.PySaxonProcessor(license=False) as proc:
     header="textId year verbs innerVerbs "+verbList
     output.write(header)
     output.close()
+    print("Wrote "+header+" to "+OUTFILE)
 # reopen the output file in append mode  
     output=open(OUTFILE,'a')
 # get the list of files to process from the DRIVERFILE  using SCRIPT0

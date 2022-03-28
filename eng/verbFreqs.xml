@@ -51,7 +51,7 @@
      <lemma form="call" freq="4236"/>
      <lemma form="talk" freq="4225"/>
      <lemma form="pass" freq="4158"/>
-     <lemma form="hope" freq="4098"/>
+     <lemma form="hope" freq="4098" inner="y"/>
      <lemma form="walk" freq="4092"/>
      <lemma form="take" freq="3942"/>
      <lemma form="set" freq="3913"/>
@@ -61,7 +61,7 @@
      <lemma form="appear" freq="3781"/>
      <lemma form="read" freq="3591"/>
      <lemma form="run" freq="3585"/>
-     <lemma form="understand" freq="3461"/>
+     <lemma form="understand" freq="3461" inner="y"/>
      <lemma form="grow" freq="3458"/>
      <lemma form="give" freq="3405"/>
      <lemma form="call" freq="3341"/>

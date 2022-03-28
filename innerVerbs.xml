@@ -1,3 +1,11 @@
+<!-- There are two types of list -->
+<!-- (a) 'manual' lists are lemmas manually classified as expressive of inner life, -->
+<!-- either exclusively (inner="y") or in some uses (inner='m') -->
+<!-- (b) 'w2v' lists are lemmas identified by a statistical procedure using "word2vec" -->
+<!-- Entries in each list must be given in descending frequency order -->
+<!-- the attribute @trans supplies a translation into English if available -->
+<!-- the attribute @freq gives the total frequency of this lemma in the corpus -->
+
 <lists>
 <list n='manual' xml:lang="eng">
 <lemma form="know" freq="31923" inner="y"/>
@@ -12,16 +20,30 @@
 <lemma form="like" freq="5744"  inner="y"/>
 </list>
 <list n='manual' xml:lang="fra">
-<lemma form="voir" freq="23369" inner="y"/>
-<lemma form="vouloir" freq="18628" inner="y"/>
-<lemma form="savoir" freq="17463" inner="y"/>
-<lemma form="trouver" freq="11656" inner="y"/>
-<lemma form="croire" freq="9800" inner="y"/>
-<lemma form="aimer" freq="9307" inner="y"/>
-<lemma form="entendre" freq="8621" inner="y"/>
-<lemma form="regarder" freq="7705" inner="y"/>
-<lemma form="connaître" freq="6383" inner="y"/>
-<lemma form="sembler" freq="5990" inner="y"/>
+<lemma form="voir" freq="23369" trans="see" inner="y"/>
+<lemma form="vouloir" freq="18628" trans="wish" inner="y"/>
+<lemma form="savoir" freq="17463" trans="know" inner="y"/>
+<lemma form="trouver" freq="11656" trans="find" inner="y"/>
+<lemma form="croire" freq="9800" trans="believe" inner="y"/>
+<lemma form="aimer" freq="9307" trans="like" inner="y"/>
+<lemma form="entendre" freq="8621" trans="hear/understand" inner="y"/>
+<lemma form="regarder" freq="7705" trans="look" inner="y"/>
+<lemma form="connaître" freq="6383" trans="know" inner="y"/>
+<lemma form="sembler" freq="5990" trans="seem" inner="y"/>
+</list>
+<list n="manual" xml:lang="hun">
+     <lemma form="tud" freq="25441" inner="y" trans="know"/>
+     <lemma form="akar" freq="13915" inner="y" trans="want"/>
+     <lemma form="szeret" freq="9111" inner="y" trans="like/love"/>
+     <lemma form="tart" freq="7039" trans="consider" inner="m"/>
+     <lemma form="hisz" freq="6692" trans="believe" inner="y"/>
+     <lemma form="érez" freq="6114" trans="feel" inner="y"/>
+     <lemma form="gondol" freq="6031" trans="think" inner="y"/>
+     <lemma form="talál" freq="6007" trans="find" inner="m"/>
+     <lemma form="ért" freq="3286" trans="understand" inner="y"/>
+     <lemma form="tetszik" freq="2497" trans="like" inner="y"/>
+     <lemma form="bír" freq="2194" trans="own/like" inner="m"/>
+     <lemma form="kíván" freq="1346" trans="wish" inner="y"/>
 </list>
 <list n='manual' xml:lang="nor">
 <lemma form="tænke" freq="3352" inner="y"/>
@@ -36,29 +58,21 @@
 <lemma form="vove" freq="241" inner="y"/>
 </list>
 <list n='manual' xml:lang="por">
-<lemma form="querer" freq="13595" inner="y"/>
-<lemma form="sentir" freq="5221" inner="y"/>
-<lemma form="conhecer" freq="5099" inner="y"/>
-<lemma form="pensar" freq="3982" inner="y"/>
-<lemma form="amar" freq="3202" inner="y"/>
-<lemma form="julgar" freq="2107" inner="y"/>
-<lemma form="crer" freq="1896" inner="y"/>
-<lemma form="desejar" freq="1881" inner="y"/>
-<lemma form="duvidar" freq="1519" inner="y"/>
-<lemma form="entender" freq="1517" inner="y"/>
-</list>
-<list n='manual2' xml:lang="por">
-<lemma form="ver" trans="see" />
-<lemma form="saber" trans="know"/>
-<lemma form="querer" trans="want"/>
-<lemma form="sentir" trans="feel"/>
-<lemma form="conhecer" trans="know"/>
-<lemma form="esperar" trans="hope"/>
-<lemma form="pensar" trans="think"/>
-<lemma form="amar" trans="love"/>
-<lemma form="achar" trans="mean"/>
-<lemma form="julgar" trans="judge"/>
-</list>
+ <lemma form="ver" freq="20206" inner="m" trans="see/understand"/>
+ <lemma form="saber" freq="17307" trans="know/taste" inner="m"/>
+ <lemma form="querer" freq="13595" trans="want" inner="y"/>
+ <lemma form="sentir" freq="5221" trans="feel" inner="y"/>
+ <lemma form="conhecer" freq="5099" trans="know" inner="y"/>
+ <lemma form="esperar" freq="4237" trans="hope/wait" inner="m"/>
+ <lemma form="pensar" freq="3982" trans="think" inner="y"/>
+ <lemma form="amar" freq="3202" trans="love" inner="y"/>
+ <lemma form="achar" trans="mean/find" freq="3003" inner="m"/>
+ <lemma form="julgar" freq="2107" trans="judge" inner="y"/>
+ <lemma form="crer" freq="1896" tras="believe" inner="y"/>
+ <lemma form="desejar" freq="1881" trans="desire" inner="y"/>
+ <lemma form="duvidar" freq="1519" trans="doubt" inner="y"/>
+ <lemma form="entender" freq="1517" trans="understand" inner="y"/>
+ </list>
 <list n='manual' xml:lang="slv">
 <lemma form="moči" freq="12600" inner="y"/>
 <lemma form="morati" freq="11180" inner="y"/>

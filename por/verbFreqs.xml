@@ -4,7 +4,7 @@
      <lemma form="estar" freq="26738"/>
      <lemma form="fazer" freq="22506"/>
      <lemma form="ir" freq="21901"/>
-     <lemma form="ver" freq="20206"/>
+     <lemma form="ver" freq="20206" inner="m"/>
  <lemma form="saber" freq="17307" inner="m"/>
      <lemma form="poder" freq="16536"/>
      <lemma form="dar" freq="14653"/>

@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?><frequencies xmlns:t="http://www.tei-c.org/ns/1.0"><lemma form="van" freq="99837"/>
-     <lemma form="tud" freq="25441"/>
+     <lemma form="tud" freq="25441" inner="y" trans="know"/>
      <lemma form="lesz" freq="21221"/>
      <lemma form="mond" freq="20144"/>
      <lemma form="volna" freq="18042"/>
      <lemma form="lát" freq="16876"/>
      <lemma form="fog" freq="15907"/>
      <lemma form="kell" freq="15552"/>
-     <lemma form="akar" freq="13915"/>
+     <lemma form="akar" freq="13915" inner="y" trans="want"/>
      <lemma form="tesz" freq="12905"/>
      <lemma form="megy" freq="10868"/>
      <lemma form="áll" freq="10621"/>
-     <lemma form="szól" freq="9862"/>
+      <lemma form="szól" freq="9862"/>
      <lemma form="jön" freq="9520"/>
      <lemma form="vesz" freq="9300"/>
-     <lemma form="szeret" freq="9111"/>
+     <lemma form="szeret" freq="9111" inner="y" trans="like/love"/>
      <lemma form="ad" freq="8608"/>
      <lemma form="néz" freq="7972"/>
-     <lemma form="tart" freq="7039"/>
+     <lemma form="tart" freq="7039" trans="consider" inner="m"/>
      <lemma form="nincs" freq="7025"/>
      <lemma form="beszél" freq="6890"/>
      <lemma form="marad" freq="6769"/>
-     <lemma form="hisz" freq="6692"/>
-     <lemma form="érez" freq="6114"/>
-     <lemma form="gondol" freq="6031"/>
-     <lemma form="talál" freq="6007"/>
+     <lemma form="hisz" freq="6692" trans="believe" inner="y"/>
+     <lemma form="érez" freq="6114" trans="feel" inner="y"/>
+     <lemma form="gondol" freq="6031" trans="think" inner="y"/>
+     <lemma form="talál" freq="6007" trans="find" inner="m"/>
      <lemma form="hall" freq="5634"/>
      <lemma form="kezd" freq="5190"/>
      <lemma form="vár" freq="4969"/>
@@ -42,7 +42,7 @@
      <lemma form="történik" freq="3836"/>
      <lemma form="visz" freq="3765"/>
      <lemma form="kap" freq="3362"/>
-     <lemma form="ért" freq="3286"/>
+     <lemma form="ért" freq="3286" trans="understand" inner="y"/>
      <lemma form="keres" freq="3267"/>
      <lemma form="szokik" freq="3135"/>
      <lemma form="kerül" freq="3052"/>
@@ -50,7 +50,7 @@
      <lemma form="hallgat" freq="2864"/>
      <lemma form="lép" freq="2808"/>
      <lemma form="esik" freq="2769"/>
-     <lemma form="tetszik" freq="2497"/>
+     <lemma form="tetszik" freq="2497" trans="like" inner="y"/>
      <lemma form="fogad" freq="2443"/>
      <lemma form="kiált" freq="2405"/>
      <lemma form="csinál" freq="2321"/>
@@ -59,7 +59,7 @@
      <lemma form="mer" freq="2205"/>
      <lemma form="válik" freq="2200"/>
      <lemma form="fél" freq="2197"/>
-     <lemma form="bír" freq="2194"/>
+     <lemma form="bír" freq="2194" trans="own/like" inner="m"/>
      <lemma form="fordul" freq="2182"/>
      <lemma form="vet" freq="2097"/>
      <lemma form="olvas" freq="2085"/>
@@ -97,7 +97,7 @@
      <lemma form="jelent" freq="1377"/>
      <lemma form="támad" freq="1376"/>
      <lemma form="elmond" freq="1364"/>
-     <lemma form="kíván" freq="1346"/>
+     <lemma form="kíván" freq="1346" trans="wish" inner="y"/>
      <lemma form="iszik" freq="1326"/>
      <lemma form="bán" freq="1325"/>
      <lemma form="érkezik" freq="1307"/>
@@ -689,7 +689,7 @@
      <lemma form="megesik" freq="184"/>
      <lemma form="kifejez" freq="183"/>
      <lemma form="villan" freq="183"/>
-     <lemma form="megszeret" freq="182"/>
+     <lemma form="megszeret" freq="182" />
      <lemma form="pattan" freq="182"/>
      <lemma form="elfordul" freq="182"/>
      <lemma form="meglátszik" freq="182"/>
