@@ -74,16 +74,26 @@
  <lemma form="entender" freq="1517" trans="understand" inner="y"/>
  </list>
 <list n='manual' xml:lang="slv">
-<lemma form="moči" freq="12600" inner="y"/>
-<lemma form="morati" freq="11180" inner="y"/>
-<lemma form="pozabiti" freq="2211"  inner="y"/>
-<lemma form="spoznati" freq="2198"  inner="y"/>
-<lemma form="molčati" freq="1868"  inner="y"/>
-<lemma form="razumeti" freq="1659"  inner="y"/>
-<lemma form="skrbeti" freq="1147"  inner="y"/>
-<lemma form="opaziti" freq="980"  inner="y"/>
-<lemma form="odločiti" freq="628"  inner="y"/>
-<lemma form="nameravati" freq="342" inner="y"/>
+     <lemma form="moči" freq="12600" inner="y"/>
+     <lemma form="morati" freq="11180" inner="y"/>
+     <lemma form="pozabiti" freq="2211"  inner="y"/>
+     <lemma form="spoznati" freq="2198"  inner="y"/>
+     <lemma form="molčati" freq="1868"  inner="y"/>
+     <lemma form="razumeti" freq="1659"  inner="y"/>
+     <lemma form="pričakovati" freq="1287" inner="m"/>
+     <lemma form="skrbeti" freq="1147"  inner="y"/>
+     <lemma form="trpeti" freq="1058" inner="m"/>
+     <lemma form="opaziti" freq="980"  inner="y"/>
+     <lemma form="sanjati" freq="703"  inner="m"/>
+     <lemma form="zaupati" freq="701" inner="m"/>
+     <lemma form="odločiti" freq="628"  inner="y"/>
+     <lemma form="trepetati" freq="528" inner="m"/>
+     <lemma form="sovražiti" freq="460" inner="m"/>
+     <lemma form="hrepeneti" freq="367" inner="m"/>
+     <lemma form="nameravati" freq="342" inner="y"/>
+     <lemma form="smiliti" freq="261" inner="m"/>
+     <lemma form="žalovati" freq="196" inner="m"/>
+     <lemma form="obupati" freq="153" inner="m"/>
 </list>
 <!--Here is my result for your lists, with Word2vec word embeddings over 40
 million words of literary texts:
