@@ -10,6 +10,7 @@ if (len(sys.argv) <= 2) :
     print("Usage: python verbCounter.py [repo] [list]")
     print("  [repo] identifies input repository, which should be located at [HOME]ELTEC-[repo]")
     print("  [list] identifies which list of verbs should be counted")
+    print("         lists currently recognised are 'pure', 'noisy', 'w2v'")
     exit()
 
 REPO=sys.argv[1]
@@ -21,7 +22,7 @@ VERBFILE=HOME+'ELTeC-data/innerVerbs.xml'
 SCRIPT0=HOME+'Scripts/posPipe/getFileNames.xsl'
 SCRIPT1=HOME+'ELTeC-data/Scripts/verbCounter.xsl'
 SCRIPT2=HOME+'ELTeC-data/Scripts/getVerbList.xsl'
-OUTFILE=HOME+'ELTeC-data/'+REPO+'/verbCounter'+LIST+'.csv'
+OUTFILE=HOME+'ELTeC-data/'+REPO+'/verbCount_'+LIST+'.csv'
 
 with saxonc.PySaxonProcessor(license=False) as proc:
   
