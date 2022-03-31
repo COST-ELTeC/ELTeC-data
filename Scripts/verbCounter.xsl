@@ -18,19 +18,19 @@
     <xsl:when
      test="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'firstEdition']/t:date">
      <xsl:value-of
-      select="normalize-space(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'firstEdition']/t:date)"
+      select="normalize-space(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'firstEdition']/t:date[1])"
      />
     </xsl:when>
     <xsl:when
      test="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'printSource']/t:date">
      <xsl:value-of
-      select="normalize-space(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'printSource']/t:date[1])"
+      select="normalize-space(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'printSource'][1]/t:date[1])"
      />
     </xsl:when>
     <xsl:when
      test="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl/t:date">
      <xsl:value-of
-      select="normalize-space(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl/t:date)"
+      select="normalize-space(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl/t:date[1])"
      />
     </xsl:when>
     <xsl:otherwise>
@@ -42,6 +42,8 @@
 <xsl:variable name="date">
  <xsl:choose>
   <xsl:when test="contains($dateStr,'-')"><xsl:value-of select="substring-before($dateStr,'-')"/></xsl:when>
+  <xsl:when test="contains($dateStr, '(')"><xsl:value-of select='substring-before(substring-after($dateStr,"("),")")'/></xsl:when>
+  <xsl:when test="string-length($dateStr) le 1">0000</xsl:when>
   <xsl:otherwise><xsl:value-of select="$dateStr"/></xsl:otherwise>
  </xsl:choose>
 </xsl:variable>
