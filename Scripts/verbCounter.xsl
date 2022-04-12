@@ -6,6 +6,7 @@
  
  <!--believe feel hear know like mean see seem think want-->
  <xsl:param name="verbString">amar conhecer crer desejar duvidar entender julgar pensar querer sentir</xsl:param>
+ <xsl:param name="lang"/>
  
  <xsl:template match="/">
   
@@ -18,7 +19,7 @@
     <xsl:when
      test="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'firstEdition']/t:date">
      <xsl:value-of
-      select="normalize-space(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'firstEdition']/t:date[1])"
+      select="normalize-space(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'firstEdition'][1]/t:date[1])"
      />
     </xsl:when>
     <xsl:when
@@ -43,7 +44,7 @@
  <xsl:choose>
   <xsl:when test="contains($dateStr,'-')"><xsl:value-of select="substring-before($dateStr,'-')"/></xsl:when>
   <xsl:when test="contains($dateStr, '(')"><xsl:value-of select='substring-before(substring-after($dateStr,"("),")")'/></xsl:when>
-  <xsl:when test="string-length($dateStr) le 1">0000</xsl:when>
+  <xsl:when test="string-length($dateStr) le 1">9999</xsl:when>
   <xsl:otherwise><xsl:value-of select="$dateStr"/></xsl:otherwise>
  </xsl:choose>
 </xsl:variable>
