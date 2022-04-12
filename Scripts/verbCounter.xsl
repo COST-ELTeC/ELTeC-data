@@ -4,13 +4,14 @@
  exclude-result-prefixes="xs t" version="2.0">
 <xsl:output omit-xml-declaration="yes" method="text"/>
  
- <!--believe feel hear know like mean see seem think want-->
- <xsl:param name="verbString">amar conhecer crer desejar duvidar entender julgar pensar querer sentir</xsl:param>
+  <xsl:param name="verbString"/>
+ <xsl:param name="lang"/>
  
  <xsl:template match="/">
   
- <!-- <xsl:message>verbstring: <xsl:value-of select="$verbString"/></xsl:message>
- --> 
+  <xsl:message>lang: <xsl:value-of select="$lang"/></xsl:message>
+  <xsl:message>verbString: <xsl:value-of select="$verbString"/></xsl:message>
+
   <xsl:variable name="root" select="."/>
   
   <xsl:variable name="dateStr">
@@ -43,7 +44,7 @@
  <xsl:choose>
   <xsl:when test="contains($dateStr,'-')"><xsl:value-of select="substring-before($dateStr,'-')"/></xsl:when>
   <xsl:when test="contains($dateStr, '(')"><xsl:value-of select='substring-before(substring-after($dateStr,"("),")")'/></xsl:when>
-  <xsl:when test="string-length($dateStr) le 1">0000</xsl:when>
+  <xsl:when test="string-length($dateStr) le 1">9999</xsl:when>
   <xsl:otherwise><xsl:value-of select="$dateStr"/></xsl:otherwise>
  </xsl:choose>
 </xsl:variable>
@@ -57,7 +58,7 @@
   </xsl:variable>
 
   <!-- output starts here -->
-  
+ <xsl:variable name="theResult"> 
 <xsl:text>
 </xsl:text> <xsl:value-of select="concat($textId,' ', $date,' ', $verbs, ' ')" />
   
@@ -78,6 +79,11 @@
 <xsl:value-of select="sum(for $s in tokenize($freqString, ' ')[string-length(.) gt 0] return number($s))"/><xsl:text> </xsl:text>
 <xsl:value-of select="$freqString"/><xsl:text>
 </xsl:text>
+ </xsl:variable>
+ <!-- <xsl:message><xsl:value-of select="$theResult"/></xsl:message>
+-->  
+  <xsl:value-of select="$theResult"/>
+  
   </xsl:template>
  
  

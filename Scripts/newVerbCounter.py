@@ -1,8 +1,9 @@
 import pprint
 import sys
-sys.path.append("/usr/lib/Saxon.C.API/python-saxon")
+sys.path.append("/home/lou/Downloads/libsaxon-HEC-11.3/Saxon.C.API/python-saxon")
+#sys.path.append("/usr/lib/Saxon.C.API/python-saxon")
 # import the Saxon/C library
-import saxonc
+from saxonc import *
 
 HOME='/home/lou/Public/'
 
@@ -24,11 +25,12 @@ SCRIPT1=HOME+'ELTeC-data/Scripts/verbCounter.xsl'
 SCRIPT2=HOME+'ELTeC-data/Scripts/getVerbList.xsl'
 OUTFILE=HOME+'ELTeC-data/'+REPO+'/verbCount_'+LIST+'.csv'
 
-with saxonc.PySaxonProcessor(license=False) as proc:
+#with saxonc.PySaxonProcessor(license=False) as proc:
+with PySaxonProcessor(license=False) as proc:
   
     print(proc.version)
     xsltproc = proc.new_xslt30_processor()
-    xsltproc.set_result_as_raw_value(True) 
+#    xsltproc.set_result_as_raw_value(True) 
 # get the LIST list of verbs for REPO using script SCRIPT2 and output header
     xsltproc.set_initial_match_selection(file_name=VERBFILE)
     xsltproc.set_parameter("lang",proc.make_string_value(REPO))
