@@ -38,7 +38,7 @@ else :
     # Initialize the XSLT 3.0. processor
              xsltproc = proc.new_xslt30_processor()
     # Default output directory
-             xsltproc.set_cwd('/home/lou/Public/ELTeC-data/'+LANG+'/'+POS)
+             xsltproc.set_cwd('/home/lou/Public/ELTeC-data/'+LANG+'/'+POS+'/'+WOT)
     # initialise XSLT 3.0 processor result
     #         xsltproc.set_result_as_raw_value(True)
              xsltproc.set_initial_match_selection(file_name=FILE)

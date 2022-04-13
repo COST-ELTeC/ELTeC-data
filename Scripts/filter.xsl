@@ -41,13 +41,14 @@
     <!-- use first firstEdition date if there is one -->
     
     <xsl:when
+     test="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'firstEdition']/t:date/@when">
+     <xsl:value-of select="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'firstEdition']/t:date/@when"/>
+     
+     </xsl:when><xsl:when
      test="string-length(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'firstEdition'][1]/t:date[1]) gt 1">
      <xsl:apply-templates select="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'firstEdition'][1]/t:date[1]"/>
      
-     <!--<xsl:value-of
-      select="normalize-space(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'firstEdition']/t:date[1])"
-     />
-  -->  </xsl:when>
+      </xsl:when>
     <xsl:when
      test="string-length(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'printSource'][1]/t:date) gt 1">
      
@@ -92,7 +93,7 @@
  upper-case(substring(//t:textDesc/e:size/@key,1,1)),
   upper-case(substring(//t:textDesc/e:canonicity/@key,1,1)),
    upper-case(substring(//t:textDesc/e:reprintCount/@key,1,1)),
-  '.txt')"/>
+'.txt')"/>
   </xsl:variable>
   <xsl:message><xsl:value-of select="$fName"/></xsl:message>
 <!--  <xsl:message>Filtering <xsl:value-of select="$wot"/> on   <xsl:value-of select="$pos"/></xsl:message>
