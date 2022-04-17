@@ -112,6 +112,23 @@
      <lemma form="žalovati" freq="196" inner="m"/>
      <lemma form="obupati" freq="153" inner="m"/>
 </list>
+
+
+<list n='manual' xml:lang="deu">
+     <lemma form="wollen" inner="y" freq="47800" trans="want"
+     <lemma form="müssen" inner="y" freq="40047" trans="must"
+     <lemma form="wissen" inner="y" freq="30221" trans="know"
+     <lemma form="mögen" inner="m" freq="15372" trans="like"
+     <lemma form="meinen" inner="y" freq="15193" trans="mean"
+     <lemma form="denken" inner="y" freq="13551" trans="think"
+     <lemma form="glauben" inner="y" freq="10792" trans="believe"
+     <lemma form="lieben" inner="y" freq="8842" trans="love"
+     <lemma form="fühlen" inner="y" freq="8148" trans="feel"
+     <lemma form="verstehen" inner="y" freq="6531" trans="understand"
+     <lemma form="erkennen" inner="y" freq="5421" trans="recognize"
+</list>
+
+
 <!--Here is my result for your lists, with Word2vec word embeddings over 40
 million words of literary texts:
 seeds: sentir, pensar, acreditar, saber, esperar, desejar
