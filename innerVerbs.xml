@@ -262,7 +262,7 @@ processed by LB to dedup and remove endings for two lemmas ending in -se
 <lemma form="vedea" freq="21312" inner="m" trans="to see/ understand/ to seek/ to meet somewhere"/>
 <lemma form="ști" freq="13634" inner="y" trans="to know"/>
 <lemma form="vrea" freq="8611" inner="y" trans="to want"/>
-
+<lemma form="trece" freq="8252" inner="m" trans="to go/to think" />
 <lemma form="uita" freq="7097" inner="m" trans="to forget/to look at"/>
 <lemma form="crede" freq="6571" inner="y" trans="to believe"/>
 <lemma form="iubi" freq="6115" inner="y" trans="to love"/>

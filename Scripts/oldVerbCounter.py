@@ -48,7 +48,7 @@ with saxonc.PySaxonProcessor(license=False) as proc:
     for FILE in fileList.split(','):
       if len(FILE) <= 1 :
          exit()
-      print("Processing "+FILE)
+#      print("Processing "+FILE)
       xsltproc.set_initial_match_selection(file_name=REPOROOT+FILE)
       xsltproc.set_parameter("lang",proc.make_string_value(REPO))
       xsltproc.set_parameter("verbString",proc.make_string_value(verbList.strip()))

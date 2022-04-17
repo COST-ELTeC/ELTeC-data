@@ -43,6 +43,7 @@
 <xsl:variable name="date">
  <xsl:choose>
   <xsl:when test="contains($dateStr,'-')"><xsl:value-of select="substring-before($dateStr,'-')"/></xsl:when>
+  <xsl:when test="contains($dateStr, '[')"><xsl:value-of select='substring-before(substring-after($dateStr,"["),"]")'/></xsl:when>
   <xsl:when test="contains($dateStr, '(')"><xsl:value-of select='substring-before(substring-after($dateStr,"("),")")'/></xsl:when>
   <xsl:when test="string-length($dateStr) le 1">9999</xsl:when>
   <xsl:otherwise><xsl:value-of select="$dateStr"/></xsl:otherwise>
@@ -58,7 +59,9 @@
   </xsl:variable>
 
   <!-- output starts here -->
-  
+
+  <xsl:choose>
+    <xsl:when test="$date ge '1840' and $date le '1920'">
 <xsl:text>
 </xsl:text> <xsl:value-of select="concat($textId,' ', $date,' ', $verbs, ' ')" />
   
@@ -79,7 +82,16 @@
 <xsl:value-of select="sum(for $s in tokenize($freqString, ' ')[string-length(.) gt 0] return number($s))"/><xsl:text> </xsl:text>
 <xsl:value-of select="$freqString"/><xsl:text>
 </xsl:text>
-  </xsl:template>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:message><xsl:value-of select="$textId"/>
+      <xsl:text> has invalid date </xsl:text>
+      <xsl:value-of select="$date"/>
+      <xsl:text>: ignored</xsl:text>
+      </xsl:message>
+    </xsl:otherwise>
+  </xsl:choose>
+ </xsl:template>
  
  
  <xsl:function name="t:matching" as="xs:integer">
