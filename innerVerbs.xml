@@ -277,4 +277,47 @@ processed by LB to dedup and remove endings for two lemmas ending in -se
 <lemma form="plăcea" freq="2106" inner="y" trans="to like"/>
 </list>
 
+<list xml:lang="hun" n="w2v">
+<lemma form="akar"/>
+<lemma form="bevall"/>
+<lemma form="elfelejt"/>
+<lemma form="elhatároz"/>
+<lemma form="elhisz"/>
+<lemma form="elmagyaráz"/>
+<lemma form="feltételez"/>
+<lemma form="fog"/>
+<lemma form="gondol"/>
+<lemma form="gyanít"/>
+<lemma form="hisz"/>
+<lemma form="kitalál"/>
+<lemma form="kiván"/>
+<lemma form="kérdez"/>
+<lemma form="köszön"/>
+<lemma form="lát"/>
+<lemma form="megkockáztat"/>
+<lemma form="megkísérel"/>
+<lemma form="megmond"/>
+<lemma form="megpróbál"/>
+<lemma form="megszokik"/>
+<lemma form="megtapasztal"/>
+<lemma form="megtud"/>
+<lemma form="megérez"/>
+<lemma form="megígér"/>
+<lemma form="mond"/>
+<lemma form="próbál"/>
+<lemma form="remél"/>
+<lemma form="ráfog"/>
+<lemma form="sajnál"/>
+<lemma form="szeret"/>
+<lemma form="szándékozik"/>
+<lemma form="tapasztal"/>
+<lemma form="tud"/>
+<lemma form="átérez"/>
+<lemma form="érez"/>
+<lemma form="ért"/>
+<lemma form="érzik"/>
+<lemma form="érzékel"/>
+<lemma form="észrevesz"/>
+<lemma form="óhajt"/>
+</list>
 </lists>

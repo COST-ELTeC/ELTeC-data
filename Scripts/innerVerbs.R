@@ -6,7 +6,7 @@ if (length(args) ==0) {
 }
 # read in the data
 
-fileName=paste("../",args[1],"/verbCounter.results", sep="")
+fileName=paste("../",args[1],"/verbCount_pure.csv", sep="")
 message=paste("Computing boxplots for",fileName)
 print(message)
 
