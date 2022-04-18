@@ -1,7 +1,7 @@
 <!-- There are two types of list -->
 <!-- (a) 'manual' lists are lemmas manually classified as expressive of inner life, -->
 <!-- either exclusively (inner="y") or in some uses (inner='m') -->
-<!-- (b) 'w2v' lists are lemmas identified by a statistical procedure using "word2vec" -->
+<!-- (b) 'w2v' lists are lemmas identified by a statistical procedure using "word2vec" or "fasttext" -->
 <!-- Entries in each list must be given in descending frequency order -->
 <!-- the attribute @trans supplies a translation into English if available -->
 <!-- the attribute @freq gives the total frequency of this lemma in the corpus -->
@@ -279,7 +279,7 @@ processed by LB to dedup and remove endings for two lemmas ending in -se
 <lemma form="vedea" freq="21312" inner="m" trans="to see/ understand/ to seek/ to meet somewhere"/>
 <lemma form="ști" freq="13634" inner="y" trans="to know"/>
 <lemma form="vrea" freq="8611" inner="y" trans="to want"/>
-<lemma form="trece" freq="8252" inner="m" trans="to go/to think" />
+<!--<lemma form="trece" freq="8252" inner="m" trans="to go/to think" />-->
 <lemma form="uita" freq="7097" inner="m" trans="to forget/to look at"/>
 <lemma form="crede" freq="6571" inner="y" trans="to believe"/>
 <lemma form="iubi" freq="6115" inner="y" trans="to love"/>
@@ -338,7 +338,7 @@ processed by LB to dedup and remove endings for two lemmas ending in -se
 <lemma form="óhajt"/>
 </list>
 
-<list xml:lang="deu" n="fasttext">
+<list xml:lang="deu" n="w2v">
      <lemma form="ahnen"/>
      <lemma form="annehmen"/>
      <lemma form="auffassen"/>
