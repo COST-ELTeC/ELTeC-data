@@ -101,16 +101,16 @@
      <lemma form="skrbeti" freq="1147"  inner="y"/>
      <lemma form="trpeti" freq="1058" inner="m"/>
      <lemma form="opaziti" freq="980"  inner="y"/>
-     <lemma form="sanjati" freq="703"  inner="m"/>
-     <lemma form="zaupati" freq="701" inner="m"/>
+    <!-- <lemma form="sanjati" freq="703"  inner="m"/>
+     <lemma form="zaupati" freq="701" inner="m"/>-->
      <lemma form="odločiti" freq="628"  inner="y"/>
-     <lemma form="trepetati" freq="528" inner="m"/>
+    <!-- <lemma form="trepetati" freq="528" inner="m"/>
      <lemma form="sovražiti" freq="460" inner="m"/>
-     <lemma form="hrepeneti" freq="367" inner="m"/>
+     <lemma form="hrepeneti" freq="367" inner="m"/>-->
      <lemma form="nameravati" freq="342" inner="y"/>
-     <lemma form="smiliti" freq="261" inner="m"/>
+<!--     <lemma form="smiliti" freq="261" inner="m"/>
      <lemma form="žalovati" freq="196" inner="m"/>
-     <lemma form="obupati" freq="153" inner="m"/>
+     <lemma form="obupati" freq="153" inner="m"/>-->
 </list>
 
 
