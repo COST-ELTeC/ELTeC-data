@@ -115,17 +115,17 @@
 
 
 <list n='manual' xml:lang="deu">
-     <lemma form="wollen" inner="y" freq="47800" trans="want"
-     <lemma form="müssen" inner="y" freq="40047" trans="must"
-     <lemma form="wissen" inner="y" freq="30221" trans="know"
-     <lemma form="mögen" inner="m" freq="15372" trans="like"
-     <lemma form="meinen" inner="y" freq="15193" trans="mean"
-     <lemma form="denken" inner="y" freq="13551" trans="think"
-     <lemma form="glauben" inner="y" freq="10792" trans="believe"
-     <lemma form="lieben" inner="y" freq="8842" trans="love"
-     <lemma form="fühlen" inner="y" freq="8148" trans="feel"
-     <lemma form="verstehen" inner="y" freq="6531" trans="understand"
-     <lemma form="erkennen" inner="y" freq="5421" trans="recognize"
+     <lemma form="wollen" inner="y" freq="47800" trans="want"/>
+     <lemma form="müssen" inner="y" freq="40047" trans="must"/>
+     <lemma form="wissen" inner="y" freq="30221" trans="know"/>
+     <lemma form="mögen" inner="m" freq="15372" trans="like"/>
+     <lemma form="meinen" inner="y" freq="15193" trans="mean"/>
+     <lemma form="denken" inner="y" freq="13551" trans="think"/>
+     <lemma form="glauben" inner="y" freq="10792" trans="believe"/>
+     <lemma form="lieben" inner="y" freq="8842" trans="love"/>
+     <lemma form="fühlen" inner="y" freq="8148" trans="feel"/>
+     <lemma form="verstehen" inner="y" freq="6531" trans="understand"/>
+     <lemma form="erkennen" inner="y" freq="5421" trans="recognize"/>
 </list>
 
 
@@ -337,4 +337,104 @@ processed by LB to dedup and remove endings for two lemmas ending in -se
 <lemma form="észrevesz"/>
 <lemma form="óhajt"/>
 </list>
+
+<list xml:lang="deu" n="fasttext">
+     <lemma form="ahnen"/>
+     <lemma form="annehmen"/>
+     <lemma form="auffassen"/>
+     <lemma form="ausdenken"/>
+     <lemma form="beabsichtigen"/>
+     <lemma form="bedauern"/>
+     <lemma form="bedenken"/>
+     <lemma form="bedrücken"/>
+     <lemma form="befürchten"/>
+     <lemma form="begehren"/>
+     <lemma form="begreifen"/>
+     <lemma form="beruhigen"/>
+     <lemma form="berühren"/>
+     <lemma form="beschließen"/>
+     <lemma form="bezweifeln"/>
+     <lemma form="brauchen"/>
+     <lemma form="dazudenken"/>
+     <lemma form="denken"/>
+     <lemma form="durchschauern"/>
+     <lemma form="einbilden"/>
+     <lemma form="einfallen"/>
+     <lemma form="eingestehen"/>
+     <lemma form="einreden"/>
+     <lemma form="einsehen"/>
+     <lemma form="empfinden"/>
+     <lemma form="entdecken"/>
+     <lemma form="entschlagen"/>
+     <lemma form="entschließen"/>
+     <lemma form="erfahren"/>
+     <lemma form="erfassen"/>
+     <lemma form="erfühlen"/>
+     <lemma form="erhoffen"/>
+     <lemma form="erinnern"/>
+     <lemma form="erkennen"/>
+     <lemma form="erleben"/>
+     <lemma form="ersehnen"/>
+     <lemma form="erspüren"/>
+     <lemma form="ertragen"/>
+     <lemma form="erwarten"/>
+     <lemma form="fassen"/>
+     <lemma form="finden"/>
+     <lemma form="freuen"/>
+     <lemma form="fühlen"/>
+     <lemma form="fürchten"/>
+     <lemma form="gedenken"/>
+     <lemma form="genehmen"/>
+     <lemma form="genügen"/>
+     <lemma form="glauben"/>
+     <lemma form="harren"/>
+     <lemma form="hassen"/>
+     <lemma form="hinziehen"/>
+     <lemma form="hoffen"/>
+     <lemma form="irren"/>
+     <lemma form="kennen"/>
+     <lemma form="leiden"/>
+     <lemma form="lieben"/>
+     <lemma form="meinen"/>
+     <lemma form="merken"/>
+     <lemma form="misstrauen"/>
+     <lemma form="mögen"/>
+     <lemma form="peinigen"/>
+     <lemma form="schließen"/>
+     <lemma form="schmerzen"/>
+     <lemma form="schwerhalten"/>
+     <lemma form="schwernehmen"/>
+     <lemma form="schämen"/>
+     <lemma form="sehnen"/>
+     <lemma form="spüren"/>
+     <lemma form="trauen"/>
+     <lemma form="täuschen"/>
+     <lemma form="verachten"/>
+     <lemma form="verdenken"/>
+     <lemma form="verdrießen"/>
+     <lemma form="vergeben"/>
+     <lemma form="vergessen"/>
+     <lemma form="verlangen"/>
+     <lemma form="vermeinen"/>
+     <lemma form="vermuten"/>
+     <lemma form="verspüren"/>
+     <lemma form="verstehen"/>
+     <lemma form="vertrauen"/>
+     <lemma form="verwundern"/>
+     <lemma form="verzagen"/>
+     <lemma form="verzweifeln"/>
+     <lemma form="voraussetzen"/>
+     <lemma form="vorstellen"/>
+     <lemma form="wegwünschen"/>
+     <lemma form="widerstreben"/>
+     <lemma form="wissen"/>
+     <lemma form="wundern"/>
+     <lemma form="wundernehmen"/>
+     <lemma form="wähnen"/>
+     <lemma form="wünschen"/>
+     <lemma form="zweifeln"/>
+     <lemma form="überkommen"/>
+     <lemma form="überschauern"/>
+</list>
+
 </lists>
