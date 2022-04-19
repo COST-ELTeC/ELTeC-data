@@ -22,6 +22,7 @@ for (i in listembeddings) {
 
 
 compute_decade<-function(x) {
+print(x)
 trunc((x-1840)/10)+1}
 fiveyears<-function(x) {
 trunc((x-1840)/5)+1}
@@ -40,6 +41,9 @@ srpembed<-cbind(srpembed,decade=compute_decade(srpembed$year),five=fiveyears(srp
 hun<-cbind(hun,decade=compute_decade(hun$year),five=fiveyears(hun$year),twenty=twentyyears(hun$year))
 hununamb<-cbind(hununamb,decade=compute_decade(hununamb$year),five=fiveyears(hununamb$year),twenty=twentyyears(hununamb$year))
 hunembed<-cbind(hunembed,decade=compute_decade(hunembed$year),five=fiveyears(hunembed$year),twenty=twentyyears(hunembed$year))
+
+deuunamb<-cbind(deuunamb,decade=compute_decade(deuunamb$year),five=fiveyears(deuunamb$year),twenty=twentyyears(deuunamb$year))
+deuembed<-cbind(deuembed,decade=compute_decade(deuembed$year),five=fiveyears(deuembed$year),twenty=twentyyears(deuembed$year))
 
 slv<-cbind(slv,decade=compute_decade(slv$year),five=fiveyears(slv$year),twenty=twentyyears(slv$year))
 slvunamb<-cbind(slvunamb,decade=compute_decade(slvunamb$year),five=fiveyears(slvunamb$year),twenty=twentyyears(slvunamb$year))
@@ -197,6 +201,23 @@ boxplot(innerVerbs/verbs~five, main="(Unambiguously) inner life verbs in Norwegi
 dev.off()
 detach(norunamb)
 
+attach(deuunamb)
+png("/home/lou/Public/ELTeC-data/deu/10verbsunamb.png",height=10,width=30,units="cm", res=800)
+par(mfrow=c(1,3))
+boxplot(innerVerbs/verbs~decade, main="(Unambiguously) inner life verbs in German per decade")
+boxplot(innerVerbs/verbs~twenty, main="(Unambiguously) inner life verbs in German per twenty years")
+boxplot(innerVerbs/verbs~five, main="(Unambiguously) inner life verbs in German per five years")
+dev.off()
+detach(deuunamb)
+
+attach(deuembed)
+png("/home/lou/Public/ELTeC-data/deu/verbsembed.png",height=10,width=30,units="cm", res=800)
+par(mfrow=c(1,3))
+boxplot(innerVerbs/verbs~decade, main="Inner life verbs in German per decade")
+boxplot(innerVerbs/verbs~twenty, main="Inner life verbs in German per twenty years")
+boxplot(innerVerbs/verbs~five, main="Inner life verbs in German per five years")
+dev.off()
+detach(deuembed)
 
 
 
@@ -210,6 +231,7 @@ slvshort<-subset(slvunamb,TRUE,c(1:4,15:17))
 srpshort<-subset(srpunamb,TRUE,c(1:4,13:15))
 norshort<-subset(norunamb,TRUE,c(1:4,15:17))
 romshort<-subset(romunamb,TRUE,c(1:4,15:17))
+deushort<-subset(deuunamb,TRUE,c(1:4,15:17))
 
 all <-rbind(porshort,engshort)
 all<-rbind(frashort,all)
@@ -218,12 +240,11 @@ all<-rbind(slvshort,all)
 all<-rbind(srpshort,all)
 all<-rbind(norshort,all)
 all<-rbind(romshort,all)
+all<-rbind(deushort,all)
 
 
 all$lang<-as.factor(sub( "^([A-Z][A-Z][A-Z]*).*", "\\1", all$textId, perl=TRUE))
 
-# for Romanian... but then I removed from the verbCounter files, so no need
-#allclean<-subset(all,all$year!=9999)
 
 attach(all)
 png("All.png",height=10,width=30,units="cm", res=800)
@@ -237,16 +258,18 @@ dev.off()
 porembshort<-subset(porembed,TRUE,c(1:4,68:70))
 hunembshort<-subset(hunembed,TRUE,c(1:4,46:48))
 srpembshort<-subset(srpembed,TRUE,c(1:4,77:79))
+deuembshort<-subset(deuembed,TRUE,c(1:4,101:103))
 
 
 allemb <-rbind(porembshort,hunembshort)
 allemb<-rbind(srpembshort,allemb)
+allemb<-rbind(deuembshort,allemb)
 
 allemb$lang<-as.factor(sub( "^([A-Z][A-Z][A-Z]*).*", "\\1", allemb$textId, perl=TRUE))
 
 attach(allemb)
 png("Allemb.png",height=10,width=30,units="cm", res=800)
-boxplot(innerVerbs/verbs~decade, main="Rel. frequency of inner life verbs in all three languages per decade, using embeddings")
+boxplot(innerVerbs/verbs~decade, main="Rel. frequency of inner life verbs in four languages per decade, using embeddings")
 dev.off()
 png("perLanguageemb.png",height=10,width=30,units="cm", res=800)
 boxplot(innerVerbs/verbs~decade+lang, main="Relative frequency of inner life verbs per decade, using embeddings", las=2)
@@ -335,6 +358,18 @@ lines(lowess(romunamb$year,romunamb$rel),col="green")
 legend("topleft",col=c("red","green"), legend=c("10 general","10 unambiguous"),pch=1)
 dev.off()
 
+deuunamb<-deuunamb[order(deuunamb$year),]
+deuunamb$rel<-deuunamb$innerVerbs/deuunamb$verbs
+deuembed<-deuembed[order(deuembed$year),]
+deuembed$rel<-deuembed$innerVerbs/deuembed$verbs
+png("GermanLinear.png",height=10,width=30,units="cm", res=800)
+plot(deuembed$year,deuembed$rel,xlab="publication year",ylab="Relative number of inner life verbs", main="Inner life verbs in German", ylim=c(0,0.17))
+lines(lowess(deuembed$year,deuembed$rel))
+points(deuunamb$year,deuunamb$rel,col="green")
+lines(lowess(deuunamb$year,deuunamb$rel),col="green")
+legend("topleft",col=c("black","green"), legend=c("word embeddings","10 unambiguous"),pch=1)
+dev.off()
+
 # All (unambiguous) languages
 engunamb<-engunamb[order(engunamb$year),]
 engunamb$rel<-engunamb$innerVerbs/engunamb$verbs
@@ -354,5 +389,6 @@ lines(lowess(srpunamb$year,srpunamb$rel),col="brown")
 lines(lowess(slvunamb$year,slvunamb$rel),col="gray")
 lines(lowess(norunamb$year,norunamb$rel),col="violet")
 lines(lowess(romunamb$year,romunamb$rel),col="orange")
-legend("topleft",col=c("black","green","blue","red","brown","gray","violet","orange"), legend=c("fra","por","hun","eng","srp","slv","nor","rom"),pch=1)
+lines(lowess(deuunamb$year,deuunamb$rel),col="darkgreen")
+legend("topleft",col=c("black","green","blue","red","brown","gray","violet","orange","darkgreen"), legend=c("fra","por","hun","eng","srp","slv","nor","rom","deu"),pch=1)
 dev.off()
