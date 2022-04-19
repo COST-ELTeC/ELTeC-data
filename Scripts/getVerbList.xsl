@@ -4,7 +4,6 @@
   exclude-result-prefixes="xs t" version="2.0">
   <xsl:output omit-xml-declaration="yes" method="text"/>
 
-
   <xsl:param name="lang">por</xsl:param>
   <xsl:param name="list">noisy</xsl:param>
 
@@ -13,10 +12,10 @@
 
     <xsl:choose>
       <xsl:when test="$list eq 'pure'">
-     <xsl:message>Preparing a pure list</xsl:message>
+   <!--  <xsl:message>Preparing a pure list</xsl:message>
   <xsl:message>lang is <xsl:value-of select="$lang"/>
-    list-type is <xsl:value-of select="$listName"/>
-    </xsl:message>
+    list-type is <xsl:value-of select="$listName"/>-->
+    <!--</xsl:message>-->
         <xsl:for-each
           select="lists/list[@xml:lang = $lang][@n = $listName]/lemma[@inner = 'y']/@form">
        <!--   <xsl:sort/>-->

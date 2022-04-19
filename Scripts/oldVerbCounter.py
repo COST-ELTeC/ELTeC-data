@@ -33,9 +33,11 @@ with saxonc.PySaxonProcessor(license=False) as proc:
     xsltproc.set_parameter("lang",proc.make_string_value(REPO))
     xsltproc.set_parameter("list",proc.make_string_value(LIST))
     verbList= xsltproc.apply_templates_returning_string(stylesheet_file=SCRIPT2)
+    verbList10=verbList.split()[:10]
+    verbList10str=' '.join(verbList10)
 # open the output file in write mode  
     output=open(OUTFILE,'w')
-    header="textId year verbs innerVerbs "+verbList
+    header="textId year verbs innerVerbs "+verbList10str
     output.write(header)
     output.close()
     print("Wrote "+header+" to "+OUTFILE)
@@ -51,7 +53,7 @@ with saxonc.PySaxonProcessor(license=False) as proc:
 #      print("Processing "+FILE)
       xsltproc.set_initial_match_selection(file_name=REPOROOT+FILE)
       xsltproc.set_parameter("lang",proc.make_string_value(REPO))
-      xsltproc.set_parameter("verbString",proc.make_string_value(verbList.strip()))
+      xsltproc.set_parameter("verbString",proc.make_string_value(verbList10str.strip()))
 # apply stylesheet to do the counting
       result = xsltproc.apply_templates_returning_string(stylesheet_file=SCRIPT1)
       output.write(result)
