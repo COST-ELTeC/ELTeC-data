@@ -22,12 +22,11 @@ for (i in listembeddings) {
 
 
 compute_decade<-function(x) {
-print(x)
-trunc((x-1840)/10)+1}
+trunc((x-1841)/10)+1}
 fiveyears<-function(x) {
-trunc((x-1840)/5)+1}
+trunc((x-1841)/5)+1}
 twentyyears<-function(x) {
-trunc((x-1840)/20)+1}
+trunc((x-1841)/20)+1}
 
 
 por<-cbind(por,decade=compute_decade(por$year),five=fiveyears(por$year),twenty=twentyyears(por$year))
@@ -42,6 +41,7 @@ hun<-cbind(hun,decade=compute_decade(hun$year),five=fiveyears(hun$year),twenty=t
 hununamb<-cbind(hununamb,decade=compute_decade(hununamb$year),five=fiveyears(hununamb$year),twenty=twentyyears(hununamb$year))
 hunembed<-cbind(hunembed,decade=compute_decade(hunembed$year),five=fiveyears(hunembed$year),twenty=twentyyears(hunembed$year))
 
+deuunamb<-deuunamb[deuunamb$year!="1840",]
 deuunamb<-cbind(deuunamb,decade=compute_decade(deuunamb$year),five=fiveyears(deuunamb$year),twenty=twentyyears(deuunamb$year))
 deuembed<-cbind(deuembed,decade=compute_decade(deuembed$year),five=fiveyears(deuembed$year),twenty=twentyyears(deuembed$year))
 
@@ -51,8 +51,15 @@ slvunamb<-cbind(slvunamb,decade=compute_decade(slvunamb$year),five=fiveyears(slv
 rom<-cbind(rom,decade=compute_decade(rom$year),five=fiveyears(rom$year),twenty=twentyyears(rom$year))
 romunamb<-cbind(romunamb,decade=compute_decade(romunamb$year),five=fiveyears(romunamb$year),twenty=twentyyears(romunamb$year))
 
+engunamb<-engunamb[engunamb$year!="1840",]
 engunamb<-cbind(engunamb,decade=compute_decade(engunamb$year),five=fiveyears(engunamb$year),twenty=twentyyears(engunamb$year))
-fraunamb<-cbind(fraunamb,decade=compute_decade(fraunamb$year),five=fiveyears(fraunamb$year),twenty=twentyyears(fraunamb$year))
+fraunamb<-
+
+fraunamb<-fraunamb[fraunamb$year!="1840",]
+fraunamb<-
+cbind(fraunamb,decade=compute_decade(fraunamb$year),five=fiveyears(fraunamb$year),twenty=twentyyears(fraunamb$year))
+
+norunamb<-norunamb[norunamb$year!="1840",]
 norunamb<-cbind(norunamb,decade=compute_decade(norunamb$year),five=fiveyears(norunamb$year),twenty=twentyyears(norunamb$year))
 
 
@@ -248,13 +255,16 @@ all$lang<-as.factor(sub( "^([A-Z][A-Z][A-Z]*).*", "\\1", all$textId, perl=TRUE))
 
 attach(all)
 png("All.png",height=10,width=30,units="cm", res=800)
-boxplot(innerVerbs/verbs~decade, main="Rel. frequency of inner life verbs in all languages per decade")
+par(mfrow=c(1,3))
+boxplot(innerVerbs/verbs~decade, main="Rel. frequency per decade")
+boxplot(innerVerbs/verbs~twenty, main="Rel. frequency per 20 years")
+boxplot(innerVerbs/verbs~five, main="Rel. frequency per 5 years")
 dev.off()
 png("perLanguage.png",height=10,width=30,units="cm", res=800)
 boxplot(innerVerbs/verbs~decade+lang, main="Relative frequency of inner life verbs per decade", las=2)
 dev.off()
 
-# figure using the three word embeddings
+# figure using the four word embeddings
 porembshort<-subset(porembed,TRUE,c(1:4,68:70))
 hunembshort<-subset(hunembed,TRUE,c(1:4,46:48))
 srpembshort<-subset(srpembed,TRUE,c(1:4,77:79))
@@ -269,7 +279,10 @@ allemb$lang<-as.factor(sub( "^([A-Z][A-Z][A-Z]*).*", "\\1", allemb$textId, perl=
 
 attach(allemb)
 png("Allemb.png",height=10,width=30,units="cm", res=800)
-boxplot(innerVerbs/verbs~decade, main="Rel. frequency of inner life verbs in four languages per decade, using embeddings")
+par(mfrow=c(1,3))
+boxplot(innerVerbs/verbs~decade, main="Rel. frequency per decade, using embeddings")
+boxplot(innerVerbs/verbs~twenty, main="Rel. frequency per 20 years, using embeddings")
+boxplot(innerVerbs/verbs~five, main="Rel. frequency per 5 years, using embeddings")
 dev.off()
 png("perLanguageemb.png",height=10,width=30,units="cm", res=800)
 boxplot(innerVerbs/verbs~decade+lang, main="Relative frequency of inner life verbs per decade, using embeddings", las=2)
@@ -296,7 +309,7 @@ plot(porembed$year,porembed$rel,xlab="publication year",ylab="Relative number of
 lines(lowess(porembed$year,porembed$rel))
 points(porunamb$year,porunamb$rel,col="green")
 
-png("PortugueseLinear.png",height=10,width=30,units="cm", res=800)
+png("/home/lou/Public/ELTeC-data/por/PortugueseLinear.png",height=10,width=30,units="cm", res=800)
 plot(porembed$year,porembed$rel,xlab="publication year",ylab="Relative number of inner life verbs", main="Inner life verbs in Portuguese", ylim=c(0,0.13))
 lines(lowess(porembed$year,porembed$rel))
 points(porunamb$year,porunamb$rel,col="green")
@@ -312,7 +325,7 @@ srpunamb<-srpunamb[order(srpunamb$year),]
 srpunamb$rel<-srpunamb$innerVerbs/srpunamb$verbs
 srpembed<-srpembed[order(srpembed$year),]
 srpembed$rel<-srpembed$innerVerbs/srpembed$verbs
-png("SerbianLinear.png",height=10,width=30,units="cm", res=800)
+png("/home/lou/Public/ELTeC-data/srp/SerbianLinear.png",height=10,width=30,units="cm", res=800)
 plot(srpembed$year,srpembed$rel,xlab="publication year",ylab="Relative number of inner life verbs", main="Inner life verbs in Serbian", ylim=c(0,0.13))
 lines(lowess(srpembed$year,srpembed$rel))
 points(srpunamb$year,srpunamb$rel,col="green")
@@ -326,7 +339,7 @@ slv<-slv[order(slv$year),]
 slv$rel<-slv$innerVerbs/slv$verbs
 slvunamb<-slvunamb[order(slvunamb$year),]
 slvunamb$rel<-slvunamb$innerVerbs/slvunamb$verbs
-png("SlovenianLinear.png",height=10,width=30,units="cm", res=800)
+png("/home/lou/Public/ELTeC-data/slv/SlovenianLinear.png",height=10,width=30,units="cm", res=800)
 plot(slv$year,slv$rel,xlab="publication year",ylab="Relative number of inner life verbs", main="Manual choice of 10 inner life verbs in Slovenian", col="red")
 lines(lowess(slv$year,slv$rel),col="red")
 points(slvunamb$year,slvunamb$rel,col="green")
@@ -338,7 +351,7 @@ hun<-hun[order(hun$year),]
 hun$rel<-hun$innerVerbs/hun$verbs
 hununamb<-hununamb[order(hununamb$year),]
 hununamb$rel<-hununamb$innerVerbs/hununamb$verbs
-png("HungarianLinear.png",height=10,width=30,units="cm", res=800)
+png("/home/lou/Public/ELTeC-data/hun/HungarianLinear.png",height=10,width=30,units="cm", res=800)
 plot(hun$year,hun$rel,xlab="publication year",ylab="Relative number of inner life verbs", main="Manual choice of 10 inner life verbs in Hungarian", col="red")
 lines(lowess(hun$year,hun$rel),col="red")
 points(hununamb$year,hununamb$rel,col="green")
@@ -350,7 +363,7 @@ rom<-rom[order(rom$year),]
 rom$rel<-rom$innerVerbs/rom$verbs
 romunamb<-romunamb[order(romunamb$year),]
 romunamb$rel<-romunamb$innerVerbs/romunamb$verbs
-png("RomanianLinear.png",height=10,width=30,units="cm", res=800)
+png("/home/lou/Public/ELTeC-data/rom/RomanianLinear.png",height=10,width=30,units="cm", res=800)
 plot(rom$year,rom$rel,xlab="publication year",ylab="Relative number of inner life verbs", main="Manual choice of 10 inner life verbs in Romanian", col="red")
 lines(lowess(rom$year,rom$rel),col="red")
 points(romunamb$year,romunamb$rel,col="green")
@@ -362,7 +375,7 @@ deuunamb<-deuunamb[order(deuunamb$year),]
 deuunamb$rel<-deuunamb$innerVerbs/deuunamb$verbs
 deuembed<-deuembed[order(deuembed$year),]
 deuembed$rel<-deuembed$innerVerbs/deuembed$verbs
-png("GermanLinear.png",height=10,width=30,units="cm", res=800)
+png("/home/lou/Public/ELTeC-data/deu/GermanLinear.png",height=10,width=30,units="cm", res=800)
 plot(deuembed$year,deuembed$rel,xlab="publication year",ylab="Relative number of inner life verbs", main="Inner life verbs in German", ylim=c(0,0.17))
 lines(lowess(deuembed$year,deuembed$rel))
 points(deuunamb$year,deuunamb$rel,col="green")
