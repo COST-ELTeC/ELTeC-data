@@ -28,8 +28,8 @@ else :
     os.chdir(repoName)
     FILES=sorted(glob.glob('level2/*.xml'))   
     with saxonc.PySaxonProcessor(license=False) as proc:
-        print(proc.version)
-        for FILE in FILES: 
+       print(proc.version)
+       for FILE in FILES: 
              bf=os.path.splitext(FILE)[0] 
              f1=bf.split('/')[1]
              id=f1.split('_')[0]  
@@ -40,11 +40,11 @@ else :
     # Default output directory
              xsltproc.set_cwd('/home/lou/Public/ELTeC-data/'+LANG+'/'+POS+'/'+WOT)
     # initialise XSLT 3.0 processor result
-    #         xsltproc.set_result_as_raw_value(True)
-             xsltproc.set_initial_match_selection(file_name=FILE)
-             #pass parameters
+    #        xsltproc.set_base_output_uri('/home/lou/Public/ELTeC-data/')
+    #pass parameters
              xsltproc.set_parameter("pos",proc.make_string_value(POS))
              xsltproc.set_parameter("wot",proc.make_string_value(WOT))
     # apply stylesheet 
-             result = xsltproc.apply_templates_returning_file(stylesheet_file=script, output_file="ignore.me")
+             result = xsltproc.transform_to_file(source_file=FILE, stylesheet_file=script, output_file="ignore.me" )
+    #     result = xsltproc.apply_templates_returning_file(stylesheet_file=script, output_file="ignore.me")
       
