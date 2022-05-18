@@ -18,7 +18,7 @@
     <!--</xsl:message>-->
         <xsl:for-each
           select="lists/list[@xml:lang = $lang][@n = $listName]/lemma[@inner = 'y']/@form">
-       <!--   <xsl:sort/>-->
+       <xsl:sort/>
           <!--<xsl:message><xsl:value-of select="."/></xsl:message>
 -->
           <xsl:value-of select="."/>
@@ -28,8 +28,8 @@
       <xsl:when test="$list eq 'noisy'">
         <xsl:for-each
           select="lists/list[@xml:lang = $lang][@n = $listName]/lemma[@inner = 'y' or @inner = 'm']/@form">
-      <!--    <xsl:sort/>
-      -->    <xsl:value-of select="."/>
+       <xsl:sort/>
+          <xsl:value-of select="."/>
           <xsl:text> </xsl:text>
         </xsl:for-each>
       </xsl:when>
