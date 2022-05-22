@@ -1,11 +1,16 @@
-$LANG='por';
-$DATA='VERB/lemma';
-$ROOT='/home/lou/Public';
-$DIR="$ROOT/ELTeC-data/$LANG/$DATA";
-$LIST='pure';
+use strict; use warnings;
+
+my ($LANG,$LIST) = @ARGV;
+if (not defined $LANG) { die "Language needed!"; }
+if (not defined $LIST) { die "Pure, noisy, or w2v ?"; }
+
+
+my $DATA='VERB/lemma';
+my $ROOT='/home/lou/Public';
+my $DIR="$ROOT/ELTeC-data/$LANG/$DATA";
 
 # first get the list of inner verbs required
-$wordList=`java -jar /usr/share/saxon/saxon9he.jar -s:$ROOT/ELTeC-data/innerVerbs.xml -xsl:$ROOT/ELTeC-data/Scripts/getVerbList.xsl lang=$LANG list=$LIST`;
+my $wordList=`java -jar /usr/share/saxon/saxon9he.jar -s:$ROOT/ELTeC-data/innerVerbs.xml -xsl:$ROOT/ELTeC-data/Scripts/getVerbList.xsl lang=$LANG list=$LIST`;
 
 print("textId year verbs innerVerbs ", $wordList,"\n");
 
@@ -14,21 +19,21 @@ print("textId year verbs innerVerbs ", $wordList,"\n");
 
 opendir(my $dh, $DIR) || die "$! $DIR" ;
 while (readdir $dh) {
-    $fileName=$_;
+    my $fileName=$_;
     next if ($fileName =~ /^\./);
     $fileName  =~ /([^_]+)_(\d\d\d\d)/;
-    $textId=$1; $year=$2;
-    $FILE = "$DIR/$fileName";
+    my $textId=$1; my $year=$2;
+    my $FILE = "$DIR/$fileName";
 #print "Opening $FILE\n";
     open(IN, $FILE) || die "$! $FILE";
     my %lexicon=();
-    $verbs=0;
-    $innerVerbs=0;
+    my $verbs=0;
+    my $innerVerbs=0;
 # build a lexicon showing how often each term appears in one text
 while (<IN>) {
     chop;
-    $string = $_;
-    @tokens = split / /,$string ;
+    my $string = $_;
+    my @tokens = split / /,$string ;
     foreach my $token (@tokens) {
 	$lexicon{$token} ++;
 	$verbs ++;
@@ -36,15 +41,14 @@ while (<IN>) {
  }
 
 # look up the count for the required words in the lexicon
-
-@innerVerbs = split(/ /,$wordList);
+my $countString="";
+my @innerVerbs = split(/ /,$wordList);
 foreach my $inner (@innerVerbs) {
-    $count = $lexicon{$inner};
+    my $count = $lexicon{$inner};
     $countString .= "$count ";
     $innerVerbs += $count;
 #    print "added $count for $inner\n";
 }
 
 print "$textId $year $verbs $innerVerbs $countString\n";
-    $countString="";
 }
