@@ -16,7 +16,7 @@
  
  <xsl:param name="wot">lemma</xsl:param>
  <xsl:param name="pos">CONTENT</xsl:param>
- 
+ <xsl:param name="outDir">./</xsl:param>
  
  <xsl:template match="t:date">
   <xsl:choose>
@@ -34,6 +34,8 @@
 
  <xsl:template match="/">
 
+  <xsl:message>Processing <xsl:value-of 
+   select="base-uri()" /> with output to <xsl:value-of select='$outDir'/></xsl:message>
   
   <xsl:variable name="dateStr">
    <xsl:choose>
@@ -50,29 +52,16 @@
      
       </xsl:when>
     <xsl:when
-     test="string-length(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'printSource'][1]/t:date) gt 1">
+     test="string-length(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'printSource'][1]/t:date[1]) gt 1">
      
      <!-- failing which, use printSource date -->
      <xsl:apply-templates select="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'printSource'][1]/t:date[1]"/>
-    <!-- 
-     <xsl:variable name="year"><xsl:value-of
-      select="normalize-space(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl[@type = 'printSource']/t:date[1])"
-     /></xsl:variable>
-     <xsl:choose>
-      <xsl:when test="contains($year, '(')">
-       <xsl:value-of select="substring-before(substring-after($year,'('),')')"/>
-      </xsl:when>
-      <xsl:otherwise><xsl:value-of select="$year"/></xsl:otherwise>
-     </xsl:choose> -->
-    </xsl:when>
+       </xsl:when>
     <!-- failing which, use whatever date you can find-->
     <xsl:when
-     test="string-length(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl/t:date) gt 1">
-     
+     test="string-length(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl/t:date) gt 1">  
     <xsl:apply-templates select="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl/t:date[1]"/>
-  <!--    <xsl:value-of
-      select="normalize-space(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc//t:bibl/t:date[1])"
-     />--></xsl:when>
+ </xsl:when>
     <xsl:otherwise>
      <xsl:text>1800</xsl:text>
     </xsl:otherwise>
@@ -80,7 +69,8 @@
   </xsl:variable>
 
 <xsl:variable name="date">
- <xsl:choose>
+<!-- <xsl:message>datestr= <xsl:value-of select="$dateStr"/></xsl:message>
+--> <xsl:choose>
   <xsl:when test="contains($dateStr,'-')"><xsl:value-of select="substring-before($dateStr,'-')"/></xsl:when>
   <xsl:otherwise><xsl:value-of select="$dateStr"/></xsl:otherwise>
  </xsl:choose>
@@ -88,7 +78,7 @@
   
 
    <xsl:variable name="fName"> 
-   <xsl:value-of select="concat(/t:TEI/@xml:id,'_',$date,//t:textDesc/e:timeSlot/@key,
+   <xsl:value-of select="concat(/*:TEI/@xml:id,'_',$date,//t:textDesc/e:timeSlot/@key,
    //t:textDesc/e:authorGender/@key,
  upper-case(substring(//t:textDesc/e:size/@key,1,1)),
   upper-case(substring(//t:textDesc/e:canonicity/@key,1,1)),
@@ -96,9 +86,8 @@
 '.txt')"/>
   </xsl:variable>
   <xsl:message><xsl:value-of select="$fName"/></xsl:message>
-<!--  <xsl:message>Filtering <xsl:value-of select="$wot"/> on   <xsl:value-of select="$pos"/></xsl:message>
---> <xsl:result-document href="{$fName}">
-  <xsl:choose>
+<xsl:result-document href="{resolve-uri(concat($outDir,$fName), static-base-uri())}">
+   <xsl:choose>
    <xsl:when test="$pos='CONTENT'">
     <xsl:apply-templates select="//t:body//t:w[matches(@pos,'NOUN|ADJ|ADV|VERB')]"/>
    </xsl:when>
@@ -106,6 +95,7 @@
   <xsl:apply-templates select="//t:body//t:w[starts-with(@pos,$pos)]"/>
  </xsl:otherwise></xsl:choose> </xsl:result-document>
  </xsl:template> 
+ 
  <xsl:template match="t:w">
   <xsl:choose>
    <xsl:when test="$wot eq 'lemma'">

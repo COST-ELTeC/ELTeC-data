@@ -2,13 +2,16 @@ $LANG='por';
 $DATA='VERB/lemma';
 $ROOT='/home/lou/Public';
 $DIR="$ROOT/ELTeC-data/$LANG/$DATA";
+$LIST='pure';
 
 # first get the list of inner verbs required
-$wordList=`java -jar /usr/share/saxon/saxon9he.jar -s:$ROOT/ELTeC-data/innerVerbs.xml -xsl:$ROOT/ELTeC-data/Scripts/getVerbList.xsl lang=$LANG`;
+$wordList=`java -jar /usr/share/saxon/saxon9he.jar -s:$ROOT/ELTeC-data/innerVerbs.xml -xsl:$ROOT/ELTeC-data/Scripts/getVerbList.xsl lang=$LANG list=$LIST`;
 
 print("textId year verbs innerVerbs ", $wordList,"\n");
 
 # now loop around the verb data for each repo
+# (created in previous step by the filter.py script)
+
 opendir(my $dh, $DIR) || die "$! $DIR" ;
 while (readdir $dh) {
     $fileName=$_;
