@@ -6,8 +6,8 @@ sys.path.append("/usr/lib/Saxon.C.API/python-saxon")
 import saxonc
 
 repoRoot='/home/lou/Public/ELTeC-'
-script='/home/lou/Public/ELTeC-data/Scripts/filter.xsl'
 
+# does not work on deu or hun or rom for no reason that i can see (LB 2022-05-22)
 # now looks for w elements anywhere in body, not just in chapters (LB 2021-03-21)
 # Script to produce data for word embedding experiment (LB 2021-06-30)
 # data produced is a blank delimited sequence of tokens 
@@ -23,28 +23,31 @@ else :
     LANG=sys.argv[1]
     POS=sys.argv[2]
     WOT=sys.argv[3]
+    SCRIPT=repoRoot+'data/Scripts/filter.xsl'
+    OUTDIR=repoRoot+'data/'+LANG+'/'+POS+'/'+WOT+'/'
     repoName=repoRoot+LANG
     print("Filtering "+WOT+" from repo "+repoName+" for "+POS)
     os.chdir(repoName)
     FILES=sorted(glob.glob('level2/*.xml'))   
     with saxonc.PySaxonProcessor(license=False) as proc:
-        print(proc.version)
-        for FILE in FILES: 
+       print(proc.version)
+       for FILE in FILES: 
              bf=os.path.splitext(FILE)[0] 
              f1=bf.split('/')[1]
-             id=f1.split('_')[0]  
+             if ('_' in f1) :
+                id=f1.split('_')[0]  
+             else :
+                id=f1.split(".")[0]
              FILE=repoName+"/"+FILE   
-    #         print("File="+FILE+" id="+id)        
     # Initialize the XSLT 3.0. processor
              xsltproc = proc.new_xslt30_processor()
-    # Default output directory
-             xsltproc.set_cwd('/home/lou/Public/ELTeC-data/'+LANG+'/'+POS+'/'+WOT)
+    # Default output directory     
+             xsltproc.set_cwd(OUTDIR)
     # initialise XSLT 3.0 processor result
-    #         xsltproc.set_result_as_raw_value(True)
-             xsltproc.set_initial_match_selection(file_name=FILE)
-             #pass parameters
+    # pass parameters
              xsltproc.set_parameter("pos",proc.make_string_value(POS))
              xsltproc.set_parameter("wot",proc.make_string_value(WOT))
+             xsltproc.set_parameter("outDir",proc.make_string_value(OUTDIR))
     # apply stylesheet 
-             result = xsltproc.apply_templates_returning_file(stylesheet_file=script, output_file="ignore.me")
-      
+             result = xsltproc.transform_to_string(source_file=FILE, stylesheet_file=SCRIPT)
+       
