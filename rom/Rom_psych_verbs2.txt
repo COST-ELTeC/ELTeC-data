@@ -1,0 +1,56 @@
+perception: to see - a vedea
+physiology: to wake up - a se trezi
+affect: to like - a plăcea
+volition: to want - a vrea
+cognition: to know - a ști
+moral_judgment: to have to - a trebui
+
+
+cat="perception_physiology_affect_volition_cognition_moral_judgment"
+
+<lemma form="vedea" cat="perception" freq="21312" inner="y" trans="to see"/>
+    <lemma form="ști" cat="cognition" freq="13634" inner="y" trans="to know"/>
+    <lemma form="putea" cat="volition" freq="11909" inner="y" trans="can+be able"/>
+    <lemma form="trebui" cat="moral_judgment" freq="9007" inner="y" trans="to have to+must"/>
+    <lemma form="vrea" cat="volition" freq="8611" inner="y" trans="to will"/>
+    <lemma form="părea" cat="perception" freq="7310" inner="y" trans="to seem"/>
+    <lemma form="uita" cat="perception+cognition" freq="7097" inner="y" trans="to forget+to have a look"/>
+    <lemma form="crede" cat="cognition" freq="6571" inner="y" trans="to believe+to have an opinion"/>
+    <lemma form="iubi" cat="affect" freq="6115" inner="y" trans="to love"/>
+        <lemma form="auzi" cat="perception" freq="5625" inner="y" trans="to hear"/>
+    <lemma form="simți" cat="physiology" freq="5273" inner="y" trans="to feel"/>
+    <lemma form="afla" cat="cognition" freq="5236" inner="y" trans="to find out"/>
+    <lemma form="cunoaște" cat="cognition" freq="4419" inner="y" trans="to know"/>
+        <lemma form="gândi" cat="cognition" freq="3957" inner="y" trans="to think"/>
+       <lemma form="înțelege" cat="cognition" freq="3697" inner="y" trans="to understand"/>
+    <lemma form="privi" cat="perception" freq="3486" inner="y" trans="to look at"/>
+    <lemma form="voi" cat="volition" freq="3374" inner="y" trans="to want"/>
+    <lemma form="asculta" cat="perception" freq="3046" inner="y" trans="to listen to"/>
+    <lemma form="plânge" cat="physiology" freq="2567" inner="y" trans="to cry"/>
+        <lemma form="plăcea" cat="affect" freq="2106" inner="y" trans="to like"/>
+        <lemma form="mulțumi" cat="moral_judgment" freq="2105" inner="y" trans="to thank"/>
+            <lemma form="alege" cat="moral_judgment" freq="2102" inner="y" trans="to choose"/>
+    <lemma form="suferi" cat="physiology" freq="2058" inner="y" trans="to suffer"/>
+    <lemma form="ferici" cat="affect" freq="1913" inner="y" trans="to make someone happy"/>
+    <lemma form="hotărî" cat="moral_judgment" freq="1771" inner="y" trans="to decide"/>
+
+    <note #1>not sure about the following ones; they might be verba dicendi or related to exchanging info in conversation, e.g. "to inquire", "to ask", "to find out": 
+        <lemma form="fi" cat="physiology" freq="14725" inner="y" trans="to be"/>
+        <lemma form="spune" freq="12006" inner="y" trans="to say"/>
+        <lemma form="începe" cat="volition+psysiology" freq="6707" inner="y" trans="to start"/>
+        <lemma form="întreba" freq="5960" inner="y" trans="to ask"/>
+        <lemma form="găsi" cat="moral_judgment" freq="5882" inner="y" trans="to find out+to believe"/>
+        <lemma form="răspunde" cat="moral_judgment" freq="5475" inner="y" trans="to answer+to be responsible for"/>
+<lemma form="căuta" cat="cognition+volition" freq="4359" inner="y" trans="to search for"/>
+ <lemma form="aștepta" cat="affect+volition+cognition" freq="3950" inner="y" trans="to wait for"/>
+        <lemma form="trăi" cat="physiology" freq="3702" inner="y" trans="to live"/>
+        <lemma form="arăta" cat="physiology" freq="3362" inner="y" trans="to look like+to point at"/>
+        <lemma form="cere" freq="3181" inner="y" trans="to bid for+to ask for"/>
+        <lemma form="scăpa" freq="3110" inner="y" trans="to escape"/>
+        <lemma form="muri" cat="physiology" freq="3083" inner="y" trans="to die"/>
+        <lemma form="ruga" cat="affect+moral_judgment" freq="3031" inner="y" trans="to pray"/>
+        <lemma form="urma" freq="2885" inner="y" trans="to follow"/>
+        <lemma form="petrece" freq="2385" inner="y" trans="to spend+to party"/>
+        <lemma form="citi" cat="cognition" freq="2156" inner="y" trans="to read"/>
+    </note>
+
