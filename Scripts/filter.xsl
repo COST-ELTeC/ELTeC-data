@@ -34,9 +34,9 @@
 
  <xsl:template match="/">
 
-  <xsl:message>Processing <xsl:value-of 
+  <!--<xsl:message>Processing <xsl:value-of 
    select="base-uri()" /> with output to <xsl:value-of select='$outDir'/></xsl:message>
-  
+-->  
   <xsl:variable name="dateStr">
    <xsl:choose>
     
@@ -72,13 +72,15 @@
 <!-- <xsl:message>datestr= <xsl:value-of select="$dateStr"/></xsl:message>
 --> <xsl:choose>
   <xsl:when test="contains($dateStr,'-')"><xsl:value-of select="substring-before($dateStr,'-')"/></xsl:when>
+  <xsl:when test="contains($dateStr,'[')"><xsl:value-of select="substring-before(substring-after($dateStr,'['),']')"/></xsl:when>
+  
   <xsl:otherwise><xsl:value-of select="$dateStr"/></xsl:otherwise>
  </xsl:choose>
 </xsl:variable>
   
 
    <xsl:variable name="fName"> 
-   <xsl:value-of select="concat(/*:TEI/@xml:id,'_',$date,//t:textDesc/e:timeSlot/@key,
+   <xsl:value-of select="concat(/*:TEI/@xml:id,'_',normalize-space($date),//t:textDesc/e:timeSlot/@key,
    //t:textDesc/e:authorGender/@key,
  upper-case(substring(//t:textDesc/e:size/@key,1,1)),
   upper-case(substring(//t:textDesc/e:canonicity/@key,1,1)),

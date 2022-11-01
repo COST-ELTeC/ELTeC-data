@@ -7,434 +7,218 @@
 <!-- the attribute @freq gives the total frequency of this lemma in the corpus -->
 
 <lists>
-<list n='manual' xml:lang="eng">
-<lemma form="know" freq="31923" inner="y"/>
-<lemma form="see" freq="31793" inner="y"/>
-<lemma form="think" freq="28704"  inner="y"/>
-<lemma form="seem" freq="14863"  inner="y"/>
-<lemma form="feel" freq="12737"  inner="y"/>
-<lemma form="hear" freq="11297"  inner="y"/>
-<lemma form="mean" freq="6617"  inner="y"/>
-<lemma form="believe" freq="6595"  inner="y"/>
-<lemma form="want" freq="6222"  inner="y"/>
-<lemma form="like" freq="5744"  inner="y"/>
-</list>
-<list n='manual' xml:lang="fra">
-<lemma form="voir" freq="23369" trans="see" inner="y"/>
-<lemma form="vouloir" freq="18628" trans="wish" inner="y"/>
-<lemma form="savoir" freq="17463" trans="know" inner="y"/>
-<lemma form="trouver" freq="11656" trans="find" inner="y"/>
-<lemma form="croire" freq="9800" trans="believe" inner="y"/>
-<lemma form="aimer" freq="9307" trans="like" inner="y"/>
-<lemma form="entendre" freq="8621" trans="hear/understand" inner="y"/>
-<lemma form="regarder" freq="7705" trans="look" inner="y"/>
-<lemma form="connaître" freq="6383" trans="know" inner="y"/>
-<lemma form="sembler" freq="5990" trans="seem" inner="y"/>
-</list>
-<list n="manual" xml:lang="hun">
-     <lemma form="tud" freq="25441" inner="y" trans="know"/>
-     <lemma form="akar" freq="13915" inner="y" trans="want"/>
-     <lemma form="szeret" freq="9111" inner="y" trans="like/love"/>
-     <lemma form="tart" freq="7039" trans="consider" inner="m"/>
-     <lemma form="hisz" freq="6692" trans="believe" inner="y"/>
-     <lemma form="érez" freq="6114" trans="feel" inner="y"/>
-     <lemma form="gondol" freq="6031" trans="think" inner="y"/>
-     <lemma form="talál" freq="6007" trans="find" inner="m"/>
-     <lemma form="ért" freq="3286" trans="understand" inner="y"/>
-     <lemma form="tetszik" freq="2497" trans="like" inner="y"/>
-     <lemma form="bír" freq="2194" trans="own/like" inner="m"/>
-     <lemma form="kíván" freq="1346" trans="wish" inner="y"/>
-</list>
-<list n='manual' xml:lang="nor">
-<lemma form="tænke" freq="3352" inner="y"/>
-<lemma form="tro" freq="2452" inner="y"/>
-<lemma form="føle" freq="1970" inner="y"/>
-<lemma form="forstaa" freq="1826" inner="y"/>
-<lemma form="elske" freq="1263" inner="y"/>
-<lemma form="turde" freq="577" inner="y"/>
-<lemma form="lide" freq="532" inner="y"/>
-<lemma form="ønske" freq="504" inner="y"/>
-<lemma form="drømme" freq="315" inner="y"/>
-<lemma form="vove" freq="241" inner="y"/>
-</list>
-<list n='manual' xml:lang="por">
- <lemma form="ver" freq="20206" inner="m" trans="see/understand"/>
- <lemma form="saber" freq="17307" trans="know/taste" inner="m"/>
- <lemma form="querer" freq="13595" trans="want" inner="y"/>
- <lemma form="sentir" freq="5221" trans="feel" inner="y"/>
- <lemma form="conhecer" freq="5099" trans="know" inner="y"/>
- <lemma form="esperar" freq="4237" trans="hope/wait" inner="m"/>
- <lemma form="pensar" freq="3982" trans="think" inner="y"/>
- <lemma form="amar" freq="3202" trans="love" inner="y"/>
- <lemma form="achar" trans="mean/find" freq="3003" inner="m"/>
- <lemma form="julgar" freq="2107" trans="judge" inner="y"/>
- <lemma form="crer" freq="1896" tras="believe" inner="y"/>
- <lemma form="desejar" freq="1881" trans="desire" inner="y"/>
- <lemma form="duvidar" freq="1519" trans="doubt" inner="y"/>
- <lemma form="entender" freq="1517" trans="understand" inner="y"/>
+ <list n="manual" xml:lang="eng">
+  <lemma form="know" freq="31923" inner="y"/>
+  <lemma form="see" freq="31793" inner="y"/>
+  <lemma form="think" freq="28704" inner="y"/>
+  <lemma form="seem" freq="14863" inner="y"/>
+  <lemma form="feel" freq="12737" inner="y"/>
+  <lemma form="hear" freq="11297" inner="y"/>
+  <lemma form="mean" freq="6617" inner="y"/>
+  <lemma form="believe" freq="6595" inner="y"/>
+  <lemma form="want" freq="6222" inner="y"/>
+  <lemma form="like" freq="5744" inner="y"/>
  </list>
-<list n="manual" xml:lang="srp">
-<lemma form="веровати" freq="1464" inner="m" trans="believe/trust"/>
-<lemma form="волети" inner="y" freq="1325" trans="love"/>
-<lemma form="желети" inner="m" freq="368" trans="want/wish/like/desire/care"/>
-<lemma form="заборавити" inner="y" freq="1262" trans="forget"/>
-<lemma form="знати" inner="y" freq="15399" trans="know"/>
-<lemma form="мислити" inner="m" freq="6206" trans="think/opine/reckon/deem"/>
-<lemma form="надати" inner="y" freq="747" trans="hope"/>
-<lemma form="осетити" inner="y" freq="1304" trans="feel"/>
-<lemma form="осећати" inner="m" freq="2032" trans="feel"/>
-<lemma form="помислити" inner="y" freq="1170" trans="think"/>
-<lemma form="разумети" inner="y" freq="1457" trans="understand"/>
-<lemma form="сазнати" inner="m" freq="617" trans="find out/learn"/>
-<lemma form="сумњати" inner="y" freq="254" trans="doubt"/>
-</list>
 
 
-<list n='manual' xml:lang="slv">
-     <lemma form="moči" freq="12600" inner="y"/>
-     <lemma form="morati" freq="11180" inner="y"/>
-     <lemma form="pozabiti" freq="2211"  inner="y"/>
-     <lemma form="spoznati" freq="2198"  inner="y"/>
-     <lemma form="molčati" freq="1868"  inner="y"/>
-     <lemma form="razumeti" freq="1659"  inner="y"/>
-     <lemma form="pričakovati" freq="1287" inner="m"/>
-     <lemma form="skrbeti" freq="1147"  inner="y"/>
-     <lemma form="trpeti" freq="1058" inner="m"/>
-     <lemma form="opaziti" freq="980"  inner="y"/>
-    <!-- <lemma form="sanjati" freq="703"  inner="m"/>
-     <lemma form="zaupati" freq="701" inner="m"/>-->
-     <lemma form="odločiti" freq="628"  inner="y"/>
-    <!-- <lemma form="trepetati" freq="528" inner="m"/>
-     <lemma form="sovražiti" freq="460" inner="m"/>
-     <lemma form="hrepeneti" freq="367" inner="m"/>-->
-     <lemma form="nameravati" freq="342" inner="y"/>
-<!--     <lemma form="smiliti" freq="261" inner="m"/>
-     <lemma form="žalovati" freq="196" inner="m"/>
-     <lemma form="obupati" freq="153" inner="m"/>-->
-</list>
+ <list n="manual" xml:lang="deu">
+  <lemma form="sehen" cat="perception" freq="50350" inner="y" trans="to see"/>
+  <lemma form="wollen" cat="volition" freq="47800" inner="y" trans="to want"/>
+  <lemma form="müssen" cat="moral" freq="40047" inner="y" trans="to have to"/>
+  <lemma form="wissen" cat="cognition" freq="30221" inner="y" trans="to know"/>
+  <lemma form="sollen" cat="moral" freq="29916" inner="y" trans="should"/>
+  <lemma form="mögen" cat="affect" freq="15372" inner="y" trans="like"/>
+  <lemma form="meinen" cat="cognition" freq="15193" inner="y" trans="to mean [or potentially to
+   believe that something is the case]"/>
+  <lemma form="hören" cat="cognition" freq="14112"/>
+
+  <lemma form="denken" freq="13551" trans="to think"/>
+
+  <lemma form="lieben" cat="affect" freq="8842" inner="y" trans="to love"/>
+  <lemma form="fühlen" cat="affect" freq="8148" inner="y" trans="to feel"/>
+
+  <lemma form="verstehen" freq="6531" trans="to understand"/>mo
+  <lemma form="erkennen" freq="5421" trans="to recognise"/>
+  <lemma form="vergessen" freq="4480"/>
+
+  <lemma form="brauchen" cat="volition" freq="4305" inner="y" trans="to need"/>
+  <lemma form="vermögen" cat="volition" freq="4119" inner="y" trans="to be able to"/>
+  <lemma form="blicken" cat="perception" freq="3907" inner="y" trans="to look"/>
+  <lemma form="bemerken" cat="perception" freq="3725" inner="y" trans="to notice"/>
+
+ </list>
 
 
-<list n='manual' xml:lang="deu">
-     <lemma form="wollen" inner="y" freq="47800" trans="want"/>
-     <lemma form="müssen" inner="y" freq="40047" trans="must"/>
-     <lemma form="wissen" inner="y" freq="30221" trans="know"/>
-     <lemma form="mögen" inner="m" freq="15372" trans="like"/>
-     <lemma form="meinen" inner="y" freq="15193" trans="mean"/>
-     <lemma form="denken" inner="y" freq="13551" trans="think"/>
-     <lemma form="glauben" inner="y" freq="10792" trans="believe"/>
-     <lemma form="lieben" inner="y" freq="8842" trans="love"/>
-     <lemma form="fühlen" inner="y" freq="8148" trans="feel"/>
-     <lemma form="verstehen" inner="y" freq="6531" trans="understand"/>
-     <lemma form="erkennen" inner="y" freq="5421" trans="recognize"/>
-</list>
+ <list n="manual" xml:lang="fra">
+
+  <lemma form="voir" freq="23369" inner="y" cat="perception" trans="to see"/>
+  <lemma form="regarder" freq="7705" inner="y" cat="perception" trans="to look"/>
+  <lemma form="sentir" freq="5588" inner="m" cat="perception" trans="to feel"/>
+  <!-- perception, not cognition -->
+  <lemma form="apercevoir" freq="3814" cat="perception" trans="to perceive"/>
+
+  <lemma form="vouloir" freq="18628" inner="y" cat="volition" trans="to want"/>
+  <lemma form="oser" freq="2129" cat="volition" trans="to dare"/>
+  <lemma form="compter" freq="2061" cat="volition" trans="to plan / to count"/>
+  <!-- volition, but only in some contexts -->
+  <lemma form="essayer" freq="1941" cat="volition" trans="to try"/>
+
+  <lemma form="savoir" freq="17463" inner="y" cat="cognition" trans="to know"/>
+  <lemma form="trouver" freq="11656" inner="y" cat="cognition" trans="to find / to consider"/>
+  <!-- cognition, but only in some contexts -->
+  <lemma form="croire" freq="9800" inner="y" cat="cognition" trans="to believe"/>
+  <lemma form="entendre" freq="8621" inner="y" cat="cognition / perception" trans="to understand /
+   to hear"/>
+  <!-- always inner life, but category depends on context -->
+  <lemma form="attendre" freq="6377" cat="cognition" trans="to expect / to wait"/>
+  <!-- cognition, but only in some contexts -->
+  <lemma form="connaître" freq="6383" inner="y" cat="cognition" trans="to know"/>
+
+  <lemma form="devoir" freq="10580" cat="moral" trans="to have to"/>
+  <lemma form="falloir" freq="10040" cat="moral" trans="to have to"/>
+  <lemma form="espérer" freq="1817" cat="moral" trans="to hope"/>
+  <!-- unsure about this one -->
+  <lemma form="valoir" freq="1642" cat="moral" trans="to be worth"/>
+  <!-- unsure about this one -->
+  <lemma form="refuser" freq="1638" cat="moral" trans="to refuse"/>
+  <!-- unsure about this one -->
+  <lemma form="accepter" freq="1600" cat="moral" trans="to accept"/>
+  <!-- unsure about this one -->
+  <lemma form="engager" freq="1125" cat="moral" trans="to commit (oneself)"/>
+  <!-- moral, but only when used reflexively -->
+
+  <lemma form="aimer" freq="9307" inner="y" cat="affect" trans="to love"/>
+  <lemma form="manquer" freq="2288" cat="affect" trans="to miss / to lack"/>
+  <!-- affect, but only in some contexts -->
+  <lemma form="souffrir" freq="2222" cat="affect" trans="to suffer"/>
+  <lemma form="craindre" freq="1925" cat="affect" trans="to fear"/>
+
+ </list>
+
+ <list n="manual" xml:lang="hun">
+  <lemma form="lát" cat="perception" freq="16876" inner="y" trans="to see"/>
+  <lemma form="néz" cat="perception" freq="7972" inner="y" trans="to look"/>
+  <lemma form="hall" cat="perception" freq="5634" inner="y" trans="to hear"/>
+
+  <lemma form="szeret" cat="affect" freq="9111" inner="y" trans="to like/love"/>
+  <lemma form="érez" cat="affect" freq="6114" inner="y" trans="to feel"/>
+  <lemma form="tetszik" cat="affect" freq="2497" inner="m" trans="like"/>
+  <!-- The verb has a quite rare vocative use, a verson of the formal address. -->
+
+  <lemma form="akar" cat="volition" freq="13915" inner="y" trans="to want"/>
+  <lemma form="kíván" cat="volition" freq="1346" inner="y" trans="to desire"/>
+  <lemma form="remél" cat="volition" freq="813" inner="y" trans="to hope"/>
+
+  <lemma form="tud" cat="cognition" freq="25441" inner="m" trans="to know"/>
+  <!-- Often has a 'to be capable of' meaning (verb + infinitive) and then it denotes an ability! -->
+  <lemma form="gondol" cat="cognition" freq="6031" inner="y" trans="to think"/>
+  <lemma form="ért" cat="cognition" freq="3286" inner="y" trans="to understand/mean"/>
+
+  <lemma form="kell" cat="moral" freq="15552" inner="y" trans="have to"/>
+  <!--Depending on the infinitive the verb is connected to it may mean physical needs like 'I need to pee' -->
+  <lemma form="megenged" cat="moral" freq="433" inner="y" trans="to permit"/>
+  <lemma form="engedelmeskedik" freq="333" inner="y" trans="to obey"/>
+  <!-- I decided not to include the verb <lemma form="enged" freq="2307"/> since it has very different meanings in different contexts, although the meaning 'to let do sg' is common. -->
+ </list>
 
 
-<!--Here is my result for your lists, with Word2vec word embeddings over 40
-million words of literary texts:
-seeds: sentir, pensar, acreditar, saber, esperar, desejar
-processed by LB to dedup and remove endings for two lemmas ending in -se
--->
+ <list n="manual" xml:lang="por">
 
-<list xml:lang="por" n="w2v">
-<lemma form="achar"/>
-<lemma form="acreditar"/>
-<lemma form="admitir"/>
-<lemma form="amar"/>
-<lemma form="ambicionar"/>
-<lemma form="antever"/>
-<lemma form="aprender"/>
-<lemma form="aspirar"/>
-<lemma form="cismar"/>
-<lemma form="cogitar"/>
-<lemma form="compreender"/>
-<lemma form="conceber"/>
-<lemma form="confessar"/>
-<lemma form="conhecer"/>
-<lemma form="convencer"/>
-<lemma form="crer"/>
-<lemma form="crêr"/>
-<lemma form="cuidar"/>
-<lemma form="delirar"/>
-<lemma form="desconfiar"/>
-<lemma form="desejar"/>
-<lemma form="desprezar"/>
-<lemma form="doer"/>
-<lemma form="duvidar"/>
-<lemma form="entender"/>
-<lemma form="envergonhar"/>
-<lemma form="esperar"/>
-<lemma form="estimar"/>
-<lemma form="experimentar"/>
-<lemma form="exprimir"/>
-<lemma form="gozar"/>
-<lemma form="imaginar"/>
-<lemma form="interessar"/>
-<lemma form="julgar"/>
-<lemma form="matutar"/>
-<lemma form="meditar"/>
-<lemma form="mostrar"/>
-<lemma form="ouvir"/>
-<lemma form="padecer"/>
-<lemma form="palpitar"/>
-<lemma form="pensar"/>
-<lemma form="prever"/>
-<lemma form="prometer"/>
-<lemma form="provar"/>
-<lemma form="recear"/>
-<lemma form="reconhecer"/>
-<lemma form="recordar"/>
-<lemma form="reflectir"/>
-<lemma form="refletir"/>
-<lemma form="revelar"/>
-<lemma form="reviver"/>
-<lemma form="saber"/>
-<lemma form="scismar"/>
-<lemma form="sentir"/>
-<lemma form="soffrer"/>
-<lemma form="sofrer"/>
-<lemma form="sonhar"/>
-<lemma form="supor"/>
-<lemma form="suspeitar"/>
-<lemma form="temer"/>
-<lemma form="tolerar"/>
-<lemma form="ver"/>
-<lemma form="vibrar"/>
-</list>
+  <lemma form="ver" freq="20206" cat="perception" trans="see"/>
+  <lemma form="saber" freq="17307" cat="cognition" trans="know"/>
+  <lemma form="poder" freq="16536" cat="ability" trans="can"/>
+  <lemma form="querer" freq="13595" cat="ability" trans="want"/>
+  <lemma form="ouvir" freq="6265" cat="perception" trans="hear"/>
+  <lemma form="dever" freq="5838" cat="moral" trans="should"/>
+  <lemma form="olhar" freq="5237" cat="perception" trans="look"/>
+  <lemma form="sentir" freq="5221" cat="emotion" trans="feel"/>
+  <lemma form="conhecer" freq="5099" cat="cognition" trans="know"/>
+  <lemma form="esperar" freq="4237" cat="emotion" trans="hope"/>
+  <lemma form="pensar" freq="3982" cat="cognition" trans="think"/>
+  <lemma form="amar" freq="3202" cat="emotion" trans="love"/>
+  <lemma form="julgar" freq="2107" cat="moral" trans="judge"/>
+  <lemma form="desejar" freq="1881" cat="ability" trans="desire"/>
+  <lemma form="dormir" freq="1467" cat="physiology" trans="sleep"/>
+  <lemma form="gostar" freq="1235" cat="emotion" trans="like"/>
+  <lemma form="comer" freq="1111" cat="physiology" trans="eat"/>
+  <lemma form="estremecer" freq="901" cat="physiology" trans="tremble"/>
 
-<list xml:lang="srp" n="w2v">
-<lemma form="бојати"/>
-<lemma form="веровати"/>
-<lemma form="волети"/>
-<lemma form="детектовати"/>
-<lemma form="доживети"/>
-<lemma form="дознавати"/>
-<lemma form="дознати"/>
-<lemma form="докучити"/>
-<lemma form="заборавити"/>
-<lemma form="заклињати"/>
-<lemma form="замишљати"/>
-<lemma form="запамтити"/>
-<lemma form="знати"/>
-<lemma form="идентификовати"/>
-<lemma form="изјављивати﻿закључивати"/>
-<lemma form="испољити"/>
-<lemma form="констатовати"/>
-<lemma form="мислити"/>
-<lemma form="нагађати"/>
-<lemma form="назрети"/>
-<lemma form="наслутити"/>
-<lemma form="﻿натерати"/>
-<lemma form="наумити"/>
-<lemma form="обвезати"/>
-<lemma form="обећавати"/>
-<lemma form="одгонетнути"/>
-<lemma form="осетити"/>
-<lemma form="осећати"/>
-<lemma form="очекивати"/>
-<lemma form="памтити"/>
-<lemma form="повредити"/>
-<lemma form="пожелети"/>
-<lemma form="познавати"/>
-<lemma form="﻿понадати"/>
-<lemma form="понизити"/>
-<lemma form="посумњати"/>
-<lemma form="предвидети"/>
-<lemma form="предсказати"/>
-<lemma form="преживети"/>
-<lemma form="претпостављати"/>
-<lemma form="прибојавати"/>
-<lemma form="﻿приметити"/>
-<lemma form="приметити"/>
-<lemma form="проверавати"/>
-<lemma form="проверити"/>
-<lemma form="промислити"/>
-<lemma form="проценити"/>
-<lemma form="разабрати"/>
-<lemma form="разазнати"/>
-<lemma form="﻿разумети"/>
-<lemma form="разумети"/>
-<lemma form="распознати"/>
-<lemma form="регистровати"/>
-<lemma form="сазнавати"/>
-<lemma form="сазнати"/>
-<lemma form="свидети"/>
-<lemma form="слутити"/>
-<lemma form="спекулисати"/>
-<lemma form="спознати"/>
-<lemma form="страховати"/>
-<lemma form="сумњати"/>
-<lemma form="супротставити"/>
-<lemma form="схватати"/>
-<lemma form="схватати﻿помислити"/>
-<lemma form="схватити"/>
-<lemma form="тврдити"/>
-<lemma form="уверити"/>
-<lemma form="увидети"/>
-<lemma form="увредити"/>
-<lemma form="уздати"/>
-<lemma form="умислити"/>
-<lemma form="хтети"/>
-</list>
-<list n="manual" xml:lang="rom">
-<lemma form="vedea" freq="21312" inner="m" trans="to see/ understand/ to seek/ to meet somewhere"/>
-<lemma form="ști" freq="13634" inner="y" trans="to know"/>
-<lemma form="vrea" freq="8611" inner="y" trans="to want"/>
-<!--<lemma form="trece" freq="8252" inner="m" trans="to go/to think" />-->
-<lemma form="uita" freq="7097" inner="m" trans="to forget/to look at"/>
-<lemma form="crede" freq="6571" inner="y" trans="to believe"/>
-<lemma form="iubi" freq="6115" inner="y" trans="to love"/>
-<lemma form="aduce" freq="5953" inner="m" trans="to bring/to remember"/>
-<lemma form="găsi" freq="5882" inner="m" trans="to find/to have an opinion/to consider"/>
-<lemma form="intra" freq="5586" inner="m" trans="to enter/to begin to have a certain habit/to suspect"/>
-<lemma form="simți" freq="5273" inner="y" trans="to feel"/>
-<lemma form="cunoaște" freq="4419" inner="y" trans="to be aware of/to know"/>
-<lemma form="gândi" freq="3957" inner="y" trans="to think"/>
-<lemma form="aștepta" freq="3950" inner="y" trans="to wait for"/>
-<lemma form="înțelege" freq="3697" inner="y" trans="to understand"/>
-<lemma form="plăcea" freq="2106" inner="y" trans="to like"/>
-</list>
+ </list>
 
-<list xml:lang="hun" n="w2v">
-<lemma form="akar"/>
-<lemma form="bevall"/>
-<lemma form="elfelejt"/>
-<lemma form="elhatároz"/>
-<lemma form="elhisz"/>
-<lemma form="elmagyaráz"/>
-<lemma form="feltételez"/>
-<lemma form="fog"/>
-<lemma form="gondol"/>
-<lemma form="gyanít"/>
-<lemma form="hisz"/>
-<lemma form="kitalál"/>
-<lemma form="kiván"/>
-<lemma form="kérdez"/>
-<lemma form="köszön"/>
-<lemma form="lát"/>
-<lemma form="megkockáztat"/>
-<lemma form="megkísérel"/>
-<lemma form="megmond"/>
-<lemma form="megpróbál"/>
-<lemma form="megszokik"/>
-<lemma form="megtapasztal"/>
-<lemma form="megtud"/>
-<lemma form="megérez"/>
-<lemma form="megígér"/>
-<lemma form="mond"/>
-<lemma form="próbál"/>
-<lemma form="remél"/>
-<lemma form="ráfog"/>
-<lemma form="sajnál"/>
-<lemma form="szeret"/>
-<lemma form="szándékozik"/>
-<lemma form="tapasztal"/>
-<lemma form="tud"/>
-<lemma form="átérez"/>
-<lemma form="érez"/>
-<lemma form="ért"/>
-<lemma form="érzik"/>
-<lemma form="érzékel"/>
-<lemma form="észrevesz"/>
-<lemma form="óhajt"/>
-</list>
+ <list n="manual" xml:lang="rom">
+  <lemma form="vedea" cat="perception" freq="21312" inner="y" trans="to see"/>
+  <lemma form="ști" cat="cognition" freq="13634" inner="y" trans="to know"/>
+  <lemma form="putea" cat="volition" freq="11909" inner="y" trans="can+be able"/>
+  <lemma form="trebui" cat="moral_judgment" freq="9007" inner="y" trans="to have to+must"/>
+  <lemma form="vrea" cat="volition" freq="8611" inner="y" trans="to will"/>
+  <lemma form="părea" cat="perception" freq="7310" inner="y" trans="to seem"/>
+  <lemma form="uita" cat="perception+cognition" freq="7097" inner="y" trans="to forget+to have a
+   look"/>
+  <lemma form="crede" cat="cognition" freq="6571" inner="y" trans="to believe+to have an opinion"/>
+  <lemma form="iubi" cat="affect" freq="6115" inner="y" trans="to love"/>
+  <lemma form="auzi" cat="perception" freq="5625" inner="y" trans="to hear"/>
+  <lemma form="simți" cat="physiology" freq="5273" inner="y" trans="to feel"/>
+  <lemma form="afla" cat="cognition" freq="5236" inner="y" trans="to find out"/>
+  <lemma form="cunoaște" cat="cognition" freq="4419" inner="y" trans="to know"/>
+  <lemma form="gândi" cat="cognition" freq="3957" inner="y" trans="to think"/>
+  <lemma form="înțelege" cat="cognition" freq="3697" inner="y" trans="to understand"/>
+  <lemma form="privi" cat="perception" freq="3486" inner="y" trans="to look at"/>
+  <lemma form="voi" cat="volition" freq="3374" inner="y" trans="to want"/>
+  <lemma form="asculta" cat="perception" freq="3046" inner="y" trans="to listen to"/>
+  <lemma form="plânge" cat="physiology" freq="2567" inner="y" trans="to cry"/>
+  <lemma form="plăcea" cat="affect" freq="2106" inner="y" trans="to like"/>
+  <lemma form="mulțumi" cat="moral_judgment" freq="2105" inner="y" trans="to thank"/>
+  <lemma form="alege" cat="moral_judgment" freq="2102" inner="y" trans="to choose"/>
+  <lemma form="suferi" cat="physiology" freq="2058" inner="y" trans="to suffer"/>
+  <lemma form="ferici" cat="affect" freq="1913" inner="y" trans="to make someone happy"/>
+  <lemma form="hotărî" cat="moral_judgment" freq="1771" inner="y" trans="to decide"/>
+ </list>
 
-<list xml:lang="deu" n="w2v">
-     <lemma form="ahnen"/>
-     <lemma form="annehmen"/>
-     <lemma form="auffassen"/>
-     <lemma form="ausdenken"/>
-     <lemma form="beabsichtigen"/>
-     <lemma form="bedauern"/>
-     <lemma form="bedenken"/>
-     <lemma form="bedrücken"/>
-     <lemma form="befürchten"/>
-     <lemma form="begehren"/>
-     <lemma form="begreifen"/>
-     <lemma form="beruhigen"/>
-     <lemma form="berühren"/>
-     <lemma form="beschließen"/>
-     <lemma form="bezweifeln"/>
-     <lemma form="brauchen"/>
-     <lemma form="dazudenken"/>
-     <lemma form="denken"/>
-     <lemma form="durchschauern"/>
-     <lemma form="einbilden"/>
-     <lemma form="einfallen"/>
-     <lemma form="eingestehen"/>
-     <lemma form="einreden"/>
-     <lemma form="einsehen"/>
-     <lemma form="empfinden"/>
-     <lemma form="entdecken"/>
-     <lemma form="entschlagen"/>
-     <lemma form="entschließen"/>
-     <lemma form="erfahren"/>
-     <lemma form="erfassen"/>
-     <lemma form="erfühlen"/>
-     <lemma form="erhoffen"/>
-     <lemma form="erinnern"/>
-     <lemma form="erkennen"/>
-     <lemma form="erleben"/>
-     <lemma form="ersehnen"/>
-     <lemma form="erspüren"/>
-     <lemma form="ertragen"/>
-     <lemma form="erwarten"/>
-     <lemma form="fassen"/>
-     <lemma form="finden"/>
-     <lemma form="freuen"/>
-     <lemma form="fühlen"/>
-     <lemma form="fürchten"/>
-     <lemma form="gedenken"/>
-     <lemma form="genehmen"/>
-     <lemma form="genügen"/>
-     <lemma form="glauben"/>
-     <lemma form="harren"/>
-     <lemma form="hassen"/>
-     <lemma form="hinziehen"/>
-     <lemma form="hoffen"/>
-     <lemma form="irren"/>
-     <lemma form="kennen"/>
-     <lemma form="leiden"/>
-     <lemma form="lieben"/>
-     <lemma form="meinen"/>
-     <lemma form="merken"/>
-     <lemma form="misstrauen"/>
-     <lemma form="mögen"/>
-     <lemma form="peinigen"/>
-     <lemma form="schließen"/>
-     <lemma form="schmerzen"/>
-     <lemma form="schwerhalten"/>
-     <lemma form="schwernehmen"/>
-     <lemma form="schämen"/>
-     <lemma form="sehnen"/>
-     <lemma form="spüren"/>
-     <lemma form="trauen"/>
-     <lemma form="täuschen"/>
-     <lemma form="verachten"/>
-     <lemma form="verdenken"/>
-     <lemma form="verdrießen"/>
-     <lemma form="vergeben"/>
-     <lemma form="vergessen"/>
-     <lemma form="verlangen"/>
-     <lemma form="vermeinen"/>
-     <lemma form="vermuten"/>
-     <lemma form="verspüren"/>
-     <lemma form="verstehen"/>
-     <lemma form="vertrauen"/>
-     <lemma form="verwundern"/>
-     <lemma form="verzagen"/>
-     <lemma form="verzweifeln"/>
-     <lemma form="voraussetzen"/>
-     <lemma form="vorstellen"/>
-     <lemma form="wegwünschen"/>
-     <lemma form="widerstreben"/>
-     <lemma form="wissen"/>
-     <lemma form="wundern"/>
-     <lemma form="wundernehmen"/>
-     <lemma form="wähnen"/>
-     <lemma form="wünschen"/>
-     <lemma form="zweifeln"/>
-     <lemma form="überkommen"/>
-     <lemma form="überschauern"/>
-</list>
+ <list n='manual' xml:lang="slv">
+  
+  <lemma form="vedeti" cat="cognition" freq="15086" inner="y" trans="know"/>
+  <lemma form="misliti" cat="cognition" freq="8063" inner="y" trans="think"/>
+  <lemma form="zdeti" cat="cognition" freq="4271" inner="y" trans="seem"/>
+  <lemma form="hoteti" cat="volition" freq="13584" inner="y" trans="want"/>
+  <lemma form="želeti" cat="volition" freq="1928" inner="y" trans="wish"/>
+  <lemma form="upati" freq="2130" inner="y" trans="hope"/>
+  <!--     <lemma form="upati [si]" freq="2130" inner="y" trans="dare"/>-->
+  <lemma form="pričakovati" cat="volition" freq="1287" inner="m" trans="expect"/>
+  <lemma form="moči" cat="moral" freq="12600" inner="y" trans="be able to"/>
+  <lemma form="morati" cat="moral" freq="11180" inner="y" trans="have to"/>
+  <lemma form="smeti" cat="moral" freq="3235" inner="y" trans="be allowed to"/>
+  <lemma form="skleniti" freq="1203" inner="m" trans="decide"/>
+  <lemma form="videti" cat="perception" freq="12574" inner="y" trans="see"/>
+  <lemma form="gledati" cat="perception" freq="7473" inner="y" trans="look"/>
+  <lemma form="pogledati" cat="perception" freq="4599" inner="y" trans="look at"/>
+  <lemma form="slišati" cat="perception" freq="3777" inner="y" trans="hear"/>
+  <lemma form="ljubiti" cat="affect" freq="3518" inner="y" trans="love"/>
+  <lemma form="bati" cat="affect" freq="2824" inner="y" trans="fear"/>
+  <lemma form="skrbeti" cat="affect" freq="1147" inner="m" trans="care for"/>
+  <lemma form="skrbeti" cat="affect" freq="1147" inner="m" trans="be worried"/>
+  <lemma form="trpeti" cat="affect" freq="1058" inner="m" trans="suffer"/>
+ </list>
+ 
+ <list n="manual" xml:lang="spa">
+  <lemma form="ver" cat="perception" inner="n" trans="see" freq="28489"/>
+  <lemma form="querer" cat="volition" inner="y" trans="want" freq="18886"/>
+  <lemma form="saber" cat="cognition" inner="y" trans="know" freq="18757"/>
+  <lemma form="parecer" cat="perception" inner="y" trans="seem" freq="11356"/>
+  <lemma form="creer" cat="cognition" inner="y" trans="believe" freq="10156"/>
+  <lemma form="mirar" cat="perception" inner="y" trans="look" freq="8350"/>
+  <lemma form="pensar" cat="cognition" inner="y" trans="think" freq="7629"/>
+  <lemma form="sentir" cat="physiology" inner="y" trans="feel" freq="7299"/>
+  <lemma form="morir" cat="physiology" inner="n" trans="died" freq="4551"/>
+  <lemma form="amar" cat="affect" inner="y" trans="love" freq="3760"/>
+  <lemma form="necesitar" cat="volition" inner="y" trans="need" freq="3084"/>
+  <lemma form="poder" cat="volition" inner="y" trans="can" freq="2768"/>
+  <lemma form="llorar" cat="affect" inner="y" trans="cry" freq="2559"/>
+  <lemma form="desear" cat="affect" inner="y" trans="look forward to" freq="2301"/>
+  <lemma form="sufrir" cat="physiology" inner="y" trans="suffer" freq="2262"/>
+  <lemma form="cumplir" cat="moral" inner="y" trans="achieve" freq="1897"/>
+  <lemma form="deber" cat="moral" inner="y" trans="have to" freq="1542"/>
+  <lemma form="jurar" cat="moral" inner="y" trans="swear" freq="1404"/>
+ </list>
+
 
 </lists>

@@ -17,11 +17,11 @@ LIST=sys.argv[2]
 print("Inner verbs from "+ LIST + " list for "+REPO)
 REPOROOT=HOME+'ELTeC-'+REPO+"/"
 DRIVERFILE=REPOROOT+"driver-2.tei"
-VERBFILE=HOME+'ELTeC-data/innerVerbs.xml'
+VERBFILE=HOME+'ELTeC-data/Again/innerVerbs.xml'
 SCRIPT0=HOME+'Scripts/posPipe/getFileNames.xsl'
 SCRIPT1=HOME+'ELTeC-data/Scripts/verbCounter.xsl'
 SCRIPT2=HOME+'ELTeC-data/Scripts/getVerbList.xsl'
-OUTFILE=HOME+'ELTeC-data/'+REPO+'/verbCount_'+LIST+'.csv'
+OUTFILE=HOME+'ELTeC-data/'+REPO+'/newVerbCount_'+LIST+'.csv'
 
 with saxonc.PySaxonProcessor(license=False) as proc:
   

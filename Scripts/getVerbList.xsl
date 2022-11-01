@@ -4,40 +4,45 @@
   exclude-result-prefixes="xs t" version="2.0">
   <xsl:output omit-xml-declaration="yes" method="text"/>
 
+
   <xsl:param name="lang">por</xsl:param>
-  <xsl:param name="list">pure</xsl:param>
+  <xsl:param name="list">noisy</xsl:param>
 
   <xsl:template match="/">
     <xsl:variable name="listName">manual</xsl:variable>
-
+   
+   <xsl:message>lang is <xsl:value-of 
+    select="$lang"/> list-type is <xsl:value-of select="$listName"/>
+   </xsl:message>
+   
     <xsl:choose>
       <xsl:when test="$list eq 'pure'">
-   <xsl:message>Preparing a pure list</xsl:message>
-  <xsl:message>lang is <xsl:value-of select="$lang"/>    list-type is <xsl:value-of select="$listName"/></xsl:message>
-     <xsl:for-each
+     <xsl:message>Preparing a pure list</xsl:message>
+   
+        <xsl:for-each
           select="lists/list[@xml:lang = $lang][@n = $listName]/lemma[@inner = 'y']/@form">
-       <xsl:sort/>
+          <xsl:sort/>
           <!--<xsl:message><xsl:value-of select="."/></xsl:message>
 -->
           <xsl:value-of select="."/>
           <xsl:text> </xsl:text>
         </xsl:for-each>
       </xsl:when>
-      <xsl:when test="$list eq 'noisy'">
-   <xsl:message>Preparing a noisy list</xsl:message>
-
+  <!--    <xsl:when test="$list eq 'noisy'">
+       <xsl:message>Preparing a noisy list </xsl:message>   
         <xsl:for-each
-          select="lists/list[@xml:lang = $lang][@n = $listName]/lemma[@inner = 'y' or @inner = 'm']/@form">
-       <xsl:sort/>
+          select="lists/list[@xml:lang = $lang][@n = $listName]/lemma/@form">
+          <xsl:sort/>
           <xsl:value-of select="."/>
           <xsl:text> </xsl:text>
         </xsl:for-each>
-      </xsl:when>
+      </xsl:when>-->
+     
       <xsl:otherwise>
-
-        <xsl:for-each select="lists/list[@xml:lang = $lang][@n = $list]/lemma/@form">
-          <xsl:sort/>
-          <xsl:value-of select="."/>
+       <xsl:message>Preparing an impure list</xsl:message>
+        <xsl:for-each select="lists/list[@xml:lang = $lang][@n = $listName]/lemma/@form">
+         <xsl:sort/>
+         <xsl:value-of select="."/>    
           <xsl:text> </xsl:text>
         </xsl:for-each>
       </xsl:otherwise>
