@@ -1,4 +1,4 @@
-LANGS="deu eng fra hun por rom slv spa"
+LANGS="deu eng fra hun nor por rom slv spa"
 cd /home/lou/Public/ELTeC-data
 for lang in $LANGS; do
 echo "================="
@@ -8,3 +8,5 @@ python Scripts/filter.py $lang VERB lemma
 #count how often the target verbforms appear in each file
 perl Scripts/quickCount.pl $lang noisy | sort > $lang/innerVerbCounts.dat
 done
+# run rscript for boxplots
+Rscript Scripts/doBoxPlots.R

@@ -1,4 +1,4 @@
-list <- c("deu", "fra", "hun", "por", "rom", "slv", "spa")
+list <- c("deu", "fra", "hun", "nor", "por", "rom", "slv", "spa")
 
 rootdir<-"/home/lou/Public/ELTeC-data/"
 
@@ -51,6 +51,11 @@ detach(zzz)
 zzz<-cbind(hun,decade=compute_decade(hun$year),five=fiveyears(hun$year),twenty=twentyyears(hun$year))
 attach(zzz)
  do_plots("hun")
+detach(zzz)
+
+zzz<-cbind(nor,decade=compute_decade(nor$year),five=fiveyears(nor$year),twenty=twentyyears(nor$year))
+attach(zzz)
+ do_plots("nor")
 detach(zzz)
 
 zzz<-cbind(por,decade=compute_decade(por$year),five=fiveyears(por$year),twenty=twentyyears(por$year))
