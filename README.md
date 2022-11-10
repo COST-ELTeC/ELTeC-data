@@ -13,7 +13,7 @@ The workflow is as follows:
 - first, each ELTeC level2 file is simplified by the `filter.py` script, which outputs a version of each file containing a bag of blank-delimited tokens ;
 - next, we define a list of the tokens for which frequency over time is to be calculated. For the innerlife experiment, subject-experts were asked to select from a list of verbs in descending frequency order. The resulting list is saved in the file `innerVerbs.xml` ;
 - next, we produce a data file showing the frequency of each such token in each text, for each language for which data is available: this is done by the perl script `quickCount.pl`; for language xxx, the frequency table for method zzz is saved in a file called `xxx/zzz_verbFreqs.dat`
-- finally, we run the R script `doAllBoxPlots.R` to generate box plots for each language.
+- finally, we run scripts to visualise and analyse the datasets. Scripts both in R and in python are included, thanks to contributions from ELTeC partners, producing boxplots, regression counts, etc.
 
 
 ## Details
@@ -104,7 +104,6 @@ It produces a file called `ELTeC-data/[lang]/innerVerbCounts.dat`, in which each
 Here for example is the start of the output produced by the commnd
 ~~~~
 perl Scripts/quickCounts.pl eng VERB/lemma manual | sort
-~~~~
 
 0textId year verbs innerVerbs know:perception see:perception think:cognition seem:perception feel:affect hear:perception mean:cognition believe:cognition want:volition like:affect love:affect try:volition wish:volition suffer:physiology sleep:physiology blush:physiology 
 ENG18400 1840 37878 2951 593 443 487 245 265 268 74 117 92 121 49 13 118 33 27 6 
@@ -114,7 +113,7 @@ ENG18411 1844 5536 402 75 81 43 30 19 53 7 12 2 4 36 6 20 7 6 1
 
 ## Step 4 : Visualise the data
 
-The Python script `analyse.py` written by Christof Schoech produces a number of visualisations for this data. 
+The Python script `analysis.py` written by Christof Schoech produces a number of visualisations for this data. 
 
 The R script `innerVerbs.R` (written originally by Diana Santos) may also be used to visualise this data as a series of boxplots.
 
