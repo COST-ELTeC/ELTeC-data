@@ -18,7 +18,7 @@ from scipy.stats import mannwhitneyu
 
 #workdir = join(os.path.realpath(os.path.dirname(__file__)))
 workdir = '/home/lou/Public/ELTeC-data/'
-corpora = ["rom", "deu", "eng", "fra", "hun", "por", "spa", "slv", "por"]
+corpora = [ "deu", "eng", "fra", "hun", "nor", "por", "rom", "slv", "spa"]
 
 comparison = [(1840,1869), (1889,1919)]
 samplesize = 20
@@ -138,10 +138,10 @@ def main():
         #== Create some plots (boxplot, regplot)
         visualize_data(data, corpus)
         #== Compare two time-frames
-        if corpus in ["deu", "eng", "fra", "hun", "por", "spa"]:
-            vals1, vals2, med1, med2 = filter_data(data, comparison, samplesize)
-            stat, p = test_significance(vals1, vals2)
-            plot_seaborn(corpus, comparison, vals1, vals2, med1, med2, samplesize, p) 
+        if corpus not in ["nor", "rom", "slv"]:
+          vals1, vals2, med1, med2 = filter_data(data, comparison, samplesize)
+          stat, p = test_significance(vals1, vals2)
+          plot_seaborn(corpus, comparison, vals1, vals2, med1, med2, samplesize, p) 
         #== Finish.
         print("Done:", corpus)
 
