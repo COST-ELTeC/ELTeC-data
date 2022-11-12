@@ -89,18 +89,17 @@ perl Scripts/quickCount.pl [lang] [where] [which]
 
 - [lang] identifies the input repository, e.g. 'fra'
 - [where] gives the location of the input data, e.g. `VERB/lemma` . The script will look for input files at the location `repoRoot-[lang]/[where]` (where `repoRoot` is defined in the perl script)
-- [which] specifies which type of frequency list is to be produced. Currently three types are recognised :
+- [which] specifies which type of frequency list is to be produced. Currently two types are recognised :
     - `manual` for verbs selected manually
     - `w2v` for verbs selected on the basis of a word2vec procedure 
-    - `cats` for manually selected words using the supplied categorisations
 
-It produces a file called `ELTeC-data/[lang]/innerVerbCounts.dat`, in which each row contains 
+It produces a file called `ELTeC-data/[lang]/[which]Counts.dat`, in which each row contains 
 
 - the text identifier
 - the year of publication
 - the total number of verbs in the text
 - the total number of "inner verbs" in the text
-- counts for each specified verb, or for each category
+- counts for each specified item
 
 Here for example is the start of the output produced by the commnd
 ~~~~
@@ -111,10 +110,9 @@ ENG18400 1840 37878 2951 593 443 487 245 265 268 74 117 92 121 49 13 118 33 27 6
 ENG18410 1841 31727 2255 263 312 295 441 241 191 48 123 15 49 60 26 138 34 7 12 
 ENG18411 1844 5536 402 75 81 43 30 19 53 7 12 2 4 36 6 20 7 6 1 
 ~~~~
-
+This shows that in the text ENG18400, from year 1840, there are 37,878 verb occurrences, of which 2951 are classed as indicative of inner life; 593 of these are occurrences of "know", which we categorise as "perception", and so on.
+    
 ## Step 4 : Visualise the data
 
-The Python script `visualize.py` written by Christof Schoech produces a number of visualisations for this data. 
-
-
+The Python script `visualize.py` written by Christof Schoech produces visualisations for this data. To run it, ensure that there is a copy of the datafiles output in the preceding step in a folder called `data` which is a sibling of the  folkder containing the script. The resulting plots are placed in a folder called `results/xxx' for each language `xxx`.
 
