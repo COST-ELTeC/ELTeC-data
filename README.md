@@ -95,6 +95,7 @@ perl Scripts/quickCount.pl [lang] [where] [which]
     - `cats` for manually selected words using the supplied categorisations
 
 It produces a file called `ELTeC-data/[lang]/innerVerbCounts.dat`, in which each row contains 
+
 - the text identifier
 - the year of publication
 - the total number of verbs in the text
