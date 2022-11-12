@@ -114,9 +114,7 @@ ENG18411 1844 5536 402 75 81 43 30 19 53 7 12 2 4 36 6 20 7 6 1
 
 ## Step 4 : Visualise the data
 
-The Python script `analysis.py` written by Christof Schoech produces a number of visualisations for this data. 
-
-The R script `innerVerbs.R` (written originally by Diana Santos) may also be used to visualise this data as a series of boxplots.
+The Python script `visualize.py` written by Christof Schoech produces a number of visualisations for this data. 
 
 
 
