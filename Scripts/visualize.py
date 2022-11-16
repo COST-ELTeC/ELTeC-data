@@ -112,6 +112,7 @@ def make_regplot(corpus, data, category):
         x = "year",
         y = selection,
         order = 2)
+    plt.xlim([1838, 1922])
     plot.set(xlabel = xlabel, ylabel = ylabel, title = title)
     plot.get_figure().savefig(join(workdir, "results", corpus, regplotname), dpi=300)
     plt.close("all")
