@@ -1,4 +1,3 @@
-
 """
 Script to visualize the "inner life" data from ELTeC. 
 
@@ -34,8 +33,7 @@ from scipy.stats import mannwhitneyu
 workdir = join(os.path.realpath(os.path.dirname(__file__)), "..")
 corpora = ["deu", "eng", "fra", "hun", "nor", "por", "rom", "slv", "spa"] # no data: pol, srp
 categories = ["perception", "cognition", "volition", "affect", "physiology", "moral"]
-comparison = [(1840,1869), (1889,1919)]
-samplesize = 20
+comparison = [(1840,1869), (1890,1920)]
 
 
 # === Functions === 
@@ -119,7 +117,27 @@ def make_regplot(corpus, data, category):
     plt.close("all")
 
 
-def create_comparisondata(data, comparison, samplesize, category): 
+def perform_test(vals1, vals2): 
+    """
+    Perform a test of statistical difference between the values for the earlier 
+    vs. the values for the later period defined in the variable "comparison". 
+    """
+    #== Determine maximal possible sampling size
+    samplesize = (np.min([len(vals1), len(vals2)]))-5
+    #print(len(vals1), len(vals2), samplesize)
+    #== Sampling from the data
+    vals1 = random.sample(vals1, samplesize)
+    vals2 = random.sample(vals2, samplesize)
+    #== Prepare data for test
+    med1 = np.median(vals1)
+    med2 = np.median(vals2)
+    vals1 = pd.Series(vals1, name=str(comparison[0][0]) + "–" + str(comparison[0][1])+"\n(median="+'{0:.2f}'.format(med1)+")")
+    vals2 = pd.Series(vals2, name=str(comparison[1][0]) + "–" + str(comparison[1][1])+"\n(median="+'{0:.2f}'.format(med2)+")")
+    stat, p = mannwhitneyu(vals1, vals2)
+    return samplesize, vals1, vals2, med1, med2, stat, p
+
+
+def create_comparisondata(data, comparison, category): 
     """
     Selects the values for all texts that fall 
     into the two periods specified by the comparison parameter. 
@@ -134,29 +152,26 @@ def create_comparisondata(data, comparison, samplesize, category):
     vals1 = data[(data["year"] >= comparison[0][0]) & (data["year"] <= comparison[0][1])]
     vals1 = list(vals1.loc[:,selection])
     #print("vals1", len(vals1))
-    vals1 = random.sample(vals1, samplesize)
-    med1 = np.median(vals1)
-    vals1 = pd.Series(vals1, name=str(comparison[0][0]) + "–" + str(comparison[0][1])+"\n(median="+'{0:.2f}'.format(med1)+")")
     #== Second series of data
     vals2 = data[(data["year"] >= comparison[1][0]) & (data["year"] <= comparison[1][1])]
-    vals2 = list(vals2.loc[:,selection])   
+    vals2 = list(vals2.loc[:,selection]) 
     #print("vals2", len(vals2))
-    vals2 = random.sample(vals2, samplesize)
-    med2 = np.median(vals2)
-    vals2 = pd.Series(vals2, name=str(comparison[1][0]) + "–" + str(comparison[1][1])+"\n(median="+'{0:.2f}'.format(med2)+")")
-    stat, p = mannwhitneyu(vals1, vals2)
-    #== Perform a significance test for the difference between the two distributions.
     #== Based only on the sample selected above, not on the full data.
-    return vals1, vals2, med1, med2, stat, p
+    samplesize, vals1, vals2, med1, med2, stat, p = perform_test(vals1, vals2)
+    return samplesize, vals1, vals2, med1, med2, stat, p
 
 
-def make_kdeplot(corpus, comparison, vals1, vals2, med1, med2, samplesize, p, category): 
+def make_kdeplot(corpus, comparison, vals1, vals2, med1, med2, samplesize, p, cv, avgp, stdp, category): 
     """
     Creates a plot that compares the two selected distributions.
     =================================================================================
     WARNING! Due to the random sampling involved here, results can vary considerably
-    between different runs (see the "fra-all-comparison" plots in "results/fra"). 
-    Until this issue is resolved, skepticism is in order. 
+    between different runs. Until this issue is resolved, skepticism is in order. 
+    UPDATE 1: Sample size has been increased as far as possible per dataset. In order
+    for the sampling to still be minimally meaningful, the size of the smaller group, 
+    minus 5, is used as the sample size per period. 
+    UPDATE 2: The test is performed 100 times and average p-values and their standard
+    deviation are now reported. 
     =================================================================================
     """
     #== Labels
@@ -166,7 +181,7 @@ def make_kdeplot(corpus, comparison, vals1, vals2, med1, med2, samplesize, p, ca
         pval = '{0:.5f}'.format(p)
     plt.figure() 
     title = "Comparison of verbs of inner life (" + category + ") in ELTeC-" + corpus
-    xlabel = "Relative frequency\n(samplesize=" + str(samplesize) + ", p=" + pval + ")"
+    xlabel = "Relative frequency \n(size of sample per group=" + str(samplesize) + ") \n(cv=" + str(cv) + ", avg. p=" + str(avgp) + ", std. p=" + str(stdp) + ")"
     ylabel = "Density (KDE)"
     complotname = join(corpus + "_" + category + "-comparison.png")
     #== Plotting
@@ -192,7 +207,7 @@ def main():
         if not os.path.exists(join(workdir, "results", corpus)): 
             os.makedirs(join(workdir, "results", corpus))
         #== Prepare the data
-        dataset = join(workdir, "data", corpus, "manualCounts.dat")
+        dataset = join(workdir, corpus, "manualCounts.dat")
         data = prepare_data(dataset)
         #== Create some plots (boxplot, regplot)
         print("--", "all verbs:", end='')
@@ -201,30 +216,61 @@ def main():
         make_regplot(corpus, data, category="all")
         print(" regplot✓", end='')
         #== Create a comparison plot
-        try: 
-            vals1, vals2, med1, med2, stat, p = create_comparisondata(data, comparison, samplesize, category="all")
-            make_kdeplot(corpus, comparison, vals1, vals2, med1, med2, samplesize, p, category="all") 
-            print(" kdeplot✓", end="")
-        except ValueError: 
-            print(" ERROR")
-            print("   The selected sample size is larger than the available data.")
-            print("   The comparison plot is skipped for " + corpus + " / " + category + ".", end="")
+        #== Create sample and test multiple times to calculate average p-value
+        try:
+            cv = 100
+            allp = []
+            for i in range(0,cv):
+                samplesize, vals1, vals2, med1, med2, stat, p = create_comparisondata(data, comparison, category="all")
+                allp.append(p)
+            avgp = '{0:.5f}'.format(np.mean(allp))
+            stdp = '{0:.5f}'.format(np.std(allp))
+            #print("\n", cv, allp, avgp, stdp)
+            #== Create sample and test once for the visualization
+            samplesize, vals1, vals2, med1, med2, stat, p = create_comparisondata(data, comparison, category="all")
+            #== Check for minimal sample size and non-zero median (will be zero if no data)
+            if samplesize > 25 and med1 != 0: 
+                #== Create the density plot with statistical indicators
+                make_kdeplot(corpus, comparison, vals1, vals2, med1, med2, samplesize, p, cv, avgp, stdp, category="all") 
+                print(" kdeplot✓", end="")
+            else: 
+                print(" kdeplot⚠️")
+        except: 
+            print(" kdeplot⚠️")
         #== Create the per-category data visualizations
         for category in categories: 
             print("\n-- " + category + ":",  end="")
-            make_boxplot(corpus, data, category)
-            print(" boxplot✓", end="")
-            make_regplot(corpus, data, category)
-            print(" regplot✓", end="")
-            try: 
-                vals1, vals2, med1, med2, stat, p = create_comparisondata(data, comparison, samplesize, category)
-                make_kdeplot(corpus, comparison, vals1, vals2, med1, med2, samplesize, p, category) 
-                print(" kdeplot✓", end="")
-            except ValueError: 
-                print(" ERROR")
-                print("   The selected sample size is larger than the available data.")
-                print("   The comparison plot is skipped for " + corpus + " / " + category + ".", end="")
-
+            if np.sum(data[category]) != 0:
+                make_boxplot(corpus, data, category)
+                print(" boxplot✓", end="")
+            else: 
+                print(" boxplot⚠️", end="")
+            if np.sum(data[category]) != 0:
+                make_regplot(corpus, data, category)
+                print(" regplot✓", end="")
+            else: 
+                print(" regplot⚠️", end="")
+            #== Create sample and test multiple times to calculate average p-value
+            try:
+                cv = 100
+                allp = []
+                for i in range(0,cv):
+                    samplesize, vals1, vals2, med1, med2, stat, p = create_comparisondata(data, comparison, category="all")
+                    allp.append(p)
+                avgp = '{0:.5f}'.format(np.mean(allp))
+                stdp = '{0:.5f}'.format(np.std(allp))
+                #print("\n", cv, allp, avgp, stdp)
+                #== Create sample and test once for the visualization
+                samplesize, vals1, vals2, med1, med2, stat, p = create_comparisondata(data, comparison, category)
+                # Check for minimal sample size and non-zero median (will be zero if no data)
+                if samplesize > 25 and med1 != 0:
+                    #== Create the density plot with statistical indicators
+                    make_kdeplot(corpus, comparison, vals1, vals2, med1, med2, samplesize, p, cv, avgp, stdp, category) 
+                    print(" kdeplot✓", end="")
+                else: 
+                    print(" kdeplot⚠️", end="")
+            except: 
+                print(" kdeplot⚠️")
         print("\nDone.")
     print("\nAll done.\n")
 
