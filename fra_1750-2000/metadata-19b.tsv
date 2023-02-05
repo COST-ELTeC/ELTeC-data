@@ -1,0 +1,371 @@
+filename	xmlid	author-name	title	author-gender	au-birth	au-death	au-ids	digitalSource	pub-year-ref	firsted-yr	title-ids	language	numwords	subgenre	narr-per	sizeCat	reprintCount	time-slot
+FRA40479	FRA40479	, 		U	NA	NA	viaf:79158042	NA	1872	1872	NA	fra	45825	NA	NA	short	unspecified	T2
+FRA40485	FRA40485	, 		U	NA	NA	viaf:79158042	NA	1872	1872	NA	fra	45557	NA	NA	short	unspecified	T2
+FRA40478	FRA40478	, 		U	NA	NA	viaf:79158042	NA	1874	1874	NA	fra	43877	NA	NA	short	unspecified	T2
+FRA40484	FRA40484	, 		U	NA	NA	viaf:79158042	NA	1874	1874	NA	fra	51701	NA	NA	medium	unspecified	T2
+FRA40017	FRA40017	, 	Jack    	U	NA	NA	viaf:author	NA	1875	1875	NA	fra	171531	NA	NA	long	unspecified	T2
+FRA40318	FRA40318	, 		U	NA	NA	viaf:61641578	NA	1878	1878	NA	fra	31128	NA	NA	short	unspecified	T2
+FRA40482	FRA40482	, 		U	NA	NA	viaf:79158042	NA	1878	1878	NA	fra	45634	NA	NA	short	unspecified	T2
+FRA40315	FRA40315	, 		U	NA	NA	viaf:61641578	NA	1879	1879	NA	fra	35542	NA	NA	short	unspecified	T2
+FRA40316	FRA40316	, 		U	NA	NA	viaf:61641578	NA	1879	1879	NA	fra	35743	NA	NA	short	unspecified	T2
+FRA40317	FRA40317	, 		U	NA	NA	viaf:61641578	NA	1879	1879	NA	fra	35646	NA	NA	short	unspecified	T2
+FRA40320	FRA40320	, 		U	NA	NA	viaf:61641578	NA	1879	1879	NA	fra	37562	NA	NA	short	unspecified	T2
+FRA40477	FRA40477	, 		U	NA	NA	viaf:79158042	NA	1881	1881	NA	fra	38731	NA	NA	short	unspecified	T3
+FRA40481	FRA40481	, 		U	NA	NA	viaf:79158042	NA	1881	1881	NA	fra	49413	NA	NA	short	unspecified	T3
+FRA40480	FRA40480	, 		U	NA	NA	viaf:79158042	NA	1884	1884	NA	fra	48728	NA	NA	short	unspecified	T3
+FRA40475	FRA40475	, 		U	NA	NA	viaf:79158042	NA	1888	1888	NA	fra	45376	NA	NA	short	unspecified	T3
+FRA40424	FRA40424	, 		U	NA	NA	NA	NA	1889	1889	NA	fra	233213	NA	NA	long	unspecified	T3
+FRA41003	FRA41003	, 	Double-blanc    	U	NA	NA	viaf:19720225	NA	1889	1889	NA	fra	118075	NA	NA	long	unspecified	T3
+FRA40483	FRA40483	, 		U	NA	NA	viaf:79158042	NA	1892	1892	NA	fra	51075	NA	NA	medium	unspecified	T3
+FRA40730	FRA40730	About, Edmond	L'homme à l'oreille cassée    	M	NA	NA	viaf:34452092	NA	1862	1862	NA	fra	56083	NA	NA	medium	unspecified	T2
+FRA40302	FRA40302	Aimard, Gustave		M	NA	NA	viaf:9841962	NA	1858	1858	NA	fra	84338	NA	NA	medium	unspecified	T1
+FRA40312	FRA40312	Aimard, Gustave		M	NA	NA	viaf:9841962	NA	1858	1858	NA	fra	89310	NA	NA	medium	unspecified	T1
+FRA40314	FRA40314	Aimard, Gustave		M	NA	NA	viaf:9841962	NA	1858	1858	NA	fra	105642	NA	NA	long	unspecified	T1
+FRA40313	FRA40313	Aimard, Gustave		M	NA	NA	viaf:9841962	NA	1859	1859	NA	fra	108859	NA	NA	long	unspecified	T1
+FRA40307	FRA40307	Aimard, Gustave		M	NA	NA	viaf:9841962	NA	1861	1861	NA	fra	82543	NA	NA	medium	unspecified	T2
+FRA40306	FRA40306	Aimard, Gustave	Les Bohèmes de la mer    	M	NA	NA	viaf:9841962	NA	1865	1865	NA	fra	55472	NA	NA	medium	unspecified	T2
+FRA40305	FRA40305	Aimard, Gustave		M	NA	NA	viaf:9841962	NA	1868	1868	NA	fra	56917	NA	NA	medium	unspecified	T2
+FRA40300	FRA40300	Aimard, Gustave		M	NA	NA	viaf:9841962	NA	1869	1869	NA	fra	72186	NA	NA	medium	unspecified	T2
+FRA40311	FRA40311	Aimard, Gustave	Belle rivière    	M	NA	NA	viaf:9841962	NA	1874	1874	NA	fra	129087	NA	NA	long	unspecified	T2
+FRA40303	FRA40303	Aimard, Gustave		M	NA	NA	viaf:9841962	NA	1877	1877	NA	fra	101314	NA	NA	long	unspecified	T2
+FRA40304	FRA40304	Aimard, Gustave		M	NA	NA	viaf:9841962	NA	1877	1877	NA	fra	98114	NA	NA	medium	unspecified	T2
+FRA40308	FRA40308	Aimard, Gustave	Le Chasseur de rats    	M	NA	NA	viaf:9841962	NA	1877	1877	NA	fra	157443	NA	NA	long	unspecified	T2
+FRA00303_Aimard	FRA00303	Aimard, Gustave	Les Bandits de l'Arizona    	M	1818	1883	viaf:9841962	NA	1881	1881	viaf:307977755	fra	72134	NA	NA	medium	low	T3
+FRA40301	FRA40301	Aimard, Gustave	Les Bandits d'Arizona    	M	NA	NA	viaf:9841962	NA	1881	1881	NA	fra	66933	NA	NA	medium	unspecified	T3
+FRA40309	FRA40309	Aimard, Gustave 	Le grand Chef des Aucas    	M	NA	NA	NA	NA	1858	1858	NA	fra	189496	NA	NA	long	unspecified	T1
+FRA40319	FRA40319	Aimard, Gustave; Auriac, Jean-Baptiste	Les Pieds fourchus    	M	NA	NA	viaf:61641578	NA	1866	1866	NA	fra	35790	NA	NA	short	unspecified	T2
+FRA40010	FRA40010	Alexis Ponson du Terrail, Pierre	La baronne trépassée    	M	NA	NA	viaf:17228199	NA	1852	1852	NA	fra	63872	NA	NA	medium	unspecified	T1
+FRA40011	FRA40011	Alexis Ponson du Terrail, Pierre	La femme immortelle    	M	NA	NA	viaf:17228199	NA	1852	1852	NA	fra	91378	NA	NA	medium	unspecified	T1
+FRA40013	FRA40013	Alexis Ponson du Terrail, Pierre	Les nuits du quartier Breda    	M	NA	NA	viaf:17228199	NA	1866	1866	NA	fra	50175	NA	NA	medium	unspecified	T2
+FRA40012	FRA40012	Alexis Ponson du Terrail, Pierre	La fée d'Auteuil    	M	NA	NA	viaf:17228199	NA	1868	1868	NA	fra	61344	NA	NA	medium	unspecified	T2
+FRA40323	FRA40323	Allais, Alphonse		M	NA	NA	viaf:89053456	NA	1899	1899	NA	fra	30658	NA	NA	short	unspecified	T3
+FRA40006	FRA40006	Aurevilly, Jules Barbey d'	Une histoire sans nom    	M	NA	NA	viaf:49221211	NA	1882	1882	NA	fra	37723	NA	NA	short	unspecified	T3
+FRA40567	FRA40567	Balzac, Honoré de	Pierrette    	M	NA	NA	viaf:29529595	NA	1840	1840	NA	fra	51321	NA	NA	medium	unspecified	T1
+FRA40563	FRA40563	Balzac, Honoré de	Mémoires de deux jeunes mariées    	M	NA	NA	viaf:29529595	NA	1841	1841	NA	fra	80053	NA	NA	medium	unspecified	T1
+FRA40566	FRA40566	Balzac, Honoré de	Ursule Mirouët    	M	NA	NA	viaf:29529595	NA	1841	1841	NA	fra	82457	NA	NA	medium	unspecified	T1
+FRA40571	FRA40571	Balzac, Honoré de	Une ténébreuse affaire    	M	NA	NA	viaf:29529595	NA	1841	1841	NA	fra	72648	NA	NA	medium	unspecified	T1
+FRA40572	FRA40572	Balzac, Honoré de	Le curé de village    	M	NA	NA	viaf:29529595	NA	1841	1841	NA	fra	89397	NA	NA	medium	unspecified	T1
+FRA40561	FRA40561	Balzac, Honoré de	La fausse maîtresse    	M	NA	NA	viaf:29529595	NA	1842	1842	NA	fra	18687	NA	NA	short	unspecified	T1
+FRA40562	FRA40562	Balzac, Honoré de	Albert Savarus    	M	NA	NA	viaf:29529595	NA	1842	1842	NA	fra	40691	NA	NA	short	unspecified	T1
+FRA40565	FRA40565	Balzac, Honoré de	Un début dans la vie    	M	NA	NA	viaf:29529595	NA	1842	1842	NA	fra	57737	NA	NA	medium	unspecified	T1
+FRA40564	FRA40564	Balzac, Honoré de	Modeste Mignon    	M	NA	NA	viaf:29529595	NA	1844	1844	NA	fra	91554	NA	NA	medium	unspecified	T1
+FRA40568	FRA40568	Balzac, Honoré de	Les comédiens sans le savoir    	M	NA	NA	viaf:29529595	NA	1845	1845	NA	fra	20872	NA	NA	short	unspecified	T1
+FRA40569	FRA40569	Balzac, Honoré de	La cousine Bette    	M	NA	NA	viaf:29529595	NA	1846	1846	NA	fra	151572	NA	NA	long	unspecified	T1
+FRA40570	FRA40570	Balzac, Honoré de	Le cousin Pons    	M	NA	NA	viaf:29529595	NA	1847	1847	NA	fra	107886	NA	NA	long	unspecified	T1
+FRA40001	FRA40001	Barbey d'Aurevilly, Jules	L'amour impossible    	M	NA	NA	viaf:49221211	NA	1841	1841	NA	fra	34604	NA	NA	short	unspecified	T1
+FRA40002	FRA40002	Barbey d'Aurevilly, Jules	L'ensorcelée    	M	NA	NA	viaf:49221211	NA	1852	1852	NA	fra	73079	NA	NA	medium	unspecified	T1
+FRA40737	FRA40737	Barbey d'Aurevilly, Jules	Un prêtre marié    	M	NA	NA	viaf:49221211	NA	1865	1865	NA	fra	135887	NA	NA	long	unspecified	T2
+FRA40106	FRA40106	Boisgobey, Fortuné Du	La Bande rouge    	M	NA	NA	viaf:19720225	NA	1886	1886	NA	fra	227858	NA	NA	long	unspecified	T3
+FRA41002	FRA41002	Boisgobey, Fortuné Du	L'oeil-de-chat    	M	NA	NA	viaf:19720225	NA	1888	1888	NA	fra	159240	NA	NA	long	unspecified	T3
+FRA00603_Boisgobey	FRA00603	Boisgobey, Fortuné du	Double-blanc    	M	1821	1891	viaf:19720225	NA	1889	1889	viaf:unavailable	fra	125052	NA	NA	long	low	T3
+FRA40728	FRA40728	Constant, Benjamin	Le cahier rouge    	M	NA	NA	viaf:45095766	NA	1907	1907	NA	fra	23313	NA	NA	short	unspecified	T4
+FRA40719	FRA40719	Darien, Georges		M	NA	NA	viaf:59052457	NA	1890	1890	NA	fra	71623	NA	NA	medium	unspecified	T3
+FRA40720	FRA40720	Darien, Georges		M	NA	NA	viaf:59052457	NA	1897	1897	NA	fra	132421	NA	NA	long	unspecified	T3
+FRA40020	FRA40020	Daudet, Alphonse	Le petit chose    	M	NA	NA	viaf:4928621	NA	1867	1867	NA	fra	86121	NA	NA	medium	unspecified	T2
+FRA40023	FRA40023	Daudet, Alphonse	Les aventures prodigieuses de Tartarin de Tarascon    	M	NA	NA	viaf:4928621	NA	1872	1872	NA	fra	28045	NA	NA	short	unspecified	T2
+FRA40018	FRA40018	Daudet, Alphonse	Le Nabab    	M	NA	NA	viaf:4928621	NA	1877	1877	NA	fra	140061	NA	NA	long	unspecified	T2
+FRA00903_Daudet	FRA00903	Daudet, Alphonse	Numa Roumestan : Mœurs Parisiennes    	M	1840	1897	viaf:4928621	Ebooks libres et gratuits     	1881	1881	viaf:287900644	fr	85708	NA	heterodiegetic     	medium	low	T3
+FRA40019	FRA40019	Daudet, Alphonse	Numa Roumestan    	M	NA	NA	viaf:4928621	NA	1881	1881	NA	fra	82839	NA	NA	medium	unspecified	T3
+FRA40016	FRA40016	Daudet, Alphonse	L'évangeliste    	M	NA	NA	viaf:4928621	NA	1882	1882	NA	fra	67736	NA	NA	medium	unspecified	T3
+FRA40022	FRA40022	Daudet, Alphonse	Sapho    	M	NA	NA	viaf:author	NA	1884	1884	NA	fra	58448	NA	NA	medium	unspecified	T3
+FRA40024	FRA40024	Daudet, Alphonse	Tartarin sur les Alpes    	M	NA	NA	viaf:4928621	NA	1885	1885	NA	fra	48965	NA	NA	short	unspecified	T3
+FRA00902_Daudet	FRA00902	Daudet, Alphonse	Port-Tarascon : Dernières aventures de l'illustre Tartarin    	M	1840	1897	viaf:4928621	NA	1890	1890	viaf:179981155	fra	46932	NA	NA	short	low	T3
+FRA40021	FRA40021	Daudet, Alphonse	Port-Tarascon    	M	NA	NA	viaf:4928621	NA	1890	1890	NA	fra	46244	NA	NA	short	unspecified	T3
+FRA01001_DelarueMardrus	FRA01001	Delarue-Mardrus, Lucie	Comme tout le monde    	F	1874	1945	viaf:34455354	Wikisource     	1910	1910	NA	fr	62356	NA	heterodiegetic     	medium	low	T4
+FRA40344	FRA40344	Dombre, Roger		U	NA	NA	viaf:37053113	NA	1889	1889	NA	fra	23255	NA	NA	short	unspecified	T3
+FRA01103_Dombre	FRA01103	Dombre, Roger	La Nounou    	U	1859	1914	viaf:37053113	NA	1890	1890	oclc:457907781 viaf:unavailable	fra	40970	NA	NA	short	low	T3
+FRA40343	FRA40343	Dombre, Roger		U	NA	NA	viaf:37053113	NA	1890	1890	NA	fra	46649	NA	NA	short	unspecified	T3
+FRA40345	FRA40345	Dombre, Roger		U	NA	NA	viaf:37053113	NA	1890	1890	NA	fra	38180	NA	NA	short	unspecified	T3
+FRA41005	FRA41005	Du Boisgobey, Fortuné	Le crime de l'omnibus    	M	NA	NA	viaf:19720225	NA	1881	1881	NA	fra	89771	NA	NA	medium	unspecified	T3
+FRA41008	FRA41008	Du Boisgobey, Fortuné	La voilette bleue    	M	NA	NA	viaf:19720225	NA	1885	1885	NA	fra	98624	NA	NA	medium	unspecified	T3
+FRA41184	FRA41184	du Boisgobey, Fortuné	Rubis sur l'ongle    	M	NA	NA	viaf:19720225	NA	1886	1886	NA	fra	98790	NA	NA	medium	unspecified	T3
+FRA41009	FRA41009	Du Boisgobey, Fortuné	L'oeil-de-chat, tome 2    	M	NA	NA	viaf:19720225	NA	1888	1888	NA	fra	79901	NA	NA	medium	unspecified	T3
+FRA40108	FRA40108	Du Boisgobey, Fortuné	La Main froide    	M	NA	NA	viaf:19720225	NA	1889	1889	NA	fra	97540	NA	NA	medium	unspecified	T3
+FRA41006	FRA41006	Du Boisgobey, Fortuné	Le crime de l'opéra,     	M	NA	NA	viaf:19720225	NA	1889	1889	NA	fra	242933	NA	NA	long	unspecified	T3
+FRA41199	FRA41199	Du Boisgobey, Fortuné	La Main froide    	M	NA	NA	viaf:19720225	NA	1889	1889	NA	fra	97540	NA	NA	medium	unspecified	T3
+FRA41161	FRA41161	du Terrail, Ponson	Le club des valets de coeur (Rocambole), tome 1    	M	NA	NA	viaf:17228199	NA	1858	1858	NA	fra	142638	NA	NA	long	unspecified	T1
+FRA41162	FRA41162	du Terrail, Ponson	Le club des valets de coeur (Rocambole), tome 2    	M	NA	NA	viaf:17228199	NA	1858	1858	NA	fra	140503	NA	NA	long	unspecified	T1
+FRA41169	FRA41169	du Terrail, Ponson	Les exploits de Rocambole, tome 1: La fille d'Espagne    	M	NA	NA	NA	NA	1859	1859	NA	fra	190726	NA	NA	long	unspecified	T1
+FRA41170	FRA41170	du Terrail, Ponson	Les exploits de Rocambole, tome 2: La mort du sauvage    	M	NA	NA	viaf:17228199	NA	1859	1859	NA	fra	100460	NA	NA	long	unspecified	T1
+FRA41171	FRA41171	du Terrail, Ponson	Les exploits de Rocambole, tome 3: La Revance de Baccarat    	M	NA	NA	viaf:17228199	NA	1859	1859	NA	fra	80480	NA	NA	medium	unspecified	T1
+FRA41160	FRA41160	du Terrail, Ponson	Les chevaliers du clair de lune    	M	NA	NA	viaf:17228199	NA	1860	1860	NA	fra	138864	NA	NA	long	unspecified	T2
+FRA41179	FRA41179	du Terrail, Ponson	Le testament de Grain-de-sel    	M	NA	NA	NA	NA	1862	1862	NA	fra	162325	NA	NA	long	unspecified	T2
+FRA41176	FRA41176	du Terrail, Ponson	La résurrection de Rocambole, tome 1: Le bagne de Toulon - Antoinette    	M	NA	NA	viaf:17228199	NA	1866	1866	NA	fra	79569	NA	NA	medium	unspecified	T2
+FRA41177	FRA41177	du Terrail, Ponson	La résurrection de Rocambole, tome 2: Saint-Lazare - L'auberge maudite - La maison de fous    	M	NA	NA	NA	NA	1866	1866	NA	fra	170981	NA	NA	long	unspecified	T2
+FRA41178	FRA41178	du Terrail, Ponson	La résurrection de Rocambole, tome 3: Redemption - La Vengeance de Vasilika    	M	NA	NA	viaf:17228199	NA	1866	1866	NA	fra	69104	NA	NA	medium	unspecified	T2
+FRA41165	FRA41165	du Terrail, Ponson	Les trésors du Rajah (Le dernier mot de Rocambole, 4)    	M	NA	NA	viaf:17228199	NA	1867	1867	NA	fra	48761	NA	NA	short	unspecified	T2
+FRA41166	FRA41166	du Terrail, Ponson	Les millions de la Bohémienne (Le dernier mot de Rocambole, 2)    	M	NA	NA	viaf:17228199	NA	1867	1867	NA	fra	104180	NA	NA	long	unspecified	T2
+FRA41167	FRA41167	du Terrail, Ponson	Un drame dans l'inde (Le dernier mot de Rocambole, 3)    	M	NA	NA	viaf:17228199	NA	1867	1867	NA	fra	100802	NA	NA	long	unspecified	T2
+FRA41172	FRA41172	du Terrail, Ponson	Les misères de Londres, tome 1: Prologue - La nourrisseuse d'enfants    	M	NA	NA	viaf:17228199	NA	1868	1868	NA	fra	53587	NA	NA	medium	unspecified	T2
+FRA41173	FRA41173	du Terrail, Ponson	Les misères de Londres, tome 2: L'enfant perdu    	M	NA	NA	viaf:17228199	NA	1868	1868	NA	fra	69860	NA	NA	medium	unspecified	T2
+FRA41174	FRA41174	du Terrail, Ponson	Les misères de Londres, tome 3: La cage aux oiseaux    	M	NA	NA	viaf:17228199	NA	1868	1868	NA	fra	59706	NA	NA	medium	unspecified	T2
+FRA41175	FRA41175	du Terrail, Ponson	Les misères de Londres, tome 4: Les tribulations de Shoking    	M	NA	NA	viaf:17228199	NA	1868	1868	NA	fra	90930	NA	NA	medium	unspecified	T2
+FRA41164	FRA41164	du Terrail, Ponson	La corde du pendu (Rocambole), tome 2: L'homme gris    	M	NA	NA	viaf:17228199	NA	1870	1870	NA	fra	59745	NA	NA	medium	unspecified	T2
+FRA40740	FRA40740	Dumas, Alexandre	Le château d'Eppstein    	M	NA	NA	viaf:51688902	NA	1843	1843	NA	fra	72319	NA	NA	medium	unspecified	T1
+FRA40008	FRA40008	Dumas, Alexandre	Les mariages du père Olifus    	M	NA	NA	viaf:51688902	NA	1849	1849	NA	fra	61684	NA	NA	medium	unspecified	T1
+FRA40724	FRA40724	Dumas, Alexandre	Les mille et un fantômes    	M	NA	NA	viaf:51688902	NA	1849	1849	NA	fra	53147	NA	NA	medium	unspecified	T1
+FRA40007	FRA40007	Dumas, Alexandre	La femme au collier de velours    	M	NA	NA	viaf:51688902	NA	1850	1850	NA	fra	59772	NA	NA	medium	unspecified	T1
+FRA40731	FRA40731	Dumas, Alexandre	Le meneur de loups    	M	NA	NA	viaf:51688902	NA	1857	1857	NA	fra	80297	NA	NA	medium	unspecified	T1
+FRA40036	FRA40036	Erckmann, Émile	L'invasion ou le fou Yégof    	M	NA	NA	viaf:31995972	NA	1862	1862	NA	fra	71190	NA	NA	medium	unspecified	T2
+FRA40037	FRA40037	Erckmann, Émile	Madame Thérèse, ou les volontaires de 92    	M	NA	NA	viaf:31995972	NA	1863	1863	NA	fra	60488	NA	NA	medium	unspecified	T2
+FRA40025	FRA40025	Erckmann, Émile	L'ami Fritz    	M	NA	NA	viaf:31995972	NA	1864	1864	NA	fra	66868	NA	NA	medium	unspecified	T2
+FRA40030	FRA40030	Erckmann, Émile	Histoire d'un circonscrit de 1813    	M	NA	NA	viaf:31995972	NA	1864	1864	NA	fra	66181	NA	NA	medium	unspecified	T2
+FRA04101_Erckmann	FRA04101	Erckmann, Émile	Waterloo    	M	1822	1899	viaf:31995972	NA	1865	1865	viaf:182215847	fra	81303	NA	NA	medium	high	T2
+FRA40031	FRA40031	Erckmann, Émile	Histoire d'un homme du peuple    	M	NA	NA	viaf:312339246	NA	1865	1865	NA	fra	79261	NA	NA	medium	unspecified	T2
+FRA40038	FRA40038	Erckmann, Émile	Waterloo    	M	NA	NA	viaf:31995972	NA	1865	1865	NA	fra	79964	NA	NA	medium	unspecified	T2
+FRA40026	FRA40026	Erckmann, Émile	Le blocus    	M	NA	NA	viaf:31995972	NA	1867	1867	NA	fra	67245	NA	NA	medium	unspecified	T2
+FRA40032	FRA40032	Erckmann, Émile	Histoire d'un paysan, 1789-1815, I    	M	NA	NA	viaf:31995972	NA	1869	1869	NA	fra	79934	NA	NA	medium	unspecified	T2
+FRA40033	FRA40033	Erckmann, Émile	Histoire d'un paysan, 1789-1815, II    	M	NA	NA	viaf:31995972	NA	1869	1869	NA	fra	78096	NA	NA	medium	unspecified	T2
+FRA40034	FRA40034	Erckmann, Émile	Histoire d'un paysan, 1789-1815, III    	M	1822	1899	viaf:31995972	NA	1869	1869	NA	fra	89470	NA	NA	medium	unspecified	T2
+FRA40035	FRA40035	Erckmann, Émile	Histoire d'un paysan, 1789-1815, IV    	M	1822	1899	viaf:31995972	NA	1869	1869	NA	fra	78464	NA	NA	medium	unspecified	T2
+FRA40027	FRA40027	Erckmann, Émile	Une campagne en Kabylie    	M	NA	NA	viaf:31995972	NA	1873	1873	NA	fra	22776	NA	NA	short	unspecified	T2
+FRA40029	FRA40029	Erckmann, Émile	Les deux frères (Les Rantzau)    	M	NA	NA	viaf:31995972	NA	1873	1873	NA	fra	64876	NA	NA	medium	unspecified	T2
+FRA40028	FRA40028	Erckmann, Émile	Un chef de chantier à l'isthme de Suez    	M	NA	NA	viaf:31995972	NA	1876	1876	NA	fra	41440	NA	NA	short	unspecified	T2
+FRA40608	FRA40608	Féval, Paul		M	NA	NA	viaf:17222447	NA	1843	1843	NA	fra	76316	NA	NA	medium	unspecified	T1
+FRA40615	FRA40615	Féval, Paul		M	NA	NA	viaf:17222447	NA	1843	1843	NA	fra	74390	NA	NA	medium	unspecified	T1
+FRA40620	FRA40620	Féval, Paul		M	NA	NA	viaf:17222447	NA	1843	1843	NA	fra	116777	NA	NA	long	unspecified	T1
+FRA40627	FRA40627	Féval, Paul		M	NA	NA	viaf:17222447	NA	1843	1843	NA	fra	127952	NA	NA	long	unspecified	T1
+FRA40628	FRA40628	Féval, Paul		M	NA	NA	NA	NA	1843	1843	NA	fra	159880	NA	NA	long	unspecified	T1
+FRA40610	FRA40610	Féval, Paul		M	NA	NA	NA	NA	1846	1846	NA	fra	182137	NA	NA	long	unspecified	T1
+FRA40621	FRA40621	Féval, Paul	La Quittance de Minuit, tome 1: L'Héritière    	M	NA	NA	viaf:17222447	NA	1846	1846	NA	fra	87662	NA	NA	medium	unspecified	T1
+FRA40622	FRA40622	Féval, Paul	La Quittance de Minuit, tome 2 : La galerie du géant    	M	NA	NA	viaf:17222447	NA	1846	1846	NA	fra	82999	NA	NA	medium	unspecified	T1
+FRA40609	FRA40609	Féval, Paul		M	NA	NA	viaf:17222447	NA	1850	1850	NA	fra	75779	NA	NA	medium	unspecified	T1
+FRA40623	FRA40623	Féval, Paul	La Reine des Épées (Forêt Noire)    	M	NA	NA	viaf:17222447	NA	1852	1852	NA	fra	91067	NA	NA	medium	unspecified	T1
+FRA40636	FRA40636	Féval, Paul		M	NA	NA	viaf:17222447	NA	1855	1855	NA	fra	50006	NA	NA	medium	unspecified	T1
+FRA40616	FRA40616	Féval, Paul	La Louve, tome 2: Valentine de Rohan    	M	NA	NA	viaf:17222447	NA	1856	1856	NA	fra	61584	NA	NA	medium	unspecified	T1
+FRA40617	FRA40617	Féval, Paul		M	NA	NA	NA	NA	1856	1856	NA	fra	325297	NA	NA	long	unspecified	T1
+FRA40607	FRA40607	Féval, Paul		M	NA	NA	viaf:17222447	NA	1857	1857	NA	fra	95246	NA	NA	medium	unspecified	T1
+FRA40633	FRA40633	Féval, Paul	Le Bossu    	M	NA	NA	NA	NA	1857	1857	NA	fra	213986	NA	NA	long	unspecified	T1
+FRA40618	FRA40618	Féval, Paul		M	NA	NA	NA	NA	1859	1859	NA	fra	141663	NA	NA	long	unspecified	T1
+FRA40624	FRA40624	Féval, Paul		M	NA	NA	viaf:17222447	NA	1859	1859	NA	fra	129439	NA	NA	long	unspecified	T1
+FRA40606	FRA40606	Féval, Paul		M	NA	NA	viaf:17222447	NA	1861	1861	NA	fra	36145	NA	NA	short	unspecified	T2
+FRA40629	FRA40629	Féval, Paul	Jean Diable, 2: Le procès criminel    	M	NA	NA	viaf:17222447	NA	1862	1862	NA	fra	117081	NA	NA	long	unspecified	T2
+FRA40630	FRA40630	Féval, Paul		M	NA	NA	NA	NA	1863	1863	NA	fra	196393	NA	NA	long	unspecified	T2
+FRA40611	FRA40611	Féval, Paul		M	NA	NA	NA	NA	1865	1865	NA	fra	161705	NA	NA	long	unspecified	T2
+FRA40637	FRA40637	Féval, Paul		M	NA	NA	viaf:17222447	NA	1867	1867	NA	fra	142939	NA	NA	long	unspecified	T2
+FRA40632	FRA40632	Féval, Paul		M	NA	NA	viaf:17222447	NA	1868	1868	NA	fra	127084	NA	NA	long	unspecified	T2
+FRA40612	FRA40612	Féval, Paul		M	NA	NA	viaf:17222447	NA	1869	1869	NA	fra	76375	NA	NA	medium	unspecified	T2
+FRA40631	FRA40631	Féval, Paul		M	NA	NA	viaf:17222447	NA	1869	1869	NA	fra	90430	NA	NA	medium	unspecified	T2
+FRA40625	FRA40625	Féval, Paul	La Ville-vampire    	M	NA	NA	viaf:17222447	NA	1875	1875	NA	fra	41836	NA	NA	short	unspecified	T2
+FRA40614	FRA40614	Féval, Paul	L'Homme sans bras    	M	NA	NA	viaf:17222447	NA	1881	1881	NA	fra	45448	NA	NA	short	unspecified	T3
+FRA40009	FRA40009	Féval, Paul H.C.	Le chevalier Ténèbre    	M	NA	NA	viaf:17222447	NA	1860	1860	NA	fra	36717	NA	NA	short	unspecified	T2
+FRA40634	FRA40634	Féval, Paul H.C.	Jean Diable    	M	NA	NA	viaf:17222447	NA	1862	1862	NA	fra	263210	NA	NA	long	unspecified	T2
+FRA40732	FRA40732	Féval, Paul H.C.	La vampire    	M	NA	NA	viaf:17222447	NA	1865	1865	NA	fra	87003	NA	NA	medium	unspecified	T2
+FRA40605	FRA40605	Féval, Paul H.C.	Le Cavalier Fortune    	M	NA	NA	viaf:17222447	NA	1868	1868	NA	fra	128790	NA	NA	long	unspecified	T2
+FRA40613	FRA40613	Féval, Paul Henri Corentin	Une Histoire de revenants    	M	NA	NA	viaf:17222447	NA	1881	1881	NA	fra	45906	NA	NA	short	unspecified	T3
+FRA40635	FRA40635	Féval, Paul Henry Corentin	Les Compagnons du trésor    	M	NA	NA	NA	NA	1872	1872	NA	fra	164508	NA	NA	long	unspecified	T2
+FRA40040	FRA40040	Flaubert, Gustave	Madame Bovary    	M	NA	NA	viaf:9846192	NA	1857	1857	NA	fra	116535	NA	NA	long	unspecified	T1
+FRA40042	FRA40042	Flaubert, Gustave	Sallambô    	M	NA	NA	viaf:9846192	NA	1862	1862	NA	fra	103529	NA	NA	long	unspecified	T2
+FRA40041	FRA40041	Flaubert, Gustave	L'Éducation sentimentale    	M	NA	NA	viaf:9846192	NA	1869	1869	NA	fra	150492	NA	NA	long	unspecified	T2
+FRA40039	FRA40039	Flaubert, Gustave	Bouvard et Pécuchet    	M	NA	NA	viaf:9846192	NA	1881	1881	NA	fra	85799	NA	NA	medium	unspecified	T3
+FRA40348	FRA40348	Fleuriot, Zénaïde		F	NA	NA	viaf:41872490	NA	1874	1874	NA	fra	35390	NA	NA	short	unspecified	T2
+FRA40347	FRA40347	Fleuriot, Zénaïde		F	NA	NA	viaf:41872490	NA	1877	1877	NA	fra	32352	NA	NA	short	unspecified	T2
+FRA40346	FRA40346	Fleuriot, Zénaïde		F	NA	NA	viaf:41872490	NA	1880	1880	NA	fra	48108	NA	NA	short	unspecified	T3
+FRA40350	FRA40350	Fleuriot, Zénaïde		F	NA	NA	viaf:41872490	NA	1881	1881	NA	fra	59461	NA	NA	medium	unspecified	T3
+FRA40349	FRA40349	Fleuriot, Zénaïde		F	NA	NA	viaf:41872490	NA	1882	1882	NA	fra	41970	NA	NA	short	unspecified	T3
+FRA40648	FRA40648	France, Anatole		M	NA	NA	viaf:4925052	NA	1881	1881	NA	fra	55600	NA	NA	medium	unspecified	T3
+FRA40647	FRA40647	France, Anatole		M	NA	NA	viaf:4925052	NA	1890	1890	NA	fra	50876	NA	NA	medium	unspecified	T3
+FRA40646	FRA40646	France, Anatole		M	NA	NA	viaf:4925052	NA	1897	1897	NA	fra	48927	NA	NA	short	unspecified	T3
+FRA40726	FRA40726	Françoise Sophie Gay, Marie	Ellenore    	F	NA	NA	viaf:27059297	NA	1844	1844	NA	fra	82700	NA	NA	medium	unspecified	T1
+FRA40727	FRA40727	Françoise Sophie Gay, Marie	Ellénore    	F	NA	NA	viaf:27059297	NA	1844	1844	NA	fra	93788	NA	NA	medium	unspecified	T1
+FRA40109	FRA40109	Gaboriau, Émile	Les Cotillons célèbres, 1    	M	NA	NA	viaf:100177491	NA	1861	1861	NA	fra	70004	NA	NA	medium	unspecified	T2
+FRA40110	FRA40110	Gaboriau, Émile	Les cotillons célèbres, 2    	M	NA	NA	viaf:100177491	NA	1861	1861	NA	fra	79075	NA	NA	medium	unspecified	T2
+FRA41020	FRA41020	Gaboriau, Émile	L'affaire Lerouge    	M	NA	NA	viaf:100177491	NA	1865	1865	NA	fra	124080	NA	NA	long	unspecified	T2
+FRA01901_Gaboriau	FRA01901	Gaboriau, Émile	Le crime d'Orcival    	M	1832	1873	viaf:100177491	NA	1866	1866	viaf:312348929	fra	127326	NA	NA	long	low	T2
+FRA41155	FRA41155	Gaboriau, Émile	Le crime d'Orcival    	M	NA	NA	viaf:100177491	NA	1866	1866	NA	fra	116778	NA	NA	long	unspecified	T2
+FRA41029	FRA41029	Gaboriau, Émile	Les esclaves de Paris, tome 2    	M	NA	NA	NA	NA	1867	1867	NA	fra	148380	NA	NA	long	unspecified	T2
+FRA41028	FRA41028	Gaboriau, Émile	Les esclaves de Paris, tome 1    	M	NA	NA	NA	NA	1868	1868	NA	fra	146666	NA	NA	long	unspecified	T2
+FRA41158	FRA41158	Gaboriau, Émile	Monsieur Lecoq, 1 : L'enquête    	M	NA	NA	viaf:100177491	NA	1869	1869	NA	fra	95792	NA	NA	medium	unspecified	T2
+FRA41159	FRA41159	Gaboriau, Émile	Monsieur Lecoq, 2: L'Honneur du nom    	M	NA	NA	NA	NA	1869	1869	NA	fra	162558	NA	NA	long	unspecified	T2
+FRA41156	FRA41156	Gaboriau, Émile	La vie infernale, 1 : Pascal et Marguerite    	M	NA	NA	viaf:100177491	NA	1870	1870	NA	fra	111134	NA	NA	long	unspecified	T2
+FRA41157	FRA41157	Gaboriau, Émile	La vie infernale, 2 : Lia d'Argelès    	M	NA	NA	viaf:100177491	NA	1870	1870	NA	fra	118177	NA	NA	long	unspecified	T2
+FRA41023	FRA41023	Gaboriau, Émile	La clique dorée (partie 1)    	M	NA	NA	viaf:100177491	NA	1871	1871	NA	fra	78545	NA	NA	medium	unspecified	T2
+FRA41024	FRA41024	Gaboriau, Émile	La clique dorée (partie 2)    	M	NA	NA	viaf:100177491	NA	1871	1871	NA	fra	86493	NA	NA	medium	unspecified	T2
+FRA41025	FRA41025	Gaboriau, Émile	La dégringolade, tome 1    	M	NA	NA	viaf:100177491	NA	1872	1872	NA	fra	94752	NA	NA	medium	unspecified	T2
+FRA41026	FRA41026	Gaboriau, Émile	La dégringolade, tome 2    	M	NA	NA	viaf:100177491	NA	1872	1872	NA	fra	103994	NA	NA	long	unspecified	T2
+FRA41027	FRA41027	Gaboriau, Émile	La dégringolade, tome 3    	M	NA	NA	viaf:100177491	NA	1872	1872	NA	fra	81786	NA	NA	medium	unspecified	T2
+FRA41151	FRA41151	Gaboriau, Émile	La corde au cou    	M	NA	NA	viaf:100177491	NA	1873	1873	NA	fra	159745	NA	NA	long	unspecified	T2
+FRA41152	FRA41152	Gaboriau, Émile	La corde au cou, 2    	M	NA	NA	viaf:100177491	NA	1873	1873	NA	fra	89314	NA	NA	medium	unspecified	T2
+FRA01903_Gaboriau	FRA01903	Gaboriau, Émile	L'Argent des autres    	M	1832	1873	viaf:100177491	NA	1874	1874	viaf:312338404	fra	173622	NA	NA	long	high	T2
+FRA41021	FRA41021	Gaboriau, Émile	L'Argent des autres    	M	NA	NA	viaf:100177491	NA	1874	1874	NA	fra	165425	NA	NA	long	unspecified	T2
+FRA41150	FRA41150	Gaboriau, Émile	Les amours d'une empoisonneuse    	M	NA	NA	viaf:100177491	NA	1881	1881	NA	fra	56654	NA	NA	medium	unspecified	T3
+FRA40365	FRA40365	Gauthier, Théophile 	Le Capitaine Fracasse    	M	NA	NA	NA	NA	1863	1863	NA	fra	185668	NA	NA	long	unspecified	T2
+FRA40733	FRA40733	Gautier, Théophile	Partie carrée    	M	NA	NA	viaf:96428598	NA	1848	1848	NA	fra	61777	NA	NA	medium	unspecified	T1
+FRA40742	FRA40742	Gautier, Théophile	Avatar    	M	NA	NA	viaf:96428598	NA	1856	1856	NA	fra	32933	NA	NA	short	unspecified	T1
+FRA01702_GautierT	FRA01702	Gautier, Théophile	Le roman de la momie    	M	1800	1872	viaf:96428598	Wikisource     	1857	1857	NA	fr	59638	NA	heterodiegetic     	medium	high	T1
+FRA40003	FRA40003	Gautier, Théophile	Le roman de la momie    	M	NA	NA	viaf:96428598	NA	1857	1857	NA	fra	55874	NA	NA	medium	unspecified	T1
+FRA40364	FRA40364	Gautier, Théophile		M	NA	NA	viaf:96428598	NA	1858	1858	NA	fra	40572	NA	NA	short	unspecified	T1
+FRA40380	FRA40380	Gouraud, Julie		F	NA	NA	viaf:31987653	NA	1866	1866	NA	fra	39552	NA	NA	short	unspecified	T2
+FRA40379	FRA40379	Gouraud, Julie		F	NA	NA	viaf:31987653	NA	1867	1867	NA	fra	40459	NA	NA	short	unspecified	T2
+FRA40374	FRA40374	Gouraud, Julie		F	NA	NA	viaf:31987653	NA	1868	1868	NA	fra	36654	NA	NA	short	unspecified	T2
+FRA40376	FRA40376	Gouraud, Julie		F	NA	NA	viaf:31987653	NA	1869	1869	NA	fra	39366	NA	NA	short	unspecified	T2
+FRA40372	FRA40372	Gouraud, Julie		F	NA	NA	viaf:31987653	NA	1872	1872	NA	fra	43256	NA	NA	short	unspecified	T2
+FRA40375	FRA40375	Gouraud, Julie		F	NA	NA	viaf:31987653	NA	1873	1873	NA	fra	42899	NA	NA	short	unspecified	T2
+FRA40371	FRA40371	Gouraud, Julie		F	NA	NA	viaf:31987653	NA	1874	1874	NA	fra	43332	NA	NA	short	unspecified	T2
+FRA40370	FRA40370	Gouraud, Julie		F	NA	NA	viaf:31987653	NA	1876	1876	NA	fra	42257	NA	NA	short	unspecified	T2
+FRA40377	FRA40377	Gouraud, Julie		F	NA	NA	viaf:31987653	NA	1878	1878	NA	fra	54753	NA	NA	medium	unspecified	T2
+FRA40368	FRA40368	Gouraud, Julie		F	NA	NA	viaf:31987653	NA	1880	1880	NA	fra	36480	NA	NA	short	unspecified	T3
+FRA40367	FRA40367	Gouraud, Julie		F	NA	NA	viaf:31987653	NA	1882	1882	NA	fra	42016	NA	NA	short	unspecified	T3
+FRA40373	FRA40373	Gouraud, Julie		F	NA	NA	viaf:31987653	NA	1884	1884	NA	fra	49469	NA	NA	short	unspecified	T3
+FRA40378	FRA40378	Gouraud, Julie		F	NA	NA	viaf:31987653	NA	1884	1884	NA	fra	29029	NA	NA	short	unspecified	T3
+FRA40369	FRA40369	Gouraud, Julie		F	NA	NA	viaf:31987653	NA	1888	1888	NA	fra	42714	NA	NA	short	unspecified	T3
+FRA40641	FRA40641	Hugo, Victor		M	NA	NA	viaf:9847974	NA	1862	1862	NA	fra	117563	NA	NA	long	unspecified	T2
+FRA40642	FRA40642	Hugo, Victor		M	NA	NA	viaf:9847974	NA	1862	1862	NA	fra	100805	NA	NA	long	unspecified	T2
+FRA40643	FRA40643	Hugo, Victor		M	NA	NA	viaf:9847974	NA	1862	1862	NA	fra	90218	NA	NA	medium	unspecified	T2
+FRA40644	FRA40644	Hugo, Victor		M	NA	NA	viaf:9847974	NA	1862	1862	NA	fra	125747	NA	NA	long	unspecified	T2
+FRA40645	FRA40645	Hugo, Victor		M	NA	NA	viaf:9847974	NA	1862	1862	NA	fra	107880	NA	NA	long	unspecified	T2
+FRA40638	FRA40638	Huysmans, Joris-Karl		M	NA	NA	viaf:41841635	NA	1879	1879	NA	fra	66134	NA	NA	medium	unspecified	T2
+FRA40640	FRA40640	Huysmans, Joris-Karl		M	NA	NA	viaf:41841635	NA	1884	1884	NA	fra	63985	NA	NA	medium	unspecified	T3
+FRA40382	FRA40382	Karl Huysmans, Joris		M	NA	NA	viaf:41841635	NA	1879	1879	NA	fra	63762	NA	NA	medium	unspecified	T2
+FRA40722	FRA40722	l'Isle Adam, Auguste Villiers de	Isis    	M	NA	NA	viaf:88998504	NA	1862	1862	NA	fra	37446	NA	NA	short	unspecified	T2
+FRA02402_LeRouge	FRA02402	Le Rouge, Gustave	La Conspiration des Milliardaires    	M	1867	1938	viaf:7392910	NA	1900	1900	viaf:unavailable	fr	76673	NA	NA	medium	low	T4
+FRA02403_LeRouge	FRA02403	Le Rouge, Gustave	La Guerre des vampires    	M	1867	1938	viaf:7392910	NA	1909	1909	viaf:8889151656380608400006	fra	73470	NA	NA	medium	high	T4
+FRA05601_Lesueur	FRA05601	Lesueur, Daniel	Droit à la force    	U	1854	1921	viaf:39520913	Project Gutenberg     	1909	1909	NA	fr	67461	NA	heterodiegetic     	medium	low	T4
+FRA02503_Loti	FRA02503	Loti, Pierre	Aziyadé : Extrait des notes et lettres d'un lieutenant de la marine anglaise     	M	1850	1923	viaf:89440078	NA	1879	1879	viaf:185695658	fra	53825	NA	NA	medium	high	T2
+FRA40043	FRA40043	Loti, Pierre	Aziyadé    	M	NA	NA	viaf:89440078	NA	1879	1879	NA	fra	51968	NA	NA	medium	unspecified	T2
+FRA40051	FRA40051	Loti, Pierre	Le roman d'un Spahi    	M	NA	NA	viaf:89440078	NA	1881	1881	NA	fra	48394	NA	NA	short	unspecified	T3
+FRA40046	FRA40046	Loti, Pierre	Le mariage de Loti    	M	NA	NA	viaf:89440078	NA	1882	1882	NA	fra	47819	NA	NA	short	unspecified	T3
+FRA40047	FRA40047	Loti, Pierre	Mon frère Yves    	M	NA	NA	viaf:89440078	NA	1883	1883	NA	fra	71698	NA	NA	medium	unspecified	T3
+FRA40403	FRA40403	Loti, Pierre		M	NA	NA	viaf:89440078	NA	1883	1883	NA	fra	69604	NA	NA	medium	unspecified	T3
+FRA40402	FRA40402	Loti, Pierre		M	NA	NA	viaf:89440078	NA	1886	1886	NA	fra	54868	NA	NA	medium	unspecified	T3
+FRA40045	FRA40045	Loti, Pierre	Madame Chrysanthème    	M	NA	NA	viaf:89440078	NA	1887	1887	NA	fra	47590	NA	NA	short	unspecified	T3
+FRA40050	FRA40050	Loti, Pierre	Le roman d'un enfant    	M	NA	NA	viaf:89440078	NA	1890	1890	NA	fra	51159	NA	NA	medium	unspecified	T3
+FRA40404	FRA40404	Loti, Pierre		M	NA	NA	viaf:89440078	NA	1890	1890	NA	fra	49855	NA	NA	short	unspecified	T3
+FRA40405	FRA40405	Loti, Pierre		M	NA	NA	viaf:89440078	NA	1893	1893	NA	fra	36521	NA	NA	short	unspecified	T3
+FRA02502_Loti	FRA02502	Loti, Pierre	Ramuntcho    	M	1850	1923	viaf:89440078	Ebooks libres et gratuits     	1897	1897	viaf:185706732	fr	57949	NA	heterodiegetic     	medium	high	T3
+FRA40049	FRA40049	Loti, Pierre	Ramuntcho    	M	NA	NA	viaf:89440078	NA	1897	1897	NA	fra	55741	NA	NA	medium	unspecified	T3
+FRA40044	FRA40044	Loti, Pierre	Figures et choses qui passaient    	M	NA	NA	viaf:89440078	NA	1898	1898	NA	fra	43154	NA	NA	short	unspecified	T3
+FRA40409	FRA40409	Malot, Hector		M	NA	NA	viaf:49228546	NA	1869	1869	NA	fra	65835	NA	NA	medium	unspecified	T2
+FRA40420	FRA40420	Malot, Hector		M	NA	NA	viaf:49228546	NA	1870	1870	NA	fra	43347	NA	NA	short	unspecified	T2
+FRA40416	FRA40416	Malot, Hector		M	NA	NA	viaf:49228546	NA	1873	1873	NA	fra	45366	NA	NA	short	unspecified	T2
+FRA40412	FRA40412	Malot, Hector		M	NA	NA	viaf:49228546	NA	1874	1874	NA	fra	67916	NA	NA	medium	unspecified	T2
+FRA40417	FRA40417	Malot, Hector		M	NA	NA	viaf:49228546	NA	1874	1874	NA	fra	84322	NA	NA	medium	unspecified	T2
+FRA40407	FRA40407	Malot, Hector		M	NA	NA	viaf:49228546	NA	1878	1878	NA	fra	104705	NA	NA	long	unspecified	T2
+FRA40410	FRA40410	Malot, Hector		M	NA	NA	viaf:49228546	NA	1878	1878	NA	fra	114534	NA	NA	long	unspecified	T2
+FRA40413	FRA40413	Malot, Hector		M	NA	NA	viaf:49228546	NA	1881	1881	NA	fra	78086	NA	NA	medium	unspecified	T3
+FRA40408	FRA40408	Malot, Hector		M	NA	NA	viaf:49228546	NA	1886	1886	NA	fra	99766	NA	NA	medium	unspecified	T3
+FRA40419	FRA40419	Malot, Hector		M	NA	NA	viaf:49228546	NA	1886	1886	NA	fra	91448	NA	NA	medium	unspecified	T3
+FRA40411	FRA40411	Malot, Hector		M	NA	NA	viaf:49228546	NA	1887	1887	NA	fra	87880	NA	NA	medium	unspecified	T3
+FRA40415	FRA40415	Malot, Hector		M	NA	NA	viaf:49228546	NA	1888	1888	NA	fra	96683	NA	NA	medium	unspecified	T3
+FRA40418	FRA40418	Malot, Hector		M	NA	NA	viaf:49228546	NA	1891	1891	NA	fra	84089	NA	NA	medium	unspecified	T3
+FRA40414	FRA40414	Malot, Hector		M	NA	NA	viaf:49228546	NA	1893	1893	NA	fra	97825	NA	NA	medium	unspecified	T3
+FRA40423	FRA40423	Mary, Jules		M	NA	NA	viaf:2503579	NA	1886	1886	NA	fra	50141	NA	NA	medium	unspecified	T3
+FRA40421	FRA40421	Mary, Jules		M	NA	NA	viaf:2503579	NA	1898	1898	NA	fra	70274	NA	NA	medium	unspecified	T3
+FRA40422	FRA40422	Mary, Jules		M	NA	NA	viaf:2503579	NA	1898	1898	NA	fra	75331	NA	NA	medium	unspecified	T3
+FRA40056	FRA40056	Maupassant, Guy de	Une Vie    	M	NA	NA	viaf:29537765	NA	1883	1883	NA	fra	75745	NA	NA	medium	unspecified	T3
+FRA40052	FRA40052	Maupassant, Guy de	Bel-Ami    	M	NA	NA	viaf:29537765	NA	1885	1885	NA	fra	110862	NA	NA	long	unspecified	T3
+FRA40054	FRA40054	Maupassant, Guy de	Mont-Oriol    	M	NA	NA	viaf:29537765	NA	1887	1887	NA	fra	82578	NA	NA	medium	unspecified	T3
+FRA40055	FRA40055	Maupassant, Guy de	Pierre et Jean    	M	NA	NA	viaf:29537765	NA	1888	1888	NA	fra	49297	NA	NA	short	unspecified	T3
+FRA02703_Maupassant	FRA02703	Maupassant, Guy de	Fort comme la mort    	M	1850	1893	viaf:29537765	NA	1889	1889	viaf:191941628	fra	75586	NA	NA	medium	high	T3
+FRA40053	FRA40053	Maupassant, Guy de	Fort comme la mort    	M	NA	NA	viaf:29537765	NA	1889	1889	NA	fra	73577	NA	NA	medium	unspecified	T3
+FRA40426	FRA40426	Mirbeau, Octave		M	NA	NA	viaf:100204602	NA	1883	1883	NA	fra	56786	NA	NA	medium	unspecified	T3
+FRA40146	FRA40146	Mirbeau, Octave	Le Calvaire    	M	NA	NA	viaf:100204602	NA	1887	1887	NA	fra	76757	NA	NA	medium	unspecified	T3
+FRA02801_Mirbeau	FRA02801	Mirbeau, Octave	L'abbé Jules    	M	1848	1917	viaf:100204602	Ebooks libres et gratuits     	1888	1888	viaf:310534644 	fr	78137	NA	homodiegetic     	medium	high	T3
+FRA40148	FRA40148	Mirbeau, Octave	L'abbé Jules    	M	NA	NA	viaf:100204602	NA	1888	1888	NA	fra	75730	NA	NA	medium	unspecified	T3
+FRA40147	FRA40147	Mirbeau, Octave	Sébastien Roch    	M	NA	NA	viaf:100204602	NA	1890	1890	NA	fra	92784	NA	NA	medium	unspecified	T3
+FRA02803_Mirbeau	FRA02803	Mirbeau, Octave	Le Jardin des supplices    	M	1848	1917	viaf:100204602	NA	1899	1899	viaf:293386073	fra	64881	NA	NA	medium	high	T3
+FRA40144	FRA40144	Mirbeau, Octave	Le Jardin des supplices    	M	NA	NA	viaf:100204602	NA	1899	1899	NA	fra	63104	NA	NA	medium	unspecified	T3
+FRA40738	FRA40738	Nerval, Gérard de	Aurélia    	M	NA	NA	viaf:24596532	NA	1854	1854	NA	fra	30852	NA	NA	short	unspecified	T1
+FRA40656	FRA40656	Ohnet, Georges		M	NA	NA	viaf:66497284	NA	1885	1885	NA	fra	107389	NA	NA	long	unspecified	T3
+FRA40657	FRA40657	Ohnet, Georges		M	NA	NA	viaf:66497284	NA	1890	1890	NA	fra	49653	NA	NA	short	unspecified	T3
+FRA40658	FRA40658	Ohnet, Georges	Les Batailles de la Vie, tome 1: Marchand de Poison    	M	NA	NA	viaf:66497284	NA	1892	1892	NA	fra	46866	NA	NA	short	unspecified	T3
+FRA03102_Ponson	FRA03102	Ponson du Terrail, Pierre Alexis	La résurrection de Rocambole    	M	1829	1871	viaf:17228199	Ebooks libres et gratuits     	1866	1866	viaf:294264533	fr	173741	NA	heterodiegetic     	long	low	T2
+FRA03103_Ponson	FRA03103	Ponson du Terrail, Pierre Alexis	La fée d'Auteuil    	M	1829	1871	viaf:17228199	NA	1868	1868	viaf:missing	fra	64938	NA	NA	medium	low	T2
+FRA41163	FRA41163	Ponson du Terrail, Pierre Alexis	La corde du pendu (Rocambole)    	M	NA	NA	viaf:17228199	NA	1870	1870	NA	fra	126214	NA	NA	long	unspecified	T2
+FRA41168	FRA41168	Ponson du Terrail, Pierre Alexis de	Rocambole en prison    	M	NA	NA	viaf:17228199	NA	1869	1869	NA	fra	119745	NA	NA	long	unspecified	T2
+FRA03301_Rattazzi	FRA03301	Rattazzi, Marie [Marie-Lætitia Bonaparte-Wyse]	La Mexicaine    	F	1831	1902	viaf:30341384	Bibliothèque numérique romande (BNR)     	1866	1866	NA	fra	56517	NA	heterodiegetic     	medium	low	T2
+FRA40718	FRA40718	Rodenbach, Georges		M	NA	NA	viaf:76322185	NA	1892	1892	NA	fra	20283	NA	NA	short	unspecified	T3
+FRA40717	FRA40717	Rodenbach, Georges		M	NA	NA	viaf:76322185	NA	1897	1897	NA	fra	67374	NA	NA	medium	unspecified	T3
+FRA04201_Rolland	FRA04201	Rolland, Romain	L'aube    	M	1866	1944	viaf:71397100	NA	1904	1904	viaf:312469768	fr	41108	NA	NA	short	low	T4
+FRA04203_Rolland	FRA04203	Rolland, Romain	La foire sur la place    	M	1866	1944	viaf:71397100	NA	1908	1908	viaf:312469772	fra	69465	NA	NA	medium	low	T4
+FRA40474	FRA40474	Sand, George		F	NA	NA	viaf:46766944	NA	1840	1840	NA	fra	83095	NA	NA	medium	unspecified	T1
+FRA40454	FRA40454	Sand, George		F	NA	NA	viaf:46766944	NA	1841	1841	NA	fra	122840	NA	NA	long	unspecified	T1
+FRA40459	FRA40459	Sand, George		F	NA	NA	viaf:46766944	NA	1842	1842	NA	fra	122059	NA	NA	long	unspecified	T1
+FRA40460	FRA40460	Sand, George		F	NA	NA	viaf:46766944	NA	1842	1842	NA	fra	107682	NA	NA	long	unspecified	T1
+FRA40461	FRA40461	Sand, George		F	NA	NA	viaf:46766944	NA	1842	1842	NA	fra	104120	NA	NA	long	unspecified	T1
+FRA40442	FRA40442	Sand, George		F	NA	NA	viaf:46766944	NA	1843	1843	NA	fra	101612	NA	NA	long	unspecified	T1
+FRA40443	FRA40443	Sand, George		F	NA	NA	viaf:46766944	NA	1843	1843	NA	fra	100908	NA	NA	long	unspecified	T1
+FRA40452	FRA40452	Sand, George		F	NA	NA	viaf:46766944	NA	1844	1844	NA	fra	104138	NA	NA	long	unspecified	T1
+FRA40440	FRA40440	Sand, George		F	NA	NA	viaf:46766944	NA	1845	1845	NA	fra	51134	NA	NA	medium	unspecified	T1
+FRA40444	FRA40444	Sand, George		F	NA	NA	viaf:46766944	NA	1845	1845	NA	fra	146154	NA	NA	long	unspecified	T1
+FRA40446	FRA40446	Sand, George		F	NA	NA	viaf:46766944	NA	1845	1845	NA	fra	110453	NA	NA	long	unspecified	T1
+FRA40448	FRA40448	Sand, George		F	NA	NA	viaf:46766944	NA	1846	1846	NA	fra	38748	NA	NA	short	unspecified	T1
+FRA40450	FRA40450	Sand, George		F	NA	NA	viaf:46766944	NA	1846	1846	NA	fra	81543	NA	NA	medium	unspecified	T1
+FRA40471	FRA40471	Sand, George		F	NA	NA	viaf:46766944	NA	1848	1848	NA	fra	48463	NA	NA	short	unspecified	T1
+FRA40472	FRA40472	Sand, George		F	NA	NA	viaf:46766944	NA	1849	1849	NA	fra	59454	NA	NA	medium	unspecified	T1
+FRA40462	FRA40462	Sand, George		F	NA	NA	viaf:46766944	NA	1851	1851	NA	fra	50575	NA	NA	medium	unspecified	T1
+FRA40449	FRA40449	Sand, George		F	NA	NA	viaf:46766944	NA	1853	1853	NA	fra	123152	NA	NA	long	unspecified	T1
+FRA40457	FRA40457	Sand, George		F	NA	NA	viaf:46766944	NA	1857	1857	NA	fra	29860	NA	NA	short	unspecified	T1
+FRA40456	FRA40456	Sand, George		F	NA	NA	viaf:46766944	NA	1859	1859	NA	fra	62219	NA	NA	medium	unspecified	T1
+FRA40458	FRA40458	Sand, George		F	NA	NA	viaf:46766944	NA	1866	1866	NA	fra	80767	NA	NA	medium	unspecified	T2
+FRA40455	FRA40455	Sand, George		F	NA	NA	viaf:46766944	NA	1871	1871	NA	fra	38791	NA	NA	short	unspecified	T2
+FRA40445	FRA40445	Sand, George		F	NA	NA	viaf:46766944	NA	1872	1872	NA	fra	94058	NA	NA	medium	unspecified	T2
+FRA40447	FRA40447	Sand, George		F	NA	NA	viaf:46766944	NA	1875	1875	NA	fra	22729	NA	NA	short	unspecified	T2
+FRA03703_Sand	FRA03703	Sand, George [Amantine Lucile Aurore Dupin]	Le Compagnon du Tour de France    	F	1804	1876	viaf:46766944	NA	1840	1840	viaf:194896547	fr	89154	NA	NA	medium	high	T1
+FRA03801_Stern	FRA03801	Stern, Daniel [Marie d'Agoult]	Hervé    	F	1805	1876	viaf:186930001	Project Gutenberg     	1843	1843	NA	fr	16339	NA	mixed     	short	low	T1
+FRA03901_Stolz	FRA03901	Stolz, Madame de [Fanny de Bégon]	La Maison roulante    	F	1820	1898	viaf:19850120 wikidata:Q3275360	Bibliothèque électronique du Québec (BEQ)     	1869	1869	viaf:309282062	fr	52092	NA	heterodiegetic     	medium	low	T2
+FRA40476	FRA40476	Stolz, Madame de [Fanny de Bégon]	La Maison roulante    	F	1820	1898	viaf:79158042	NA	1869	1869	NA	fra	48410	NA	NA	short	unspecified	T2
+FRA03902_Stolz	FRA03902	Stolz, Madame de [Fanny de Bégon]	La Maison blanche    	F	1820	1898	viaf:19850120 wikidata:Q3275360	NA	1884	1884	viaf:unavailable	fr	52128	NA	NA	medium	low	T3
+FRA40127	FRA40127	Sue, Eugène	Les mystères de Paris, tome 1    	M	NA	NA	viaf:66473859	NA	1842	1842	NA	fra	120431	NA	NA	long	unspecified	T1
+FRA40128	FRA40128	Sue, Eugène	Les mystères de Paris, tome 2    	M	NA	NA	viaf:66473859	NA	1842	1842	NA	fra	122378	NA	NA	long	unspecified	T1
+FRA40736	FRA40736	Sue, Eugène	Le morne au diable     	M	NA	NA	viaf:66473859	NA	1842	1842	NA	fra	110030	NA	NA	long	unspecified	T1
+FRA40129	FRA40129	Sue, Eugène	Les mystères de Paris, tome 4    	M	NA	NA	viaf:66473859	NA	1843	1843	NA	fra	110095	NA	NA	long	unspecified	T1
+FRA40130	FRA40130	Sue, Eugène	Les mystères de Paris, tome 5    	M	NA	NA	viaf:66473859	NA	1843	1843	NA	fra	101201	NA	NA	long	unspecified	T1
+FRA40743	FRA40743	Sue, Eugène	Le Juif errant    	M	NA	NA	NA	NA	1844	1844	NA	fra	554519	NA	NA	long	unspecified	T1
+FRA40735	FRA40735	Sue, Eugène	Paula Monti, Tome I    	M	NA	NA	viaf:66473859	NA	1845	1845	NA	fra	45450	NA	NA	short	unspecified	T1
+FRA40131	FRA40131	Sue, Eugène	Les mystères du peuple. Histoire d'une famille de prolétaires à travers les âges, tome 2    	M	NA	NA	viaf:66473859	NA	1849	1849	NA	fra	92617	NA	NA	medium	unspecified	T1
+FRA40132	FRA40132	Sue, Eugène	Les mystères du peuple. Histoire d'une famille de prolétaires à travers les âges, tome 3    	M	NA	NA	viaf:66473859	NA	1850	1850	NA	fra	128709	NA	NA	long	unspecified	T1
+FRA40133	FRA40133	Sue, Eugène	Les mystères du peuple. Histoire d'une famille de prolétaires à travers les âges, tome 4    	M	NA	NA	viaf:66473859	NA	1850	1850	NA	fra	144374	NA	NA	long	unspecified	T1
+FRA40134	FRA40134	Sue, Eugène	Les mystères du peuple. Histoire d'une famille de prolétaires à travers les âges, tome 6    	M	NA	NA	viaf:66473859	NA	1851	1851	NA	fra	66453	NA	NA	medium	unspecified	T1
+FRA40135	FRA40135	Sue, Eugène	Les mystères du peuple. Histoire d'une famille de prolétaires à travers les âges, tome 7    	M	NA	NA	viaf:author	NA	1851	1851	NA	fra	173113	NA	NA	long	unspecified	T1
+FRA40136	FRA40136	Sue, Eugène	Les mystères du peuple. Histoire d'une famille de prolétaires à travers les âges, tome 8    	M	NA	NA	viaf:66473859	NA	1853	1853	NA	fra	112138	NA	NA	long	unspecified	T1
+FRA40137	FRA40137	Sue, Eugène	Les mystères du peuple. Histoire d'une famille de prolétaires à travers les âges, tome 9    	M	NA	NA	viaf:66473859	NA	1853	1853	NA	fra	109001	NA	NA	long	unspecified	T1
+FRA40138	FRA40138	Sue, Eugène	Les mystères du peuple. Histoire d'une famille de prolétaires à travers les âges, tome 10    	M	NA	NA	viaf:66473859	NA	1854	1854	NA	fra	111857	NA	NA	long	unspecified	T1
+FRA40139	FRA40139	Sue, Eugène	Les mystères du peuple. Histoire d'une famille de prolétaires à travers les âges, tome 11    	M	NA	NA	viaf:66473859	NA	1854	1854	NA	fra	123004	NA	NA	long	unspecified	T1
+FRA40140	FRA40140	Sue, Eugène	Les mystères du peuple. Histoire d'une famille de prolétaires à travers les âges, tome 12    	M	NA	NA	viaf:66473859	NA	1855	1855	NA	fra	107922	NA	NA	long	unspecified	T1
+FRA40141	FRA40141	Sue, Eugène	Les mystères du peuple. Histoire d'une famille de prolétaires à travers les âges, tome 13    	M	NA	NA	viaf:66473859	NA	1856	1856	NA	fra	107696	NA	NA	long	unspecified	T1
+FRA40142	FRA40142	Sue, Eugène	Les mystères du peuple. Histoire d'une famille de prolétaires à travers les âges, tome 15    	M	NA	NA	viaf:66473859	NA	1857	1857	NA	fra	119567	NA	NA	long	unspecified	T1
+FRA40143	FRA40143	Sue, Eugène	Les mystères du peuple. Histoire d'une famille de prolétaires à travers les âges, tome 16    	M	NA	NA	viaf:author	NA	1857	1857	NA	fra	165100	NA	NA	long	unspecified	T1
+FRA40734	FRA40734	Vallette-Eymery, Marguerite	Monsieur Vénus    	F	NA	NA	viaf:44304153	NA	1884	1884	NA	fra	41745	NA	NA	short	unspecified	T3
+FRA04003_Verne	FRA04003	Verne, Jules	Voyages et aventures du Capitaine Hatteras    	M	1828	1905	viaf:76323989	NA	1866	1866	viaf:176496719	fra	144174	NA	NA	long	high	T2
+FRA40086	FRA40086	Verne, Jules	Voyages et aventures du Capitaine Hatteras    	M	NA	NA	viaf:76323989	NA	1866	1866	NA	fra	142545	NA	NA	long	unspecified	T2
+FRA40082	FRA40082	Verne, Jules	Autour de la lune    	M	NA	NA	viaf:76323989	NA	1869	1869	NA	fra	57710	NA	NA	medium	unspecified	T2
+FRA40178	FRA40178	Verne, Jules	Vingt Mille lieues sous les mers    	M	NA	NA	viaf:76323989	NA	1871	1871	NA	fra	143608	NA	NA	long	unspecified	T2
+FRA40083	FRA40083	Verne, Jules	Aventures de trois russes et de trois anglais dans l'Afrique australe    	M	NA	NA	viaf:76323989	NA	1872	1872	NA	fra	67646	NA	NA	medium	unspecified	T2
+FRA40174	FRA40174	Verne, Jules	Le Pays des fourrures    	M	NA	NA	viaf:76323989	NA	1873	1873	NA	fra	135914	NA	NA	long	unspecified	T2
+FRA40088	FRA40088	Verne, Jules	Le Chancellor    	M	NA	NA	viaf:76323989	NA	1875	1875	NA	fra	54828	NA	NA	medium	unspecified	T2
+FRA40169	FRA40169	Verne, Jules	L'Île mystérieuse    	M	NA	NA	viaf:author	NA	1875	1875	NA	fra	201275	NA	NA	long	unspecified	T2
+FRA40014	FRA40014	Verne, Jules	Hector Servadac    	M	NA	NA	viaf:76323989	NA	1877	1877	NA	fra	117697	NA	NA	long	unspecified	T2
+FRA40168	FRA40168	Verne, Jules	Hector Servadac    	M	NA	NA	viaf:76323989	NA	1877	1877	NA	fra	122924	NA	NA	long	unspecified	T2
+FRA40087	FRA40087	Verne, Jules	Un capitaine de quinze ans    	M	NA	NA	viaf:76323989	NA	1878	1878	NA	fra	120890	NA	NA	long	unspecified	T2
+FRA40177	FRA40177	Verne, Jules	Les Tribulations d'un chinois en Chine    	M	NA	NA	viaf:76323989	NA	1879	1879	NA	fra	59668	NA	NA	medium	unspecified	T2
+FRA40171	FRA40171	Verne, Jules	Kéraban-Le-Têtu    	M	NA	NA	viaf:76323989	NA	1883	1883	NA	fra	111889	NA	NA	long	unspecified	T3
+FRA40081	FRA40081	Verne, Jules	L'archipel en feu    	M	NA	NA	viaf:76323989	NA	1884	1884	NA	fra	60746	NA	NA	medium	unspecified	T3
+FRA40172	FRA40172	Verne, Jules	Mathias Sandorf    	M	NA	NA	viaf:author	NA	1885	1885	NA	fra	164270	NA	NA	long	unspecified	T3
+FRA40084	FRA40084	Verne, Jules	Un billet de loterie (Le numéro 9672)    	M	NA	NA	viaf:76323989	NA	1886	1886	NA	fra	50230	NA	NA	medium	unspecified	T3
+FRA40149	FRA40149	Verne, Jules	Deux ans de vacances    	M	NA	NA	viaf:76323989	NA	1888	1888	NA	fra	121080	NA	NA	long	unspecified	T3
+FRA40167	FRA40167	Verne, Jules		M	NA	NA	viaf:76323989	NA	1889	1889	NA	fra	104941	NA	NA	long	unspecified	T3
+FRA40091	FRA40091	Verne, Jules	Le château des Carpathes    	M	NA	NA	viaf:76323989	NA	1892	1892	NA	fra	52589	NA	NA	medium	unspecified	T3
+FRA40015	FRA40015	Verne, Jules	Le sphinx des glaces    	M	NA	NA	viaf:76323989	NA	1897	1897	NA	fra	119998	NA	NA	long	unspecified	T3
+FRA40175	FRA40175	Verne, Jules	Le Secret de Wilhelm Storitz    	M	NA	NA	viaf:76323989	NA	1898	1898	NA	fra	53008	NA	NA	medium	unspecified	T3
+FRA40176	FRA40176	Verne, Jules	Le Testament d'un excentrique    	M	NA	NA	viaf:76323989	NA	1899	1899	NA	fra	132703	NA	NA	long	unspecified	T3
+FRA40721	FRA40721	Villiers de L'Isle-Adam, Auguste comte de	L'Eve Future    	M	NA	NA	viaf:88998504	NA	1886	1886	NA	fra	83977	NA	NA	medium	unspecified	T3
+FRA40095	FRA40095	Zola, Émile	La fortune des Rougon    	M	NA	NA	viaf:32004502	NA	1870	1870	NA	fra	120741	NA	NA	long	unspecified	T2
+FRA40092	FRA40092	Zola, Émile	La curée    	M	NA	NA	viaf:32004502	NA	1872	1872	NA	fra	108030	NA	NA	long	unspecified	T2
+FRA40061	FRA40061	Zola, Émile	Le Ventre de Paris    	M	NA	NA	viaf:32004502	NA	1873	1873	NA	fra	113519	NA	NA	long	unspecified	T2
+FRA40104	FRA40104	Zola, Émile	La faute de l'abbé Mouret    	M	NA	NA	viaf:32004502	NA	1875	1875	NA	fra	118153	NA	NA	long	unspecified	T2
+FRA40096	FRA40096	Zola, Émile	Son excellence Eugène Rougon    	M	NA	NA	viaf:32004502	NA	1876	1876	NA	fra	132579	NA	NA	long	unspecified	T2
+FRA40100	FRA40100	Zola, Émile	L'assommoir    	M	NA	NA	viaf:32004502	NA	1877	1877	NA	fra	164260	NA	NA	long	unspecified	T2
+FRA40099	FRA40099	Zola, Émile	Une page d'amour    	M	NA	NA	viaf:32004502	NA	1878	1878	NA	fra	106516	NA	NA	long	unspecified	T2
+FRA40101	FRA40101	Zola, Émile	Pot-bouille    	M	NA	NA	viaf:32004502	NA	1882	1882	NA	fra	141012	NA	NA	long	unspecified	T3
+FRA40097	FRA40097	Zola, Émile	Le Capitaine Burle    	M	NA	NA	viaf:32004502	NA	1883	1883	NA	fra	62672	NA	NA	medium	unspecified	T3
+FRA40098	FRA40098	Zola, Émile	La joie de vivre    	M	NA	NA	viaf:32004502	NA	1884	1884	NA	fra	121042	NA	NA	long	unspecified	T3
+FRA40058	FRA40058	Zola, Émile	Germinal    	M	NA	NA	viaf:32004502	NA	1885	1885	NA	fra	169656	NA	NA	long	unspecified	T3
+FRA40059	FRA40059	Zola, Émile	Nana    	M	NA	NA	viaf:32004502	NA	1885	1885	NA	fra	147474	NA	NA	long	unspecified	T3
+FRA40060	FRA40060	Zola, Émile	L'oeuvre    	M	NA	NA	viaf:32004502	NA	1886	1886	NA	fra	136445	NA	NA	long	unspecified	T3
+FRA40105	FRA40105	Zola, Émile	La terre    	M	NA	NA	viaf:author	NA	1887	1887	NA	fra	170420	NA	NA	long	unspecified	T3
+FRA40103	FRA40103	Zola, Émile	Le rêve    	M	NA	NA	viaf:32004502	NA	1888	1888	NA	fra	68128	NA	NA	medium	unspecified	T3
+FRA40057	FRA40057	Zola, Émile	La bête humaine    	M	NA	NA	viaf:32004502	NA	1890	1890	NA	fra	129913	NA	NA	long	unspecified	T3
+FRA40102	FRA40102	Zola, Émile	L'argent    	M	NA	NA	viaf:32004502	NA	1891	1891	NA	fra	147821	NA	NA	long	unspecified	T3
+FRA40094	FRA40094	Zola, Émile	La débâcle    	M	NA	NA	viaf:author	NA	1892	1892	NA	fra	192466	NA	NA	long	unspecified	T3
+FRA40093	FRA40093	Zola, Émile	Le docteur Pascal    	M	NA	NA	viaf:32004502	NA	1893	1893	NA	fra	115916	NA	NA	long	unspecified	T3
