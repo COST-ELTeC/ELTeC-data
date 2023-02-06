@@ -31,8 +31,8 @@ from scipy.stats import mannwhitneyu
 
 # === Global variables ===
 
-workdir = join("/", "media", "christof", "Data", "Drive", "03_Academic", "03_Aktionen", "1-Aktuell", "2023_innerlife", "")
-verbcountsfile = join(workdir, "data", "verbcounts.tsv")
+workdir = join("/", "media", "christof", "Data", "Github", "eltec", "ELTeC-data", "")
+verbcountsfile = join(workdir, "fra_1750-2000", "verbcounts.tsv")
 categories = ["perception", "cognition", "volition", "affect", "moral"] #"physiology", 
 comparison = [(1750,1799), (1950,1999)]
 corpus = "fra_1750-2000"

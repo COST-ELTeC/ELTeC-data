@@ -29,15 +29,35 @@ import fr_dep_news_trf
 # === Global variables ===
 
 workdir = join("/", "media", "christof", "Data", "Drive", "03_Academic", "03_Aktionen", "1-Aktuell", "2023_innerlife", "")
+#workdir = join("/", "media", "christof", "Data", "Github", "eltec", "ELTeC-data", "")
 
 verbsfile = join(workdir, "data", "verbs-fra.tsv")
 resultsfile = join(workdir, "data", "verbcounts.tsv")
 
 datasets = [
     [join(workdir, "data", "annotated", "18", "*.csv"), join(workdir, "data", "metadata-18.tsv")],
-    [join(workdir, "data", "annotated", "19x", "*.csv"), join(workdir, "data", "metadata-19a.tsv")],
+    [join(workdir, "data", "annotated", "19a", "*.csv"), join(workdir, "data", "metadata-19a.tsv")],
     [join(workdir, "data", "annotated", "19b", "*.csv"), join(workdir, "data", "metadata-19b.tsv")],
     [join(workdir, "data", "annotated", "20", "*.csv"), join(workdir, "data", "metadata-20.tsv")],
+    ]
+
+items_to_skip = [
+    # From 18, but shorter than 5000 words #
+    "Voltaire_Consoles",
+    "Voltaire_Bramin",
+    "Voltaire_Bababec",
+    "Voltaire_Songe",
+    "Linguet_Voyage",
+    "Voltaire_Scarmentado",
+    "Voltaire_Eloge",
+    "Boufflers_Reine",
+    "Beaumont_Prince",
+    "Charriere_Observations",
+    "Beaumont_Belle",
+    "Mouhy_Opuscule",
+    # From 18, but published before 1750 # 
+    "Arnaud_Epoux",
+    "Diderot_Oiseau",
     ]
 
 
@@ -81,6 +101,12 @@ def get_pubyear(metadata, basename):
         pubyear = int(metadata.loc[basename, "pub-year-ref"])
     except: 
         pubyear = metadata.loc[basename, "pub-year-ref"]
+    if pubyear == 1800: 
+        pubyear = 1799
+    if pubyear == 1920: 
+        pubyear = 1919
+    if pubyear == 2000: 
+        pubyear = 1999
     return pubyear
 
 
@@ -176,29 +202,30 @@ def main(verbsfile, datasets):
         metadata = read_metadatafile(dataset[1])
         for file in glob.glob(dataset[0]): 
             basename, ext = os.path.basename(file).split(".")
-            try: 
-                pubyear = get_pubyear(metadata, basename)
-                print("Now:", progress, basename, pubyear, end=" ")
-                authorgender = get_authorgender(metadata, basename)
-                authorname = get_authorname(metadata, basename)
-                title = get_title(metadata, basename)
-                annotated = read_annotated(file)
-                allverbcounts, innerverbcounts, indverbcounts = count_verbs(annotated, verblemmas)
-                verbdata = {
-                    "0TextId" : basename, 
-                    "pubyear" : pubyear,  
-                    "author-name" : authorname, 
-                    "author-gender" : authorgender, 
-                    "title" : title, 
-                    "verbs" : allverbcounts, 
-                    "innerVerbs" : innerverbcounts,
-                    } 
-                verbdata.update(indverbcounts)
-                progress +=1
-                print("Done.")
-                data[basename] = verbdata
-            except: 
-                print("ERROR:", basename)
+            if basename not in items_to_skip: 
+                try: 
+                    pubyear = get_pubyear(metadata, basename)
+                    print("Now:", progress, basename, pubyear, end=" ")
+                    authorgender = get_authorgender(metadata, basename)
+                    authorname = get_authorname(metadata, basename)
+                    title = get_title(metadata, basename)
+                    annotated = read_annotated(file)
+                    allverbcounts, innerverbcounts, indverbcounts = count_verbs(annotated, verblemmas)
+                    verbdata = {
+                        "0TextId" : basename, 
+                        "pubyear" : pubyear,  
+                        "author-name" : authorname, 
+                        "author-gender" : authorgender, 
+                        "title" : title, 
+                        "verbs" : allverbcounts, 
+                        "innerVerbs" : innerverbcounts,
+                        } 
+                    verbdata.update(indverbcounts)
+                    progress +=1
+                    print("Done.")
+                    data[basename] = verbdata
+                except: 
+                    print("ERROR:", basename)
     save_verbcounts(data, verblabels)
 
 main(verbsfile, datasets)

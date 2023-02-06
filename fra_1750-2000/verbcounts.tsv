@@ -3,7 +3,6 @@ Nerciat_Monrose	1792	André Robert de Nerciat	M	Monrose ou le Libertin par fatal
 Voltaire_Candide	1759	Voltaire	M	Candide, ou l'Optimisme	4987	590	687	22	8	15	63	20	4	0	54	44	39	24	18	20	23	54	11	17	2	3	6	19	9	7	5
 Dorat_Sacrifices	1771	Claude-Joseph Dorat	M	Les Sacrifices de l’amour	11838	1775	1546	14	95	33	214	74	13	2	160	68	203	38	46	108	142	99	33	15	12	5	3	160	12	61	84
 Crebillon_Conte	1751	Claude Prosper Jolyot de Crébillon	M	Ah quel conte !	21438	3598	3326	78	195	34	421	196	36	13	304	246	543	127	106	98	321	154	32	26	22	7	22	245	37	17	138
-Beaumont_Belle	1756	Jeanne-Marie Leprince de Beaumont	F	La Belle et la Bête	973	156	141	6	4	1	30	1	0	0	7	22	10	5	3	2	0	10	2	1	3	1	0	4	6	1	3
 CastilhonJL_Zingha	1769	Jean-Louis Castilhon	M	Zingha, reine d'Angola	5665	447	484	20	28	12	60	74	6	0	10	28	39	13	26	24	44	4	7	3	15	12	8	8	12	4	11
 Bernardin_Chaumiere	1791	Jacques Henri Bernardin de Saint-Pierre	M	Chaumière Indienne	1787	200	170	3	3	8	18	26	0	0	10	28	16	11	4	9	18	22	3	4	3	2	1	4	1	0	3
 Mercier_An	1771	Louis-Sébastien Mercier	M	L'An deux mille quatre cent quarante	9259	998	1090	30	51	38	65	110	8	3	100	54	52	37	25	62	128	50	5	10	8	0	3	31	9	12	18
@@ -11,16 +10,14 @@ Charriere_Ruines	1799	Isabelle de Charrière	F	Les Ruines d'Yedburg	2717	408	393
 Chevrier_Colporteur	1761	François-Antoine Chevrier	M	Le Colporteur	6466	840	789	3	4	13	156	62	11	7	61	63	58	27	14	77	68	46	7	14	6	7	19	19	18	6	9
 Bellin_Nuit	1799	Louis François Marie Bellin de La Liborlière	M	La Nuit anglaise	6945	883	807	25	34	54	77	43	5	12	61	92	58	77	25	29	63	47	5	13	0	2	4	17	12	2	3
 Fourqueux_Zely	1775	Marie-Louise Auget de Monthyon	F	Zély	4511	680	596	9	38	13	98	25	4	1	45	58	78	27	18	49	53	32	7	3	3	2	6	41	6	5	10
-Voltaire_Bramin	1761	Voltaire	M	Histoire d'un bon Bramin	147	22	26	0	0	0	4	2	0	0	6	1	2	0	0	0	0	3	0	0	0	1	0	0	1	0	0
-Anonym_Enfant	1800	Anonyme	U	L'enfant du bordel	4601	465	487	6	44	21	68	51	2	5	38	40	20	18	11	28	33	24	5	4	6	6	6	3	5	6	6
+Anonym_Enfant	1799	Anonyme	U	L'enfant du bordel	4601	465	487	6	44	21	68	51	2	5	38	40	20	18	11	28	33	24	5	4	6	6	6	3	5	6	6
 Voltaire_Amabed	1769	Voltaire	M	Les Lettres d'Amabed	2234	259	297	6	2	0	31	18	2	1	32	9	22	16	6	16	16	28	4	3	2	0	1	5	4	3	6
 Voisenon_Histoire	1751	Claude-Henri de Fusée de Voisenon	M	Histoire de la Félicité	1867	300	260	4	15	12	46	7	0	2	33	29	31	7	1	25	16	9	1	2	0	2	1	18	7	2	8
 Gorjy_Voyage	1791	Jean-Claude Gorgy	M	Nouveau voyage sentimental	2878	442	426	12	9	14	47	9	0	2	56	37	43	16	20	16	21	36	5	4	2	9	3	6	4	5	8
-Quesne_Folies	1800	Jacques Salbigoton Quesné	M	Les folies d’un conscrit	6304	660	567	7	22	14	90	50	5	5	50	40	48	32	22	40	74	38	10	9	8	7	5	17	7	9	15
+Quesne_Folies	1799	Jacques Salbigoton Quesné	M	Les folies d’un conscrit	6304	660	567	7	22	14	90	50	5	5	50	40	48	32	22	40	74	38	10	9	8	7	5	17	7	9	15
 Anonym_Histoire	1757	Anonyme	U	Histoire d’un peuple nouveau	6147	689	709	19	23	17	92	56	12	3	31	54	60	22	20	65	85	47	0	10	10	0	9	24	15	5	11
-Linguet_Voyage	1755	Simon-Nicolas Henri Linguet	M	Voyage au labirinthe du jardin du roi	397	41	30	1	2	2	3	1	0	1	0	9	5	1	0	2	2	2	0	1	0	0	2	1	0	0	0
 Montesquieu_Arsace	1755	Montesquieu	M	Arsace et Isménie : histoire orientale	2360	413	284	7	28	5	50	18	6	0	17	34	34	18	4	26	15	10	12	2	3	1	1	46	8	1	15
-PigaultLebrun_Kinglin	1800	Pigault-Lebrun	M	Monsieur de Kinglin, ou la prescience	3228	374	360	6	7	4	35	31	9	2	33	45	16	14	12	18	39	41	8	7	6	2	4	16	6	4	8
+PigaultLebrun_Kinglin	1799	Pigault-Lebrun	M	Monsieur de Kinglin, ou la prescience	3228	374	360	6	7	4	35	31	9	2	33	45	16	14	12	18	39	41	8	7	6	2	4	16	6	4	8
 Voltaire_Taureau	1774	Voltaire	M	Le taureau blanc	1633	214	221	3	9	2	32	9	4	1	36	12	12	12	2	8	13	13	1	1	4	1	0	5	1	1	6
 Lagrave_Zabeth	1798	Comtesse de Lagrave	F	Zabeth, ou la Victime de l'ambition	12173	1702	1606	48	85	14	250	68	21	0	112	135	118	77	49	70	75	86	25	12	20	14	9	88	20	36	35
 Voltaire_Jenni	1775	Voltaire	M	Histoire de Jenni	2947	340	407	9	15	3	37	17	1	0	40	16	37	18	7	13	28	30	3	2	1	1	1	11	3	3	6
@@ -28,15 +25,14 @@ Diderot_Ceci	1772	Denis Diderot	M	Ceci n'est pas un conte	1018	145	125	2	7	1	15	
 Diderot_Religieuse	1796	Denis Diderot	M	La Religieuse	10972	1486	1286	56	74	25	157	132	8	2	212	92	106	91	55	76	43	106	24	13	20	7	12	43	14	35	35
 Retif_Paysan	1776	Nicolas-Edme Rétif	M	Le Paysan perverti ou les Dangers de la ville	33684	5279	4544	105	231	63	582	205	26	4	607	271	425	220	145	265	369	418	87	54	35	14	39	234	65	69	104
 Cazotte_Honneur	1788	Jacques Cazotte	M	L'Honneur perdu et recouvré	2412	269	270	2	3	3	26	32	3	3	27	19	16	11	8	29	33	22	1	3	3	0	10	4	6	5	2
-PigaultLebrun_Metusko	1800	Pigault-Lebrun	M	Métusko, ou les polonais	3077	360	289	2	26	5	48	38	7	4	27	20	16	16	22	22	46	20	9	1	10	2	6	17	6	5	7
+PigaultLebrun_Metusko	1799	Pigault-Lebrun	M	Métusko, ou les polonais	3077	360	289	2	26	5	48	38	7	4	27	20	16	16	22	22	46	20	9	1	10	2	6	17	6	5	7
 Arnaud_Batilde	1767	François-Thomas-Marie de Baculard d’Arnaud	M	Bathilde ou l’héroïsme de l’amour, anecdote historique par M. d’Arnaud	2568	334	280	5	15	5	37	23	0	1	30	7	14	13	10	21	46	21	5	1	5	2	3	46	1	7	12
 Barthe_Femme	1769	Nicolas Thomas Barthe	M	La jolie femme ou la femme du jour	9649	1380	1163	18	57	28	151	61	13	4	113	90	85	77	26	60	112	122	10	31	16	1	2	109	29	10	17
-Pertusier_Premiere	1800	Charles Pertusier	M	Mes premières étourderies	8245	1202	1009	15	29	27	132	62	20	0	104	73	84	65	91	66	65	121	17	6	9	6	19	50	9	10	32
+Pertusier_Premiere	1799	Charles Pertusier	M	Mes premières étourderies	8245	1202	1009	15	29	27	132	62	20	0	104	73	84	65	91	66	65	121	17	6	9	6	19	50	9	10	32
 Sade_Infortunes	1787	Marquis de Sade	M	Les Infortunes de la vertu	8178	990	978	9	29	22	126	69	11	11	34	87	69	48	46	52	96	66	12	15	22	13	18	9	15	13	17
-Voltaire_Bababec	1750	Voltaire	M	Bababec et les fakirs	139	13	21	1	0	0	1	0	1	0	2	0	2	1	0	1	0	0	0	0	0	0	1	0	0	0	0
 Arnaud_Julie	1767	François-Thomas-Marie de Baculard d’Arnaud	M	Julie ou l’heureux repentir	2481	324	312	9	17	6	30	20	3	0	31	18	18	20	8	22	28	24	5	4	4	0	0	22	7	2	8
 Rousseau_Emile	1762	Jean-Jacques Rousseau	M	Émile ou de l'éducation	41829	6728	6461	69	389	97	786	361	46	17	901	290	362	257	127	430	620	691	33	88	37	12	26	207	54	117	83
-Genlis_Meres	1800	Stéphanie-Félicité Ducrest de Saint-Aubin de Genlis	F	Les mères rivales ou la calomnie	32399	4374	4950	72	177	79	460	253	46	7	479	365	361	146	129	300	375	226	65	28	51	31	37	202	42	58	64
+Genlis_Meres	1799	Stéphanie-Félicité Ducrest de Saint-Aubin de Genlis	F	Les mères rivales ou la calomnie	32399	4374	4950	72	177	79	460	253	46	7	479	365	361	146	129	300	375	226	65	28	51	31	37	202	42	58	64
 Maistre_Voyage	1794	Xavier de Maistre	M	Voyage autour de ma chambre	2631	311	289	14	13	14	27	18	5	2	41	25	18	11	6	15	14	18	4	4	6	0	0	7	1	4	2
 Constant_Laure	1787	Samuel de Constant	M	Laure, ou Lettres de quelques personnes de Suisse	44960	7885	7869	115	244	105	1323	281	70	12	789	462	665	428	232	252	568	445	146	60	48	31	26	334	57	151	202
 Sade_Aline	1795	Marquis de Sade	M	Aline et Valcour ou le roman philosophique	46277	6182	5729	86	195	74	766	536	32	39	430	514	509	196	190	291	687	561	76	82	75	41	56	189	49	71	132
@@ -55,7 +51,6 @@ Laclos_Liaisons	1782	Pierre Choderlos de Laclos	M	Les Liaisons dangereuses	24107
 Sacy_Amours	1761	Claude Louis Michel de Sacy	M	Les Amours de Mirtil	2144	258	180	3	15	18	31	20	0	2	7	7	12	11	9	15	10	7	1	0	4	0	0	23	0	4	8
 Arnaud_Selicourt	1769	François-Thomas-Marie de Baculard d’Arnaud	M	Sélicourt, nouvelle	3085	442	416	5	34	2	41	27	2	2	46	22	18	20	11	25	38	25	2	0	5	1	6	57	2	5	13
 Diderot_Neveu	1773	Denis Diderot	M	Le Neveu de Rameau	4676	672	680	11	24	10	64	20	4	4	107	19	56	52	14	31	28	106	2	21	2	0	3	8	13	12	9
-Charriere_Observations	1788	Isabelle de Charrière	F	Observations et conjectures politiques	627	94	79	3	3	2	16	1	1	1	11	4	7	7	3	6	10	6	0	1	0	0	0	1	0	1	1
 Senac_Emigre	1797	Gabriel Sénac de Meilhan	M	L’Émigré	19968	2770	2847	66	94	25	152	116	27	9	229	230	323	113	86	170	225	188	52	24	26	21	38	99	18	31	71
 Cottin_Claire	1798	Sophie Ristaud Cottin	F	Claire d’Albe	6397	1021	846	24	89	6	101	53	7	1	84	43	92	42	25	51	92	56	13	7	8	2	2	65	5	15	31
 Morelly_Naufrage	1753	Étienne-Gabriel Morelly	M	Naufrage des Iles Flottantes	14384	1375	1347	26	80	60	142	123	7	13	87	102	110	43	29	131	112	49	17	14	16	2	12	64	13	11	32
@@ -77,8 +72,7 @@ Florian_Galatee	1783	Jean-Pierre Claris de Florian	M	Galatée	3716	493	318	26	25
 Morliere_Royalisme	1770	Charles Jacques Louis Auguste Rochette La Morlière	M	Le royalisme	2723	234	276	5	8	3	32	23	0	0	1	8	17	4	9	16	32	9	4	2	1	2	2	9	3	4	12
 Fievee_Dot	1797	Joseph Fiévée	M	La Dot de Suzette	5259	726	670	25	36	14	68	55	7	4	55	52	68	17	28	46	58	33	19	4	11	6	13	41	5	15	22
 Ducray_Soirees	1758	Ducray-Duminil, François-Guillaume	M	Les Soirées de la chaumière	48749	6825	5954	145	241	176	738	321	44	13	639	453	362	354	289	520	475	440	95	44	42	40	141	183	59	56	156
-Voltaire_Scarmentado	1756	Voltaire	M	Histoire des voyages de Scarmentado	386	55	47	0	2	0	7	2	2	0	5	4	6	2	1	0	3	2	3	1	0	0	0	1	1	0	0
-PigaultLebrun_Adele	1800	Pigault-Lebrun	M	Adèle et D'Abligny	3151	451	404	10	21	5	46	44	4	0	32	33	21	14	19	34	42	42	6	3	10	5	4	21	8	5	8
+PigaultLebrun_Adele	1799	Pigault-Lebrun	M	Adèle et D'Abligny	3151	451	404	10	21	5	46	44	4	0	32	33	21	14	19	34	42	42	6	3	10	5	4	21	8	5	8
 Lesuire_Crime	1789	Robert-Martin Lesuire	M	Le crime	29039	4388	4195	71	184	105	672	145	39	4	337	265	288	133	98	211	419	376	16	31	26	27	35	60	43	56	64
 Arnaud_Lucie	1767	François-Thomas-Marie de Baculard d’Arnaud	M	Lucie et Mélanie ou les deux sœurs généreuses	2141	278	268	5	21	2	29	17	0	3	20	5	9	8	8	14	25	12	5	0	5	2	2	48	4	2	6
 Nerciat_Felicia	1775	André Robert de Nerciat	M	Félicia ou mes Fredaines	15391	2027	2138	23	88	22	197	148	15	12	194	222	99	70	70	109	174	80	29	34	36	11	16	85	69	22	51
@@ -89,12 +83,11 @@ Marmontel_Incas	1777	Jean-François Marmontel	M	Les Incas ou la destruction de l
 Gimat_Voyage	1753	Jean-Baptiste Jacques Gimat de Bonneval	M	Le voyage de Mantes	4704	540	438	12	26	19	84	35	8	0	7	47	26	29	23	29	31	42	2	10	8	7	9	16	18	5	7
 Dulaurens_Imirce	1765	Henri-Joseph Du Laurens	M	Imirce ou la Fille de nature	9810	1221	1179	25	30	17	135	78	9	2	84	117	99	49	13	75	79	83	6	26	8	3	5	79	16	4	14
 Lesuire_Aventurier	1782	Robert-Martin Lesuire	M	L'Aventurier François	36360	5168	4930	135	207	181	617	243	40	5	380	485	355	209	103	291	433	368	16	24	38	22	28	89	70	50	72
-Mouhy_Opuscule	1752	Charles de Fieux	M	Opuscule d’un célèbre auteur égyptien	886	125	88	6	3	3	24	5	1	1	0	18	6	2	1	5	6	1	2	2	2	0	0	18	3	1	8
 Malarme_Rose	1783	Charlotte de Bournon	F	Anna Rose-Tree	13453	1891	1757	19	56	43	202	94	9	1	162	141	165	44	76	76	169	124	53	14	19	11	32	97	11	43	51
 Marchand_Avis	1751	Jean-Henri Marchand	M	Les avis d'un père à son fils	2823	276	283	5	20	6	30	18	3	0	0	29	34	18	2	13	26	19	0	6	2	0	7	8	7	2	11
 BarbeMarbois_Parisienne	1769	François Barbé-Marbois	M	La Parisienne en province	4463	518	493	6	18	15	69	22	6	5	0	42	51	31	17	30	40	35	3	6	4	1	8	37	9	3	7
 Beauharnais_Lettres	1778	Fanny de Beauharnais	F	Lettres de Stéphanie	20348	2959	2851	11	189	61	272	186	15	7	289	114	300	82	73	144	398	153	45	13	21	30	15	165	11	82	133
-Anonyme_Zoloe	1800	Anonyme	U	Zoloé et ses deux acolythes	2560	254	238	4	8	6	28	30	1	2	24	14	16	18	7	22	21	26	0	3	4	3	2	2	5	2	6
+Anonyme_Zoloe	1799	Anonyme	U	Zoloé et ses deux acolythes	2560	254	238	4	8	6	28	30	1	2	24	14	16	18	7	22	21	26	0	3	4	3	2	2	5	2	6
 Sade_120	1785	Marquis de Sade	M	Les Cent Vingt Journées de Sodome	24908	2781	2840	35	108	29	446	155	14	12	191	261	119	95	80	95	203	285	9	24	21	8	12	110	43	20	15
 Marmontel_Belisaire	1767	Jean-François Marmontel	M	Bélisaire	6404	861	813	13	38	6	96	71	4	3	78	25	85	36	31	37	84	71	14	7	5	5	5	24	11	6	16
 Lagrave_Sophie	1798	Comtesse de Lagrave	F	Sophie de Beauregard, ou Le véritable amour	9014	1431	1330	32	88	28	118	61	9	2	115	112	169	65	34	71	77	101	22	2	5	4	12	48	14	19	31
@@ -111,7 +104,6 @@ Arnaud_Clary	1767	François-Thomas-Marie de Baculard d’Arnaud	M	Clary ou le re
 Doppet_Memoires	1786	François Amédée Doppet	M	Mémoires de Mme de Warens	5339	774	699	13	30	12	88	43	6	0	70	78	64	20	17	50	103	40	3	6	8	5	6	16	14	9	8
 Charriere_Lausanne	1785	Isabelle de Charrière	F	Lettres écrites de Lausanne	3632	574	571	11	25	4	87	24	2	0	73	59	48	15	4	11	23	36	2	6	7	1	3	25	4	6	22
 Mercier_Jezennemours	1776	Louis-Sébastien Mercier	M	Jezennemours	12484	1817	1549	44	92	52	226	116	8	6	179	111	105	88	51	108	161	102	19	8	15	8	10	83	16	29	36
-Voltaire_Eloge	1775	Voltaire	M	Éloge historique de la raison	458	56	65	1	1	0	1	4	0	0	6	8	2	6	0	5	5	5	1	1	0	0	0	2	0	0	0
 Beckford_Vathek	1787	William Beckford	M	Vathek: conte arabe	5228	594	514	16	14	22	60	34	3	4	48	37	47	58	15	22	37	30	5	4	1	2	4	17	10	5	5
 Ducray_Victor	1796	François Guillaume Ducray-Duminil	M	Victor ou l'enfant de la forêt	26967	3671	3305	47	148	100	408	209	15	15	381	242	207	195	149	309	331	234	69	13	29	14	75	76	24	42	111
 Leonard_Clementine	1774	Nicolas-Germain Léonard	M	La Nouvelle Clémentine	2345	364	273	4	20	5	37	17	1	0	25	24	30	19	7	26	23	26	4	0	5	1	0	29	6	4	14
@@ -147,35 +139,31 @@ Constant_Mari	1783	Samuel de Constant	M	Le mari sentimental	6111	1063	1052	10	36
 Crebillon_Atheniennes	1771	Claude Prosper Jolyot de Crébillon	M	Lettres athéniennes extraites du porte-feuille d'Alcibiade	28221	4561	5080	37	244	24	492	21	59	13	424	303	718	60	111	155	734	155	43	26	53	13	41	224	47	14	216
 Souza_Emilie	1799	Adélaïde Filleul, Marquise de Souza-Botelho	F	Emilie et Alphonse	12050	1946	1471	86	153	72	188	132	5	13	178	133	178	98	41	99	144	78	36	4	15	4	24	80	11	27	57
 Cazotte_Ollivier	1763	Jacques Cazotte	M	Ollivier	9424	1151	1104	14	44	39	135	76	3	13	88	118	66	52	35	64	122	67	12	19	5	2	22	21	10	13	16
-Voltaire_Songe	1756	Voltaire	M	Songe de Platon	198	23	33	1	1	0	3	5	1	1	1	0	4	0	1	2	3	0	1	0	0	0	0	0	0	0	0
 Diderot_Supplement	1796	Denis Diderot	M	Supplément au voyage de Bougainville	1976	236	242	2	7	2	25	29	3	0	28	15	20	14	7	11	13	15	2	2	3	4	2	5	3	6	5
 Duclos_Memoires	1751	Charles Pinot Duclos	M	Mémoires pour servir à l’histoire des mœurs du XVIII. siècle	5744	877	1000	23	62	24	84	64	14	2	43	87	116	18	14	49	104	31	2	6	7	5	8	47	11	4	23
 Benouville_Pensees	1758	Bonne-Charlotte Bénouville	F	Les pensées errantes	6201	1025	896	4	34	9	174	44	14	1	67	59	107	29	24	28	103	128	15	19	11	2	12	39	6	8	17
 Benoist_Elisabeth	1766	Françoise-Albine Benoist	F	Elisabeth	12731	1717	1811	19	112	22	162	101	21	1	71	64	211	28	52	71	187	105	45	25	15	5	29	97	14	28	87
 Berquin_Enfants	1782	Arnaud Berquin	M	L'ami des Enfants	5877	938	865	22	18	18	166	24	4	2	93	51	57	49	36	25	31	87	3	12	4	0	3	28	13	11	15
-Diderot_Oiseau	1748	Denis Diderot	M	L'oiseau blanc	3243	416	404	7	16	8	47	33	2	2	57	29	35	24	14	17	17	40	3	3	3	1	2	33	7	7	7
 Louvet_Annee	1787	Jean-Baptiste Louvet de Couvrai	M	Une année dans la vie du chevalier de Faublas	19512	2860	2238	67	107	56	303	144	17	15	327	164	242	156	134	189	156	208	36	18	17	15	13	110	31	37	60
 Charriere_Femmes	1795	Isabelle de Charrière	F	Trois Femmes	6323	898	839	19	35	9	133	52	8	3	68	73	64	45	20	34	50	70	16	6	10	2	8	41	4	13	20
 Montdorge_Nadir	1769	Antoine Gautier de Montdorge	M	Nadir, histoire orientale	3732	313	322	5	11	6	62	16	2	4	2	9	11	11	14	8	33	27	0	6	1	0	4	11	4	1	8
-Blanchard_Philetas	1800	Pierre Blanchard	M	Philétas	4236	700	529	15	22	18	62	48	4	5	42	36	56	39	16	42	62	11	25	1	4	0	6	79	4	5	21
+Blanchard_Philetas	1799	Pierre Blanchard	M	Philétas	4236	700	529	15	22	18	62	48	4	5	42	36	56	39	16	42	62	11	25	1	4	0	6	79	4	5	21
 Maubert_Paisan	1754	Jean Henri Maubert de Gouvest	M	L’illustre païsan ou mémoires et avantures de Daniel Moginié	8031	849	862	15	14	6	142	71	17	2	12	78	49	30	36	47	94	45	18	16	17	7	19	16	16	6	23
 Diderot_Jacques	1796	Denis Diderot	M	Jacques le fataliste et son maître	13746	1759	1547	45	45	36	213	101	14	5	266	102	186	116	58	84	46	148	24	32	20	24	13	65	28	19	16
 Duvernet_Guillaume	1781	Théophile Imarigeon Duvernet	M	Monsieur Guillaume	1404	197	171	1	5	3	37	11	0	0	24	13	20	15	5	6	20	11	1	7	2	0	1	3	1	2	6
-Beaumont_Prince	1756	Jeanne-Marie Leprince de Beaumont	F	Le Prince Chéri	794	118	97	2	2	1	16	1	0	0	9	10	13	8	0	6	3	4	1	1	3	2	1	8	1	2	3
 Anonym_Suzon	1778	Anonyme	U	Mémoires de Suzon, soeur de Dom Bougre	4541	556	571	14	30	17	68	24	2	1	32	50	42	21	24	21	58	30	13	2	3	2	7	7	14	9	15
 Voltaire_Oreilles	1775	Voltaire	M	Les oreilles du comte de Chesterfield	890	114	157	0	10	0	8	6	1	0	21	4	6	6	5	4	8	10	1	1	0	0	0	1	0	1	0
 Louvet_Fin	1790	Jean-Baptiste Louvet de Couvrai	M	La Fin des amours de Faublas	11674	1715	1480	31	49	21	205	71	16	17	153	99	137	98	65	97	150	137	37	10	17	4	11	57	15	28	30
 Gilbert_Familles	1770	Nicolas Joseph Laurent Gilbert	M	Les Familles de Darius et d’Hidarne	9416	1044	949	13	61	35	166	85	4	2	38	53	73	33	26	64	108	29	14	1	21	9	3	62	4	18	44
 Genlis_Emigres	1798	Stéphanie Félicité Ducrest de Saint-Aubin de Genlis	F	Les petits Emigrés	18623	2327	2776	72	80	21	268	135	27	1	233	213	173	103	66	133	183	151	38	22	22	23	14	86	36	40	33
 Retif_Sara	1796	Nicolas-Edme Rétif	M	Histoire de Sara	10703	1845	1388	32	93	48	193	78	19	3	149	144	160	72	54	75	89	90	24	11	24	18	17	134	22	31	21
-AndreSerieys_Comte	1800	Jean-François André, Antoine Sérieys	M	Le comte d'A*** ou les aventures d'un jeune voyageur sorti de la cour de France en 1789	10334	1184	1118	32	50	43	124	74	8	5	84	124	72	51	39	93	82	79	8	17	10	16	13	30	29	12	32
+AndreSerieys_Comte	1799	Jean-François André, Antoine Sérieys	M	Le comte d'A*** ou les aventures d'un jeune voyageur sorti de la cour de France en 1789	10334	1184	1118	32	50	43	124	74	8	5	84	124	72	51	39	93	82	79	8	17	10	16	13	30	29	12	32
 Nerciat_Aphrodites	1764	André Robert de Nerciat	M	Les Aphrodites	15546	2009	2274	13	72	25	295	93	20	18	248	123	140	81	76	90	150	152	25	39	16	6	14	34	34	20	28
 Nerciat_Doctorat	1788	André Robert de Nerciat	M	Le Doctorat impromptu	2289	326	338	3	15	1	36	27	3	5	45	28	38	10	3	19	19	16	0	4	7	2	2	3	10	6	6
 Duvernet_Retraite	1790	Théophile Imarigeon Duvernet	M	La retraite, les tentations et les confessions de madame la marquise de Montcornillon	1771	249	229	5	5	2	31	8	0	0	21	15	21	13	3	14	20	14	0	5	0	0	0	6	3	6	10
 Gerard_Comte	1774	Philippe Louis Gérard	M	Le Comte de Valmont	23102	2687	2934	34	167	51	306	231	20	2	211	136	220	94	59	202	333	178	29	28	27	4	16	124	28	60	90
 Riccoboni_LettresAdelaide	1767	Marie Jeanne Riccoboni	F	Lettres d'Adelaïde de Dammartin, comtesse de Sancerre, à M. le Comte de Nancé, son ami	8235	1188	808	21	66	16	178	76	3	2	94	55	93	43	32	57	93	45	22	4	17	8	36	88	5	11	41
 Beaumont_Clarice	1767	Jeanne-Marie Leprince de Beaumont	F	La nouvelle Clarice	21760	2979	3070	71	139	36	390	186	45	22	222	239	253	101	105	118	285	239	84	25	30	21	73	77	45	47	88
-Arnaud_Epoux	1745	François-Thomas-Marie de Baculard d’Arnaud	M	Les époux malheureux	12508	1745	1675	45	114	29	176	104	4	4	159	57	110	44	70	124	167	98	23	9	25	8	15	219	13	33	40
 Colombe_Plaisirs	1764	Etienne-Guillaume Sainte-Colombe	M	Les plaisirs d’un jour ou la journée d’une provinciale à Paris	6072	784	870	9	40	32	84	39	15	2	27	80	73	22	17	37	82	45	10	2	13	11	9	44	13	9	19
 Saurin_Mirza	1754	Bernard-Joseph Saurin	M	Mirza et Fatmé	4223	527	521	16	24	14	48	29	8	1	20	58	38	18	4	14	38	26	7	2	4	1	4	37	8	4	19
 Souza_Adele	1794	Adélaïde Filleul, Marquise de Souza-Botelho	F	Adèle de Senange	9027	1359	1091	73	84	40	120	95	9	19	97	108	86	77	46	58	77	72	27	4	23	7	7	60	10	23	40
@@ -194,116 +182,114 @@ Dorat_Malheurs	1772	Claude-Joseph Dorat	M	Les Malheurs de l'inconstance ou Lettr
 Bernardin_Paul	1787	Jacques Henri Bernardin de Saint-Pierre	M	Paul et Virginie	7925	840	934	13	32	45	81	94	5	4	45	72	54	47	18	44	55	35	15	3	8	4	17	32	9	6	20
 Arnaud_Nancy	1767	François-Thomas-Marie de Baculard d’Arnaud	M	Nancy ou les malheurs de l’imprudence et de la jalousie	2764	351	348	9	16	10	26	18	2	1	26	8	23	10	9	17	30	18	7	1	5	5	7	30	5	10	10
 Florian_Estelle	1788	Jean-Pierre Claris de Florian	M	Estelle	5498	630	474	40	24	22	77	58	8	2	27	40	27	31	24	33	46	26	10	5	2	6	2	42	8	19	21
-Dorvigny_Tante	1800	Dorvigny	M	Ma tante Geneviève ou je l’ai échappé belle	14760	1856	1851	67	66	33	315	124	11	13	165	155	112	69	77	76	151	87	20	33	26	14	29	21	24	8	26
+Dorvigny_Tante	1799	Dorvigny	M	Ma tante Geneviève ou je l’ai échappé belle	14760	1856	1851	67	66	33	315	124	11	13	165	155	112	69	77	76	151	87	20	33	26	14	29	21	24	8	26
 Sade_Justine	1791	Marquis de Sade	M	Justine ou les Malheurs de la vertu	18370	2211	2173	18	95	47	295	183	16	21	108	206	137	77	78	124	251	200	15	27	26	19	34	27	21	30	44
 Mercier_Songes	1768	Louis-Sébastien Mercier	M	Songes philosophiques	9590	1129	1052	26	59	63	132	96	4	2	46	55	60	48	34	83	110	73	13	5	9	1	9	30	10	21	18
 Charriere_Caliste	1787	Isabelle de Charrière	F	Caliste ou continuation des Lettres écrites de Lausanne	4836	792	798	26	34	5	91	41	6	2	65	56	73	40	10	31	41	29	11	7	8	8	6	63	3	14	10
 Marmontel_Dejeunes	1791	Jean-François Marmontel	M	Les Déjeunés du village	2486	382	326	7	11	8	45	25	2	2	42	29	32	18	8	12	16	28	8	3	10	1	11	10	2	2	2
 Voltaire_Micromegas	1752	Voltaire	M	Micromégas	993	165	167	2	7	6	11	4	8	0	21	15	15	13	0	3	2	16	0	1	0	1	0	3	0	0	3
-Boufflers_Reine	1760	Stanislas de Boufflers	M	La Reine de Golgonde	626	84	79	3	0	2	13	1	1	0	10	13	2	0	3	10	1	0	1	2	0	1	0	7	1	1	0
-Voltaire_Consoles	1756	Voltaire	M	Les deux consolés	95	9	12	0	0	0	1	0	0	0	1	2	0	1	0	0	0	2	1	0	0	0	0	1	0	0	0
 Prevost_Monde	1760	Antoine François Prévost	M	Le monde moral,: ou mémoires pour servir à l'histoire du cœur humain	20644	2721	2593	88	158	34	150	224	43	0	116	237	233	161	129	269	312	63	69	15	34	28	34	46	78	26	83
 Retif_Paysanne	1784	Nicolas-Edme Rétif	M	La paysanne pervertie ou Les dangers de la ville	29574	4762	4228	123	174	56	587	188	28	8	478	233	410	221	133	183	322	421	70	54	27	35	24	172	43	51	76
-FRA00901_Daudet	1867	Daudet, Alphonse	M	Le petit chose	1303	174	172	9	4	6	21	8	1	2	25	3	12	13	3	3	7	20	4	0	0	0	0	5	1	0	0
-FRA01902_Gaboriau	1869	Gaboriau, Émile	M	Monsieur Lecoq	4024	465	466	8	15	10	47	32	7	10	55	26	35	21	22	36	51	26	12	6	5	0	3	1	5	1	6
-FRA00501_Balzac	1853	Balzac, Honoré de	M	Albert Savarus	462	53	48	3	1	0	5	6	1	1	9	5	2	3	1	2	5	2	1	2	0	1	0	2	2	0	0
-FRA03302_Rattazzi	1865	Rattazzi, Marie [Marie-Lætitia Bonaparte-Wyse]	F	Le piège aux maris	803	78	79	4	3	1	11	7	0	0	5	5	3	6	3	1	8	7	0	0	1	0	0	5	1	1	0
-FRA07001_Mendes	1892	Mendès, Catulle	M	Lucignole	339	22	28	0	1	0	4	2	0	2	2	4	0	0	1	0	1	0	0	1	0	0	0	0	1	0	1
-FRA00602_Boisgobey	1886	Boisgobey, Fortuné du	M	Rubis sur l'ongle	1645	227	209	4	5	6	26	12	6	4	22	18	14	13	7	14	12	13	7	7	5	4	8	8	3	0	4
-FRA01402_Fleuriot	1874	Fleuriot, Zénaïde	F	En congé	615	93	64	3	4	2	12	2	1	0	8	4	5	10	1	4	5	10	6	1	2	0	1	2	0	0	0
-FRA03201_Blandy	1887	Blandy, Stella	F	Rouzétou	1115	128	116	1	5	3	23	8	1	1	19	14	4	3	5	4	6	10	1	5	1	1	0	1	1	0	1
-FRA02602_Malot	1878	Malot, Hector	M	Sans famille	29	4	3	1	0	0	0	0	0	0	0	2	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-FRA02701_Maupassant	1885	Maupassant, Guy de	M	Bel-Ami	1658	190	157	22	18	9	18	15	0	2	18	21	4	7	6	14	7	12	3	4	0	0	0	3	0	1	2
-FRA00101_Adam	1860	Adam, Juliette	F	Mon Village	30	3	2	0	0	0	0	0	0	0	0	1	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0
-FRA00502_Balzac	1852	Balzac, Honoré de	M	Le cousin Pons	1209	148	115	4	9	2	12	9	3	3	16	21	6	6	2	16	18	5	1	5	2	4	0	3	1	1	0
-FRA00401_Allais	1902	Allais, Alphonse	M	Le Captain Cap	421	57	43	1	0	0	10	5	0	2	6	3	3	2	2	6	3	5	0	1	0	0	5	0	0	0	0
-FRA05401_Kock	1849	Kock, Paul de	M	Madeleine	1595	241	200	14	6	4	48	12	0	1	18	16	18	10	8	19	6	26	8	2	0	3	0	11	2	0	2
-FRA00701_Carraud	1852	Carraud, Zulma	F	La petite Jeanne	875	103	118	4	2	1	20	10	0	0	9	12	2	1	3	0	5	11	1	0	0	1	0	3	1	2	1
-FRA06801_Vaillant	1861	Vaillant, Victor	M	L'Elzévir de maroquin rouge	1009	130	139	3	5	2	17	8	4	0	15	4	13	8	1	7	10	11	2	1	1	0	0	10	1	1	3
-FRA02303_Greville	1878	Gréville, Henry [Alice Marie Céleste Fleury, dite Durand]	F	Ariadne	696	90	75	4	1	3	13	4	0	0	11	11	3	2	7	1	6	6	1	3	1	0	0	5	1	5	0
-FRA02201_Gouraud	1888	Gouraud, Julie [Louise d'Aulnay]	M	Quand je serai grande	734	107	118	0	3	0	6	5	1	3	17	8	7	3	5	2	4	11	4	1	1	0	2	5	2	2	1
-FRA06301_Montepin	1884	de Montépin, Xavier	M	La porteuse de pain	2507	324	231	10	8	5	40	9	2	2	34	32	15	16	18	11	22	37	5	1	8	5	3	9	4	3	2
-FRA00601_Boisgobey	1881	Boisgobey, Fortuné du	M	Le crime de l'omnibus	1434	178	205	3	4	11	12	15	4	1	17	8	9	4	10	13	19	15	5	3	2	5	0	0	7	2	2
-FRA04501_Barres	1908	Barrès, Maurice	M	Colette Baudoche	392	46	33	3	4	0	5	2	1	0	0	2	6	0	0	3	2	4	0	1	1	0	0	2	0	0	0
-FRA03701_Sand	1872	Sand, George [Amantine Lucile Aurore Dupin]	F	Nanon	1695	271	294	8	7	1	27	3	2	1	51	19	16	12	5	15	20	18	1	3	4	0	1	12	2	3	2
-FRA04701_Bourget	1919	Bourget, Paul	M	Laurence Albani	520	40	44	3	2	0	3	4	0	0	5	6	2	2	0	3	1	0	1	1	0	1	0	3	0	1	1
-FRA03401_Reybaud	1855	Reybaud, Fanny [Hippolyte Arnaud]	F	Mademoiselle de Malepeire	473	53	58	5	2	6	1	3	0	1	6	6	2	4	4	1	3	0	0	0	0	0	0	0	4	0	0
-FRA02401_LeRouge	1904	Le Rouge, Gustave	M	L'Esclave amoureuse	250	15	13	0	0	0	0	0	1	0	0	4	2	1	1	1	3	0	0	0	1	0	0	0	0	0	0
-FRA07201_Montagne	1886	Montagne, Édouard	M	Les Affamés de Londres	1296	168	124	3	14	5	20	11	5	8	12	23	8	3	11	7	13	4	3	1	4	3	1	9	2	0	2
-FRA04801_Corday	1909	Corday, Michel	M	Les révélées	515	81	64	0	5	1	21	3	0	1	11	3	1	3	3	3	5	4	1	4	0	0	0	5	0	1	0
-FRA01401_Fleuriot	1877	Fleuriot, Zénaïde	F	Un enfant gâté	563	56	52	6	1	1	11	5	1	0	5	4	5	1	3	1	1	4	0	1	0	0	0	0	0	1	1
-FRA01202_Feval	1857	Féval, Paul Henri Corentin [dit Paul Féval père]	M	Les Errants de nuit	1433	147	171	4	2	1	26	4	0	3	13	11	8	13	5	7	9	13	0	7	0	0	0	2	0	0	0
-FRA03001_Ohnet	1885	Ohnet, Georges	M	La Grande Marnière	1670	150	151	5	7	3	15	13	1	0	19	14	5	11	3	9	11	7	2	4	3	0	3	1	0	2	3
-FRA02603_Malot	1888	Malot, Hector	M	Conscience	1632	225	212	8	5	2	35	15	6	2	22	18	19	8	10	14	25	12	2	4	5	2	2	3	3	4	0
-FRA02702_Maupassant	1883	Maupassant, Guy de	M	Une Vie	1037	93	46	12	17	9	12	13	2	1	5	4	2	8	1	5	1	1	1	0	1	0	1	7	0	0	1
-FRA01302_Flaubert	1857	Flaubert, Gustave	M	Madame Bovary	1780	178	167	8	6	11	10	10	3	2	16	18	3	12	5	3	10	12	1	3	1	2	1	12	3	2	0
-FRA00102_Adam	1883	Adam, Juliette	F	Païenne	437	68	44	4	4	0	4	6	0	2	9	3	2	1	1	3	4	5	0	1	2	0	0	11	1	0	0
-FRA00801_Dash	1843	Dash, Comtesse [Gabrielle Anna de Cisternes de Courtiras, vicomtesse de Saint-Mars]	F	Le château de Pinon I	20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-FRA03601_Proust	1913	Proust, Marcel	M	Du côté de chez Swann	2595	343	381	8	17	7	28	20	0	6	31	41	29	22	9	30	34	14	4	0	6	0	4	12	3	5	0
-FRA05702_Maquet	1857	Maquet, Auguste	M	La Maison du baigneur	2591	309	253	22	19	4	27	16	4	3	21	20	17	19	15	9	11	14	3	3	1	0	2	2	6	5	4
-FRA05501_Lermina	1910	Lermina, Jules	M	L'effrayante aventure	623	68	65	0	2	2	4	8	0	1	10	9	3	2	3	10	8	4	0	0	0	5	1	0	2	0	0
-FRA01403_Fleuriot	1881	Fleuriot, Zénaïde	F	Alberte	891	116	103	5	3	3	10	7	1	0	12	7	0	9	6	21	5	6	0	2	0	1	2	3	2	0	3
-FRA01801_Gay	1844	Gay, Marie Françoise Sophie	F	Ellenore	2814	394	324	7	19	13	38	29	0	1	50	21	26	26	6	22	33	27	4	8	4	5	8	14	3	8	6
-FRA07601_Leroux	1913	Leroux, Gaston	M	La Reine du Sabbat	3058	362	350	25	4	13	44	17	3	6	44	17	12	35	27	33	25	21	3	1	1	0	1	3	3	1	1
-FRA01301_Flaubert	1869	Flaubert, Gustave	M	L'Éducation sentimentale	2166	206	165	10	7	11	15	25	3	1	18	17	10	9	12	17	14	9	3	3	3	2	5	8	4	1	2
-FRA07501_Darien	1897	Darien, Georges	M	Le Voleur	2049	312	333	4	9	8	37	10	1	1	64	7	15	15	6	20	26	37	8	2	2	2	2	6	0	1	2
-FRA07301_Valgand	1853	Valgand, Sophie de [Piolenc, Cécile Marchand-Caruë, Mise de]	F	Blondine, roman nouveau	699	91	88	3	5	1	13	5	1	3	5	5	6	2	3	5	7	7	2	5	1	2	0	5	1	2	2
-FRA01701_GautierT	1847	Gautier, Théophile	M	Militona	478	47	54	2	1	4	4	3	1	2	2	6	1	0	1	1	11	5	0	0	0	0	0	0	2	1	0
-FRA00302_Aimard	1894	Aimard, Gustave	M	Belle rivière	1947	193	140	9	6	4	18	19	1	4	18	27	19	7	14	13	7	9	3	4	0	1	0	1	5	2	6
-FRA05201_Feuillet	1856	Feuillet, Octave	M	La petite Comtesse	398	39	46	0	1	1	3	2	0	1	6	3	2	1	1	2	7	2	2	0	0	1	0	1	1	0	0
-FRA03003_Ohnet	1894	Ohnet, Georges	M	Le Marchand de Poison	647	52	62	2	3	0	2	2	3	2	6	6	2	1	2	2	4	10	2	1	0	0	0	2	1	0	0
-FRA02203_Gouraud	1876	Gouraud, Julie [Louise d'Aulnay]	M	Les Filles du professeur	633	95	88	1	1	2	7	7	1	2	9	5	9	3	4	5	2	8	1	1	2	2	0	2	4	3	1
-FRA03903_Stolz	1878	Stolz, Madame de [Fanny de Bégon]	F	Le Secret de Laurent	664	73	68	4	7	0	5	10	1	0	8	8	5	4	1	1	3	3	0	0	0	2	1	8	1	1	2
-FRA04002_Verne	1898	Verne, Jules	M	Le Secret de Wilhelm Storitz	672	80	76	0	2	3	9	9	4	0	10	4	6	3	4	7	9	6	0	3	1	0	1	0	2	0	0
-FRA02302_Greville	1878	Gréville, Henry [Alice Marie Céleste Fleury, dite Durand]	F	L'amie	789	95	85	5	4	1	14	12	0	0	5	5	4	4	4	8	6	14	0	1	0	0	0	5	2	1	0
-FRA02202_Gouraud	1867	Gouraud, Julie [Louise d'Aulnay]	M	Le petit colporteur	662	85	73	4	5	2	10	4	2	2	9	6	5	5	1	5	3	6	1	1	1	1	2	0	1	0	0
-FRA02601_Malot	1869	Malot, Hector	M	Romain Kalbris	1016	125	143	2	3	5	11	4	1	3	14	11	5	8	6	5	9	15	1	0	1	0	0	1	1	1	2
-FRA01201_Feval	1868	Féval, Paul Henri Corentin [dit Paul Féval père]	M	Le Cavalier Fortune	1981	195	258	11	6	3	18	4	2	2	30	16	14	5	11	17	12	8	3	2	0	1	4	5	1	1	1
-FRA01501_France	1912	France, Anatole	M	Les dieux ont soif: édition ELTeC	924	98	85	4	4	2	6	10	0	0	7	12	4	3	4	3	6	11	4	1	0	0	1	9	1	3	4
-FRA05602_Lesueur	1904	Lesueur, Daniel	F	Masque d'Amour	2864	396	338	16	13	9	35	22	7	8	44	33	30	20	11	21	33	17	11	1	4	1	2	10	8	4	12
-FRA01102_Dombre	1889	Dombre, Roger [Marguerite Sisson / Marguerite Ligeron]	F	Folla	325	29	30	0	0	0	2	3	0	0	3	8	2	3	1	2	0	1	0	0	0	0	0	2	2	1	0
-FRA07401_Leblanc	1910	Leblanc, Maurice	M	813 (Huit-Cent-Treize)	1642	178	173	7	2	5	21	13	2	2	23	20	4	13	7	11	9	6	2	5	2	2	2	2	1	0	1
-FRA07101_Blondel	1856	Blondel, Adèle	F	Élise, ou l'éducation particulière	580	77	65	1	2	1	14	5	2	2	7	9	4	4	0	2	4	8	1	0	1	3	0	2	0	1	2
-FRA05101_Eekhoud	1904	Eekhoud, Georges	M	L'autre vue	594	48	36	0	1	0	4	1	1	0	4	4	3	2	3	2	3	0	0	4	0	0	0	2	1	0	1
-FRA04401_Barbusse	1916	Barbusse, Henri	M	Le Feu	1711	188	194	6	4	3	11	3	4	2	22	9	7	15	15	8	6	30	1	5	0	0	1	1	0	0	1
-FRA06401_Chandeneux	1876	Chandeneux, Claire de [Bérenger, Louise Lucienne Emma]	F	Les Ménages militaires	2193	264	239	13	7	7	27	16	2	4	31	16	20	16	8	11	12	21	2	0	1	4	2	7	4	2	3
-FRA03002_Ohnet	1890	Ohnet, Georges	M	L'Âme de Pierre	835	111	76	5	5	3	14	4	0	3	15	6	16	2	5	2	1	6	1	0	1	0	1	9	0	4	0
-FRA04202_Rolland	1912	Rolland, Romain	M	Jean-Christophe	9507	1233	1039	90	75	34	147	76	6	21	122	78	54	99	42	65	54	59	5	12	7	8	3	51	28	27	14
-FRA06901_Vignon	1879	Vignon, Claude [Marie-Noémi Cadiot]	F	Révoltée !	1281	179	198	5	12	0	20	8	7	2	14	16	5	7	1	7	15	18	2	4	0	3	0	6	0	1	2
-FRA03702_Sand	1867	Sand, George [Amantine Lucile Aurore Dupin]	F	Le dernier amour	1386	231	214	9	1	0	19	5	3	2	36	18	10	10	5	11	23	23	1	9	1	5	1	7	2	2	4
-FRA00301_Aimard	1858	Aimard, Gustave	M	Les Trappeurs de l'Arkansas	1251	97	103	5	1	4	9	14	3	1	12	7	3	1	8	6	11	2	0	0	0	1	0	1	4	0	2
-FRA03101_Ponson	1852	Ponson du Terrail, Pierre Alexis	M	La baronne trépassée	989	122	103	2	4	3	24	5	1	2	12	10	6	7	7	4	7	4	3	0	4	1	1	5	1	0	3
-FRA06201_Viel-Castel	1845	Viel-Castel, Horace de	M	Archambaud de Comborn	624	78	57	0	2	3	9	11	0	0	6	7	3	8	5	7	6	4	2	0	1	0	0	1	3	0	2
-FRA01303_Flaubert	1862	Flaubert, Gustave	M	Salammbô	1516	140	104	16	8	20	12	8	1	2	11	7	9	13	1	8	5	2	2	1	1	1	2	0	1	2	1
-FRA03802_Stern	1846	Stern, Daniel [Marie d'Agoult]	F	Nélida	988	107	99	4	6	6	6	11	1	1	10	12	8	4	3	7	7	5	2	0	0	0	0	1	0	4	1
-FRA02501_Loti	1883	Loti, Pierre	M	Mon frère Yves	911	98	92	8	10	0	5	5	1	4	8	7	1	12	10	14	5	4	0	0	0	0	1	4	1	1	1
-FRA06501_Gyp	1897	Gyp [Mirabeau, Sibylle Riquetti de]	F	Totote	649	111	102	5	2	3	11	3	0	0	19	6	10	0	2	7	6	5	1	0	0	2	0	14	1	1	1
-FRA01601_GautierJ	1887	Gautier, Judith	F	La Sœur du Soleil	1578	151	117	8	1	5	26	16	0	1	16	3	18	12	3	12	8	7	0	0	0	0	1	6	0	0	2
-FRA04102_Erckmann	1863	Erckmann, Émile	M	Madame Thérèse, ou les volontaires de 92	840	101	92	15	1	0	8	6	0	1	3	2	7	5	0	3	10	7	1	1	0	0	0	3	1	0	1
-FRA06001_Rebell	1902	Rebell, Hugues	M	Les Nuits chaudes du Cap français	788	94	71	3	2	1	6	2	1	4	5	7	6	6	3	10	6	7	0	1	0	1	0	3	1	2	1
-FRA06701_Uchard	1882	Uchard, Mario	M	La Buveuse de perles	872	104	105	4	8	3	9	9	2	3	10	5	3	5	0	9	9	10	0	4	1	2	0	0	2	0	1
-FRA01101_Dombre	1890	Dombre, Roger [Marguerite Sisson / Marguerite Ligeron]	F	Une pupille gênante	30	1	4	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-FRA05301_Galopin	1906	Galopin, Arnould	M	Le Docteur Omega	780	85	86	3	5	5	8	5	0	1	7	9	4	8	0	7	4	4	1	0	0	1	0	0	2	0	2
-FRA01203_Feval	1845	Féval, Paul Henri Corentin [dit Paul Féval père]	M	le Loup blanc	1059	107	114	4	5	5	9	6	4	0	9	8	11	7	5	5	6	10	3	0	2	1	1	4	0	0	1
-FRA05801_Mille	1912	Mille, Pierre	M	Louise et Barnavaux	764	100	103	3	6	2	12	3	0	1	20	2	4	6	5	7	3	12	0	1	0	0	1	1	2	0	0
-FRA04601_Bazin	1907	Bazin, René	M	Le blé qui lève	1195	140	115	5	7	6	17	5	0	0	10	13	3	11	5	18	11	5	1	2	3	1	3	1	1	2	1
-FRA01002_DelarueMardrus	1919	Delarue-Mardrus, Lucie	F	Toutoune et son amour	490	57	86	1	6	0	1	3	0	1	15	2	4	0	1	1	5	5	0	0	0	0	0	2	0	2	0
-FRA05901_Moselly	1907	Moselly, Emile	M	Terres lorraines	1069	69	64	7	5	2	3	7	3	0	9	7	0	8	1	5	2	4	0	1	0	0	0	5	0	1	1
-FRA01603_GautierJ	1900	Gautier, Judith	F	Les Princesses d'Amour : courtisanes japonaises	407	37	40	2	2	0	3	3	0	0	1	2	5	5	0	3	4	0	0	1	0	0	0	1	0	0	0
-FRA02301_Greville	1888	Gréville, Henry [Alice Marie Céleste Fleury, dite Durand]	F	La seconde mère	928	136	112	6	6	4	30	5	0	1	20	5	6	2	3	8	5	6	1	1	1	0	0	20	2	1	0
-FRA02101_Girardin	1854	Girardin, Delphine de [Delphine Gay]	F	Marguerite, ou Deux amours	1099	165	163	15	2	4	21	6	2	1	26	5	11	6	4	14	7	13	0	0	0	0	1	7	0	2	4
-FRA01602_GautierJ	1893	Gautier, Judith	F	Fleurs d'Orient	782	64	60	6	2	1	9	5	0	0	3	1	6	6	2	3	2	3	1	0	0	0	0	1	0	2	0
-FRA02901_Noailles	1903	Noailles, Anna de	F	La nouvelle espérance	22	2	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0
-FRA06601_Peladan	1902	Péladan, Joséphin [Joseph-Aimé Péladan]	M	Modestie et vanité, roman (La décadence latine, éthopée, XVI)	1004	132	123	4	4	1	11	2	0	0	14	7	11	3	2	5	11	4	0	0	2	1	0	17	1	9	4
-FRA00503_Balzac	1854	Balzac, Honoré de	M	Le curé de village	1143	110	124	8	2	1	7	14	4	1	7	11	6	5	2	6	18	2	0	1	1	0	0	1	3	0	1
-FRA00201_Audoux	1925	Audoux, Marguerite	F	Marie-Claire	615	65	53	13	4	1	7	4	0	1	3	9	2	10	1	0	0	1	0	0	0	0	0	3	2	1	0
-FRA02001_Gilbert	1912	Gilbert, Jehan	M	Vers le pôle en aéroplane	283	30	26	0	1	0	4	5	0	0	1	2	1	4	0	1	3	6	0	0	0	2	3	0	0	0	0
-FRA02802_Mirbeau	1883	Mirbeau, Octave	M	La Maréchale	726	84	80	0	0	4	9	5	4	2	16	4	6	4	1	9	6	2	0	1	1	1	0	1	0	0	1
-FRA04301_Achard	1847	Achard, Amédée	M	Belle-Rose	2691	299	303	19	19	5	34	15	4	0	29	12	17	20	13	17	16	25	3	7	1	0	2	15	3	3	4
-FRA06101_Sandeau	1848	Sandeau, Jules	M	Mademoiselle de la Seiglière	818	96	100	3	6	2	8	5	1	1	9	10	7	3	3	5	8	3	2	1	1	0	1	2	3	4	1
-FRA03704_Sand	1840	Sand, George [Amantine Lucile Aurore Dupin]	F	Horace	1920	278	286	11	15	2	30	19	3	1	35	19	19	9	4	13	11	23	2	2	3	2	1	18	2	4	2
-FRA04001_Verne	1878	Verne, Jules	M	Un capitaine de quinze ans	1609	220	179	8	4	4	9	8	5	4	19	26	9	6	7	18	29	21	8	7	1	2	6	6	6	3	3
-FRA04901_Dumas	1845	Dumas, Alexandre [Dumas père]	M	Reine Margot	3096	426	320	22	3	5	58	16	6	5	49	26	29	24	29	30	22	17	10	2	1	2	2	22	3	0	7
+FRA00901_Daudet	1867	Daudet, Alphonse	M	Le petit chose	12581	1764	1497	113	79	43	220	61	11	24	174	108	105	130	57	69	62	118	15	14	6	10	11	65	18	15	5
+FRA01902_Gaboriau	1869	Gaboriau, Émile	M	Monsieur Lecoq	41714	5119	4669	81	185	150	517	318	82	73	632	366	304	279	233	356	513	340	119	49	66	35	33	83	50	59	63
+FRA00501_Balzac	1853	Balzac, Honoré de	M	Albert Savarus	5762	851	779	34	26	20	122	35	14	3	116	67	38	31	27	43	62	31	10	11	7	6	4	43	10	12	4
+FRA03302_Rattazzi	1865	Rattazzi, Marie [Marie-Lætitia Bonaparte-Wyse]	F	Le piège aux maris	7772	963	914	30	34	19	136	61	8	10	81	69	62	38	28	62	71	61	10	10	11	7	6	58	20	15	9
+FRA07001_Mendes	1892	Mendès, Catulle	M	Lucignole	3792	397	435	26	18	8	37	17	1	5	47	24	28	35	11	20	20	9	5	3	1	2	1	20	8	2	7
+FRA00602_Boisgobey	1886	Boisgobey, Fortuné du	M	Rubis sur l'ongle	16839	2275	2089	44	55	53	227	117	53	36	253	204	154	114	124	176	146	112	65	49	27	19	43	35	46	19	32
+FRA01402_Fleuriot	1874	Fleuriot, Zénaïde	F	En congé	5577	648	575	33	29	20	68	34	3	12	58	44	34	48	18	30	23	35	23	5	5	1	6	18	3	3	5
+FRA03201_Blandy	1887	Blandy, Stella	F	Rouzétou	11337	1308	1246	30	45	32	170	117	24	5	150	134	56	84	49	65	121	77	21	29	20	19	10	20	21	10	17
+FRA02602_Malot	1878	Malot, Hector	M	Sans famille	19299	2813	2407	153	86	64	356	155	19	13	289	301	139	184	95	108	230	234	32	22	8	11	19	47	33	12	23
+FRA02701_Maupassant	1885	Maupassant, Guy de	M	Bel-Ami	18002	2338	1766	180	148	92	294	110	25	20	207	198	76	103	106	122	118	149	25	22	26	23	11	56	14	17	12
+FRA00101_Adam	1860	Adam, Juliette	F	Mon Village	3349	449	398	15	8	3	29	11	9	2	54	40	29	22	11	13	28	59	1	6	1	1	5	12	7	1	1
+FRA00502_Balzac	1852	Balzac, Honoré de	M	Le cousin Pons	15339	2098	1889	83	60	33	262	90	32	22	211	186	103	87	46	154	161	115	20	53	18	21	12	69	20	15	9
+FRA00401_Allais	1902	Allais, Alphonse	M	Le Captain Cap	4772	521	483	5	15	13	50	49	9	4	72	43	46	29	14	52	40	31	2	5	1	3	9	8	5	0	4
+FRA05401_Kock	1849	Kock, Paul de	M	Madeleine	16562	2605	2290	100	77	83	424	92	14	8	246	156	189	93	92	155	175	175	65	24	14	9	11	109	20	16	48
+FRA00701_Carraud	1852	Carraud, Zulma	F	La petite Jeanne	8889	1375	1223	27	26	8	280	39	24	4	123	107	58	53	17	31	32	162	5	25	14	6	4	48	27	26	13
+FRA06801_Vaillant	1861	Vaillant, Victor	M	L'Elzévir de maroquin rouge	10857	1397	1385	24	28	16	196	81	16	15	197	99	87	58	56	79	111	114	18	15	8	19	9	53	18	10	21
+FRA02303_Greville	1878	Gréville, Henry [Alice Marie Céleste Fleury, dite Durand]	F	Ariadne	8097	1162	920	61	62	22	139	60	6	12	115	93	58	48	54	42	65	72	12	18	15	9	2	51	22	17	12
+FRA02201_Gouraud	1888	Gouraud, Julie [Louise d'Aulnay]	M	Quand je serai grande	6824	974	961	16	39	11	90	50	7	9	114	106	50	34	26	45	69	70	22	11	12	9	7	43	17	11	20
+FRA06301_Montepin	1884	de Montépin, Xavier	M	La porteuse de pain	24141	3214	2514	82	91	52	359	144	38	20	333	354	198	136	162	246	233	233	44	10	37	40	22	122	24	46	26
+FRA00601_Boisgobey	1881	Boisgobey, Fortuné du	M	Le crime de l'omnibus	15304	2109	2132	50	31	46	236	150	28	18	315	121	144	82	87	206	131	134	48	25	20	17	6	43	43	8	25
+FRA04501_Barres	1908	Barrès, Maurice	M	Colette Baudoche	4066	472	409	17	33	5	58	29	4	1	41	23	33	18	15	38	26	28	3	5	4	7	1	14	6	1	8
+FRA03701_Sand	1872	Sand, George [Amantine Lucile Aurore Dupin]	F	Nanon	16643	2879	2571	73	86	21	379	77	51	19	396	189	181	113	64	144	168	196	33	25	29	24	34	115	29	49	63
+FRA04701_Bourget	1919	Bourget, Paul	M	Laurence Albani	6461	811	661	38	40	15	84	57	5	8	95	53	47	45	17	59	44	55	6	13	11	14	2	39	10	13	6
+FRA03401_Reybaud	1855	Reybaud, Fanny [Hippolyte Arnaud]	F	Mademoiselle de Malepeire	5825	653	605	51	12	25	49	37	5	13	68	64	33	42	40	31	46	37	8	2	4	3	5	8	13	6	7
+FRA02401_LeRouge	1904	Le Rouge, Gustave	M	L'Esclave amoureuse	3390	322	329	21	13	11	43	20	5	3	28	39	14	5	13	17	26	22	2	7	5	4	2	8	3	5	0
+FRA07201_Montagne	1886	Montagne, Édouard	M	Les Affamés de Londres	11931	1520	1153	25	69	32	168	98	31	64	146	171	68	67	65	87	149	84	28	9	14	13	16	41	20	11	14
+FRA04801_Corday	1909	Corday, Michel	M	Les révélées	5225	735	580	11	55	6	93	25	4	8	94	42	40	34	40	49	48	65	7	7	4	3	1	47	8	5	4
+FRA01401_Fleuriot	1877	Fleuriot, Zénaïde	F	Un enfant gâté	5689	605	497	37	28	11	113	46	2	5	65	50	17	28	40	16	15	42	3	5	5	5	0	9	17	7	6
+FRA01202_Feval	1857	Féval, Paul Henri Corentin [dit Paul Féval père]	M	Les Errants de nuit	15312	1710	1881	46	45	25	203	74	30	33	220	111	80	154	56	94	101	123	10	31	6	8	19	30	17	12	8
+FRA03001_Ohnet	1885	Ohnet, Georges	M	La Grande Marnière	17807	2182	1887	91	85	43	249	146	22	30	205	177	100	116	75	97	153	159	38	21	15	10	29	41	16	35	43
+FRA02603_Malot	1888	Malot, Hector	M	Conscience	16373	2430	2374	93	70	22	322	156	29	15	207	244	170	83	86	134	228	173	33	31	26	38	15	44	25	17	34
+FRA02702_Maupassant	1883	Maupassant, Guy de	M	Une Vie	12291	1403	932	104	140	67	172	89	8	14	118	116	68	57	69	76	50	74	11	14	19	3	4	51	7	19	18
+FRA01302_Flaubert	1857	Flaubert, Gustave	M	Madame Bovary	17864	1969	1645	127	111	100	176	120	21	26	165	161	101	130	62	90	89	151	21	22	16	11	18	66	33	21	9
+FRA00102_Adam	1883	Adam, Juliette	F	Païenne	4406	597	513	11	74	4	67	16	3	17	58	41	38	18	20	22	39	34	6	8	3	0	1	60	5	23	10
+FRA00801_Dash	1843	Dash, Comtesse [Gabrielle Anna de Cisternes de Courtiras, vicomtesse de Saint-Mars]	F	Le château de Pinon I	7139	1101	851	42	37	37	126	48	5	15	97	74	68	48	47	42	62	78	19	4	28	5	18	55	12	17	30
+FRA03601_Proust	1913	Proust, Marcel	M	Du côté de chez Swann	25355	3749	3822	90	237	100	326	230	25	34	396	375	268	190	83	362	240	109	36	27	25	12	12	186	29	47	22
+FRA05702_Maquet	1857	Maquet, Auguste	M	La Maison du baigneur	27452	3357	2710	164	131	60	312	147	37	41	423	175	192	197	198	181	152	184	43	39	38	22	10	46	43	46	35
+FRA05501_Lermina	1910	Lermina, Jules	M	L'effrayante aventure	6428	687	720	19	31	14	46	65	4	17	87	92	26	43	24	66	65	44	6	9	6	11	14	5	6	1	7
+FRA01403_Fleuriot	1881	Fleuriot, Zénaïde	F	Alberte	9816	1356	1130	52	31	20	173	69	17	10	179	60	65	75	68	104	57	100	18	12	8	20	14	43	16	18	19
+FRA01801_Gay	1844	Gay, Marie Françoise Sophie	F	Ellenore	29199	3957	3406	34	148	66	344	262	32	9	470	218	339	155	165	215	395	302	99	51	48	47	70	125	39	72	71
+FRA07601_Leroux	1913	Leroux, Gaston	M	La Reine du Sabbat	31219	4436	3997	197	72	161	396	167	24	39	539	365	254	445	235	360	293	205	40	16	24	16	13	115	33	25	33
+FRA01301_Flaubert	1869	Flaubert, Gustave	M	L'Éducation sentimentale	21805	2358	2075	103	102	120	270	163	21	11	195	204	152	103	97	162	160	111	28	38	33	24	22	68	47	23	19
+FRA07501_Darien	1897	Darien, Georges	M	Le Voleur	21805	3215	3171	38	69	74	477	128	19	29	478	160	220	158	111	131	191	295	61	51	29	19	20	71	26	24	21
+FRA07301_Valgand	1853	Valgand, Sophie de [Piolenc, Cécile Marchand-Caruë, Mise de]	F	Blondine, roman nouveau	7467	980	969	44	33	29	132	40	11	22	103	68	52	41	41	45	54	44	11	8	11	9	5	57	7	26	8
+FRA01701_GautierT	1847	Gautier, Théophile	M	Militona	5548	626	619	24	25	9	59	47	4	12	52	64	33	20	18	35	59	47	7	2	4	1	6	27	21	11	7
+FRA00302_Aimard	1894	Aimard, Gustave	M	Belle rivière	21089	2424	1824	72	104	53	250	204	37	41	275	219	137	106	162	210	162	113	50	42	26	28	22	66	32	24	38
+FRA05201_Feuillet	1856	Feuillet, Octave	M	La petite Comtesse	4336	623	606	15	28	13	57	21	1	9	77	28	64	41	20	32	68	32	10	6	10	6	2	21	4	6	6
+FRA03003_Ohnet	1894	Ohnet, Georges	M	Le Marchand de Poison	7471	898	897	33	38	7	103	49	17	15	98	71	48	31	29	53	52	77	13	15	7	13	9	12	13	6	18
+FRA02203_Gouraud	1876	Gouraud, Julie [Louise d'Aulnay]	M	Les Filles du professeur	6624	887	789	11	31	7	86	55	8	13	77	76	50	38	37	46	57	66	16	15	12	16	8	34	23	25	9
+FRA03903_Stolz	1878	Stolz, Madame de [Fanny de Bégon]	F	Le Secret de Laurent	7280	1043	924	41	57	15	123	59	7	8	113	89	43	58	24	41	56	102	9	7	4	18	3	40	15	14	12
+FRA04002_Verne	1898	Verne, Jules	M	Le Secret de Wilhelm Storitz	7784	993	905	20	30	44	84	81	17	18	112	65	63	78	54	64	95	59	9	27	10	7	8	12	12	3	12
+FRA02302_Greville	1878	Gréville, Henry [Alice Marie Céleste Fleury, dite Durand]	F	L'amie	8549	1233	983	89	94	25	129	70	4	9	124	94	66	42	30	42	85	68	12	7	24	19	8	98	7	15	13
+FRA02202_Gouraud	1867	Gouraud, Julie [Louise d'Aulnay]	M	Le petit colporteur	6570	904	793	30	42	21	98	49	10	9	64	72	49	51	24	44	62	55	18	6	8	13	15	19	13	3	10
+FRA02601_Malot	1869	Malot, Hector	M	Romain Kalbris	11152	1556	1392	69	81	41	215	91	18	10	135	141	82	109	39	55	80	130	14	12	12	13	9	17	17	12	10
+FRA01201_Feval	1868	Féval, Paul Henri Corentin [dit Paul Féval père]	M	Le Cavalier Fortune	20583	2193	2555	133	45	21	250	85	30	39	272	136	112	129	88	168	118	167	21	29	8	7	22	69	25	8	13
+FRA01501_France	1912	France, Anatole	M	Les dieux ont soif: édition ELTeC	9740	1169	904	35	66	20	96	87	8	8	103	101	83	63	40	103	51	91	17	14	13	9	11	61	5	14	29
+FRA05602_Lesueur	1904	Lesueur, Daniel	F	Masque d'Amour	28979	3568	3310	143	130	65	387	259	37	44	438	280	274	156	140	245	300	120	43	43	35	46	15	133	44	54	69
+FRA01102_Dombre	1889	Dombre, Roger [Marguerite Sisson / Marguerite Ligeron]	F	Folla	3787	446	433	24	19	10	44	28	7	3	40	53	25	15	14	27	31	36	4	1	1	1	0	26	5	18	3
+FRA07401_Leblanc	1910	Leblanc, Maurice	M	813 (Huit-Cent-Treize)	16823	1913	1930	68	56	47	218	111	17	18	258	157	95	94	101	143	114	148	17	34	10	16	21	37	13	7	17
+FRA07101_Blondel	1856	Blondel, Adèle	F	Élise, ou l'éducation particulière	6158	805	759	20	14	12	126	32	7	10	60	95	41	40	16	26	62	48	17	4	12	12	3	34	11	22	14
+FRA05101_Eekhoud	1904	Eekhoud, Georges	M	L'autre vue	6438	569	411	10	33	4	63	38	4	4	47	42	43	33	26	35	37	40	4	25	7	2	13	14	7	4	5
+FRA04401_Barbusse	1916	Barbusse, Henri	M	Le Feu	18103	1841	2184	83	54	28	152	89	21	40	254	79	85	113	72	70	58	211	6	10	1	3	14	7	3	6	2
+FRA06401_Chandeneux	1876	Chandeneux, Claire de [Bérenger, Louise Lucienne Emma]	F	Les Ménages militaires	22362	2881	2487	91	140	54	336	205	29	43	338	173	193	158	107	159	210	151	55	19	26	45	16	118	37	69	18
+FRA03002_Ohnet	1890	Ohnet, Georges	M	L'Âme de Pierre	8110	979	832	59	55	19	105	49	15	18	97	86	57	32	32	45	45	57	16	13	3	12	6	70	7	21	14
+FRA04202_Rolland	1912	Rolland, Romain	M	Jean-Christophe	88565	12673	10525	727	777	235	1417	572	85	194	1341	972	694	650	367	770	432	668	59	111	119	95	29	932	194	340	96
+FRA06901_Vignon	1879	Vignon, Claude [Marie-Noémi Cadiot]	F	Révoltée !	13096	2084	1817	52	135	13	242	85	31	22	240	159	87	66	103	95	144	177	23	26	14	30	16	115	13	21	16
+FRA03702_Sand	1867	Sand, George [Amantine Lucile Aurore Dupin]	F	Le dernier amour	14303	2540	2057	50	125	24	340	97	26	28	320	118	209	61	63	87	170	209	14	20	12	41	12	204	22	51	43
+FRA00301_Aimard	1858	Aimard, Gustave	M	Les Trappeurs de l'Arkansas	13652	1352	1245	40	43	46	175	113	19	8	164	127	72	64	79	101	103	56	32	11	9	15	7	24	16	20	26
+FRA03101_Ponson	1852	Ponson du Terrail, Pierre Alexis	M	La baronne trépassée	10180	1199	999	59	59	34	179	53	4	23	81	94	94	54	45	49	40	50	13	5	14	5	11	81	11	10	13
+FRA06201_Viel-Castel	1845	Viel-Castel, Horace de	M	Archambaud de Comborn	7013	807	671	8	20	28	100	63	8	3	70	55	45	62	39	59	56	45	11	1	2	2	8	37	9	19	21
+FRA01303_Flaubert	1862	Flaubert, Gustave	M	Salammbô	15255	1331	942	85	76	140	138	121	11	8	75	124	77	83	53	79	58	75	18	10	15	13	18	9	26	15	12
+FRA03802_Stern	1846	Stern, Daniel [Marie d'Agoult]	F	Nélida	10246	1377	1093	43	114	41	127	96	5	23	142	117	98	66	43	78	62	57	20	7	16	15	11	41	14	25	20
+FRA02501_Loti	1883	Loti, Pierre	M	Mon frère Yves	9727	1169	1104	87	83	15	80	52	13	35	107	102	37	78	75	63	48	77	7	4	5	5	3	31	10	8	4
+FRA06501_Gyp	1897	Gyp [Mirabeau, Sibylle Riquetti de]	F	Totote	7237	1247	990	98	28	44	135	56	11	4	175	51	121	58	25	43	52	62	19	8	5	10	1	84	2	16	11
+FRA01601_GautierJ	1887	Gautier, Judith	F	La Sœur du Soleil	17550	1861	1471	121	52	59	235	123	12	19	155	69	144	125	77	75	106	111	12	17	21	8	21	94	20	21	19
+FRA04102_Erckmann	1863	Erckmann, Émile	M	Madame Thérèse, ou les volontaires de 92	9270	1276	1015	180	24	12	111	51	6	5	93	36	56	104	30	49	66	104	6	12	10	2	1	24	10	15	10
+FRA06001_Rebell	1902	Rebell, Hugues	M	Les Nuits chaudes du Cap français	8496	1147	999	30	53	25	151	44	3	29	119	60	72	59	37	61	82	61	16	7	3	8	7	37	14	21	28
+FRA06701_Uchard	1882	Uchard, Mario	M	La Buveuse de perles	9259	1130	1028	43	73	22	131	77	19	24	126	89	56	33	41	62	45	97	12	11	17	32	5	21	23	12	17
+FRA01101_Dombre	1890	Dombre, Roger [Marguerite Sisson / Marguerite Ligeron]	F	Une pupille gênante	7596	1081	961	48	45	20	124	43	10	8	146	68	77	44	26	42	61	60	10	5	10	8	1	74	7	29	10
+FRA05301_Galopin	1906	Galopin, Arnould	M	Le Docteur Omega	7788	926	892	72	38	73	61	59	9	12	47	80	75	67	32	31	84	63	8	2	2	2	5	2	8	2	10
+FRA01203_Feval	1845	Féval, Paul Henri Corentin [dit Paul Féval père]	M	le Loup blanc	11835	1336	1282	39	53	53	156	54	21	14	160	103	96	70	53	87	80	99	20	14	15	7	12	26	10	17	18
+FRA05801_Mille	1912	Mille, Pierre	M	Louise et Barnavaux	7238	1084	1169	40	30	25	143	31	10	8	189	55	63	54	31	61	59	90	2	11	9	7	11	25	11	3	3
+FRA04601_Bazin	1907	Bazin, René	M	Le blé qui lève	12949	1520	1528	81	57	41	187	64	15	23	135	81	84	86	54	91	78	88	17	12	18	13	14	65	12	35	11
+FRA01002_DelarueMardrus	1919	Delarue-Mardrus, Lucie	F	Toutoune et son amour	5181	634	588	47	48	15	56	36	3	16	93	45	23	27	20	27	32	43	3	3	0	2	0	29	2	6	0
+FRA05901_Moselly	1907	Moselly, Emile	M	Terres lorraines	11222	986	863	67	76	21	54	94	7	8	81	100	24	111	42	41	49	68	5	18	7	8	3	33	7	13	10
+FRA01603_GautierJ	1900	Gautier, Judith	F	Les Princesses d'Amour : courtisanes japonaises	4334	416	400	10	12	10	64	28	2	6	46	22	26	28	10	20	27	21	3	2	6	2	3	10	4	4	3
+FRA02301_Greville	1888	Gréville, Henry [Alice Marie Céleste Fleury, dite Durand]	F	La seconde mère	9118	1379	1177	73	93	27	146	59	15	11	164	81	78	30	41	65	96	74	16	12	18	12	3	123	18	21	16
+FRA02101_Girardin	1854	Girardin, Delphine de [Delphine Gay]	F	Marguerite, ou Deux amours	10867	1762	1388	92	64	27	224	80	10	12	172	102	106	58	53	105	91	121	19	22	15	16	17	179	9	38	22
+FRA01602_GautierJ	1893	Gautier, Judith	F	Fleurs d'Orient	7902	807	715	37	16	22	101	61	4	6	86	28	47	52	32	50	61	30	10	12	8	5	4	33	3	12	9
+FRA02901_Noailles	1903	Noailles, Anna de	F	La nouvelle espérance	8127	1131	1044	95	119	13	113	57	3	19	99	67	51	40	29	50	51	34	4	4	3	2	0	108	2	34	7
+FRA06601_Peladan	1902	Péladan, Joséphin [Joseph-Aimé Péladan]	M	Modestie et vanité, roman (La décadence latine, éthopée, XVI)	10532	1374	1114	56	49	16	158	57	6	6	118	64	114	55	35	64	92	93	21	31	19	17	6	120	11	27	22
+FRA00503_Balzac	1854	Balzac, Honoré de	M	Le curé de village	12575	1562	1493	80	33	50	164	105	24	16	155	149	61	68	49	85	184	44	16	14	17	4	4	40	23	16	13
+FRA00201_Audoux	1910	Audoux, Marguerite	F	Marie-Claire	6346	892	659	95	42	24	91	42	11	14	65	110	42	75	30	48	27	33	8	0	6	0	2	22	12	5	6
+FRA02001_Gilbert	1912	Gilbert, Jehan	M	Vers le pôle en aéroplane	3128	364	362	12	11	13	49	32	4	6	18	29	14	25	11	15	37	31	5	2	3	4	3	15	5	3	1
+FRA02802_Mirbeau	1883	Mirbeau, Octave	M	La Maréchale	8090	895	899	25	33	27	105	31	16	5	146	47	51	51	40	50	43	70	2	6	3	3	1	31	13	1	3
+FRA04301_Achard	1847	Achard, Amédée	M	Belle-Rose	27343	3194	2860	168	114	59	366	125	49	12	296	161	159	204	179	186	162	208	29	35	17	13	26	134	26	48	37
+FRA06101_Sandeau	1848	Sandeau, Jules	M	Mademoiselle de la Seiglière	8866	1143	984	37	86	23	99	61	11	11	133	72	83	40	31	78	95	44	13	16	8	10	13	69	15	24	10
+FRA03704_Sand	1840	Sand, George [Amantine Lucile Aurore Dupin]	F	Horace	19696	2876	2659	75	156	22	331	162	25	40	340	201	231	100	74	124	148	175	37	12	23	44	22	157	42	59	64
+FRA04001_Verne	1878	Verne, Jules	M	Un capitaine de quinze ans	17189	2079	2063	63	57	48	175	132	46	25	185	196	98	98	60	139	303	187	41	41	11	16	22	17	70	13	59
+FRA04901_Dumas	1845	Dumas, Alexandre [Dumas père]	M	Reine Margot	33778	4289	3424	206	87	88	509	204	47	84	463	279	306	256	313	238	218	189	63	32	23	15	19	115	61	29	61
 FRA40738	1854	Nerval, Gérard de	M	Aurélia    	3256	411	338	6	30	7	30	25	1	6	31	52	47	19	10	35	22	8	6	2	4	1	1	18	6	2	1
 FRA40043	1879	Loti, Pierre	M	Aziyadé    	6849	727	739	22	36	7	64	46	5	4	75	43	49	48	38	29	40	37	3	6	3	3	3	67	5	19	5
 FRA40019	1881	Daudet, Alphonse	M	Numa Roumestan    	10713	1242	950	69	80	23	114	49	20	32	106	84	65	78	67	73	36	80	10	25	7	9	7	40	19	9	8
@@ -687,6 +673,7 @@ Jeury_Vers	1983	Jeury, Michel	M	Vers l'Âge d'Or (Goer de la Terre, 3)	8361	1027
 RossS_Amere	1969	Ross, Sam	M	Amère pilule	7930	1135	1076	78	54	15	162	34	7	26	199	91	48	52	34	43	59	98	15	5	3	2	7	35	6	4	1
 Dessaint_Vie	1995	Dessaint, Pascal	M	La vie n'est pas une punition	9266	1063	1167	57	54	9	108	84	14	14	161	63	97	42	50	74	83	79	12	6	5	11	2	33	17	13	5
 Simak_Planete	1977	Simak, Clifford D.	M	La planète de Shakespeare	10320	1457	1807	47	77	13	117	64	11	66	250	147	93	58	36	69	131	96	15	20	9	14	1	18	10	3	14
+Forest_Disparue	1989	Forest, Regan	M	La disparue de Rosewood	8592	1163	1028	39	74	16	142	91	5	35	178	100	69	52	51	67	91	52	20	11	13	14	14	34	7	9	12
 Leigh_Etoile	1979	Roberta Leigh	F	Une étoile au coeur	7980	1136	1103	46	69	16	161	66	12	16	113	61	68	39	67	33	93	57	34	25	5	9	4	40	13	8	4
 Belfiore_Maitre	1996	Belfiore, Robert	M	Le maître de Juvenfa	6293	669	708	20	32	15	78	43	5	8	94	48	33	51	34	45	77	36	4	8	6	5	5	9	4	2	4
 Leiris_Ruban	1994	Leiris, Michel	M	Le ruban au cou d'Olympia	7870	759	893	32	52	12	75	77	10	14	113	61	54	24	21	35	67	56	8	20	3	4	13	12	15	5	5
