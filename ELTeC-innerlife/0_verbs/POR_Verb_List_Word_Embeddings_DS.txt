@@ -1,0 +1,45 @@
+PORTUGUESE (Diana Santos)
+
+Word Embeddings:
+perception: ver, ler, enxergar, ouvir, provar, apreciar, experimentar,
+observar, assistir, tocar, presenciar, testemunhar, mirar, escutar,
+admirar
+
+physiology: acordar, dormir, adormecer, descansar, comer, respirar,
+almoçar, morrer, caminhar, relaxar, chorar, repousar, nascer, madrugar,
+despertar
+
+affect: gostar: adorar, odiar, detestar, amar, admirar, namorar,
+divertir, tocar, decepcionar, zombar, desfrutar, incomodar, gozar,
+curtir, interessar
+
+volition or ability: querer, pretender, preferir, precisar, esforçar-se,
+conseguir
+
+cognition: saber, descobrir, entender, perceber, conhecer, adivinhar,
+compreender, pensar, informar, revelar, esclarecer, reconhecer,
+imaginar, explicitar, aprender
+
+moral judgment: precisar, necessitar, arrepender, errar
+
+
+Verb List:
+
+<lemma form="ver" freq="20206" cat="perception" trans="see"/>
+<lemma form="saber" freq="17307" cat="cognition" trans="know"/>
+<lemma form="poder" freq="16536" cat="ability" trans="can">
+<lemma form="querer" freq="13595" cat="ability" trans="want"/>
+<lemma form="ouvir" freq="6265" cat="perception" trans="hear"/>
+<lemma form="dever" freq="5838" cat="moral" trans="should"/>
+<lemma form="olhar" freq="5237" cat="perception" trans="look"/>
+<lemma form="sentir" freq="5221" cat="emotion" trans="feel"/>
+<lemma form="conhecer" freq="5099" cat="cognition" trans="know"/>
+<lemma form="esperar" freq="4237" cat="emotion" trans="hope"/>
+<lemma form="pensar" freq="3982" cat="cognition" trans="think"/>
+<lemma form="amar" freq="3202" cat="emotion" trans="love"/>
+<lemma form="julgar" freq="2107" cat="moral" trans="judge"/>
+<lemma form="desejar" freq="1881" cat="ability" trans="desire"/>
+<lemma form="dormir" freq="1467" cat="physiology" trans="sleep"/>
+<lemma form="gostar" freq="1235" cat="emotion" trans="like"/>
+<lemma form="comer" freq="1111" cat="physiology" trans="eat"/>
+<lemma form="estremecer" freq="901" cat="physiology" trans="tremble"/>

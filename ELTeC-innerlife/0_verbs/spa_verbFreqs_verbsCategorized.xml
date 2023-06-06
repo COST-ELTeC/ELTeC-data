@@ -1,0 +1,22 @@
+<frequencies xmlns:saxon="http://saxon.sf.net">
+<list n='manual' xml:lang="spa">
+<lemma form="ver" cat="perception" inner="n" trans="see" freq="28489"/>
+<lemma form="querer" cat="volition" inner="y" trans="want" freq="18886"/>
+<lemma form="saber" cat="cognition" inner="y" trans="know" freq="18757"/>
+<lemma form="parecer" cat="perception" inner="y" trans="seem" freq="11356"/>
+<lemma form="creer" cat="cognition" inner="y" trans="believe" freq="10156"/>
+<lemma form="mirar" cat="perception" inner="y" trans="look" freq="8350"/>
+<lemma form="pensar" cat="cognition" inner="y" trans="think" freq="7629"/>
+<lemma form="sentir" cat="physiology" inner="y" trans="feel" freq="7299"/>
+<lemma form="morir" cat="physiology" inner="n" trans="died" freq="4551"/>
+<lemma form="amar" cat="affect" inner="y" trans="love" freq="3760"/>
+<lemma form="necesitar" cat="volition" inner="y" trans="need" freq="3084"/>
+<lemma form="poder" cat="volition" inner="y" trans="can" freq="2768"/>
+<lemma form="llorar" cat="affect" inner="y" trans="cry" freq="2559"/>
+<lemma form="desear" cat="affect" inner="y" trans="look forward to" freq="2301"/>
+<lemma form="sufrir" cat="physiology" inner="y" trans="suffer" freq="2262"/>
+<lemma form="cumplir" cat="moral" inner="y" trans="achieve" freq="1897"/>
+<lemma form="deber" cat="moral" inner="y" trans="have to" freq="1542"/>
+<lemma form="jurar" cat="moral" inner="y" trans="swear" freq="1404"/>
+</list>
+</frequencies>

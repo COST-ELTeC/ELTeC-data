@@ -1,0 +1,24 @@
+<frequencies xmlns:saxon="http://saxon.sf.net">
+
+     <lemma form="sehen" cat="perception" freq="50350"/ inner="y" trans="to see"/>
+     <lemma form="wollen" cat="volition" freq="47800"/ inner="y" trans="to want"/>
+     <lemma form="müssen" cat="moral" freq="40047"/ inner="y" trans="to have to"/>
+     <lemma form="wissen" cat="cognition" freq="30221"/ inner="y" trans="to know"/>
+     <lemma form="sollen" cat="moral" freq="29916"/ inner="y" trans="should"/>
+     <lemma form="mögen" cat="affect" freq="15372"/ inner="y" trans="like">
+     <lemma form="meinen" cat="cognition" freq="15193"/ inner="y" trans="to mean [or potentially to believe that something is the case]"/>
+     <lemma form="hören" cat="cognition" freq="14112"/>
+     
+	<lemma form="denken" freq="13551"/ (to think)>
+
+     <lemma form="lieben" cat="affect" freq="8842"/ inner="y" trans="to love">
+     <lemma form="fühlen" cat="affect" freq="8148"/ inner="y" trans="to feel">
+     	
+	<lemma form="verstehen" freq="6531"/ (to understand)>
+  	<lemma form="erkennen" freq="5421"/ (to recognise)>
+        <lemma form="vergessen" freq="4480"/>
+     
+     <lemma form="brauchen" cat="volition" freq="4305"/ inner="y" trans="to need"/>
+     <lemma form="vermögen" cat="volition" freq="4119"/ inner="y" trans="to be able to"/>
+     <lemma form="blicken" cat="perception" freq="3907"/ inner="y" trans="to look"/>
+     <lemma form="bemerken" cat="perception" freq="3725"/ inner="y" trans="to notics"/>

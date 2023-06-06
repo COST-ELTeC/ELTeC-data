@@ -1,0 +1,48 @@
+
+<list n="manual" xml:lang="fra">
+
+  <lemma form="voir" freq="23369" inner="y" cat="perception" trans="to see" />
+  <lemma form="regarder" freq="7705" inner="y" cat="perception" trans="to look" />
+  <lemma form="sentir" freq="5588" inner="m" cat="perception" trans="to feel" />  <!-- perception, not cognition -->
+  <lemma form="apercevoir" freq="3814" cat="perception" trans="to perceive" />
+
+  <lemma form="vouloir" freq="18628" inner="y" cat="volition" trans="to want" />
+  <lemma form="oser" freq="2129" cat="volition" trans="to dare" />
+  <lemma form="compter" freq="2061" cat="volition" trans="to plan / to count" />  <!-- volition, but only in some contexts -->
+  <lemma form="essayer" freq="1941" cat="volition" trans="to try" />
+
+  <lemma form="savoir" freq="17463" inner="y" cat="cognition" trans="to know" />
+  <lemma form="trouver" freq="11656" inner="y" cat="cognition" trans="to find / to consider" />  <!-- cognition, but only in some contexts -->
+  <lemma form="croire" freq="9800" inner="y" cat="cognition" trans="to believe" />
+  <lemma form="entendre" freq="8621" inner="y" cat="cognition / perception" trans="to understand / to hear" />  <!-- always inner life, but category depends on context -->
+  <lemma form="attendre" freq="6377" cat="cognition" trans="to expect / to wait" />  <!-- cognition, but only in some contexts -->
+  <lemma form="connaître" freq="6383" inner="y" cat="cognition" trans="to know" />
+  
+  <lemma form="devoir" freq="10580" cat="moral" trans="to have to" />
+  <lemma form="falloir" freq="10040" cat="moral" trans="to have to" />
+  <lemma form="espérer" freq="1817" cat="moral" trans="to hope" /> <!-- unsure about this one -->
+  <lemma form="valoir" freq="1642" cat="moral" trans="to be worth" /> <!-- unsure about this one -->
+  <lemma form="refuser" freq="1638" cat="moral" trans="to refuse"/> <!-- unsure about this one -->
+  <lemma form="accepter" freq="1600" cat="moral" trans="to accept"/> <!-- unsure about this one -->
+  <lemma form="engager" freq="1125" cat="moral" trans="to commit (oneself)" /> <!-- moral, but only when used reflexively -->
+
+  <lemma form="aimer" freq="9307" inner="y" cat="affect" trans="to love" />
+  <lemma form="manquer" freq="2288" cat="affect" trans="to miss / to lack" />  <!-- affect, but only in some contexts -->
+  <lemma form="souffrir" freq="2222" cat="affect" trans="to suffer" />
+  <lemma form="craindre" freq="1925" cat="affect" trans="to fear" />
+
+</list>
+<!--
+<word2vec>
+
+voir => regarder apercevoir retrouver montrer croiser visionner découvrir expliquer trouver observer consulter visualiser admirer contempler lire
+vouloir => devoir intention incapable essayer tenter volonté chercher inutile enclin pouvoir oser obliger s'évertuer refuser contraindre
+devoir => pouvoir vouloir incapable contraint obliger inutile obligation refus inutile sommé impossibilité urgent nécessité incapacité difficile
+savoir => déterminer connaitre comprendre expliquer préciser connaître demander dire voir déterminer apprendre vérifier interroger décider consulter
+réveiller => rendormir calmer réchauffer consoler relaxer endormir détendre lever libérer réconforter sentir secouer distraire doucher recoucher
+aimer => amour détester haïr embrasser pardonner chérir apprendre émouvoir apprécier accepter mépriser vivre plaire éprouver apprendre 
+
+Models used: Partial agreement between "fr_w2v_web_w20" and "fr_w2v_fl_w20" from http://nlp.polytechnique.fr/word2vec. 
+
+</word2vec>
+-->

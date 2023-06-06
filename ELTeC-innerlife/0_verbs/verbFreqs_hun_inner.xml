@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<frequencies xmlns:t="http://www.tei-c.org/ns/1.0">
+    <lemma form="lát" cat="perception" freq="16876" inner="y" trans="to see"/>
+    <lemma form="néz" cat="perception" freq="7972" inner="y" trans="to look"/>
+    <lemma form="hall" cat="perception" freq="5634" inner="y" trans="to hear"/>
+    
+    <lemma form="szeret" cat="affect" freq="9111" inner="y" trans="to like/love"/>
+    <lemma form="érez" cat="affect" freq="6114"  inner="y" trans="to feel"/>
+    <lemma form="tetszik" cat="affect" freq="2497" inner="m" trans="like"/> <!-- The verb has a quite rare vocative use, a verson of the formal address. -->
+    
+    <lemma form="akar" cat="volition" freq="13915" inner="y" trans="to want"/>
+    <lemma form="kíván" cat="volition" freq="1346" inner="y" trans="to desire"/>
+    <lemma form="remél" cat="volition" freq="813" inner="y" trans="to hope"/>
+    
+    <lemma form="tud" cat="cognition" freq="25441" inner="m" trans="to know"/> <!-- Often has a 'to be capable of' meaning (verb + infinitive) and then it denotes an ability! -->
+    <lemma form="gondol" cat="cognition" freq="6031" inner="y" trans="to think"/>
+    <lemma form="ért" cat="cognition" freq="3286" inner="y" trans="to understand/mean"/>
+    
+    <lemma form="kell" cat="moral" freq="15552" inner="y" trans="have to"/> <!--Depending on the infinitive the verb is connected to it may mean physical needs like 'I need to pee' -->
+    <lemma form="megenged" cat="moral" freq="433" inner="y" trans="to permit"/>
+    <lemma form="engedelmeskedik" freq="333" inner="y" trans="to obey"/>
+    <!-- I decided not to include the verb <lemma form="enged" freq="2307"/> since it has very different meanings in different contexts, although the meaning 'to let do sg' is common. -->
+</frequencies>

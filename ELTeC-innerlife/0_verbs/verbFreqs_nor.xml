@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Embeddings (NBdigital Global Vectors)
+perception: se, huske, skue, tænke, tyde, skimte, opdage, erindre, 
+            vide, forstaa, erfare, beskue, skjønne, læse, indse, sjå, forestille
+physiology: vakne oppleve omskape oppdage vekke gjenkjenne 
+             utforske opsøke vågne berike levendegjøre revolusjonere gløde skinne tænde funkle dæmre drømme blusse tindre straale 
+
+affect: like (gave no meaningfull results)
+
+volition: ønske, søke, anmode, forespørre, håbet, forsøke, håbet, kunne, skulle, vil
+
+cognition: vite, forstå, huske, minnes, begripe, opplyse, vet, 
+fastslå, erkjenne, konstatere, innse, kjenne
+
+moral judgment: måtte, skulle, bør, skal, kan, ville, burde, kunne
+-->
+<list n="manual" xml:lang="nor">
+    <lemma form="kunne" freq="15250"  cat="volition" trans="be able"/>
+    <lemma form="se"  freq="14449"    cat="perception" trans="to see"/>
+    <lemma form="skulle" freq="13652" cat="moral" trans="should"/>
+    <lemma form="ville" freq="12260" cat="volition" trans="want"/>
+    <lemma form="maatte" freq="6232" cat="moral" trans="should"/>
+     <lemma form="høre" freq="3731" cat="perception" trans="to hear"/>
+    <lemma form="tænke" freq="3352" cat="cognition" trans="to think"/>
+    <lemma form="vide" freq="3290" cat="cognition" trans="to know"/>
+    <lemma form="synes" freq="2494" cat="cognition" trans="to mean"/>
+     <lemma form="le" freq="2042" cat="affect" trans="to laugh"/>
+    <lemma form="føle" freq="1970" cat="affect" trans="feel"/>
+    <lemma form="elske" freq="1263" cat="affect" trans="love"/>
+    <lemma form="læse" freq="1151" cat="perception" trans="read"/>
+     <lemma form="sove" freq="921" cat="physiology" trans="sleep"/>
+    <lemma form="søge" freq="540"  cat="volition" trans="seek"/>
+     <lemma form="burde" freq="514" cat="moral" trans="should have"/>
+     <lemma form="vaagne" freq="362" cat="physiology" trans="to wake up"/>
+     <lemma form="skinne" freq="321" cat="physiology" trans="to shine"/>
+</list>
