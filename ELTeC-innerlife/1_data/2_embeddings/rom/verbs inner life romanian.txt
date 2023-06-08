@@ -1,0 +1,39 @@
+unambiguously inner life
+1.<lemma form="ști" freq="13634"/> = "to know"
+2.<lemma form="vrea" freq="8611"/> = "to want" (why not <lemma form="putea" freq="11909"/> = "to be able to" ? )
+3.<lemma form="părea" freq="7310"/> = "to seem" (? not sure about this)
+4..<lemma form="crede" freq="6571"/> = "to believe"
+5.<lemma form="iubi" freq="6115"/> = "to love"
+6.<lemma form="simți" freq="5273"/> =  "to feel"
+7.<lemma form="cunoaște" freq="4419"/> = "to be aware of"/ "to know"
+8.<lemma form="aștepta" freq="3950"/> = "to wait for"
+9.<lemma form="gândi" freq="3957"/> = "to think"
+10. <lemma form="înțelege" freq="3697"/> = "to understand"
+extra (just in case "to seem" doesn`t look like related to inner life):
+11.<lemma form="plăcea" freq="2106"/> ="to like"
+12.<lemma form="mulțumi" freq="2105"/> ="to thank/ please"
+13<lemma form="alege" freq="2102"/> ="to choose"
+14. <lemma form="suferi" freq="2058"/> = "to suffer"
+
+
+ambiguously inner life (not sure about the fact that the other meanings should also be related to inner life):
+1. <lemma form="vedea" freq="21312"/> = "to see/ understand/ to seek/ to meet somewhere" 
+2.<lemma form="trece" freq="8252"/> = "to go/ pass"/ "to think" (needs disambiguation active-reflexive forms and meaning in various idioms: e.g. "a trece" = "to pass", "a (se) trece" = "to get old", "a-l trece fiorii/ gândurile"= "to feel shivers/ to think"; the list does not have the reflexive form "a (se) afla")
+3. <lemma form="uita" freq="7097"/> = "to forget"/ "to look at" (needs disambiguation active-refexive forms because "a uita" = "to forget" and "a (se) uita" = "to look at"; the list does not have the reflexive form "a (se) uita")
+4. <lemma form="aduce" freq="5953"/> = "to bring"/ "to remember"  (needs disambiguation in the idioms like "a-si aduce aminte" = to remember)
+5. <lemma form="găsi" freq="5882"/> = "to find"/ "to have an opinion/ to consider" (e.g. "Te găsesc frumoasă" = "I consider/ find you beautiful")
+6. <lemma form="intra" freq="5586"/> = "to enter"/ "to begin to have a certain habit" (needs disambiguation for idioms like "a intra la idei"= "to suspect" and "a intra în sânge" = "to become accustomed")
+7. <lemma form="ține" freq="5545"/> = "to hold"/ "to keep in mind" (as in the example: "a ține minte" = "to keep in mind")....
+8. <lemma form="răspunde" freq="5475"/> = "to answer"/ "to be responsable"/ "to hold responsibility"
+9. <lemma form="ieși" freq="5403"/> = "to leave"/ "to go mad" (needs disambiguation for idioms: "a-și ieși din minți/ sărite/ pepeni" = "to go mad")
+10.<lemma form="afla" freq="5236"/> = "to find"/ "to be somewhere" needs disambiguation active-refexive forms because "a afla" = "to find" and "a (se) afla" = "to be somewhere" (like in the example: "Eu ma aflu aici" = "I am here"); the list does not have the reflexive form "a (se) afla"
+extra:
+11.<lemma form="ruga" freq="3031"/> = "to ask/ beg"/ "to pray" needs disambiguation active-refexive forms because "a ruga" = "to ask" and "a (se) ruga" = "to pray"; the list does not have the reflexive form "a (se) ruga"
+12.<lemma form="privi" freq="3486"/> = "to see/ watch/ to be concerned"
+13.<lemma form="voi" freq="3374"/> = "to want" (needs disambiguation beacause it`s also non-finite verb)
+14. <lemma form="aprinde" freq="1443"/> = "to light a fire/ to love/ become passionate by someone/ something" (needs dismbiguation active - reflexive forms "a aprinde" = "to light", "a (se) aprinde"= "to love/ become passionate by someone/ something"; the list does not have the reflexive form "a (se) aprinde")
+15. <lemma form="pofti" freq="1023"/> = "to welcome in"/ "to desire" 
+16.<lemma form="încredința" freq="997"/> = "to confim/ to guarantee/ to share/ to engage"
+17.<lemma form="deștepta" freq="988"/> ="to wake up/ to become aware" needs disambiguation active-refexive forms because "a deștepta" = "to wake up" and "a (se) deștepta" = "to become aware" the list does not have the reflexive form "a (se) destepta"
+18. <lemma form="însemna" freq="957"/> = "to take notes"/ "to mean"
+19.<lemma form="înșela" freq="954"/> = "to saddle the horse"/ "to cheat"
