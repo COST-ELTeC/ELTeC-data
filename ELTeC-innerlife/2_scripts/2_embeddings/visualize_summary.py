@@ -16,7 +16,7 @@ from matplotlib import pyplot as plt
 
 wdir = dirname(__file__)
 datafolder = join(wdir, "..", "..", "1_data", "2_embeddings", "")
-plotfile = join(wdir, "..", "..", "3_results", "6_summary", "summary_lineplot.svg")
+plotfile = join(wdir, "..", "..", "3_results", "2_embeddings", "summary_lineplot.svg")
 langs = ["nor", "rom", "deu", "slv", "spa", "hun", "fra", "por", "eng"]
 
 
