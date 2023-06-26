@@ -65,9 +65,14 @@ def make_plot(data):
         hue = "lang",
         scatter = False,
         height=6, 
-        aspect=1.5,
+        aspect=1.6,
+        legend = False
         ).set(title=title)
-    #plt.figure(figsize=(12,6))
+    plt.xlabel("Time period")
+    plt.ylabel("Relative frequency")
+    legend = plt.legend(
+        loc = (1,0.3),
+        title = "Languages")
     plt.savefig(
         plotfile, 
         bbox_inches="tight"
