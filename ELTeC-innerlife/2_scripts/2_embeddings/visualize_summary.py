@@ -16,6 +16,7 @@ from matplotlib import pyplot as plt
 
 wdir = dirname(__file__)
 datafolder = join(wdir, "..", "..", "1_data", "2_embeddings", "")
+summaryfile = join(wdir, "..", "..", "1_data", "2_embeddings",  "summarydata.csv")
 plotfile = join(wdir, "..", "..", "3_results", "2_embeddings", "summary_lineplot.svg")
 langs = ["nor", "rom", "deu", "slv", "spa", "hun", "fra", "por", "eng"]
 
@@ -48,6 +49,10 @@ def build_data():
         datafile = join(datafolder, lang, "manualCounts.dat")
         list_dfs.append(read_verbfreqs(datafile, lang))
     data = pd.concat(list_dfs)
+    data = data[data["year"] > 1839] # Remove data outside scope!
+    data = data[data["year"] < 1921] # Remove data outside scope!
+    with open(summaryfile, "w", encoding="utf8") as outfile: 
+        data.to_csv(outfile, sep=";")
     return data
 
 
@@ -64,8 +69,8 @@ def make_plot(data):
         y = "relfreqs",
         hue = "lang",
         scatter = False,
-        height=6, 
-        aspect=1.6,
+        height=5.5, 
+        aspect=1.65,
         legend = False
         ).set(title=title)
     plt.xlabel("Time period")
