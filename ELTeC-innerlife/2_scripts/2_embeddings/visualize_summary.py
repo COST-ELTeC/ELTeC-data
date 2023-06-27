@@ -62,26 +62,35 @@ def make_plot(data):
     Visualize the data as a plot combining multiple regression lines.
     Returns: Nothing, but saves image file to disk.
     """
-    title = "Relative frequency of all inner life verbs over time per language"
-    fig = sns.lmplot(
-        data = data,
-        x = "year",
-        y = "relfreqs",
-        hue = "lang",
-        scatter = False,
-        height=5.5, 
-        aspect=1.65,
-        legend = False
-        ).set(title=title)
-    plt.xlabel("Time period")
-    plt.ylabel("Relative frequency")
-    legend = plt.legend(
-        loc = (1,0.3),
-        title = "Languages")
-    plt.savefig(
-        plotfile, 
-        bbox_inches="tight"
-        )
+    params = {
+        "linear" : {"lowess" : False, "order" : 1},
+        "lowess" : {"lowess" : True, "order" : 1},
+        "poly2" : {"lowess" : False, "order" : 2},
+    }
+    for label,param in params.items(): 
+        title = "Relative frequency of all inner life verbs over time per language (" + label + ")"
+        filename = plotfile[:-4] + "_" + label + ".svg"
+        fig = sns.lmplot(
+            data = data,
+            x = "year",
+            y = "relfreqs",
+            hue = "lang",
+            scatter = False,
+            lowess = param["lowess"],
+            order = param["order"],
+            height=5.5, 
+            aspect=1.65,
+            legend = False
+            ).set(title=title)
+        plt.xlabel("Time period")
+        plt.ylabel("Relative frequency")
+        legend = plt.legend(
+            loc = (1,0.3),
+            title = "Languages")
+        plt.savefig(
+            filename, 
+            bbox_inches="tight"
+            )
 
 
 
