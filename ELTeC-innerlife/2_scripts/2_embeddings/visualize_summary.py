@@ -18,7 +18,7 @@ wdir = dirname(__file__)
 datafolder = join(wdir, "..", "..", "1_data", "2_embeddings", "")
 summaryfile = join(wdir, "..", "..", "1_data", "2_embeddings",  "summarydata.csv")
 plotfile = join(wdir, "..", "..", "3_results", "2_embeddings", "summary_lineplot.svg")
-langs = ["nor", "rom", "deu", "slv", "spa", "hun", "fra", "por", "eng"]
+langs = ["rom", "nor", "deu", "slv", "spa", "hun", "fra", "por", "eng", "srp"]
 
 
 
